@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Validating Session Tokens with the REST API'
+url: http://blog.parse.com/2013/11/04/validating-session-tokens-with-the-rest-api/
+source: http://blog.parse.com/2013/11/04/validating-session-tokens-with-the-rest-api/
+domain: blog.parse.com
+image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/blog-parse-com20131104validating-session-tokens-with-the-rest-api.png
+---
+
+<p>Several customers have asked for a way to validate a stored session token or return the User object for an authenticated request.There is now a way to do this with our REST API.Send a GET request to /1/users/me
+ with a session token in the header:
+ curl -X GET \  -H X-Parse-Application-Id: application-id-here \  -H X-Parse-REST-API-Key: rest-api-key-here \  -H X-Parse-Session-Token: session-token-here \   https://api.parse.com/1/users/me
+ The response will be a JSON object, containing either a User object as shown in the REST API guide for logging in users or an error object with a code</p>
+
