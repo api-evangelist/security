@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'Extending CarePass OAuth Token Expiration'
+url: https://www.aetna.com/individuals-families/health-care-tools-apps.html
+source: https://www.aetna.com/individuals-families/health-care-tools-apps.html
+domain: www.aetna.com
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/developer-carepass-comblogreadextending_carepass_oauth_token_expiration.png
+---
+
+<p>At CarePass we strive to make things as easy as possible for our partners and users, while maintaining an eye on security.Until recently all OAuth User Tokens issued by our CarePass Sync API had a time-to-live (TTL) of 90 days.This means that after 90 days a user would be required to re-authorize the partner application to access their CarePass data, should they want to continue providing access.We recognized that requiring users to re-authorize every 90 days was an undue burden.Therefore, we have loosened this constraint for all tokens issued going forward.</p>
+
