@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'When Cryptographic API Design Goes Wrong – Security Café'
+url: http://securitycafe.ro/2015/02/18/when-cryptographic-api-design-goes-wrong/
+source: http://securitycafe.ro/2015/02/18/when-cryptographic-api-design-goes-wrong/
+domain: securitycafe.ro
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/securitycafe-ro20150218when-cryptographic-api-design-goes-wrong.png
+---
+
+<p>Whether we like to admit it or not, failing to account for human factors and usability issues when designing secure systems can have unwanted consequences.And while Security Usability is a broad field, today I’d like to focus on what I like to call the [lack of] usability of [some] cryptographic APIs.To get my point across, I’d like to bring forth a paper written in 2012 by Martin Georgiev, Subodh Iyengar, Suman Jana, Rishita Anubhai, Dan Boneh, and Vitaly Shmatikov, called The Most Dangerous Code in the World: Validating SSL Certificates in Non-Browser Software.In this paper, the authors claim and empirically confirm that SSL certificate validation is completely broken in many security-critical applications and libraries, meaning that any SSL connection initiated from any of these applications and libraries is insecure against a man-in-the-middle attack.They credit these vulnerabilities to badly designed APIs of SSL implementations and data-transport libraries, which present developers with a confusing array of settings and options.</p>
+
