@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'Critical vulnerabilities in JSON Web Token libraries'
+url: https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+source: https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+domain: auth0.com
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/auth0-comblog20150331critical-vulnerabilities-in-json-web-token-libraries.png
+---
+
+<p>Recently, while reviewing the security of various JSON Web Token implementations, I found many libraries with critical vulnerabilities allowing attackers to bypass the verification step.The same two flaws were found across many implementations and languages, so I thought it would be helpful to write up exactly where the problems occur.I believe that a change to the standard could help prevent future vulnerabilities.For those who are unfamiliar, JSON Web Token (JWT) is a standard for creating tokens that assert some number of claims.For example, a server could generate a token that has the claim logged in as admin and provide that to a client.</p>
+
