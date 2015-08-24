@@ -1,9 +1,39 @@
 [
 	{
+		"id": "18911",
+		"name": "APIBond",
+		"summary": "APIBond is an API management platform that acts as a proxy where you can validate, transform, secure, analyze and scale any existing API.",
+		"details": "APIBond is an API management platform that acts as a proxy where you can validate, transform, secure, analyze and scale any existing API.",
+		"website": "http://apibond.com/",
+		"twitter": "https://twitter.com/apibond",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond.png",
+		"tags": null
+	},
+	{
+		"id": "18903",
+		"name": "Cobalt",
+		"summary": "Cobalt offers you agile time-limited security assessments as well as ongoing bug bounty programs - the choice is yours. With our Bug Bounty Programs, you pay per bug, not per hour, and you set the bounty sizes as you think appropriate.u2028You can choose from public or private programs. We can also manage your program for you.",
+		"details": "Cobalt offers you agile time-limited security assessments as well as ongoing bug bounty programs - the choice is yours. With our Bug Bounty Programs, you pay per bug, not per hour, and you set the bounty sizes as you think appropriate.u2028You can choose from public or private programs. We can also manage your program for you.",
+		"website": null,
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
+		"tags": null
+	},
+	{
 		"id": "1834",
 		"name": "Dome9 Security",
-		"summary": "Dome9 is the leading cloud firewall management serviceTheir patentpending security automation creates a strong frontline defense that stops zeroday vulnerabilities and exploits secures remote access and centralizes policy management Available for the enterprise and hosting providers Dome9 automates security policy management for cloud dedicated and Virtual Private Servers VPS Their sophisticated s",
-		"details": "Dome9 is the leading cloud firewall management serviceTheir patentpending security automation creates a strong frontline defense that stops zeroday vulnerabilities and exploits secures remote access and centralizes policy management Available for the enterprise and hosting providers Dome9 automates security policy management for cloud dedicated and Virtual Private Servers VPS Their sophisticated security management platform controls Amazon EC2 amp VPC Security Groups as well as any OpenStack CloudStack Eucalyptus and VMware vCloudbased private and public clouds",
+		"summary": false,
+		"details": "",
 		"website": "http://dome9.com",
 		"twitter": "https://twitter.com/Dome9",
 		"github": "",
@@ -11,14 +41,29 @@
 		"blogrss": "http://www.dome9.com/feed?cat=22",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1834_logo.jpg",
 		"logo_width": "160",
-		"screenshot": "http://pbs.twimg.com/profile_images/1399856817/Dome9_dome_only_hires_whiteBG_normal.png",
-		"tags": "API Security,Cloud,Cloud-Stack,Security,Security-Stack"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1834_logo.jpg",
+		"tags": null
+	},
+	{
+		"id": "2953",
+		"name": "Managed Methods",
+		"summary": "ManagedMethods Cloud Access Gateway solves the security, control, policy and monitoring problems for enterprises with a growing use of Cloud services .   Available as an on-premise, hybrid or cloud-based solution, Cloud Access Gateway can be installed, configured and used in matter of hours for specific SaaS applications you need to control. Currently support Salesforce, Box, DropBox and Evernote ",
+		"details": "ManagedMethods Cloud Access Gateway solves the security, control, policy and monitoring problems for enterprises with a growing use of Cloud services .   Available as an on-premise, hybrid or cloud-based solution, Cloud Access Gateway can be installed, configured and used in matter of hours for specific SaaS applications you need to control. Currently support Salesforce, Box, DropBox and Evernote with many more SaaS applications coming soon.",
+		"website": "http://managedmethods.com/",
+		"twitter": "https://twitter.com/managedmethods",
+		"github": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
+		"tags": null
 	},
 	{
 		"id": "18713",
 		"name": "Red Canary",
-		"summary": "Red Canary continuously monitors your endpoints reviews suspicious activity eliminates false positives and provides the tools and intelligence for rapid responsenbspRed Canary was founded to bring worldclass endpoint threat detection and response to every business We were using the Carbon Black endpoint data recorder for incident response We realized that the data used for incident response was id",
-		"details": "Red Canary continuously monitors your endpoints reviews suspicious activity eliminates false positives and provides the tools and intelligence for rapid responsenbspRed Canary was founded to bring worldclass endpoint threat detection and response to every business We were using the Carbon Black endpoint data recorder for incident response We realized that the data used for incident response was ideal for detecting cyber threats",
+		"summary": false,
+		"details": "",
 		"website": "https://www.redcanary.co/",
 		"twitter": "https://twitter.com/redcanaryco",
 		"github": "",
@@ -26,14 +71,14 @@
 		"blogrss": "http://www.redcanary.co/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/red-canary-logo.png",
 		"logo_width": "150",
-		"screenshot": null,
-		"tags": "API Security,Monitoring,Security"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/red-canary-logo.png",
+		"tags": null
 	},
 	{
 		"id": "1157",
 		"name": "SmartBear Software",
-		"summary": "SmartBear puts our users first so yoursquore ready to support your organizationrsquos nextgeneration quality needs regardless of platform environment process or budget Whether your needs are to work or play in the cloud ldquogo Agilerdquo or take advantage of virtualization our free SaaS and onpremise tools have you covered in a variety of ways to satisfy the simplest to most missioncritical appli",
-		"details": "SmartBear puts our users first so yoursquore ready to support your organizationrsquos nextgeneration quality needs regardless of platform environment process or budget Whether your needs are to work or play in the cloud ldquogo Agilerdquo or take advantage of virtualization our free SaaS and onpremise tools have you covered in a variety of ways to satisfy the simplest to most missioncritical applications and situationsWe offer powerful affordable and easy to use software development testing performance and post deployment monitoring tools that work well in smallcompany environments and easily scale for enterprise use With our help you can automate mundane tasks easily track and report the success of your efforts and build the bestperforming products possible",
+		"summary": "SmartBear Software provides tools for over 100,000 software professionals to build, test, and monitor some of the best software applications and websites anywhere on the desktop, mobile and in the cloud.",
+		"details": "SmartBear Software provides tools for over 100,000 software professionals to build, test, and monitor some of the best software applications and websites anywhere on the desktop, mobile and in the cloud.",
 		"website": "http://smartbear.com/",
 		"twitter": "https://twitter.com/smartbear",
 		"github": "https://github.com/SmartBear",
@@ -41,7 +86,7 @@
 		"blogrss": "http://feeds.feedburner.com/smartbear",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png",
 		"logo_width": "150",
-		"screenshot": "https://avatars.githubusercontent.com/u/1644671?v=3",
-		"tags": "API Integration,API Operations,API Security,Monitoring,Notifications"
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png",
+		"tags": null
 	}
 ]
