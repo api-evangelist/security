@@ -60,6 +60,21 @@
 		"tags": null
 	},
 	{
+		"id": "18922",
+		"name": "MetaCert",
+		"summary": false,
+		"details": "",
+		"website": "https://metacert.com/",
+		"twitter": "https://twitter.com/MetaCert",
+		"github": "https://github.com/metacert",
+		"blog": "https://metacert.com/blog/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png",
+		"tags": null
+	},
+	{
 		"id": "18713",
 		"name": "Red Canary",
 		"summary": false,
