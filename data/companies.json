@@ -32,8 +32,8 @@
 	{
 		"id": "1834",
 		"name": "Dome9 Security",
-		"summary": false,
-		"details": "",
+		"summary": "Dome9 is the leading cloud firewall management service.Their patent-pending security automation creates a strong, front-line defense that stops zero-day vulnerabilities and exploits, secures remote access, and centralizes policy management. Available for the enterprise and hosting providers, Dome9 automates security policy management for cloud, dedicated, and Virtual Private Servers (VPS). Their s",
+		"details": "Dome9 is the leading cloud firewall management service.Their patent-pending security automation creates a strong, front-line defense that stops zero-day vulnerabilities and exploits, secures remote access, and centralizes policy management. Available for the enterprise and hosting providers, Dome9 automates security policy management for cloud, dedicated, and Virtual Private Servers (VPS). Their sophisticated security management platform controls Amazon EC2 & VPC Security Groups, as well as any OpenStack, CloudStack, Eucalyptus, and VMware vCloud-based private and public clouds.",
 		"website": "http://dome9.com",
 		"twitter": "https://twitter.com/Dome9",
 		"github": "",
@@ -77,8 +77,8 @@
 	{
 		"id": "18713",
 		"name": "Red Canary",
-		"summary": false,
-		"details": "",
+		"summary": "Red Canary continuously monitors your endpoints, reviews suspicious activity, eliminates false positives and provides the tools and intelligence for rapid response.",
+		"details": "Red Canary continuously monitors your endpoints, reviews suspicious activity, eliminates false positives and provides the tools and intelligence for rapid response.",
 		"website": "https://www.redcanary.co/",
 		"twitter": "https://twitter.com/redcanaryco",
 		"github": "",
