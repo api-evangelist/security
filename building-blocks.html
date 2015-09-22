@@ -1,0 +1,681 @@
+---
+layout: page
+title: 'Building Blocks'
+---
+<p>These are the common building blocks I have pullled from my research so far.
+<table width="100%" border="0"><tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Authorization & Authentication Formats</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Basic Auth</strong> - Using Basic Authentication for security access to API resources.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>OAuth</strong> - Using OAuth for authorization and access management for API resources.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>API Keys</strong> - Using API keys for securing access to API resources.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>JSON Web Token</strong> - Using JSON web tokens for securing access to API resources.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Authorization & Authentication Considerations</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Session Management</strong> - API should pass session-based authentication, either by establishing a session token via a POST or by using an API key as a POST body argument or as a cookie, avoiding putting usernames, passwords, session tokens, and API keys in the URL, as this can be captured in web server logs, which makes them intrinsically valuable.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Session State</strong> - Many web services are written to be as stateless as possible, usually ending up with a state blob being sent as part of the transaction.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Anti-Farming</strong> - APIs are put up, and then farmed, such as a price matching website or aggregation service. There's no technical method of preventing this use, so strongly consider means to encourage it as a business model by making high velocity farming is possible for a fee, or contractually limiting service using terms and conditions. CAPTCHAs and similar methods can help reduce simpler adversaries, but not well funded or technically competent adversaries. Using mutually assured client side TLS certificates may be a method of limiting access to trusted organizations, but this is by no means certain, particularly if certificates are posted deliberately or by accident to the Internet.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Protect HTTP Methods</strong> - APIs often use GET (read), POST (create), PUT (replace/update) and DELETE (to delete a record). Not all of these are valid choices for every single resource collection, user, or action. Make sure the incoming HTTP method is valid for the session token/API key and associated resource collection, action, and record. For example, if you have an RESTful API for a library, it's not okay to allow anonymous users to DELETE book catalog entries, but it's fine for them to GET a book catalog entry. On the other hand, for the librarian, both of these are valid uses.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Methods Whitelist</strong> - It is common with RESTful services to allow multiple methods for a given URL for different operations on that entity. For example, a GET request might read the entity while PUT would update an existing entity, POST would create a new entity, and DELETE would delete an existing entity. It is important for the service to properly restrict the allowable verbs such that only the allowed verbs would work, while all others would return a proper response code (for example, a 403 Forbidden).</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cross-Site Request Forgery</strong> - For resources exposed by RESTful web services, it's important to make sure any PUT, POST, and DELETE request is protected from Cross Site Request Forgery. Typically one would use a token-based approach. See Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet for more information on how to implement CSRF-protection.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Insecure Direct Object References</strong> -  It may seem obvious, but if you had a bank account REST web service, you'd have to make sure there is adequate checking of primary and foreign keys.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Input Validation</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Assist the User</strong> - Assisting the user makes the most sense, as the most common scenario is "problem exists between keyboard and computer" (PEBKAC). Help the user input high quality data into your web services, such as ensuring a Zip code makes sense for the supplied address, or the date makes sense. If not, reject that input. If they continue on, or it's a text field or some other difficult to validate field, input sanitization is a losing proposition but still better than XSS or SQL injection. If you're already reduced to sanitization or no input validation, make sure output encoding is very strong for your application.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Secure Parsing</strong> - Use a secure parser for parsing the incoming messages. If you are using XML, make sure to use a parser that is not vulnerable to XXE and similar attacks.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Strong Typing</strong> - It's difficult to perform most attacks if the only allowed values are true or false, or a number, or one of a small number of acceptable values. Strongly type incoming data as quickly as possible.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Validate Content-Types</strong> - When POSTing or PUTting new data, the client will specify the Content-Type (e.g. application/xml or application/json) of the incoming data. The server should never assume the Content-Type; it should always check that the Content-Type header and the content are the same type. A lack of Content-Type header or an unexpected Content-Type header should result in the server rejecting the content with a 406 Not Acceptable response.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Validate Response Types</strong> - It is common for REST services to allow multiple response types (e.g. application/xml or application/json, and the client specifies the preferred order of response types by the Accept header in the request. Do NOT simply copy the Accept header to the Content-type header of the response. Reject the request (ideally with a 406 Not Acceptable response) if the Accept header does not specifically contain one of the allowable types. Because there are many MIME types for the typical response types, it's important to document for clients specifically which MIME types should be used.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>JSON Validation</strong> - Making sure all JSON is valid helps make sure that APIs are operating as expectation and making sure vulnerabilities are not being passed in with API requests and responses. </p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>XML Validation</strong> - XML-based services must ensure that they are protected against common XML based attacks by using secure XML-parsing. This typically means protecting against XML External Entity attacks, XML-signature wrapping etc.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Framework-Provided Validation</strong> - Many frameworks, such as Jersey, allow for validation constraints to be enforced automatically by the framework at request or response time. (See Bean Validation Support for more information). While this does not validate the structure of JSON or XML data before being unmarshaled, it does provide automatic validation after unmarshaling, but before the data is presented to the application.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Output Validation</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Send Security Headers</strong> - To make sure the content of a given resources is interpreted correctly by the browser, the server should always send the Content-Type header with the correct Content-Type, and preferably the Content-Type header should include a charset. The server should also send an X-Content-Type-Options: nosniff to make sure the browser does not try to detect a different Content-Type than what is actually sent (can lead to XSS).
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>JSON Encoding</strong> - A key concern with JSON encoders is preventing arbitrary JavaScript remote code execution within the browser... or, if you're using node.js, on the server. It's vital that you use a proper JSON serializer to encode user-supplied data properly to prevent the execution of user-supplied input on the browser.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>XML Encoding</strong> - XML should never be built by string concatenation. It should always be constructed using an XML serializer. This ensures that the XML content sent to the browser is parseable and does not contain XML injection. For more information, please see the Web Service Security Cheat Sheet.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Link Integrity</strong> - Checks the reputation of web links in real time, providing an invisibly secure experience by blocking malicious and unwanted links from loading. Checking the reputation of http requests in real time, warning consumers of potential threats before allowing known malicious web pages (or other resources) from loading.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Cryptography</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Data in Transit</strong> - Unless the public information is completely read-only, the use of TLS should be mandated, particularly where credentials, updates, deletions, and any value transactions are performed. The overhead of TLS is negligible on modern hardware, with a minor latency increase that is more than compensated by safety for the end user.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Abuse of Functionality</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Buffer Overflow Attack</strong> - Buffer overflow errors are characterized by the overwriting of memory fragments of the process, which should have never been modified intentionally or unintentionally. Overwriting values of the IP (Instruction Pointer), BP (Base Pointer) and other registers causes exceptions, segmentation faults, and other errors to occur. Usually these errors end execution of the application in an unexpected way. Buffer overflow errors occur when we operate on buffers of char type. - https://www.owasp.org/index.php/Buffer_overflow_attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Buffer Overflow via Environment Variables</strong> - This attack pattern involves causing a buffer overflow through manipulation of environment variables. Once the attacker finds that they can modify an environment variable, they may try to overflow associated buffers. This attack leverages implicit trust often placed in environment variables. - https://www.owasp.org/index.php/Buffer_Overflow_via_Environment_Variables
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Overflow Binary Resource File</strong> - The source of a buffer overflow may be input data. When it comes from the Overflow Binary Resource File, the attacker has to modify/prepare the binary file in such a way that the application, after reading this file, has become prone to a classic Buffer overflow attack. The only difference between this attack and the classic one is the source of the input data. Common examples are specially crafted MP3, JPEG or ANI files, which cause buffer overflows. - https://www.owasp.org/index.php/Overflow_Binary_Resource_File
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Data Structure Attacks</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cross-Site Request Forgery (CSRF)</strong> - Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. CSRF attacks specifically target state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. With a little help of social engineering (such as sending a link via email or chat), an attacker may trick the users of a web application into executing actions of the attacker's choosing. If the victim is a normal user, a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth. If the victim is an administrative account, CSRF can compromise the entire web application. - https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Logic/time Bomb</strong> - A logic bomb is a piece of malicious code that executes when specific trigger conditions are met. A typical example would be a program that monitors a company's payroll system, and attacks the company if a specific employee is terminated. A time bomb is a type of logic bomb that uses a date and time as its trigger condition. They are differentiated from software "easter eggs" by their malicious nature. - https://www.owasp.org/index.php/Logic/time_bomb
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Trojan Horse</strong> - A Trojan Horse is a program that uses malicious code masqueraded as a trusted application. The malicious code can be injected on benign applications, masqueraded in e-mail links, or sometimes hidden in JavaScript pages to make furtive attacks against vulnerable internet Browsers. - https://www.owasp.org/index.php/Trojan_Horse
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Account Lockout Attack</strong> - In an account lockout attack, an attacker attempts to lock out user accounts by purposely failing the authentication process as many times as needed to trigger the account lockout functionality. This in turn prevents even the valid user from obtaining access to their account. For example, if an account lockout policy states that users are locked out of their accounts after three failed login attempts, an attacker can lock out accounts by deliberately sending an invalid password three times. On a large scale, this attack can be used as one method in launching a denial of service attack on many accounts. The impact of such an attack is compounded when there is a significant amount of work required to unlock the accounts to allow users to attempt to authenticate again. - https://www.owasp.org/index.php/Account_lockout_attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cross-Site Request Forgery (CSRF)</strong> - Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. CSRF attacks specifically target state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. With a little help of social engineering (such as sending a link via email or chat), an attacker may trick the users of a web application into executing actions of the attacker's choosing. If the victim is a normal user, a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth. If the victim is an administrative account, CSRF can compromise the entire web application. - https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Execution After Redirect (EAR)</strong> - Execution After Redirect (EAR) is an attack where an attacker ignores redirects and retrieves sensitive content intended for authenticated users. A successful EAR exploit can lead to complete compromise of the application. - https://www.owasp.org/index.php/Execution_After_Redirect_(EAR)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Session Fixation</strong> - </p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Session Hijacking Attack</strong> - </p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Session Prediction</strong> - The session prediction attack focuses on predicting session ID values that permit an attacker to bypass the authentication schema of an application. By analyzing and understanding the session ID generation process, an attacker can predict a valid session ID value and get access to the application. In the first step, the attacker needs to collect some valid session ID values that are used to identify authenticated users. Then, he must understand the structure of session ID, the information that is used to create it, and the encryption or hash algorithm used by application to protect it. Some bad implementations use sessions IDs composed by username or other predictable information, like timestamp or client IP address. In the worst case, this information is used in clear text or coded using some weak algorithm like base64 encoding. In addition, the attacker can implement a brute force technique to generate and test different values of session ID until he successfully gets access to the application.</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Embedded Malicious Code</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Parameter Delimiter</strong> - This attack is based on the manipulation of parameter delimiters used by web application input vectors in order to cause unexpected behaviors like access control and authorization bypass and information disclosure, among others. -  - https://www.owasp.org/index.php/Parameter_Delimiter
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>PHP Object Injection</strong> - PHP Object Injection is an application level vulnerability that could allow an attacker to perform different kinds of malicious attacks, such as Code Injection, SQL Injection, Path Traversal and Application Denial of Service, depending on the context. The vulnerability occurs when user-supplied input is not properly sanitized before being passed to the unserialize() PHP function. Since PHP allows object serialization, attackers could pass ad-hoc serialized strings to a vulnerable unserialize() call, resulting in an arbitrary PHP object(s) injection into the application scope. - https://www.owasp.org/index.php/PHP_Object_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Regular Expression Denial of Service (ReDoS)</strong> -  The Regular expression Denial of Service (ReDoS) is a Denial of Service attack, that exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly (exponentially related to input size). An attacker can then cause a program using a Regular Expression to enter these extreme situations and then hang for a very long time. - https://www.owasp.org/index.php/Regular_expression_Denial_of_Service_-_ReDoS
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Resource Injection</strong> - This attack consists of changing resource identifiers used by an application in order to perform a malicious task. When an application permits a user input to define a resource, like a file name or port number, this data can be manipulated to execute or access different resources. In order to be properly executed, the attacker must have the possibility to specify a resource identifier through the application form and the application must permit its execution. The resource type affected by user input indicates the content type that may be exposed. For example, an application that permits input of special characters like period, slash, and backslash is risky when used in methods that interact with the file system. The resource injection attack focuses on accessing other resources than the local filesystem, which is different attack technique known as a Path Manipulation attack. - https://www.owasp.org/index.php/Resource_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Server-Side Includes (SSI) Injection</strong> - SSIs are directives present on Web applications used to feed an HTML page with dynamic contents. They are similar to CGIs, except that SSIs are used to execute some actions before the current page is loaded or while the page is being visualized. In order to do so, the web server analyzes SSI before supplying the page to the user. The Server-Side Includes attack allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely. It can be exploited through manipulation of SSI in use in the application or force its use through user input fields. It is possible to check if the application is properly validating input fields data by inserting characters that are used in SSI directives - https://www.owasp.org/index.php/Server-Side_Includes_(SSI)_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Special Element Injection</strong> - Special Element Injection is a type of injection attack that exploits a weakness related to reserved words and special characters. Every programming language and operating system has special characters considered as reserved words for it. However, when an application receives such data as user input, it is possible to observe unexpected behavior in the application when parsing this information. This can lead to information disclosure, access control and authorization bypass, code injection, and many other variants. According to the characters used, the Special Element Injection attack can be performed using macro symbols, parameter delimiter and null characters/null bytes, among others. - https://www.owasp.org/index.php/Special_Element_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>SQL Injection</strong> - A SQL injection attack consists of insertion or "injection" of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to effect the execution of predefined SQL commands - https://www.owasp.org/index.php/SQL_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Web Parameter Tampering</strong> - The Web Parameter Tampering attack is based on the manipulation of parameters exchanged between client and server in order to modify application data, such as user credentials and permissions, price and quantity of products, etc. Usually, this information is stored in cookies, hidden form fields, or URL Query Strings, and is used to increase application functionality and control. This attack can be performed by a malicious user who wants to exploit the application for their own benefit, or an attacker who wishes to attack a third-person using a Man-in-the-middle attack. In both cases, tools likes Webscarab and Paros proxy are mostly used. The attack success depends on integrity and logic validation mechanism errors, and its exploitation can result in other consequences including XSS, SQL Injection, file inclusion, and path disclosure attacks. - https://www.owasp.org/index.php/Web_Parameter_Tampering
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>XPATH Injection</strong> - Similar to SQL Injection, XPath Injection attacks occur when a web site uses user-supplied information to construct an XPath query for XML data. By sending intentionally malformed information into the web site, an attacker can find out how the XML data is structured, or access data that he may not normally have access to. He may even be able to elevate his privileges on the web site if the XML data is being used for authentication (such as an XML based user file). Querying XML is done with XPath, a type of simple descriptive statement that allows the XML query to locate a piece of information. Like SQL, you can specify certain attributes to find, and patterns to match. When using XML for a web site it is common to accept some form of input on the query string to identify the content to locate and display on the page. This input must be sanitized to verify that it doesn't mess up the XPath query and return the wrong data. XPath is a standard language; its notation/syntax is always implementation independent, which means the attack may be automated. There are no different dialects as it takes place in requests to the SQL databases - https://www.owasp.org/index.php/XPATH_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Blind SQL Injection</strong> - Blind SQL (Structured Query Language) injection is a type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response. This attack is often used when the web application is configured to show generic error messages, but has not mitigated the code that is vulnerable to SQL injection. When an attacker exploits SQL injection, sometimes the web application displays error messages from the database complaining that the SQL Query's syntax is incorrect. Blind SQL injection is nearly identical to normal SQL Injection, the only difference being the way the data is retrieved from the database. When the database does not output data to the web page, an attacker is forced to steal data by asking the database a series of true or false questions. This makes exploiting the SQL Injection vulnerability more difficult, but not impossible. - https://www.owasp.org/index.php/Blind_SQL_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Blind XPath Injection</strong> - XPath is a type of query language that describes how to locate specific elements (including attributes, processing instructions, etc.) in an XML document. Since it is a query language, XPath is somewhat similar to Structured Query Language (SQL), however, XPath is different in that it can be used to reference almost any part of an XML document without access control restrictions. In SQL, a "user" (which is a term undefined in the XPath/XML context) may be restricted to certain databases, tables, columns, or queries. Using an XPATH Injection attack, an attacker is able to modify the XPATH query to perform an action of his choosing. - https://www.owasp.org/index.php/Blind_XPath_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Code Injection</strong> - Code Injection is the general term for attack types which consist of injecting code that is then interpreted/executed by the application. This type of attack exploits poor handling of untrusted data. These types of attacks are usually made possible due to a lack of proper input/output data validation, for example: allowed characters (standard regular expressions classes or custom), data format, and amount of expected data. Code Injection differs from Command Injection in that an attacker is only limited by the functionality of the injected language itself. If an attacker is able to inject PHP code into an application and have it executed, he is only limited by what PHP is capable of. Command injection consists of leveraging existing code to execute commands, usually within the context of a shell. - https://www.owasp.org/index.php/Code_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Command Injection</strong> - Command injection is an attack in which the goal is execution of arbitrary commands on the host operating system via a vulnerable application. Command injection attacks are possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.) to a system shell. In this attack, the attacker-supplied operating system commands are usually executed with the privileges of the vulnerable application. Command injection attacks are possible largely due to insufficient input validation. This attack differs from Code Injection, in that code injection allows the attacker to add his own code that is then executed by the application. In Code Injection, the attacker extends the default functionality of the application without the necessity of executing system commands. - https://www.owasp.org/index.php/Command_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Comment Injection Attack</strong> - Comments injected into an application through input can be used to compromise a system. As data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack. - https://www.owasp.org/index.php/Comment_Injection_Attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Content Security Policy</strong> - Is an W3C specification offering the possbility to instruct the client browser from which location and/or which type of resources are allowed to be loaded. To define a loading behavior, the CSP specification use "directive" where a directive defines a loading behavior for a target resource type. - https://www.owasp.org/index.php/Content_Security_Policy
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Content Spoofing</strong> - Content spoofing, also referred to as content injection or virtual defacement, is an attack targeting a user made possible by an injection vulnerability in a web application. When an application does not properly handle user supplied data, an attacker can supply content to a web application, typically via a parameter value, that is reflected back to the user. This presents the user with a modified page under the context of the trusted domain. This attack is typically used as, or in conjunction with, social engineering because the attack is exploiting a code-based vulnerability and a user's trust. - https://www.owasp.org/index.php/Content_Spoofing
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>CORS RequestPreflighScrutiny</strong> - Is an feature offering the possbility to: A web application to expose resources to all or restricted domain, A web client to made AJAX request for resource on other domain than is source domain. This article will focus on HTTP Request Preflight feature proposed by CORS W3C specification and (mainly) how to setup a protection, on web application side, against CORS HTTP request that try to bypass the preflight process. - https://www.owasp.org/index.php/CORS_RequestPreflighScrutiny
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cross-site Scripting (XSS)</strong> - </p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Custom Special Character Injection</strong> - The software does not properly filter or quote special characters or reserved words that are used in a custom or proprietary language or representation that is used by the product. That allows attackers to modify the syntax, content, or commands before they are processed by the end system. - https://www.owasp.org/index.php/Custom_Special_Character_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Direct Dynamic Code Evaluation</strong> - This attack consists of a script that does not properly validate user inputs in the page parameter. A remote user can supply a specially crafted URL to pass arbitrary code to an eval() statement, which results in code execution. This attack will execute the code with the same permission like the target web service, including operation system commands. Eval injection is prevalent in handler/dispatch procedures that might want to invoke a large number of functions, or set a large number of variables. - https://www.owasp.org/index.php/Direct_Dynamic_Code_Evaluation_(%27Eval_Injection%27)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Format String Attack</strong> - The Format String exploit occurs when the submitted data of an input string is evaluated as a command by the application. In this way, the attacker could execute code, read the stack, or cause a segmentation fault in the running application, causing new behaviors that could compromise the security or the stability of the system. - https://www.owasp.org/index.php/Format_string_attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Full Path Disclosure</strong> - Full Path Disclosure (FPD) vulnerabilities enable the attacker to see the path to the webroot/file. e.g.: /home/omg/htdocs/file/. Certain vulnerabilities, such as using the load_file() (within a SQL Injection) query to view the page source, require the attacker to have the full path to the file they wish to view. - https://www.owasp.org/index.php/Full_Path_Disclosure
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>LDAP Injection</strong> - </p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Injection</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Brute Force Attack</strong> - A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response. For the sake of efficiency, an attacker may use a dictionary attack (with or without mutations) or a traditional brute-force attack (with given classes of characters e.g.: alphanumerical, special, case (in)sensitive). Considering a given method, number of tries, efficiency of the system which conducts the attack, and estimated efficiency of the system which is attacked the attacker is able to calculate approximately how long it will take to submit all chosen predetermined values. - https://www.owasp.org/index.php/Brute_force_attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cash Overflow</strong> - A Cash Overflow attack is a Denial of Service attack specifically aimed at exceeding the hosting costs for a cloud application, either essentially bankrupting the service owner or exceeding the application cost limits, leading the cloud service provider to disable the application. - https://www.owasp.org/index.php/Cash_Overflow
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cryptanalysis </strong> - Cryptanalysis is a process of finding weaknesses in cryptographic algorithms and using these weaknesses to decipher the ciphertext without knowing the secret key (instance deduction). Sometimes the weakness is not in the cryptographic algorithm itself, but rather in how it is applied that makes cryptanalysis successful. An attacker may have other goals as well, such as: Total Break - Finding the secret key., Gobal Deduction - Finding a functionally equivalent algorithm for encryption and decryption that does not require knowledge of the secret key.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Denial of Service</strong> -  The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users by manipulating network packets, programming, logical, or resources handling vulnerabilities, among others. If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles resources it uses. Sometimes the attacker can inject and execute arbitrary code while performing a DoS attack in order to access critical information or execute commands on the server. Denial-of-service attacks significantly degrade the service quality experienced by legitimate users. These attacks introduce large response delays, excessive losses, and service interruptions, resulting in direct impact on availability. - https://www.owasp.org/index.php/Denial_of_Service</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Path Traversal Attack</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>HTTP Request Smuggling</strong> - The HTTP Request Smuggling attack explores an incomplete parsing of the submitted data done by an intermediary HTTP system working as a proxy. HTTP Request Smuggling consists of sending a specially formatted HTTP request that will be parsed in a different way by the proxy system and by the final system, so the attacker could smuggle a request to one system without the other being aware of it. This attack makes it possible to exploit other attacks, like Cache Poisoning, Session Hijacking, Cross-site Scripting (XSS) and most importantly, the ability to bypass web application firewall protection. To exploit the HTTP Request Smuggling, some specific conditions must exist, such as the presence of specific proxy system and version such as SunOne Proxy 3.6 (SP4) or FW-1/FP4-R55W beta or an XSS vulnerability in the web server. - https://www.owasp.org/index.php/HTTP_Request_Smuggling
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>HTTP Response Splitting</strong> - HTTP response splitting occurs when: Data enters a web application through an untrusted source, most frequently an HTTP request. The data is included in an HTTP response header sent to a web user without being validated for malicious characters.
+HTTP response splitting is a means to an end, not an end in itself. At its root, the attack is straightforward: an attacker passes malicious data to a vulnerable application, and the application includes the data in an HTTP response header. To mount a successful exploit, the application must allow input that contains CR (carriage return, also given by %0d or \r) and LF (line feed, also given by %0a or \n)characters into the header AND the underlying platform must be vulnerable to the injection of such characters. These characters not only give attackers control of the remaining headers and body of the response the application intends to send, but also allow them to create additional responses entirely under their control. - https://www.owasp.org/index.php/HTTP_Response_Splitting
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Traffic Flood</strong> - Traffic Flood is a type of DoS attack targeting web servers. The attack explores the way that the TCP connection is managed. The attack consists of the generation of a lot of well-crafted TCP requisitions, with the objective to stop the Web Server or cause a performance decrease. The attack explores a characteristic of the HTTP protocol, opening many connections at the same time to attend a single requisition. This special feature of the http protocol, which consists of opening a TCP connection for every html object and closing it, could be used to make two different kinds of exploitations. The Connect attack is done during the establishment of the connection, and the Closing attack is done during the connection closing. - https://www.owasp.org/index.php/Traffic_flood
+Traffic Flood is a type of DoS attack targeting web servers. The attack explores the way that the TCP connection is managed. The attack consists of the generation of a lot of well-crafted TCP requisitions, with the objective to stop the Web Server or cause a performance decrease. The attack explores a characteristic of the HTTP protocol, opening many connections at the same time to attend a single requisition. This special feature of the http protocol, which consists of opening a TCP connection for every html object and closing it, could be used to make two different kinds of exploitations. The Connect attack is done during the establishment of the connection, and the Closing attack is done during the connection closing. - https://www.owasp.org/index.php/Traffic_flood
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Probabilistic Technique</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Asymmetric Resource Consumption</strong> - Asymmetric resource consumption consists in an attacker forcing a web application to consume excessive resources when the application fails to release, or incorrectly releases, a system resource. - https://www.owasp.org/index.php/Asymmetric_resource_consumption_(amplification)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cash Overflow</strong> - A Cash Overflow attack is a Denial of Service attack specifically aimed at exceeding the hosting costs for a cloud application, either essentially bankrupting the service owner or exceeding the application cost limits, leading the cloud service provider to disable the application. - https://www.owasp.org/index.php/Cash_Overflow
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Denial of Service</strong> - The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users by manipulating network packets, programming, logical, or resources handling vulnerabilities, among others. If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles resources it uses. Sometimes the attacker can inject and execute arbitrary code while performing a DoS attack in order to access critical information or execute commands on the server. Denial-of-service attacks significantly degrade the service quality experienced by legitimate users. These attacks introduce large response delays, excessive losses, and service interruptions, resulting in direct impact on availability. - https://www.owasp.org/index.php/Denial_of_Service</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Protocol Manipulation</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Comment Injection Attack</strong> - Comments injected into an application through input can be used to compromise a system. As data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack. - https://www.owasp.org/index.php/Comment_Injection_Attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Custom Special Character Injection</strong> - The software does not properly filter or quote special characters or reserved words that are used in a custom or proprietary language or representation that is used by the product. That allows attackers to modify the syntax, content, or commands before they are processed by the end system. - https://www.owasp.org/index.php/Custom_Special_Character_Injection
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Double Encoding</strong> - This attack technique consists of encoding user request parameters twice in hexadecimal format in order to bypass security controls or cause unexpected behavior from the application. It's possible because the webserver accepts and processes client requests in many encoded forms. By using double encoding it's possible to bypass security filters that only decode user input once. The second decoding process is executed by the backend platform or modules that properly handle encoded data, but don't have the corresponding security checks in place. Attackers can inject double encoding in pathnames or query strings to bypass the authentication schema and security filters in use by the web application. - https://www.owasp.org/index.php/Double_Encoding
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Forced Browsing</strong> - Forced browsing is an attack where the aim is to enumerate and access resources that are not referenced by the application, but are still accessible. An attacker can use Brute Force techniques to search for unlinked contents in the domain directory, such as temporary directories and files, and old backup and configuration files. These resources may store sensitive information about web applications and operational systems, such as source code, credentials, internal network addressing, and so on, thus being considered a valuable resource for intruders. This attack is performed manually when the application index directories and pages are based on number generation or predictable values, or using automated tools for common files and directory names. This attack is also known as Predictable Resource Location, File Enumeration, Directory Enumeration, and Resource Enumeration.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Path Traversal</strong> - A Path Traversal attack aims to access files and directories that are stored outside the web root folder. By browsing the application, the attacker looks for absolute links to files stored on the web server. By manipulating variables that reference files with dot-dot-slash (../) sequences and its variations, it may be possible to access arbitrary files and directories stored on file system, including application source code, configuration and critical system files, limited by system operational access control. The attacker uses ../ sequences to move up to root directory, thus permitting navigation through the file system. -  - https://www.owasp.org/index.php/Path_Traversal
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Relative Path Traversal</strong> - This attack is a variant of Path Traversal and can be exploited when the application accepts the use of relative traversal sequences such as "../". - https://www.owasp.org/index.php/Relative_Path_Traversal
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Repudiation Attack</strong> - A repudiation attack happens when an application or system does not adopt controls to properly track and log users' actions, thus permitting malicious manipulation or forging the identification of new actions. This attack can be used to change the authoring information of actions executed by a malicious user in order to log wrong data to log files. Its usage can be extended to general data manipulation in the name of others, in a similar manner as spoofing mail messages. If this attack takes place, the data stored on log files can be considered invalid or misleading. - https://www.owasp.org/index.php/Repudiation_Attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Setting Manipulation</strong> - This attack aims to modify application settings in order to cause misleading data or advantages on the attacker's behalf. He may manipulate values in the system and manage specific user resources of the application or affect its functionalities. An attacker can exploit several functionalities of the application using this attack technique, but it would not possible to describe all the ways of exploration, due to innumerable options that attacker may use to control the system values. Using this attack technique, it is possible to manipulate settings by changing the application functions, such as calls to the database, blocking access to external libraries, and/or modification log files. - https://www.owasp.org/index.php/Setting_Manipulation
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Unicode Encoding</strong> - The attack aims to explore flaws in the decoding mechanism implemented on applications when decoding Unicode data format. An attacker can use this technique to encode certain characters in the URL to bypass application filters, thus accessing restricted resources on the Web server or to force browsing to protected pages. - https://www.owasp.org/index.php/Unicode_Encoding
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Resource Depletion</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cash Overflow</strong> - A Cash Overflow attack is a Denial of Service attack specifically aimed at exceeding the hosting costs for a cloud application, either essentially bankrupting the service owner or exceeding the application cost limits, leading the cloud service provider to disable the application. - https://www.owasp.org/index.php/Cash_Overflow
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Cross-Site Request Forgery (CSRF)</strong> - Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. CSRF attacks specifically target state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. With a little help of social engineering (such as sending a link via email or chat), an attacker may trick the users of a web application into executing actions of the attacker's choosing. If the victim is a normal user, a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth. If the victim is an administrative account, CSRF can compromise the entire web application. - https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Man-in-the-Middle Attack</strong> - The man-in-the middle attack intercepts a communication between two systems. For example, in an http transaction the target is the TCP connection between client and server. Using different techniques, the attacker splits the original TCP connection into 2 new connections, one between the client and the attacker and the other between the attacker and the server, as shown in figure 1. Once the TCP connection is intercepted, the attacker acts as a proxy, being able to read, insert and modify the data in the intercepted communication. - https://www.owasp.org/index.php/Man-in-the-middle_attack
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
+<h2>Resource Manipulation</h2>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Certification </strong> - Providing a system for validating and certifying an APIs security, scanning the surface area and providing guarantees that the endpoint(s) are secure.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Security Visualization</strong> - Allowing API owners with reports and charting, allowing them to visualize the surface area and security of an API. Providing a single way to see all the potential attacks, vulnerabilities, and what is being done about security overall.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Compliance & Auditing Reporting</strong> - Providing a specific interface for auditors and compliance officers to see what security has been applied to any interface. The reporting should provide details that are in alignment with whatever standard is being applied to the industry, as well as standard security approaches.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Bug Bounty Program</strong> - Provide a platform for running a bug bounty program, that allows API providers to crowdsource the discovery, and review of an API, providing a potentially friendly way to handle security before bad actors can step in and find vulnerabilities.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Endpoint Tagging</strong> - Allow for the tagging and organizing of APIs into specific groups for scanning, monitoring, and reviewing of APIs. Giving providers an easy way to organize so that they can be secured, and understood.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Intrusion Correlation</strong> - Providing the ability to connect the dots between various security attacks and intrusions, providing insight into patterns used by attackers, locations of attacks, and other details that might help security.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Risk Scoring</strong> - Offer a single scoring approach to be able to score attacks, based upon existing understanding of the space, but also historical data, providing a clear way to rank, and understand how vulnerabilities, and attacks could affect operations.
+</p>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-empty.png" width="100" align="left" style="padding: 15px;" />
+<p><strong>Publish Your Page</strong> - Publishing a single page that covers what the security approaches are for a platform, providing as much detail as possible about what practices are employed, what the schedule looks like, and what results of security history is.</p>
+</td>
+</tr>
+</table>
