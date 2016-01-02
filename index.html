@@ -1,18 +1,114 @@
 ---
 layout: page
-title: API Security Research
+title: API Security
 ---
+<p style="font-size: 12px; padding:5px;">
+  <img src="{{ site.project_image }}" align="right" width="100" style="padding:5px;" />
+  {{ site.project_summary }}
+</p>
 
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png" alt="" width="190" align="right" /></p>
+<center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
+<div class="row" style="vertical-align: top;" align="center">
 
-<p>This is one of my API research sites, focused specifically on API security. My name is <a href="http://kinlane.com">Kin Lane</a>, and I am the <a href="http://apievangelist.com/">API Evangelist</a>, working as hard as I can to understand the world of the Application Programming Interface, widely called an API. This network of API research projects all run on Github, and is my real-time workbench, which means there is a lot of finished work present, but occasionally you will also come across areas projects that are unfinished--you have stumbled in my API security research, you will find the main <a href="http://apievangelist.com/">API Evangelist site over here</a>, with other links to my work.</p> 
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
-<p>This site is where I publish news that I have read, stories I’ve published, company I’ve profiled, and valuable tools I’m stumbled on across while researching API security space. I’m in the middle of carving off a couple individual projects from this API security research including <a href="http://hypermedia.apievangelist.com/">hypermedia</a>, and a soon API definition specific projects. As with my other research projects, there can be a great deal of overlap with other projects, when it comes to defining exactly what is API security. This research isn’t about being complete, or finished, it is about maintaining a liquid understanding of what API security is, and be as comprehensive as a one man operation can be.</p> 
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
+    <ul class="featurelist">
+      <li><a href="http://apis.how/ayixn7cxus">Metacert</a></li>
+      <li><a href="http://apis.how/qilo7461ig">SecureDB</a></li>
+    </ul>
 
-<p>I execute on my API research by focusing in on specific areas like API security, getting to work understanding who the key actors are, which may include individual personalities, or corporate, government, or institutional entities. I profile each actor, and establish monitoring streams using Github, Twitter, RSS, Stack Exchange, and any other relevant channels. Throughout my monitoring I keep an eye out for interesting articles, white papers, announcements, and tooling that contribute to, and expands upon my definition of what is API security.</p>  
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist">
+      {% for post in site.posts limit:2 %}
+        <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 
-<p>The more I research an area like API security, the more I’m able to identify common building blocks, that make up the space. For API security, this can be as fundamental as API definitions, or as specific as publishing and sharing interactive documentation. My interpretation of these building blocks change over time, and sometimes I will link up these building blocks with other research projects, or spin off as independent projects, allowing me to dive even deeper.</p>  
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
-<p><a href="https://creativecommons.org/licenses/by/3.0/us/">All my research is openly licensed CC-BY</a>, and is meant to help grow the awareness around healthy API security practices. I try to be as fair as I can when covering companies, individuals, and the tools they provide, but ultimately you will notice I have my favorites, and there are some areas I only touch on lightly, for a variety of personal reasons. I try to stay as neutral as I can when it comes to technological dogma, and company allegiance, but after almost five years, I have some pretty strong opinions, and can’t help but try and steer, and influence things in my own unique way. ;-)</p> 
+    <script type="text/javascript">
+      $url = 'http://apievangelist.com/blog.xml';
+      var $listcount = 0;
+      $.get($url, function (data) {
+          $(data).find("item").each(function () {
+              var el = $(this);
+              $title = el.find("title").text();
+              $link = el.find("link").text();
+              if($listcount<2){
+                $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
+                $('#rssNews').append($listitem);
+                }
+              $listcount++;
+          });
+      });
+    </script>
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest Analysis</strong><a href="http://apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist" id="rssNews"></ul>
 
-<p>Thanks for reading!</p>
+  </div>
+</div>
+<center><hr style="padding: 5px; margin: 5px; width: 85%;" /></center>
+
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://performance.apievangelist.com"><strong>Visit My Research On API Performance&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-journey.png" width="25" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;Take a Journey Through Research</strong></a></li>
+    </ul>
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://terms-of-service.apievangelist.com"><strong>Visit My Research On API Terms of Service&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="row" align="center" style="">
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
+
+    <!--
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://bit.ly/1JZBO9f">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pdf.png" width="22" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;&nbsp;&nbsp;View the PDF of This Research</strong></a></li>
+    </ul>
+    -->
+
+  </div>
+
+  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
+
+    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
+      <li><a href="http://privacy.apievangelist.com"><strong>Visit My Research On API Privacy&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+    </ul>
+
+  </div>
+
+</div>
