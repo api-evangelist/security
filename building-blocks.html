@@ -2,10 +2,10 @@
 layout: page
 title: 'Building Blocks'
 ---
-<p>These are the common building blocks I have pullled from my research so far.
+<p>These are some of the common building blocks I have pullled from my research into this layer of the API space.</p>
 <table width="100%" border="0"><tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Authorization & Authentication Formats</h2>
+<h2>Auth Formats</h2>
 </td>
 </tr>
 <tr>
@@ -20,7 +20,7 @@ title: 'Building Blocks'
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Authorization & Authentication Considerations</h2>
+<h2>Auth Considerations</h2>
 </td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ title: 'Building Blocks'
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Cryptography</h2>
+<h2>Transport Level Security</h2>
 </td>
 </tr>
 <tr>
@@ -146,24 +146,15 @@ title: 'Building Blocks'
 <ul>
 <li><strong>Parameter Delimiter</strong> - An attack based on the manipulation of parameter delimiters used by web application input vectors in order to cause unexpected behaviors like access control and authorization bypass and information disclosure.
 </li>
-<li><strong>PHP Object Injection</strong> - An application level vulnerability that could allow an attacker to perform different kinds of malicious attacks, such as Code Injection, SQL Injection, Path Traversal and Application Denial of Service, depending on the context.
-</li>
-<li><strong>Regular Expression Denial of Service (ReDoS)</strong> - Exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly, enter these extreme situations and then hang for a very long time.
-</li>
 <li><strong>Resource Injection</strong> - This attack consists of changing resource identifiers used by an application in order to perform a malicious task, allowing data to be manipulated to execute or access different resources.
 </li>
 <li><strong>Server-Side Includes (SSI) Injection</strong> - An attack that allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely, exploiting through the manipulation of SSI in use and force its use through user input fields.
-</li>
-<li><strong>Special Element Injection</strong> - Special Element Injection is a type of injection attack that exploits a weakness related to reserved words and special characters, leading to information disclosure, access control and authorization bypass, and code injection.
 </li>
 <li><strong>SQL Injection</strong> - The insertion of a SQL query via the input data allowing the reading sensitive data from the database, modify database data, execute administrative tasks, and in some cases issue commands to the operating system. 
 </li>
 <li><strong>Web Parameter Tampering</strong> - An attacked based on the manipulation of parameters exchanged between client and server in order to modify application data, such as user credentials and permissions, price and quantity of products, etc. 
 </li>
 <li><strong>XPATH Injection</strong> - An attack occurring when a web site uses user-supplied information to construct an XPath query for XML data, sending malformed information to an API opening up how the XML data is structured, or access data.
-</li>
-<li><strong>Blind SQL Injection</strong> - Type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response, exploiting generic error messages.</li>
-<li><strong>Blind XPath Injection</strong> - An attack that may be restricted to certain databases, tables, columns, or queries, but allows attacker to modify the XPATH query to perform an action of his choosing.
 </li>
 <li><strong>Code Injection</strong> - Attack types which consist of injecting code that is then interpreted/executed by the application, exploiting poor handling of untrusted data, and usually made possible due to a lack of proper input/output data validation.
 </li>
@@ -181,20 +172,16 @@ title: 'Building Blocks'
 </li>
 <li><strong>Custom Special Character Injection</strong> - Not properly filtering or quoting special characters or reserved words that are used in a custom or proprietary language or representation, allowing attackers to modify the syntax, content, or commands before they are processed.
 </li>
-<li><strong>Direct Dynamic Code Evaluation</strong> - This attack consists of a script that does not properly validate user inputs in the page parameter, allowing a specially crafted URL to pass arbitrary code to an eval() statement, which results in code execution. 
-</li>
 <li><strong>Format String Attack</strong> - Occurring when the submitted data of an input string is evaluated as a command, allowing the execution of code, to read the stack, or cause a segmentation fault, causing behaviors that could compromise the system.
 </li>
 <li><strong>Full Path Disclosure</strong> - Vulnerabilities enabling the attacker to see the path to the webroot/file, potentially opening up full access to the underlying system.
-</li>
-<li><strong>LDAP Injection</strong> - An attack used to exploit web based applications that construct LDAP statements based on user input, resulting in the execution of arbitrary commands inside the LDAP tree.
 </li>
 </ul>
 </td>
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Injection</h2>
+<h2>By Force</h2>
 </td>
 </tr>
 <tr>
@@ -288,7 +275,7 @@ title: 'Building Blocks'
 </tr>
 <tr>
 <td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Resource Manipulation</h2>
+<h2>Other Security Considerations</h2>
 </td>
 </tr>
 <tr>
