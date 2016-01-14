@@ -5,7 +5,7 @@
 		"name": "Basic Auth",
 		"about": "Using Basic Authentication for security access to API resources.",
 		"category_id": "200",
-		"category": "Authorization & Authentication Formats",
+		"category": "Auth Formats",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -16,7 +16,7 @@
 		"name": "OAuth",
 		"about": "Using OAuth for authorization and access management for API resources.",
 		"category_id": "200",
-		"category": "Authorization & Authentication Formats",
+		"category": "Auth Formats",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -27,7 +27,7 @@
 		"name": "API Keys",
 		"about": "Using API keys for securing access to API resources.",
 		"category_id": "200",
-		"category": "Authorization & Authentication Formats",
+		"category": "Auth Formats",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -38,7 +38,7 @@
 		"name": "JSON Web Token",
 		"about": "Using JSON web tokens for securing access to API resources.",
 		"category_id": "200",
-		"category": "Authorization & Authentication Formats",
+		"category": "Auth Formats",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -49,7 +49,7 @@
 		"name": "Session Management",
 		"about": "API should pass session-based authentication, either by session token via a POST or by API key as a POST body argument or as a cookie, avoiding usernames, passwords, session tokens, and API keys in the URL",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -60,7 +60,7 @@
 		"name": "Session State",
 		"about": "Many web services are written to be as stateless as possible, usually ending up with a state blob being sent as part of the transaction.",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -71,7 +71,7 @@
 		"name": "Anti-Farming",
 		"about": "APIs are regularly farmed for the data they contain, and while there's no technical method of preventing this use, having a clear business model, and API management strategy works to minimize.",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -82,7 +82,7 @@
 		"name": "Protect HTTP Methods",
 		"about": "Making sure the incoming HTTP method is valid for the session token/API key and associated resource collection, action, and record.",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -93,7 +93,7 @@
 		"name": "Methods Whitelist",
 		"about": "Properly restrict the allowable verbs such that only the allowed verbs would work, while all others would return a proper response code (for example, a 403 Forbidden).",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -104,7 +104,7 @@
 		"name": "Cross-Site Request Forgery",
 		"about": "Make sure any PUT, POST, and DELETE request is protected from Cross Site Request Forgery, typically done using a token-based approach.",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -115,7 +115,7 @@
 		"name": "Insecure Direct Object References",
 		"about": " It may seem obvious, but if you had a bank account REST web service, you'd have to make sure there is adequate checking of primary and foreign keys.",
 		"category_id": "201",
-		"category": "Authorization & Authentication Considerations",
+		"category": "Auth Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -258,7 +258,7 @@
 		"name": "Data in Transit",
 		"about": "Unless the public information is completely read-only, the use of TLS should be mandated, particularly where credentials, updates, deletions, and any value transactions are performed.n",
 		"category_id": "204",
-		"category": "Cryptography",
+		"category": "Transport Level Security",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -396,28 +396,6 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "RudazNvMri0116xu0ErSbM3mrP8yl89116lFEEL116jAOX7vICDXzcgx582n123Kz0rPS123i1LYphGHyxdYCGAlAp1U2C6A117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "Blind SQL Injection",
-		"about": "Type of SQL Injection attack that asks the database true or false questions and determines the answer based on the applications response, exploiting generic error messages.",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "7fh07etankqce1IAbgxfn771N65eZWYVLhDdtHZ123f123MSxVSi1163mEglB7pzs5116R2123UcVwLFiFXu123jxxRn123eRXdQ117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "Blind XPath Injection",
-		"about": "An attack that may be restricted to certain databases, tables, columns, or queries, but allows attacker to modify the XPATH query to perform an action of his choosing.n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
 		"building_block_id": "SBC8MhYEJowm8ZzqliNqXnnQ116gLa9jyfUgzbbBuDIY123EIB1E3VMqgB7NZY3C5xJZ7a116y3Va116Rzg6Q3xuWswn4A117117",
 		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
 		"name": "Code Injection",
@@ -506,17 +484,6 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "zHbCsxbx116a40VlqlqNpl6116W86Q116h7UZq1Vaj4LJ6B1L123JW7wfEFSS8AfBP8ehdnxRUnyudAxnIo1168K0116VnMbrw117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "Direct Dynamic Code Evaluation",
-		"about": "This attack consists of a script that does not properly validate user inputs in the page parameter, allowing a specially crafted URL to pass arbitrary code to an eval() statement, which results in code execution. n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
 		"building_block_id": "9AIO116OtY7116lrk116ay123Xshrq2B3116Kb123U5lDdlDP6GJyjbJ6RgtRtSYyQk4X6Y0VinPFPLyzzSXz5YPnSof6gemvQ117117",
 		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
 		"name": "Format String Attack",
@@ -539,43 +506,10 @@
 		"sort_order": "0"
 	},
 	{
-		"building_block_id": "116KEeRcUfugX1t3UYqe1MTQRoBoM9JHrEybBuaR3b3Gz116E0RtQL8vu1zV6W116UgIaH44lvz1NwaSwx8Ku1160Gf7ig117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "LDAP Injection",
-		"about": "An attack used to exploit web based applications that construct LDAP statements based on user input, resulting in the execution of arbitrary commands inside the LDAP tree.n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
 		"building_block_id": "yzK4tZS0O4HPq4txcvV1wUue4KrdG7tl2mjitkPlALbw8123kWHWWAdP7fku7SBfUSYNULqV5kkqT5cFYs4i5rvQ117117",
 		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
 		"name": "Parameter Delimiter",
 		"about": "An attack based on the manipulation of parameter delimiters used by web application input vectors in order to cause unexpected behaviors like access control and authorization bypass and information disclosure.n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "Vssn9nszUHYCmAKl33NCTqbhQlXo5wOPJaFMG9123zBLfEaQ13GUe4YfhXnnRywWZnLri0OXrGNX73YoMqbvikeQ117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "PHP Object Injection",
-		"about": "An application level vulnerability that could allow an attacker to perform different kinds of malicious attacks, such as Code Injection, SQL Injection, Path Traversal and Application Denial of Service, depending on the context.n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "thfLp0T6R2HeEvULBYAYQzMmKtN7h9skXXmMFHXxxsuYB3JKKL0n116gRVy5xcGf1AWYYTo8ns6SmD6bSa76s99g117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "Regular Expression Denial of Service (ReDoS)",
-		"about": "Exploits the fact that most Regular Expression implementations may reach extreme situations that cause them to work very slowly, enter these extreme situations and then hang for a very long time.n",
 		"category_id": "207",
 		"category": "Embedded Malicious Code",
 		"image": "",
@@ -598,17 +532,6 @@
 		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
 		"name": "Server-Side Includes (SSI) Injection",
 		"about": "An attack that allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely, exploiting through the manipulation of SSI in use and force its use through user input fields.n",
-		"category_id": "207",
-		"category": "Embedded Malicious Code",
-		"image": "",
-		"image_width": "100",
-		"sort_order": "0"
-	},
-	{
-		"building_block_id": "EOhUGSaTOPC1163x2WtxffWroQnN5DXa1K5rTHpRpfsZBT6qu0NBQg084cWrzgnfdhi3G6C1164CYKLXtzbbSADw9w117117",
-		"building_block_category_id": "hteWqsXv5wyqmrsNSbNPZXLsfo5jxbasBKEjGkiaj116Vk4xR4RFLiqTN2U29GY2k3CmHGILPQguDo124bfyeZ7A117117",
-		"name": "Special Element Injection",
-		"about": "Special Element Injection is a type of injection attack that exploits a weakness related to reserved words and special characters, leading to information disclosure, access control and authorization bypass, and code injection.n",
 		"category_id": "207",
 		"category": "Embedded Malicious Code",
 		"image": "",
@@ -654,7 +577,7 @@
 		"name": "Brute Force Attack",
 		"about": "A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response.n",
 		"category_id": "208",
-		"category": "Injection",
+		"category": "By Force",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -665,7 +588,7 @@
 		"name": "Cash Overflow",
 		"about": "An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.n",
 		"category_id": "208",
-		"category": "Injection",
+		"category": "By Force",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -676,7 +599,7 @@
 		"name": "Cryptanalysis ",
 		"about": "Cryptanalysis is a process of finding weaknesses in cryptographic algorithms and using these weaknesses to decipher the ciphertext without knowing the secret key (instance deduction). ",
 		"category_id": "208",
-		"category": "Injection",
+		"category": "By Force",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -687,7 +610,7 @@
 		"name": "Denial of Service",
 		"about": " The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. ",
 		"category_id": "208",
-		"category": "Injection",
+		"category": "By Force",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -896,7 +819,7 @@
 		"name": "Certification ",
 		"about": "Providing a system for validating and certifying an APIs security, scanning the surface area and providing guarantees that the endpoint(s) are secure.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -907,7 +830,7 @@
 		"name": "Security Visualization",
 		"about": "Allowing API owners with reports and charting, allowing them to visualize the surface area and security of an API. Providing a single way to see all the potential attacks, vulnerabilities, and what is being done about security overall.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -918,7 +841,7 @@
 		"name": "Compliance & Auditing Reporting",
 		"about": "Providing a specific interface for auditors and compliance officers to see what security has been applied to any interface. The reporting should provide details that are in alignment with whatever standard is being applied to the industry, as well as standard security approaches.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -929,7 +852,7 @@
 		"name": "Bug Bounty Program",
 		"about": "Provide a platform for running a bug bounty program, that allows API providers to crowdsource the discovery, and review of an API, providing a potentially friendly way to handle security before bad actors can step in and find vulnerabilities.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -940,7 +863,7 @@
 		"name": "Endpoint Tagging",
 		"about": "Allow for the tagging and organizing of APIs into specific groups for scanning, monitoring, and reviewing of APIs. Giving providers an easy way to organize so that they can be secured, and understood.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -951,7 +874,7 @@
 		"name": "Intrusion Correlation",
 		"about": "Providing the ability to connect the dots between various security attacks and intrusions, providing insight into patterns used by attackers, locations of attacks, and other details that might help security.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -962,7 +885,7 @@
 		"name": "Risk Scoring",
 		"about": "Offer a single scoring approach to be able to score attacks, based upon existing understanding of the space, but also historical data, providing a clear way to rank, and understand how vulnerabilities, and attacks could affect operations.rn",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
@@ -973,7 +896,7 @@
 		"name": "Publish Your Page",
 		"about": "Publishing a single page that covers what the security approaches are for a platform, providing as much detail as possible about what practices are employed, what the schedule looks like, and what results of security history is.",
 		"category_id": "213",
-		"category": "Resource Manipulation",
+		"category": "Other Security Considerations",
 		"image": "",
 		"image_width": "100",
 		"sort_order": "0"
