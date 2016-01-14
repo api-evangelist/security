@@ -1,20 +1,5 @@
 [
 	{
-		"id": "olA3dvDp0OxFmxalK1162PF5My6vIS06hPbGwJinKeK2ABdilVV26daUgDpHAMK2YjEvpxLKEC3XryXupCbn43116A117117",
-		"name": "AmberCart",
-		"summary": "AmberCart is an innovative and inexpensive way to add e-commerce to any website or blog. AmberCart creates a cart right on your product page. During checkout buyers never leaves your site. Using AmberCart will convert more shoppers to buyers with its direct approach that evokes trust &amp; confidence.",
-		"details": "AmberCart is an innovative and inexpensive way to add e-commerce to any website or blog. AmberCart creates a cart right on your product page. During checkout buyers never leaves your site. Using AmberCart will convert more shoppers to buyers with its direct approach that evokes trust &amp; confidence.",
-		"website": "http://www.ambercart.com/shipping",
-		"twitter": "https://twitter.com/ambercart",
-		"github": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ambercart_logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ambercart_logo.png",
-		"tags": null
-	},
-	{
 		"id": "MVn3IlJ9116HQjkefvNKsdIIqClTwkIAWs3cl9B0f3DOYT1231165eywMlcC6ugOUNGSZ1GJVv4AxI9r0nhs2ANtNcbQ117117",
 		"name": "APIBond",
 		"summary": "APIBond is an API management platform that acts as a proxy where you can validate, transform, secure, analyze and scale any existing API.",
