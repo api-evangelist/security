@@ -57,7 +57,7 @@ navigation:
     padding: 5
     decorate: 0
   - label1: Organizations
-    link1: /companies.html
+    link1: /organizations/
     size1: 80
     extend: 1
     label2: JSON
@@ -66,7 +66,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Building Blocks
-    link1: /building-blocks.html
+    link1: /building-blocks/
     size1: 80
     extend: 1
     label2: JSON
@@ -74,15 +74,6 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
-  - label1: (Take a Journey)
-    link1: /journey/index.html
-    size1: 70
-    extend: 0
-    label2:
-    link2:
-    size2: 0
-    padding: 0
-    decorate: 0    
   - label1: Return to API Evangelist
     link1: http://apievangelist.com
     size1: 80
