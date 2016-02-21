@@ -7,12 +7,22 @@
 		"website": "http://apibond.com/",
 		"twitter": "https://twitter.com/apibond",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apibond-logo.png",
-		"tags": null
+		"tags": [
+			"Testing",
+			"Security",
+			"Monitoring",
+			"Aggregation"
+		]
 	},
 	{
 		"id": "8U2HGlHmFRLDzBZHhNnp5sPbnxpVMNmtVEDpXWjaqLZAKBkgKQFekqbg0kjS123MOW116U5kEjfaWxcoVeDiYqIf6w117117",
@@ -22,12 +32,22 @@
 		"website": "https://www.authy.com/",
 		"twitter": "https://twitter.com/authy",
 		"github": "https://github.com/authy",
+		"apisjson_url": "http://theapistack.com/data/authy/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/authy",
+		"base_url": "https://www.authy.com/developers/",
 		"blog": "https://www.authy.com/blog/",
 		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.jpg",
 		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.png",
-		"tags": null
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.jpg",
+		"tags": [
+			"Security",
+			"Authentication-Stack",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "buPhC0116sYm2xxpcEagnw0Q5twevQVgeLJtqnUqjEzYMIyZa32LgUqb6j2x7u5ARXN4FTknP3S64tcqOXrZnTNw117117",
@@ -37,12 +57,19 @@
 		"website": "http://krebsonsecurity.com",
 		"twitter": "https://twitter.com/briankrebs",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "http://krebsonsecurity.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/KrebsOnSecurity-Logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/KrebsOnSecurity-Logo.jpg",
-		"tags": null
+		"tags": [
+			"Security"
+		]
 	},
 	{
 		"id": "m4fi7e5jg4iz8eEEYc123123qpKsTWnAJhe8EobWXHGbIz9123wBCdhm1FEF4116Z116yBwB116MIX116CsqjZwDjK8g1hGbadDQ117117",
@@ -52,12 +79,20 @@
 		"website": "https://getclef.com/",
 		"twitter": "https://twitter.com/getclef",
 		"github": "https://github.com/clef",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/clef",
+		"base_url": "http://docs.getclef.com/",
 		"blog": "http://blog.getclef.com/",
 		"blogrss": "http://blog.getclef.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clef-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clef-logo.png",
-		"tags": null
+		"tags": [
+			"Two Factor Authentication",
+			"Security"
+		]
 	},
 	{
 		"id": "uKS42r123BIhO6HQAAzGgpHeUy2lchfmkZWjb1239EksFm11686U6DDEozmzSfEJoDj4T123lxAia2nu6uZN77a6TY2116kg117117",
@@ -67,12 +102,20 @@
 		"website": "https://cobalt.io/",
 		"twitter": "https://twitter.com/cobalt_io",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "https://cobalt.io/blog",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cobalt-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cobalt-logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Security"
+		]
 	},
 	{
 		"id": "39116Q6YeoIh7Wi27Q7tGtZObDsNsZsXJvBBe8IaxLop4N674Y36GolaFq123PXSmvGQBMDksUAtNU5SxEyzdvvZrA117117",
@@ -82,12 +125,22 @@
 		"website": "http://www.crosschecknet.com/",
 		"twitter": "",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "http://soa-testing.blogspot.com/",
 		"blogrss": "http://feeds.feedburner.com/soatesting?format=xml",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png",
-		"tags": null
+		"tags": [
+			"Virtualization",
+			"Testing",
+			"Security",
+			"API Gateways"
+		]
 	},
 	{
 		"id": "DqnvnFlPGLqIgvijCtOkDMycJh6jS5nSqr2j123ZD1u9ZHRDkRcSZMO19Nkbkhcxdt3ATnfQ2BA38mk7LeKnchtA117117",
@@ -97,12 +150,23 @@
 		"website": "http://dome9.com",
 		"twitter": "https://twitter.com/Dome9",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/domaintools/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "http://developer.dome9.com/",
 		"blog": "http://www.dome9.com/blog",
 		"blogrss": "http://www.dome9.com/feed?cat=22",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1834_logo.jpg",
 		"logo_width": "160",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1834_logo.jpg",
-		"tags": null
+		"tags": [
+			"Security-Stack",
+			"Security",
+			"Cloud-Stack",
+			"Cloud",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "1167s3k1239jzX6XVGVUxbpMvApFZHiDSXa26OgGDBejTiWqP3pDk0Gyz1XMCr3EAClUWjgLNjtL04V4xL1WrIg9Yg117117",
@@ -112,12 +176,24 @@
 		"website": "http://www.duosecurity.com",
 		"twitter": "https://twitter.com/duosec",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/duo-security/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "https://www.duosecurity.com/api",
 		"blog": "http://blog.duosecurity.com",
 		"blogrss": "view-source:https://www.duosecurity.com/feed",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1050_logo.png",
-		"logo_width": "140",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1050_logo.png",
-		"tags": null
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/duo-security-logo.jpeg",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/duo-security-logo.jpeg",
+		"tags": [
+			"Two-factor authentication",
+			"Security-Stack",
+			"Security",
+			"Mobile",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "E51Ex5t8n2O35fIc5D0yG3cQb3JEWcMn4oJ9E9Ck94zdFxzzx123i923BUZWZnhIwMGj54XdN5K3XHClmHuqgZLA117117",
@@ -127,27 +203,24 @@
 		"website": "http://evs.idrive.com",
 		"twitter": "https://twitter.com/IDriveBackup",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/idrive-online-backup/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idrive-logo.jpeg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idrive-logo.jpeg",
-		"tags": null
-	},
-	{
-		"id": "0raqceim7nhyKypKGWI4hy9JyOcFdtnOTvN6nrsW4jcy5qwW0jZUCaei0RI64AfDDKbXSKeVM7Ke116D6g1Q40yw117117",
-		"name": "LoginRadius",
-		"summary": "To keep your business ahead of current Internet trends, we at LoginRadius came up with a different approach to the log-in process. Using LoginRadius, you can easily integrate social logins on your website and allow users to login with their existing accounts on Facebook, Google, Yahoo, Twitter and over 20 more providers. By eliminating lengthy and sometimes irritating registration process, not onl",
-		"details": "To keep your business ahead of current Internet trends, we at LoginRadius came up with a different approach to the log-in process. Using LoginRadius, you can easily integrate social logins on your website and allow users to login with their existing accounts on Facebook, Google, Yahoo, Twitter and over 20 more providers. By eliminating lengthy and sometimes irritating registration process, not only will your website attract more traffic but also boost your user base. LoginRadius is a &ldquo;Software As A Service&rdquo; (SAAS).",
-		"website": "http://www.loginradius.com/",
-		"twitter": "https://twitter.com/LoginRadius",
-		"github": "https://github.com/LoginRadius",
-		"blog": "http://blog.loginradius.com",
-		"blogrss": "http://blog.loginradius.com/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1086_logo.png",
-		"logo_width": "160",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1086_logo.png",
-		"tags": null
+		"tags": [
+			"Storage-Stack",
+			"Storage",
+			"SMS",
+			"Security",
+			"Cloud Storage",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "4gdX1AW0qrKR0vZ6MzDxoY67X3vbTTT1Zg123kRWxqXSlAAjH1jvGDF1vJG5wFkLvfemuybW3203hJlqk7JWPYrQ117117",
@@ -157,12 +230,19 @@
 		"website": "http://managedmethods.com/",
 		"twitter": "https://twitter.com/managedmethods",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png",
-		"tags": null
+		"tags": [
+			"Security"
+		]
 	},
 	{
 		"id": "O123dXagNQtWtFnggOTpcpOmq9xTby9uExZ78uRq9Rh4KATceg6UwHeWH116T1MKwie116NkM8HYB4WFXQpHY0xLmFOg117117",
@@ -172,12 +252,21 @@
 		"website": "https://metacert.com/",
 		"twitter": "https://twitter.com/MetaCert",
 		"github": "https://github.com/metacert",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/metacert",
+		"base_url": "",
 		"blog": "https://metacert.com/blog/",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Security",
+			"Links"
+		]
 	},
 	{
 		"id": "SQviIt7Y116aNk8nebnk486EAVmSFjRz9ohh7B4eR6gYLbfAViKyt0RZ0z9hAr9o7P116Z6NrCrJb8exZETGyI8Glw117117",
@@ -187,12 +276,24 @@
 		"website": "http://www.miicard.com",
 		"twitter": "https://twitter.com/#!/miicard",
 		"github": "https://github.com/miiCard",
+		"apisjson_url": "http://theapistack.com/data/miicard/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/miiCard",
+		"base_url": null,
 		"blog": "http://www.miicard.com/blog",
 		"blogrss": "http://www.miicard.com/rss.xml",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/847_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/847_logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Identity-Stack",
+			"Identity",
+			"Authentication-Stack",
+			"API-United-Kingdom",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "vLsZpgVW116sYwIjGE1pPao116uSs9ZQBk2C3SKkyLaREnQkjrhiB7j0hBl3qzUWBO026m9qoB1QuPs9wEr6M1zl0A117117",
@@ -202,27 +303,22 @@
 		"website": "https://mollom.com/",
 		"twitter": "https://twitter.com/mollom",
 		"github": "https://github.com/Mollom",
+		"apisjson_url": "http://theapistack.com/data/mollom/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/Mollom",
+		"base_url": "https://mollom.com/api",
 		"blog": "https://mollom.com/blog",
 		"blogrss": "view-source:https://mollom.com/rss.xml",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/440_logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/440_logo.jpg",
-		"tags": null
-	},
-	{
-		"id": "oDIgKDf0BUIPAkmtSBZJc4bRRtdc123EtPRAEo8123BLxc87PYeGVIBbnLR1K2t2upVSrdoXbc04OYvqEIfUK1up1w117117",
-		"name": "OpenUMA",
-		"summary": "User-Managed Access (UMA) is an OAuth-based protocol that enables an individual to control the authorization of data sharing and service access made by others. The OpenUMA community shares an interest in informing, improving, and extending the development of UMA-compatible open-source software as part of ForgeRocku2019s Open Identity Stack.",
-		"details": "User-Managed Access (UMA) is an OAuth-based protocol that enables an individual to control the authorization of data sharing and service access made by others. The OpenUMA community shares an interest in informing, improving, and extending the development of UMA-compatible open-source software as part of ForgeRocku2019s Open Identity Stack.",
-		"website": "https://forgerock.org/openuma/",
-		"twitter": "",
-		"github": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-uma.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-uma.png",
-		"tags": null
+		"tags": [
+			"Spam",
+			"Security",
+			"Quality",
+			"Content"
+		]
 	},
 	{
 		"id": "90kcSE4D0gUHf6kkwH2nW1GpYL1Z116Nzfydf0jYlGB3n2zWqxyVurJ6LXt2xniMx12319CBjtGVytaE1123gwpuEzdA117117",
@@ -232,12 +328,20 @@
 		"website": "http://quttera.com/quttera-web-malware-scanner-api",
 		"twitter": "https://twitter.com/quttera",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "http://blog.quttera.com",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quttera-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quttera-logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Malware"
+		]
 	},
 	{
 		"id": "bM2DDa3P3cH4WTQpETJ7qbsSUWoNDHjo123vyWZoDagC116xNSqQNnp56ekOTLB8PAVHGoj0cVidPQW123YlDJXJTJxQ117117",
@@ -247,12 +351,21 @@
 		"website": "https://www.redcanary.co/",
 		"twitter": "https://twitter.com/redcanaryco",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "https://www.redcanary.co/blog/",
 		"blogrss": "http://www.redcanary.co/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/red-canary-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/red-canary-logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Security",
+			"Monitoring"
+		]
 	},
 	{
 		"id": "PbwUwBIkPzt6vTp0F76uN9D123s2t7T1235r1gPkFAtg75LFimSwIfG0dGFhFAhcW1123MM85cBqTiEPbw5123Spm4fYYQ117117",
@@ -262,12 +375,22 @@
 		"website": "http://www.sfaxme.com/",
 		"twitter": "https://twitter.com/scryptinc",
 		"github": "https://github.com/sfaxon",
+		"apisjson_url": "http://theapistack.com/data/sfax/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/sfaxon",
+		"base_url": "http://www.sfaxme.com/community/developers/",
 		"blog": "http://www.sfaxme.com/community/blog/",
 		"blogrss": "http://www.sfaxme.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sfax.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sfax.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Messaging-Stack",
+			"Fax",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "LQGfYajrmFKogDUDkaC8qfZZVN2tCpY1G5UC9UUymiERfckcO2105wXF6XKxf3nTqynlijdpAXTjlKFJYRsfdw117117",
@@ -277,12 +400,21 @@
 		"website": "https://securedb.co/",
 		"twitter": "https://twitter.com/securedb",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "https://securedb.co/blog/",
 		"blogrss": "https://securedb.co/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/securedb-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/securedb-logo.png",
-		"tags": null
+		"tags": [
+			"Security",
+			"Encryption",
+			"Database"
+		]
 	},
 	{
 		"id": "sKqZZD11664IUqlH3HlpVfSKyxbLRLBrNVbJoF0mwtgazjOCoqmRED5NhuFVlOEvSIqMd38nzsjFIsPrikS6BgYQ117117",
@@ -292,12 +424,25 @@
 		"website": "https://siftscience.com/",
 		"twitter": "https://twitter.com/siftscience",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/sift-science/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "https://blog.siftscience.com",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png",
-		"tags": null
+		"tags": [
+			"Utility",
+			"Security-Stack",
+			"Security",
+			"Monitoring",
+			"Commerce-Stack",
+			"API-Stack",
+			"Analytics"
+		]
 	},
 	{
 		"id": "6116zj6izE8OUuRSKSs123JSsMtNjZZMpGbKx49123BSXWeuoQ42aeqkjkT123dvOkwfe3eiibJsT2DXpHWxdi75123116f6nA117117",
@@ -307,12 +452,23 @@
 		"website": "https://www.signifyd.com/",
 		"twitter": "https://twitter.com/signifyd",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/signifyd/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "https://www.signifyd.com/docs/api",
 		"blog": "http://blog.signifyd.com",
 		"blogrss": "http://signifydblog.com/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1941_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1941_logo.png",
-		"tags": null
+		"tags": [
+			"Security-Stack",
+			"Security",
+			"E-commerce",
+			"Commerce-Stack",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "5XY9ZmWQTyosDZvFCZ6cTFcMYRYz2h0GIoyxX0OinNHu4TKtVCYplbfx5gF17zutie84lMk6i3U7wTsc1sc1FQ117117",
@@ -322,27 +478,53 @@
 		"website": "http://smartbear.com/",
 		"twitter": "https://twitter.com/smartbear",
 		"github": "https://github.com/SmartBear",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/SmartBear",
+		"base_url": "",
 		"blog": "http://blog.smartbear.com/",
 		"blogrss": "http://feeds.feedburner.com/smartbear",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png",
-		"tags": null
+		"tags": [
+			"Virtualization",
+			"Testing",
+			"Security",
+			"Performance",
+			"Monitoring",
+			"API LIfeycle"
+		]
 	},
 	{
 		"id": "cn0OdkE9Vm8JeaSJFzfXRQjU00ULdxc8cQMKGe3KCwDeGE0gHuFnCmt116jGEJJVa1236jr0QSsTtW074jWqT950uA117117",
 		"name": "Stormpath",
-		"summary": "Stormpath is the first easy and secure user management and authentication service for developers. With a simple REST API integration, developers can reduce development and operations costs, while protecting users with best-in-class security.",
-		"details": "Stormpath is the first easy and secure user management and authentication service for developers. With a simple REST API integration, developers can reduce development and operations costs, while protecting users with best-in-class security.",
+		"summary": "Stormpath is an authentication and user management service that helps development teams quickly and securely build web and mobile applications and services. With the Stormpath API, you can add a user management layer to simple or complex applications, with little custom code.",
+		"details": "Stormpath is an authentication and user management service that helps development teams quickly and securely build web and mobile applications and services. With the Stormpath API, you can add a user management layer to simple or complex applications, with little custom code.",
 		"website": "http://www.stormpath.com/",
 		"twitter": "https://twitter.com/#!/gostormpath",
 		"github": "https://github.com/stormpath",
+		"apisjson_url": "http://theapistack.com/data/stormpath/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/stormpath",
+		"base_url": "http://docs.stormpath.com/",
 		"blog": "http://www.stormpath.com/blog/",
 		"blogrss": "http://www.stormpath.com/blog/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1170_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1170_logo.png",
-		"tags": null
+		"tags": [
+			"User-Stack",
+			"User Management",
+			"Security",
+			"Identity-Stack",
+			"Identity",
+			"Authentication",
+			"API-Stack",
+			"API LIfeycle"
+		]
 	},
 	{
 		"id": "civYKAob20O7zMCGusevbW9116UbFBkRTUa6pL116UiiGbXoft3JFocvKAzL6eFMLt6EKsswfy5ZssvZJyWyhBOLIg117117",
@@ -352,12 +534,23 @@
 		"website": "http://www.voicevault.com/developers/",
 		"twitter": "https://twitter.com/#!/voicevault",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "",
 		"blogrss": "http://www.voicevault.com/index.php/tools/blocks/problog_list/rss?cID=188",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1211_logo.png",
 		"logo_width": "200",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1211_logo.png",
-		"tags": null
+		"tags": [
+			"Verification",
+			"Telephony",
+			"Security",
+			"Biometrics",
+			"Biometric"
+		]
 	},
 	{
 		"id": "ZWyWXrTsumLY9U07yLm4oZ8noc5bu7wPsKPKDx9NyC0Zmx44WHk5Hs5gkV116ertgetHXVgylupx4xs064iwT0SQ117117",
@@ -367,12 +560,23 @@
 		"website": "http://wmata.com/",
 		"twitter": "",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/washington-metro/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/metro-developers.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/metro-developers.png",
-		"tags": null
+		"tags": [
+			"Transportation",
+			"Transit-Stack",
+			"Transit",
+			"Security",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "rCD0D116pV5xaZqSlthd123eK1fN7qwRQgwmxtu2ssxzmwdVN31236d5DqtZv04ASPcvVbO116jPDSjqkNmYpanyn116GQQA117117",
@@ -382,11 +586,20 @@
 		"website": "http://www.yubico.com/web-api-clients",
 		"twitter": "https://twitter.com/yubico",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": null,
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yubico-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yubico-logo.png",
-		"tags": null
+		"tags": [
+			"TXT",
+			"Security",
+			"Cloud"
+		]
 	}
 ]
