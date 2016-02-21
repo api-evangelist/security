@@ -1,0 +1,1968 @@
+[
+	{
+		"category_name": "Overview",
+		"building_blocks": [
+			{
+				"building_block_id": "4BqnCwBAZoCvHvDY8b116taFp1233ivuKVj6yxkNMvDOND8117",
+				"building_block_category_id": "WAV4MCfO7GVNGM7rCjiJgbr7Tk87pjbmg12384Ua4pDRc117",
+				"name": "Security Practices Page",
+				"about": "Publishing a single page that covers what the security approaches are for a platform, providing as much detail as possible about what practices are employed, what the schedule looks like, and what results of security history is.",
+				"category_id": "288",
+				"category": "Overview",
+				"category_about": null,
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": null,
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "p116Vscve4wRnu116HQcZ6IidyVD82ux7tSHPOhEoBn116cSc117",
+				"building_block_category_id": "WAV4MCfO7GVNGM7rCjiJgbr7Tk87pjbmg12384Ua4pDRc117",
+				"name": "Security Contact",
+				"about": "Who to contact in the event of a security incident that concerns the platform. Providing a phone number, email, or form that can be submitted. ",
+				"category_id": "288",
+				"category": "Overview",
+				"category_about": null,
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": null,
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Auth Considerations",
+		"building_blocks": [
+			{
+				"building_block_id": "BQ23iwQsyZhCBzNcQHBVOCoLXwOQtX1htP7WU123D24Qo117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Session Management",
+				"about": "API should pass session-based authentication, either by session token via a POST or by API key as a POST body argument or as a cookie, avoiding usernames, passwords, session tokens, and API keys in the URL",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "XEtjaK116HWo5DRD5LR8i5WUx673OSouxkjFwxdwJYAmY117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Session State",
+				"about": "Many web services are written to be as stateless as possible, usually ending up with a state blob being sent as part of the transaction.",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Y4ct90CEwKa4hYaZzcL123X6nfQoDLw5wwcOxi1SUyK7s117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Anti-Farming",
+				"about": "APIs are regularly farmed for the data they contain, and while theres no technical method of preventing this use, having a clear business model, and API management strategy works to minimize.",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "dU123ISuVOWueETHJuKcyP0rnPHBpjenYg9ONB116UDZUZE117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Protect HTTP Methods",
+				"about": "Making sure the incoming HTTP method is valid for the session token/API key and associated resource collection, action, and record.",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "bvB0GihO116l1X37ZalfazCwRjmIcXgmplB8d4Les71RY117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Methods Whitelist",
+				"about": "Properly restrict the allowable verbs such that only the allowed verbs would work, while all others would return a proper response code (for example, a 403 Forbidden).",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Wb87T4uXXuGolHsfiPrBmCERgWJK6tHZruPmnUsdLX4117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Cross-Site Request Forgery",
+				"about": "Make sure any PUT, POST, and DELETE request is protected from Cross Site Request Forgery, typically done using a token-based approach.",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "U70J63EQHZBagGMNLMQb3QFv1DVieGPVEzaN123TxI9uo117",
+				"building_block_category_id": "vhzmDvSl4th116pgdzDu5NLWwqTrcD0PKCoV9r1LIwg2U117",
+				"name": "Insecure Direct Object References",
+				"about": " It may seem obvious, but if you had a bank account REST web service, youd have to make sure there is adequate checking of primary and foreign keys.",
+				"category_id": "201",
+				"category": "Auth Considerations",
+				"category_about": "Beyond the formats themselves, what are some of the considerations when it comes to security and authentication?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Input Validation",
+		"building_blocks": [
+			{
+				"building_block_id": "pDQ1f7Rblk0XSeUFx9ZF1uA03NWJ116SdGTJxgezXk1pE117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Validate Content-Types",
+				"about": "The server should never assume the Content-Type; it should always check that the Content-Type header and the content are the same type.n",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "0",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "TQG5BnbYfovjIgtpGSU81DrC5Pe5EHydBMwD4GOV116z0117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Assist the User",
+				"about": "Assisting in the input of high quality data into APIs, by validating what is submitted, and rejecting anything that does not pass validation.",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "q5fGD8116ekzTmfErs5mScUkgVRps123fuvQpaMJGb0p2go117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Secure Parsing",
+				"about": "Use a secure parser for parsing the incoming messages. If you are using XML, make sure to use a parser that is not vulnerable to XXE and similar attacks.rn",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "zdYFRGFFynM47UN123Ayc116PQ6CwdbJTwtjKSnW8MXgbVg117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Strong Typing",
+				"about": "Its difficult to perform most attacks if the only allowed values are true or false, or a number, or one of a small number of acceptable values. Strongly type incoming data as quickly as possible.rn",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "WM2BXOXaLtdd1D1bC8kPDStYHpZPkl81169hkD123wUS8yo117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Validate Response Types",
+				"about": "Do NOT simply copy the Accept header to the Content-type header of the response, and reject the request if the Accept header does not specifically contain one of the allowable types.n",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "R3m3WH1kJMHlPHatAzurig8QWTLUOuPdjT5KoVVp6XQ117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "JSON Validation",
+				"about": "Making sure all JSON is valid helps make sure that APIs are operating as expectation and making sure vulnerabilities are not being passed in with API requests and responses. ",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "FAYBwe1WuPi6a9lSrT6zbnzVDkoFwA7m6RMoiwMyUrU117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "XML Validation",
+				"about": "XML-based services must ensure that they are protected against common XML based attacks by using secure XML-parsing.n",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "UwRqHBfJy8RRAs6Lc89Ne7123mE2NLNq231yBnkDrPjFM117",
+				"building_block_category_id": "zntmzlF7vu3Xpj43NtW9bN4oolF9BTfQhvz79fkZAog117",
+				"name": "Framework-Provided Validation",
+				"about": "Many frameworks allow for validation constraints to be enforced automatically by the framework at request or response time, providing automatic validation before the data is delivered to the application.n",
+				"category_id": "202",
+				"category": "Input Validation",
+				"category_about": "Focusing specifically on the area of inputing, and making sure only safe data and content is being able to be inputed. What are the specific input security considerations?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Output Validation",
+		"building_blocks": [
+			{
+				"building_block_id": "JpnGJ4B1168DK94i5ir0fukzoF3wRh4123123mWr5Bj2F4mUQ117",
+				"building_block_category_id": "4YzLSanEGv5eW2iPv7l2n4gcg3cWIG9z4X1krNMTIGk117",
+				"name": "Send Security Headers",
+				"about": "The server should always send the Content-Type header with the correct Content-Type, and preferably the Content-Type header should include a charset.n",
+				"category_id": "203",
+				"category": "Output Validation",
+				"category_about": "Like the input, is the return output what it should be? Let's go through some of the considerations when it comes to output validation.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "6ATwmhNBnjlkOftT2PvjS4bXHM8ibEX7S404QiKVB2U117",
+				"building_block_category_id": "4YzLSanEGv5eW2iPv7l2n4gcg3cWIG9z4X1krNMTIGk117",
+				"name": "JSON Encoding",
+				"about": "Use a proper JSON serializer to encode user-supplied data properly to prevent the execution of user-supplied input on the browser.n",
+				"category_id": "203",
+				"category": "Output Validation",
+				"category_about": "Like the input, is the return output what it should be? Let's go through some of the considerations when it comes to output validation.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "qUq24hGnTuMSKX92yBC6SM2uyvWVi116nTcPtVoO5nmvo117",
+				"building_block_category_id": "4YzLSanEGv5eW2iPv7l2n4gcg3cWIG9z4X1krNMTIGk117",
+				"name": "XML Encoding",
+				"about": "Do not assemble XML string concatenation, rather us a XML serializer, ensure that the XML content sent to the browser is parseable and does not contain XML injection.n",
+				"category_id": "203",
+				"category": "Output Validation",
+				"category_about": "Like the input, is the return output what it should be? Let's go through some of the considerations when it comes to output validation.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "dVd0BE116orQ1osymg2O1WBOH6EdtTbOpZuLRqEa1nFUA117",
+				"building_block_category_id": "4YzLSanEGv5eW2iPv7l2n4gcg3cWIG9z4X1krNMTIGk117",
+				"name": "Link Integrity",
+				"about": "Checks the reputation of web links in real time, providing an invisibly secure experience by blocking malicious and unwanted links from being present or loading in content.n",
+				"category_id": "203",
+				"category": "Output Validation",
+				"category_about": "Like the input, is the return output what it should be? Let's go through some of the considerations when it comes to output validation.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Transport Level Security",
+		"building_blocks": [
+			{
+				"building_block_id": "3seALrOVDJc5xifW7RMFLdqLS6HXuJnXBDAHgOVCSc8117",
+				"building_block_category_id": "5qfhdbUw123MqILdMnRzF0JDlPN7dAT116t3JrnCDoSTAgE117",
+				"name": "Data in Transit",
+				"about": "Unless the public information is completely read-only, the use of TLS should be mandated, particularly where credentials, updates, deletions, and any value transactions are performed.n",
+				"category_id": "204",
+				"category": "Transport Level Security",
+				"category_about": "Are we considering everything beyond the request and the response? Are we allowing for the proper security in transport?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Abuse of Functionality",
+		"building_blocks": [
+			{
+				"building_block_id": "lXv123eN1jyujd9rIYinkNgTs116b72Kb116lQeVwETA4S5bc117",
+				"building_block_category_id": "59ECHP1aMUCNyGg9GlyS7xXzcBWktf5b9Jrr5d2yeLE117",
+				"name": "Buffer Overflow Attack",
+				"about": "Avoid overwriting of memory fragments of the process, values of the IP (Instruction Pointer), BP (Base Pointer) and other registers which can cause exceptions, segmentation faults, and other errors to occur.n",
+				"category_id": "205",
+				"category": "Abuse of Functionality",
+				"category_about": null,
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "zBDeULhpVN713vnU4vUHqCOh8w92c4G123XzFWsWrWIG8117",
+				"building_block_category_id": "59ECHP1aMUCNyGg9GlyS7xXzcBWktf5b9Jrr5d2yeLE117",
+				"name": "Buffer Overflow via Environment Variables",
+				"about": "Avoid this pattern that involves causes a buffer overflow through manipulation of environment variables, which once the attacker finds that they can modify an environment variable, they may try to overflow associated buffers.n",
+				"category_id": "205",
+				"category": "Abuse of Functionality",
+				"category_about": null,
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "WDkWCQNkOYzE501rsjIoTakpsuE0YPFckzva7CSMBuQ117",
+				"building_block_category_id": "59ECHP1aMUCNyGg9GlyS7xXzcBWktf5b9Jrr5d2yeLE117",
+				"name": "Overflow Binary Resource File",
+				"about": "Coming from input data, and an Overflow Binary Resource File, where attacker modifies/prepares the binary file in such a way that the application, after reading this file, becomes prone to a classic Buffer overflow attack. n",
+				"category_id": "205",
+				"category": "Abuse of Functionality",
+				"category_about": null,
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Data Structure Attacks",
+		"building_blocks": [
+			{
+				"building_block_id": "frZImahO6ZTVQcJPc1R0VnQVFoLYIepiWjM9pOcp42A117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Cross-Site Request Forgery (CSRF)",
+				"about": "An attack that forces an end user to execute unwanted actions on a web application in which theyre currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. n",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "jstNrU0jdUn0Wfav9ZPTpPATPVZwzWpuG6n6UxgV123b0117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Logic/time Bomb",
+				"about": "A logic bomb is a piece of malicious code that executes when specific trigger conditions are met, such as a date or time, or possible a specific database event.n",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "n9acEpMXKXALJJqonM7QJDtRKhz09mLkkHCaSJW6MKA117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Trojan Horse",
+				"about": "A Trojan Horse is a program that uses malicious code masqueraded as a trusted application, which is vehicle in which malicious code can be injected on benign applications, masqueraded in e-mail links, or JavaScript.",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "qJ116RkvFSIb1RcLm1W811681x6KZk65aV7vWtl5EE9yPeA117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Account Lockout Attack",
+				"about": "Where attackers attempts to lock out user accounts by purposely failing the authentication process as many times as needed to trigger the native account lockout functionality.",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "81e9Ox7WX3SV974UX5Q655lhX2eaffc5cIAhsFC5x1c117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Cross-Site Request Forgery (CSRF)",
+				"about": "An attack that forces an end user to execute unwanted actions on a web application in which theyre currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. n",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "116srGjVGvJrA37pKhZZpxP1ti0wVoIQjVVjWcjf2yVQI117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Execution After Redirect (EAR)",
+				"about": "Execution After Redirect (EAR) is an attack where an attacker ignores redirects and retrieves sensitive content intended for authenticated users. A successful EAR exploit can lead to complete compromise of the application. - https://www.owasp.org/index.php/Execution_After_Redirect_(EAR)rn",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Ot35zu4SgzAe5etf6stuiD123sRPsd9HzhD1I3B961dyE117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Session Fixation",
+				"about": "An attack that permits an attacker to hijack a valid user session, and explore a limitation in the way the web application manages the session ID, more specifically the vulnerable web application. n",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "G94b9CZTRcVvvBgKfW5BIldfTMRCobftbc3Y5BhRhHE117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Session Hijacking Attack",
+				"about": "An attack that consists of the exploitation of the web session control mechanism, which is normally managed for a session token, exploiting http communication which uses many different TCP connections.n",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "8",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Ze3MNUpjcD85kJwRjDghoETHo5d3Y1233csAR7Ne9L268117",
+				"building_block_category_id": "j7XRchcKL5aWLZEl4n7Xk3Bj2FyUbHgrbv3cycYDQwk117",
+				"name": "Session Prediction",
+				"about": "An attack that focuses on predicting session ID values that permit an attacker to bypass the authentication schema of an application, by analyzing and understanding the session ID generation process, an attacker can predict a valid session ID value and get access to the application.",
+				"category_id": "206",
+				"category": "Data Structure Attacks",
+				"category_about": "How are  we looking for an attacker manipulating and exploiting characteristics of system data structures in order to violate the intended usage and protections of these structures. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "9",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Embedded Malicious Code",
+		"building_blocks": [
+			{
+				"building_block_id": "azENZGg0lr5dv5DFob9FucTkcJpE0z8aYELat1236H53o117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Code Injection",
+				"about": "Attack types which consist of injecting code that is then interpreted/executed by the application, exploiting poor handling of untrusted data, and usually made possible due to a lack of proper input/output data validation.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "IZmQkVgFA6uCIiBy116ZIqQgJgmGU9ovyQt6hvRTIEnQo117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Command Injection",
+				"about": "An attack in which executes arbitrary commands to the host operating system via a vulnerable application, made possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.).n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "QobNIkIOcsdMHuSXOT1uvMVAYYLdQ4jvAH8UUrbJBzo117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Comment Injection Attack",
+				"about": "Comments injected into an application through input can be used to compromise a system. As data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "ToxZEZ116vzukXqKHITU7vDo131ncr8YXgLDGgjAibA116k117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Content Security Policy",
+				"about": "Open up the possibility to instruct the client browser from which location and/or which type of resources are allowed to be loaded, providing a directive that loads a behavior for a target resource type.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "YrOlRBIifnJpFCnSASbfF123X40JcJzVSQTZeGUU5S3EE117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Content Spoofing",
+				"about": "An attack made possible by an injection vulnerability, where an API does not properly handle user supplied data, and an attacker can supply content, typically via a parameter value, that is reflected back to the user.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "lwozHNJpj6IGogUpRNEfqRH92ydmaLiFdDjv9zSj7Sw117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "CORS RequestPreflighScrutiny",
+				"about": "Opening up the possibility to expose resources to all or restricted domain, made by AJAX request for resource on other domain than is source domain.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "58JHS116sYg56xJRmQRiCTYSzxe5W8ltU1X8NA3Zx57go117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Cross-site Scripting (XSS)",
+				"about": "A type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites, occurring when an attacker send malicious code, generally in the form of a browser side script, to a different end user. n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "0l116Usff123okQjMKX8KDlK9GJgufbrm6tLhmHbDkbGDes117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Custom Special Character Injection",
+				"about": "Not properly filtering or quoting special characters or reserved words that are used in a custom or proprietary language or representation, allowing attackers to modify the syntax, content, or commands before they are processed.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "8",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "oEakiz2y5nUs3AlInhDV116JlvdMy86MlLLObABhQukc4117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Format String Attack",
+				"about": "Occurring when the submitted data of an input string is evaluated as a command, allowing the execution of code, to read the stack, or cause a segmentation fault, causing behaviors that could compromise the system.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "9",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "mfC5r2M7JPdUKeItchkuayB4fLyNGw055J9GRGfzWbc117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Full Path Disclosure",
+				"about": "Vulnerabilities enabling the attacker to see the path to the webroot/file, potentially opening up full access to the underlying system.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "10",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "zTfYF4jGdG116lWt5MQPYzKjBZcgkk7DtBi6KTlPidse0117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Parameter Delimiter",
+				"about": "An attack based on the manipulation of parameter delimiters used by web application input vectors in order to cause unexpected behaviors like access control and authorization bypass and information disclosure.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "11",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "23zZ0EURnf6KILqrjW5MyGK6H5H8vOV4InwKete123zgQ117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Resource Injection",
+				"about": "This attack consists of changing resource identifiers used by an application in order to perform a malicious task, allowing data to be manipulated to execute or access different resources.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "12",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "yhwo0FedApTHbQ1WQEalw9G3DOw1IAvq9shP820gY5o117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Server-Side Includes (SSI) Injection",
+				"about": "An attack that allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely, exploiting through the manipulation of SSI in use and force its use through user input fields.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "13",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "gLMYbUlGaY2qOrniH6vpaae4gLtUAhBPeDrehYVDtys117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "SQL Injection",
+				"about": "The insertion of a SQL query via the input data allowing the reading sensitive data from the database, modify database data, execute administrative tasks, and in some cases issue commands to the operating system. n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "14",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "qn0vG9zoKLPLwJFJqgli2F4ZTTcRsGA4XnIeCJ63Wxg117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "Web Parameter Tampering",
+				"about": "An attacked based on the manipulation of parameters exchanged between client and server in order to modify application data, such as user credentials and permissions, price and quantity of products, etc. n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "15",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "123cZUDLWc21zUBBuMGDUIbiH0Yin7ZqvHT7Qu3rEGUbo117",
+				"building_block_category_id": "Q379EEcC2Q7ZmUvZxw4a30SHxkdROk8B6s4upJhNRQU117",
+				"name": "XPATH Injection",
+				"about": "An attack occurring when a web site uses user-supplied information to construct an XPath query for XML data, sending malformed information to an API opening up how the XML data is structured, or access data.n",
+				"category_id": "207",
+				"category": "Embedded Malicious Code",
+				"category_about": "A developer might insert malicious code with the intent to subvert the security of an application or its host system at some time in the future. It generally refers to a program that performs a useful service but exploits rights of the program's user in a way the user does not intend.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "16",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "By Force",
+		"building_blocks": [
+			{
+				"building_block_id": "PGZFriBCXyfyLfrmlQiLrIclNI3Rl7kOqxY2e116igIHc117",
+				"building_block_category_id": "RO5123wBbPD123Wd9EJ9tcy10yR2l2lQ3iXwcMoqSnJyLXk117",
+				"name": "Brute Force Attack",
+				"about": "A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response.n",
+				"category_id": "208",
+				"category": "By Force",
+				"category_about": "What can be injected to adversely affect platform operations? ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "MCpXTFUXPaMQlhLrYU116ycI4MH5MKHxVmkUndtvPn01164117",
+				"building_block_category_id": "RO5123wBbPD123Wd9EJ9tcy10yR2l2lQ3iXwcMoqSnJyLXk117",
+				"name": "Cash Overflow",
+				"about": "An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.n",
+				"category_id": "208",
+				"category": "By Force",
+				"category_about": "What can be injected to adversely affect platform operations? ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "VOjH0vAkBC6ykOcTpqem6123asHhgcCnZHZAhaKkcLZI0117",
+				"building_block_category_id": "RO5123wBbPD123Wd9EJ9tcy10yR2l2lQ3iXwcMoqSnJyLXk117",
+				"name": "Cryptanalysis ",
+				"about": "Cryptanalysis is a process of finding weaknesses in cryptographic algorithms and using these weaknesses to decipher the ciphertext without knowing the secret key (instance deduction). ",
+				"category_id": "208",
+				"category": "By Force",
+				"category_about": "What can be injected to adversely affect platform operations? ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "genroFNRRYzGRt5nAi3PZMirKab0KRzbHfHfEogPE116A117",
+				"building_block_category_id": "RO5123wBbPD123Wd9EJ9tcy10yR2l2lQ3iXwcMoqSnJyLXk117",
+				"name": "Denial of Service",
+				"about": " The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. ",
+				"category_id": "208",
+				"category": "By Force",
+				"category_about": "What can be injected to adversely affect platform operations? ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Path Traversal Attack",
+		"building_blocks": [
+			{
+				"building_block_id": "86q8mdAMT123Uo3ArHSZGaVy2Hmkfew116axmHl4VJvqMbE117",
+				"building_block_category_id": "8r4dPB123lDQNLHO7nZWkBSBmtWbT5e123116RPeDuOUXoi3I117",
+				"name": "HTTP Request Smuggling",
+				"about": "The HTTP Request Smuggling attack explores an incomplete parsing of the submitted data done by an intermediary HTTP system working as a proxy.n",
+				"category_id": "209",
+				"category": "Path Traversal Attack",
+				"category_about": "A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. What is being done to address this are.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "S123nm7ThitxJ123QS50FJRZ2i9uQU4fmDOp2VjajuRqGX0117",
+				"building_block_category_id": "8r4dPB123lDQNLHO7nZWkBSBmtWbT5e123116RPeDuOUXoi3I117",
+				"name": "HTTP Response Splitting",
+				"about": "Occurs when data enters a through an untrusted source, most frequently an HTTP request, included in an HTTP response header sent to a web user without being validated for malicious characters.n",
+				"category_id": "209",
+				"category": "Path Traversal Attack",
+				"category_about": "A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. What is being done to address this are.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "4LirOmMaV41SiPjbimmuO9ih4bhQqqk4LdHWnPM00PA117",
+				"building_block_category_id": "8r4dPB123lDQNLHO7nZWkBSBmtWbT5e123116RPeDuOUXoi3I117",
+				"name": "Traffic Flood",
+				"about": "A type of DoS attack that explores the way that the TCP connection is managed, with the generation of a lot of well-crafted TCP requisitions, with the objective to stop the Web Server or cause a performance decrease. n",
+				"category_id": "209",
+				"category": "Path Traversal Attack",
+				"category_about": "A path traversal attack (also known as directory traversal) aims to access files and directories that are stored outside the web root folder. What is being done to address this are.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Probabilistic Technique",
+		"building_blocks": [
+			{
+				"building_block_id": "YyQOlMujWkGgkGj6IpvbQ7tBMpPZEdDtpAlWP123k4LCU117",
+				"building_block_category_id": "RDQZ7LxaVCbyx4C06fspflBouk4rf3cMonUZ4yyAtMo117",
+				"name": "Asymmetric Resource Consumption",
+				"about": "Asymmetric resource consumption consists in an attacker forcing a web application to consume excessive resources when the application fails to release, or incorrectly releases, a system resource. n",
+				"category_id": "210",
+				"category": "Probabilistic Technique",
+				"category_about": "An attacker utilizes probabilistic techniques to explore and overcome security properties of the target that are based on an assumption of strength due to the extremely low mathematical probability that an attacker would be able to identify and exploit the very rare specific conditions under which those security properties do not hold.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "92NsJ5fAOXgzijUQLObcpvLzBtTMT41Twm7cD5pX4OE117",
+				"building_block_category_id": "RDQZ7LxaVCbyx4C06fspflBouk4rf3cMonUZ4yyAtMo117",
+				"name": "Cash Overflow",
+				"about": "An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.n",
+				"category_id": "210",
+				"category": "Probabilistic Technique",
+				"category_about": "An attacker utilizes probabilistic techniques to explore and overcome security properties of the target that are based on an assumption of strength due to the extremely low mathematical probability that an attacker would be able to identify and exploit the very rare specific conditions under which those security properties do not hold.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "QCgeQz884uzUWDEGueac4T62M652ln4vv3t123LLGgOOc117",
+				"building_block_category_id": "RDQZ7LxaVCbyx4C06fspflBouk4rf3cMonUZ4yyAtMo117",
+				"name": "Denial of Service",
+				"about": " The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. ",
+				"category_id": "210",
+				"category": "Probabilistic Technique",
+				"category_about": "An attacker utilizes probabilistic techniques to explore and overcome security properties of the target that are based on an assumption of strength due to the extremely low mathematical probability that an attacker would be able to identify and exploit the very rare specific conditions under which those security properties do not hold.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Protocol Manipulation",
+		"building_blocks": [
+			{
+				"building_block_id": "Tkmfaz29u64SBsBTQc116K8BZeU5H5EIAEd1kmpZ011633A117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Comment Injection Attack",
+				"about": "Comments injected into an application through input can be used to compromise a system, where data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack.n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "i1tpwCnqlMYIgukJ3B1j0c7HCAHa7brGCJp7wwNpi3I117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Custom Special Character Injection",
+				"about": "Not properly filtering or quoting special characters or reserved words that are used in a custom or proprietary language or representation, allowing attackers to modify the syntax, content, or commands before they are processed.n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Q7aHepz997UpjmroOZcQXvSAMCnEK2BEB2XiTX1163TyY117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Double Encoding",
+				"about": "Encoding user request parameters twice in hexadecimal format in order to bypass security controls or cause unexpected behavior from the application. n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "ooRKJ9123O9NkWpsThDhiJxwjuceFqVrmtDRNU3GkJCSg117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Forced Browsing",
+				"about": "An attack that enumerates and opens up access to resources that are not referenced by the API, allowing the discovery unlinked contents in the domain directory, such as temp directories and files, and configuration files.",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "9vfqb1160a9WbH2WZdlDB1230hJoacam123IGHY16cJrn6wcc117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Path Traversal",
+				"about": "A Path Traversal attack aims to access files and directories that are stored outside the web root folder, by browsing the application, the attacker looks for absolute links to files stored on the web server.n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "lkrWsb8P8hDyZmllfkmW1SSFxihRJTrMf58SZmr123y1s117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Relative Path Traversal",
+				"about": "This attack is a variant of Path Traversal and can be exploited when the application accepts the use of relative traversal sequences such as ../.n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "D3zJTjcAq1zNoWbJGvn4K9m50WPdyYY2561ZaX123GukI117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Repudiation Attack",
+				"about": "A repudiation attack happens when an application or system does not adopt controls to properly track and log users actions, thus permitting malicious manipulation or forging the identification of new actions. n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "6AHr0NhZbv3eO1DRCNapXn6Kt31h8IDXLo9x3CKYzaQ117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Setting Manipulation",
+				"about": "The modification of settings in order to cause misleading data or advantages on the attackers behalf, manipulating values in the system and manage specific user resources of the application or affect its functionalities. n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "8",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Mxcs4fVbyM7817ZzteKoxCErz7k3J123GCbpDL2R1165UEo117",
+				"building_block_category_id": "hL5kfcCL0XkCim4d3CpGa1239TuOcNcJsJhiP9UvAXgC8117",
+				"name": "Unicode Encoding",
+				"about": "Opening up of flaws in the decoding mechanism implemented by decoding Unicode data format, allowing for encoding of certain characters in the URL to bypass filters, thus accessing restricted resources.n",
+				"category_id": "211",
+				"category": "Protocol Manipulation",
+				"category_about": "An adversary takes advantage of weaknesses in the protocol by which a client and server are communicating to perform unexpected actions. ",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "9",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Resource Depletion",
+		"building_blocks": [
+			{
+				"building_block_id": "hsLU7ppKcRBkZZZEM9NLleDRPytpeM116oU123C51PsnAeA117",
+				"building_block_category_id": "Yq123uwkAt41bziMtRWRxF123V123kBbi3uDesZZE2JbtiRSw117",
+				"name": "Cash Overflow",
+				"about": "An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.n",
+				"category_id": "212",
+				"category": "Resource Depletion",
+				"category_about": "An attacker depletes a resource to the point that the targetu2019s functionality is affected. What are some of the common considerations for resource depletion?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "lYC2NJwzKQv9cB0hd51I1235W8hrtu123RmmGPcPTFsEt123s117",
+				"building_block_category_id": "Yq123uwkAt41bziMtRWRxF123V123kBbi3uDesZZE2JbtiRSw117",
+				"name": "Cross-Site Request Forgery (CSRF)",
+				"about": "An attack that forces an end user to execute unwanted actions on a web application in which theyre currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. ",
+				"category_id": "212",
+				"category": "Resource Depletion",
+				"category_about": "An attacker depletes a resource to the point that the targetu2019s functionality is affected. What are some of the common considerations for resource depletion?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "4TouJZ5rc4s1LM730grD0Q0D3xuW5y5fWmhd5q123L8mA117",
+				"building_block_category_id": "Yq123uwkAt41bziMtRWRxF123V123kBbi3uDesZZE2JbtiRSw117",
+				"name": "Man-in-the-Middle Attack",
+				"about": "The interception of communication between two systems, where once the TCP connection is intercepted, the attacker acts as a proxy, being able to read, insert and modify the data in the intercepted communication.n",
+				"category_id": "212",
+				"category": "Resource Depletion",
+				"category_about": "An attacker depletes a resource to the point that the targetu2019s functionality is affected. What are some of the common considerations for resource depletion?",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	},
+	{
+		"category_name": "Other Security Considerations",
+		"building_blocks": [
+			{
+				"building_block_id": "AEHGAF0Jrh6sMcpwrUbVWBQbpgeSPIgExbr1ctCD6o0117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Certification ",
+				"about": "Providing a system for validating and certifying an APIs security, scanning the surface area and providing guarantees that the endpoint(s) are secure.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "1",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "35K3WaAbYwjbGR123FToBhQo8QJo59XMXCDiAwbjboikM117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Security Visualization",
+				"about": "Allowing API owners with reports and charting, allowing them to visualize the surface area and security of an API. Providing a single way to see all the potential attacks, vulnerabilities, and what is being done about security overall.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "2",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "Tf7gMUI1PfjpdEpHuPYhDllQ0gFMQ116ygC43ehgmJLzM117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Compliance & Auditing Reporting",
+				"about": "Providing a specific interface for auditors and compliance officers to see what security has been applied to any interface. The reporting should provide details that are in alignment with whatever standard is being applied to the industry, as well as standard security approaches.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "3",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "PRB7bZ3nIdnpmtSpYruQw1116YpLzGI7JmbHpnw79UTjw117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Bug Bounty Program",
+				"about": "Provide a platform for running a bug bounty program, that allows API providers to crowdsource the discovery, and review of an API, providing a potentially friendly way to handle security before bad actors can step in and find vulnerabilities.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "4",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "x9ZJaGau6ZpXPdAB7ILDt3zOM6kuGGsjoSCEmIzHNFk117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Endpoint Tagging",
+				"about": "Allow for the tagging and organizing of APIs into specific groups for scanning, monitoring, and reviewing of APIs. Giving providers an easy way to organize so that they can be secured, and understood.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "5",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "crSHRBr5sgLrOm1YV5WQb2VQWrRcxtCTGsucSVzBv9c117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Intrusion Correlation",
+				"about": "Providing the ability to connect the dots between various security attacks and intrusions, providing insight into patterns used by attackers, locations of attacks, and other details that might help security.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "6",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			},
+			{
+				"building_block_id": "z0w3cmhofLLlzjJqFJi116YIHfPUNFrhdrAGxPnmeSYt0117",
+				"building_block_category_id": "LjnUX5116aQQjREdrMLixpXIUQjCpPErapnQdsjvZlF116E117",
+				"name": "Risk Scoring",
+				"about": "Offer a single scoring approach to be able to score attacks, based upon existing understanding of the space, but also historical data, providing a clear way to rank, and understand how vulnerabilities, and attacks could affect operations.rn",
+				"category_id": "213",
+				"category": "Other Security Considerations",
+				"category_about": "Other elements that can be used as part of overall API security planning and execution. There are a number of things that I'm seeing out there, but it doesn't have its own category to exist in yet.",
+				"category_image": "https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-padlock.png",
+				"category_hex": "#4D5357",
+				"image": "",
+				"image_width": "100",
+				"sort_order": "7",
+				"organizations": [
+				],
+				"apis": [
+				],
+				"links": [
+				],
+				"tools": [
+				],
+				"questions": [
+				]
+			}
+		]
+	}
+]
