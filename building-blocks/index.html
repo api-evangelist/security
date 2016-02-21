@@ -1,302 +1,70 @@
 ---
 layout: page
-title: 'Building Blocks'
+title: Organizations
 ---
-<p>These are some of the common building blocks I have pullled from my research into this layer of the API space.</p>
-<table width="100%" border="0"><tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Auth Formats</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Basic Auth</strong> - Using Basic Authentication for security access to API resources.</li>
-<li><strong>OAuth</strong> - Using OAuth for authorization and access management for API resources.</li>
-<li><strong>API Keys</strong> - Using API keys for securing access to API resources.</li>
-<li><strong>JSON Web Token</strong> - Using JSON web tokens for securing access to API resources.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Auth Considerations</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Session Management</strong> - API should pass session-based authentication, either by session token via a POST or by API key as a POST body argument or as a cookie, avoiding usernames, passwords, session tokens, and API keys in the URL</li>
-<li><strong>Session State</strong> - Many web services are written to be as stateless as possible, usually ending up with a state blob being sent as part of the transaction.</li>
-<li><strong>Anti-Farming</strong> - APIs are regularly farmed for the data they contain, and while there's no technical method of preventing this use, having a clear business model, and API management strategy works to minimize.</li>
-<li><strong>Protect HTTP Methods</strong> - Making sure the incoming HTTP method is valid for the session token/API key and associated resource collection, action, and record.</li>
-<li><strong>Methods Whitelist</strong> - Properly restrict the allowable verbs such that only the allowed verbs would work, while all others would return a proper response code (for example, a 403 Forbidden).</li>
-<li><strong>Cross-Site Request Forgery</strong> - Make sure any PUT, POST, and DELETE request is protected from Cross Site Request Forgery, typically done using a token-based approach.</li>
-<li><strong>Insecure Direct Object References</strong> -  It may seem obvious, but if you had a bank account REST web service, you'd have to make sure there is adequate checking of primary and foreign keys.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Input Validation</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Assist the User</strong> - Assisting in the input of high quality data into APIs, by validating what is submitted, and rejecting anything that does not pass validation.</li>
-<li><strong>Secure Parsing</strong> - Use a secure parser for parsing the incoming messages. If you are using XML, make sure to use a parser that is not vulnerable to XXE and similar attacks.
-</li>
-<li><strong>Strong Typing</strong> - It's difficult to perform most attacks if the only allowed values are true or false, or a number, or one of a small number of acceptable values. Strongly type incoming data as quickly as possible.
-</li>
-<li><strong>Validate Content-Types</strong> - The server should never assume the Content-Type; it should always check that the Content-Type header and the content are the same type.
-</li>
-<li><strong>Validate Response Types</strong> - Do NOT simply copy the Accept header to the Content-type header of the response, and reject the request if the Accept header does not specifically contain one of the allowable types.
-</li>
-<li><strong>JSON Validation</strong> - Making sure all JSON is valid helps make sure that APIs are operating as expectation and making sure vulnerabilities are not being passed in with API requests and responses. </li>
-<li><strong>XML Validation</strong> - XML-based services must ensure that they are protected against common XML based attacks by using secure XML-parsing.
-</li>
-<li><strong>Framework-Provided Validation</strong> - Many frameworks allow for validation constraints to be enforced automatically by the framework at request or response time, providing automatic validation before the data is delivered to the application.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Output Validation</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Send Security Headers</strong> - The server should always send the Content-Type header with the correct Content-Type, and preferably the Content-Type header should include a charset.
-</li>
-<li><strong>JSON Encoding</strong> - Use a proper JSON serializer to encode user-supplied data properly to prevent the execution of user-supplied input on the browser.
-</li>
-<li><strong>XML Encoding</strong> - Do not assemble XML string concatenation, rather us a XML serializer, ensure that the XML content sent to the browser is parseable and does not contain XML injection.
-</li>
-<li><strong>Link Integrity</strong> - Checks the reputation of web links in real time, providing an invisibly secure experience by blocking malicious and unwanted links from being present or loading in content.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Transport Level Security</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Data in Transit</strong> - Unless the public information is completely read-only, the use of TLS should be mandated, particularly where credentials, updates, deletions, and any value transactions are performed.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Abuse of Functionality</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Buffer Overflow Attack</strong> - Avoid overwriting of memory fragments of the process, values of the IP (Instruction Pointer), BP (Base Pointer) and other registers which can cause exceptions, segmentation faults, and other errors to occur.
-</li>
-<li><strong>Buffer Overflow via Environment Variables</strong> - Avoid this pattern that involves causes a buffer overflow through manipulation of environment variables, which once the attacker finds that they can modify an environment variable, they may try to overflow associated buffers.
-</li>
-<li><strong>Overflow Binary Resource File</strong> - Coming from input data, and an Overflow Binary Resource File, where attacker modifies/prepares the binary file in such a way that the application, after reading this file, becomes prone to a classic Buffer overflow attack.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Data Structure Attacks</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Cross-Site Request Forgery (CSRF)</strong> - An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request.
-</li>
-<li><strong>Logic/time Bomb</strong> - A logic bomb is a piece of malicious code that executes when specific trigger conditions are met, such as a date or time, or possible a specific database event.
-</li>
-<li><strong>Trojan Horse</strong> - A Trojan Horse is a program that uses malicious code masqueraded as a trusted application, which is vehicle in which malicious code can be injected on benign applications, masqueraded in e-mail links, or JavaScript.</li>
-<li><strong>Account Lockout Attack</strong> - Where attackers attempts to lock out user accounts by purposely failing the authentication process as many times as needed to trigger the native account lockout functionality.</li>
-<li><strong>Cross-Site Request Forgery (CSRF)</strong> - An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request.
-</li>
-<li><strong>Execution After Redirect (EAR)</strong> - Execution After Redirect (EAR) is an attack where an attacker ignores redirects and retrieves sensitive content intended for authenticated users. A successful EAR exploit can lead to complete compromise of the application. - https://www.owasp.org/index.php/Execution_After_Redirect_(EAR)
-</li>
-<li><strong>Session Fixation</strong> - An attack that permits an attacker to hijack a valid user session, and explore a limitation in the way the web application manages the session ID, more specifically the vulnerable web application.
-</li>
-<li><strong>Session Hijacking Attack</strong> - An attack that consists of the exploitation of the web session control mechanism, which is normally managed for a session token, exploiting http communication which uses many different TCP connections.
-</li>
-<li><strong>Session Prediction</strong> - An attack that focuses on predicting session ID values that permit an attacker to bypass the authentication schema of an application, by analyzing and understanding the session ID generation process, an attacker can predict a valid session ID value and get access to the application.</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Embedded Malicious Code</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Parameter Delimiter</strong> - An attack based on the manipulation of parameter delimiters used by web application input vectors in order to cause unexpected behaviors like access control and authorization bypass and information disclosure.
-</li>
-<li><strong>Resource Injection</strong> - This attack consists of changing resource identifiers used by an application in order to perform a malicious task, allowing data to be manipulated to execute or access different resources.
-</li>
-<li><strong>Server-Side Includes (SSI) Injection</strong> - An attack that allows the exploitation of a web application by injecting scripts in HTML pages or executing arbitrary codes remotely, exploiting through the manipulation of SSI in use and force its use through user input fields.
-</li>
-<li><strong>SQL Injection</strong> - The insertion of a SQL query via the input data allowing the reading sensitive data from the database, modify database data, execute administrative tasks, and in some cases issue commands to the operating system.
-</li>
-<li><strong>Web Parameter Tampering</strong> - An attacked based on the manipulation of parameters exchanged between client and server in order to modify application data, such as user credentials and permissions, price and quantity of products, etc.
-</li>
-<li><strong>XPATH Injection</strong> - An attack occurring when a web site uses user-supplied information to construct an XPath query for XML data, sending malformed information to an API opening up how the XML data is structured, or access data.
-</li>
-<li><strong>Code Injection</strong> - Attack types which consist of injecting code that is then interpreted/executed by the application, exploiting poor handling of untrusted data, and usually made possible due to a lack of proper input/output data validation.
-</li>
-<li><strong>Command Injection</strong> - An attack in which executes arbitrary commands to the host operating system via a vulnerable application, made possible when an application passes unsafe user supplied data (forms, cookies, HTTP headers etc.).
-</li>
-<li><strong>Comment Injection Attack</strong> - Comments injected into an application through input can be used to compromise a system. As data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack.
-</li>
-<li><strong>Content Security Policy</strong> - Open up the possibility to instruct the client browser from which location and/or which type of resources are allowed to be loaded, providing a "directive" that loads a behavior for a target resource type.
-</li>
-<li><strong>Content Spoofing</strong> - An attack made possible by an injection vulnerability, where an API does not properly handle user supplied data, and an attacker can supply content, typically via a parameter value, that is reflected back to the user.
-</li>
-<li><strong>CORS RequestPreflighScrutiny</strong> - Opening up the possibility to expose resources to all or restricted domain, made by AJAX request for resource on other domain than is source domain.
-</li>
-<li><strong>Cross-site Scripting (XSS)</strong> - A type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites, occurring when an attacker send malicious code, generally in the form of a browser side script, to a different end user.
-</li>
-<li><strong>Custom Special Character Injection</strong> - Not properly filtering or quoting special characters or reserved words that are used in a custom or proprietary language or representation, allowing attackers to modify the syntax, content, or commands before they are processed.
-</li>
-<li><strong>Format String Attack</strong> - Occurring when the submitted data of an input string is evaluated as a command, allowing the execution of code, to read the stack, or cause a segmentation fault, causing behaviors that could compromise the system.
-</li>
-<li><strong>Full Path Disclosure</strong> - Vulnerabilities enabling the attacker to see the path to the webroot/file, potentially opening up full access to the underlying system.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>By Force</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Brute Force Attack</strong> - A brute force attack can manifest itself in many different ways, but primarily consists in an attacker configuring predetermined values, making requests to a server using those values, and then analyzing the response.
-</li>
-<li><strong>Cash Overflow</strong> - An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.
-</li>
-<li><strong>Cryptanalysis </strong> - Cryptanalysis is a process of finding weaknesses in cryptographic algorithms and using these weaknesses to decipher the ciphertext without knowing the secret key (instance deduction). </li>
-<li><strong>Denial of Service</strong> -  The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Path Traversal Attack</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>HTTP Request Smuggling</strong> - The HTTP Request Smuggling attack explores an incomplete parsing of the submitted data done by an intermediary HTTP system working as a proxy.
-</li>
-<li><strong>HTTP Response Splitting</strong> - Occurs when data enters a through an untrusted source, most frequently an HTTP request, included in an HTTP response header sent to a web user without being validated for malicious characters.
-</li>
-<li><strong>Traffic Flood</strong> - A type of DoS attack that explores the way that the TCP connection is managed, with the generation of a lot of well-crafted TCP requisitions, with the objective to stop the Web Server or cause a performance decrease.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Probabilistic Technique</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Asymmetric Resource Consumption</strong> - Asymmetric resource consumption consists in an attacker forcing a web application to consume excessive resources when the application fails to release, or incorrectly releases, a system resource.
-</li>
-<li><strong>Cash Overflow</strong> - An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.
-</li>
-<li><strong>Denial of Service</strong> -  The Denial of Service (DoS) attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Protocol Manipulation</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Comment Injection Attack</strong> - Comments injected into an application through input can be used to compromise a system, where data is parsed, an injected/malformed comment may cause the process to take unexpected actions that result in an attack.
-</li>
-<li><strong>Custom Special Character Injection</strong> - Not properly filtering or quoting special characters or reserved words that are used in a custom or proprietary language or representation, allowing attackers to modify the syntax, content, or commands before they are processed.
-</li>
-<li><strong>Double Encoding</strong> - Encoding user request parameters twice in hexadecimal format in order to bypass security controls or cause unexpected behavior from the application.
-</li>
-<li><strong>Forced Browsing</strong> - An attack that enumerates and opens up access to resources that are not referenced by the API, allowing the discovery unlinked contents in the domain directory, such as temp directories and files, and configuration files.</li>
-<li><strong>Path Traversal</strong> - A Path Traversal attack aims to access files and directories that are stored outside the web root folder, by browsing the application, the attacker looks for absolute links to files stored on the web server.
-</li>
-<li><strong>Relative Path Traversal</strong> - This attack is a variant of Path Traversal and can be exploited when the application accepts the use of relative traversal sequences such as "../".
-</li>
-<li><strong>Repudiation Attack</strong> - A repudiation attack happens when an application or system does not adopt controls to properly track and log users' actions, thus permitting malicious manipulation or forging the identification of new actions.
-</li>
-<li><strong>Setting Manipulation</strong> - The modification of settings in order to cause misleading data or advantages on the attacker's behalf, manipulating values in the system and manage specific user resources of the application or affect its functionalities.
-</li>
-<li><strong>Unicode Encoding</strong> - Opening up of flaws in the decoding mechanism implemented by decoding Unicode data format, allowing for encoding of certain characters in the URL to bypass filters, thus accessing restricted resources.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Resource Depletion</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Cash Overflow</strong> - An attack specifically aimed at exceeding hosting costs, either essentially bankrupting the service owner or exceeding the cost limits, leading the cloud service provider to disable the application.
-</li>
-<li><strong>Cross-Site Request Forgery (CSRF)</strong> - An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated, targeting state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. </li>
-<li><strong>Man-in-the-Middle Attack</strong> - The interception of communication between two systems, where once the TCP connection is intercepted, the attacker acts as a proxy, being able to read, insert and modify the data in the intercepted communication.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top" style="padding-left:10px; padding-bottom:5px; background-color: #E0E0E0;">
-<h2>Other Security Considerations</h2>
-</td>
-</tr>
-<tr>
-<td align="left" valign="top">
-<ul>
-<li><strong>Certification </strong> - Providing a system for validating and certifying an APIs security, scanning the surface area and providing guarantees that the endpoint(s) are secure.
-</li>
-<li><strong>Security Visualization</strong> - Allowing API owners with reports and charting, allowing them to visualize the surface area and security of an API. Providing a single way to see all the potential attacks, vulnerabilities, and what is being done about security overall.
-</li>
-<li><strong>Compliance & Auditing Reporting</strong> - Providing a specific interface for auditors and compliance officers to see what security has been applied to any interface. The reporting should provide details that are in alignment with whatever standard is being applied to the industry, as well as standard security approaches.
-</li>
-<li><strong>Bug Bounty Program</strong> - Provide a platform for running a bug bounty program, that allows API providers to crowdsource the discovery, and review of an API, providing a potentially friendly way to handle security before bad actors can step in and find vulnerabilities.
-</li>
-<li><strong>Endpoint Tagging</strong> - Allow for the tagging and organizing of APIs into specific groups for scanning, monitoring, and reviewing of APIs. Giving providers an easy way to organize so that they can be secured, and understood.
-</li>
-<li><strong>Intrusion Correlation</strong> - Providing the ability to connect the dots between various security attacks and intrusions, providing insight into patterns used by attackers, locations of attacks, and other details that might help security.
-</li>
-<li><strong>Risk Scoring</strong> - Offer a single scoring approach to be able to score attacks, based upon existing understanding of the space, but also historical data, providing a clear way to rank, and understand how vulnerabilities, and attacks could affect operations.
-</li>
-<li><strong>Publish Your Page</strong> - Publishing a single page that covers what the security approaches are for a platform, providing as much detail as possible about what practices are employed, what the schedule looks like, and what results of security history is.</li>
-</ul>
-</td>
-</tr>
+
+<table width="100%" border="0" cellpadding="3" cellspacing="2">
+  {% for org in site.data.organizations %}
+  <tr>
+    <td align="left" width="80%" style="border-top: 1px solid #CCC; padding-top:18px;">
+      <a href="{{ org.website }}"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
+      <a href="{{ org.website }}" style="color: #000;"><strong>{{ org.name }}</strong></a>
+      {{ org.details }}
+    </td>
+    <td width="50" align="center" style="border-top: 1px solid #CCC;">
+      <a href="{{ org.website }}" target="_blank" title="Website">
+        <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="28" align="center" />
+    </a>
+    </td>
+    <td width="50" align="center">
+      {% if org.portal_url != empty %}
+        <a href="{{ org.portal_url }}" target="_blank" title="Portal">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal-developers.jpg" width="23" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.blog != empty %}
+        <a href="{{ org.blog }}" target="_blank" title="Blog">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.blogrss != empty %}
+        <a href="{{ org.blogrss }}" target="_blank" title="Blog RSS">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="18" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.twitter != empty %}
+        <a href="{{ org.twitter }}" target="_blank" title="Twitter">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="23" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.github != empty %}
+        <a href="{{ org.github }}" target="_blank" title="Github">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.apisjson_url != empty %}
+        <a href="{{ org.apisjson_url }}" target="_blank" title="APIs.json">
+          <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-a.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+    <td width="50" align="center">
+      {% if org.sdksio_url != empty %}
+        <a href="{{ org.sdksio_url }}" target="_blank" title="SDKs.io">
+          <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/sdks-io/sdks-io-icon.png" width="25" align="center" />
+        </a>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
 </table>
