@@ -25,6 +25,29 @@
 		]
 	},
 	{
+		"id": "pI3XP8tX9iCf4MVNzupPh9j8ysksBP1h05ukZa70icRDk8bCv6wsGL123qWj0NqtlqQ0P349vRzpO1Pr2D123F40123Q117117",
+		"name": "Arxan",
+		"summary": "Arxan Technologies is an American technology company specializing in anti-tamper protections for software. The company reports that applications secured by it are running on over 500 million devices.",
+		"details": "Arxan Technologies is an American technology company specializing in anti-tamper protections for software. The company reports that applications secured by it are running on over 500 million devices.",
+		"website": "https://www.arxan.com/",
+		"twitter": "https://twitter.com/Arxan",
+		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
+		"blog": "https://www.arxan.com/company/blog/",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arxan-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arxan-logo.png",
+		"tags": [
+			"Security",
+			"Encryption"
+		]
+	},
+	{
 		"id": "8U2HGlHmFRLDzBZHhNnp5sPbnxpVMNmtVEDpXWjaqLZAKBkgKQFekqbg0kjS123MOW116U5kEjfaWxcoVeDiYqIf6w117117",
 		"name": "Authy",
 		"summary": "Authy is a the simplest way to add two-factor authentication to any Website or App. Authy provides a simple API for developers to customize the user experience when they add Two-Factor Authentication as well as multiple addons for common Application such as Wordpres",
@@ -43,6 +66,7 @@
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.jpg",
 		"tags": [
+			"Target",
 			"Security",
 			"Authentication-Stack",
 			"Authentication",
@@ -393,6 +417,28 @@
 		]
 	},
 	{
+		"id": "Xcsv116fY8RJi116KVVaxTxDicp822fMFnw7KR7888adEW1oRxVxJmCHzJF2123lVosbRNfeIEd1uwzquS123123evOi1pOw117117",
+		"name": "Secful",
+		"summary": "Secful closes the API security gap with a new approach. Providing comprehensive prevention of API attacks and precise real-time detection, Secful helps enterprises achieve peace of mind.",
+		"details": "Secful closes the API security gap with a new approach. Providing comprehensive prevention of API attacks and precise real-time detection, Secful helps enterprises achieve peace of mind.",
+		"website": "http://www.secful.com/",
+		"twitter": "https://twitter.com/Secful",
+		"github": "https://github.com/SECful",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/SECful",
+		"base_url": "",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/secful-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/secful-logo.png",
+		"tags": [
+			"Security"
+		]
+	},
+	{
 		"id": "LQGfYajrmFKogDUDkaC8qfZZVN2tCpY1G5UC9UUymiERfckcO2105wXF6XKxf3nTqynlijdpAXTjlKFJYRsfdw117117",
 		"name": "SecureDB",
 		"summary": "SecureDB is the fastest way to encrypt and store the data in the cloud. SecureDB comes built-in with the following modules: 1) Encrypted User Profiles 2) Encrypted Custom Data 3) Encrypted Files. Traditionally, implementing encryption is a complicated, expensive and time consuming exercise. SecureDB makes implementing strong encryption simple, fast and inexpensive.",
@@ -436,6 +482,7 @@
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png",
 		"tags": [
 			"Utility",
+			"Target",
 			"Security-Stack",
 			"Security",
 			"Monitoring",
@@ -463,6 +510,7 @@
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1941_logo.png",
 		"tags": [
+			"Target",
 			"Security-Stack",
 			"Security",
 			"E-commerce",
@@ -518,6 +566,7 @@
 		"tags": [
 			"User-Stack",
 			"User Management",
+			"Target",
 			"Security",
 			"Identity-Stack",
 			"Identity",
