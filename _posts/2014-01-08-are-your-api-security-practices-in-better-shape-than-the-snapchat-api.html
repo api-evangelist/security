@@ -1,0 +1,15 @@
+---
+layout: post
+title: 'Are Your API Security Practices In Better Shape Than The Snapchat API?'
+source: http://security.apievangelist.com/2014/01/08/are-your-api-security-practices-in-better-shape-than-the-snapchat-api/
+domain: security.apievangelist.com
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/snapchat.png
+---
+<p><a title="snapchat" href="http://www.snapchat.com/" target="_blank"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/snapchat.png" alt="" width="200" align="right" /></a></p>
+<p>If you weren't following the news over the holidays, a rogue group released <a href="http://www.snapchatdb.info/">SnapchatDB</a>, containing the 4.6 million <a title="snapchat" href="http://www.snapchat.com/" target="_blank">Snapchat</a> user profiles, after exploiting the poorly secured mobile application API.</p>
+<p>There are opposing views of what's happened, but apparently the group contacted Snapchat in August 2013 letting them know of a potential vulnerability in their API, in which Snapchat claims they responded by instituting rate limiting to address the problem.</p>
+<p>Apparently the actual vulnerability wasn't addressed, and in December the group mapped the private API, the company uses for their mobile app. They don't officially have an API, but like most mobile applications, it is right beneath the surface.</p>
+<p>After mapping the interface the group proceeded to suck all the data, organized and publish as SnapchatDB, in an effort to raise awareness of the issue and point out that Snapchat was to slow in responding to the exploit.</p>
+<p>Regardless of the exact facts, it is clear that Snapchat was lax on security. API rate limiting and other common security measures are pretty common place. <a title="API infrastructure provider" href="http://bit.ly/13esk6Q">API providers like 3Scale have been around for years delivering plug and play infrastructure</a> to help you deal with this. There is no reason to be caught with your pants down.</p>
+<p>It doesn't matter whether your API is public, private or just for partners, you need to have your security practices tight. You owe it to your users and developers.</p>
+<p><em>Disclosure: 3Scale is an API Evangelist partner.</em></p>
