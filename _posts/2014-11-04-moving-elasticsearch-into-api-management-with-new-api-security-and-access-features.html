@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'Moving Elasticsearch Into API Management With New API Security And Access Features'
+source: http://security.apievangelist.com/2014/11/04/moving-elasticsearch-into-api-management-with-new-api-security-and-access-features/
+domain: security.apievangelist.com
+image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/elasticsearch/elastic-search-logo.jpg
+---
+<p><a href="http://www.elasticsearch.org/"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/elasticsearch/elastic-search-logo.jpg" alt="" width="250" align="right" /></a></p>
+<p><a href="http://www.elasticsearch.org/">Elasticsearch</a>, the open source, distributed, real-time search and analytics engine just announced that it is introducing a security layer on top of their API driven search platform.  Historically you have to secure any APIs exposed via Elasticsearch through your own proxy or firewall solution, now with "<a href="http://www.elasticsearch.org/overview/shield">Shield</a>" you can natively manage your APIs directly in Elasticsearch.</p>
+<blockquote><em>Shield, in the same spirit of Marvel, is built on top of Elasticsearch public extensions points, and is easily installed as a plugin to add security features to any existing Elasticsearch installation. It does not require a different distribution of Elasticsearch, and relies heavily on the open public APIs Elasticsearch already exposes.</em></blockquote>
+<p>The security Elasticsearch is bringing to the table reflects the core features you see in the API space from&nbsp;<a href="http://www.3scale.net/">API infrastructure providers like 3Scale</a>--providing the basics of what you need to secure access to API endpoints:</p>
+<ul class="mainlist">
+<li><strong>Role-based Access Control - </strong>Set granular cluster, index, and alias-level permissions for each user of your Elasticsearch cluster. For example, allow the marketing department to freely search and analyze social media data with read-only permissions, while preventing access to sensitive financial data.</li>
+<li><strong>Authentication System Support -</strong> Shield integrates with LDAP-based authentication systems as well as Active Directory, so your users don&rsquo;t need to remember yet another password. We also provide a native authentication system, for those who want to manage all access within Elasticsearch.</li>
+<li><strong>Encrypted Communications -</strong> Node-to-node encryption protects your data from intruders. With certificate-based SSL/TLS encryption and secure client communications with HTTPS, Shield keeps data traveling over the wire protected.</li>
+<li><strong>Audit Logging - </strong>Ensure compliance and keep a pulse on security-related activity happening in your Elasticsearch deployment; record login failures and attempts to access unauthorized information.</li>
+</ul>
+<p>I've had Elasticsearch in the <a href="http://deployment.apievangelist.com/">API deployment research project</a> for some time now, but now I will add it to my&nbsp;<a href="http://management.apievangelist.com/">API management research as well.</a> If you can manage your API access, user roles, and generate log files for analytics from Elasticsearch API endpoints, the tool is moving squarely into the API management category.</p>
+<p>I makes me happy to see open source tools like Elasticsearch improving their security features. Elasticsearch is something I recommend to government agencies to use when looking to open up access to document stores, using APIs. I would like to see more of the API management players working together to allow for interoperability between management platforms, but I&rsquo;m guessing this is a wish I won&rsquo;t get anytime soon.</p>
+<p><em><strong>Disclosure:</strong> 3Scale is an API Evangelist partner.</em></p>
