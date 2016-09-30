@@ -1,10 +1,1754 @@
 [
 	{
+		"curated_id": "01zOfQPzxx160UZFY116jsLGPz7zTOjX9meTH7zRKL8ZwfgBsfdK4NJYo03Rx53kK123aGg3lveDJIP5qHJvKGtVtg117117",
+		"item_date": "2016-09-28 10:32:30",
+		"title": "Twitter",
+		"url": "https://twitter.com/i/web/status/781184198597935104",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "awd4sk9ZcEGLkTNu3B123123XZzzz9ZQtzwmPhhEC9cm116eyNMNBSxw9rTehk0YCuRuFjGIdtMWmWzfMBfBZhGK9yhA117117",
+		"item_date": "2016-09-29 07:37:38",
+		"title": "Twitter",
+		"url": "https://twitter.com/i/web/status/781501293173047296",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XpcRzUcJzZRnLkA1239kTn8PhlaZbwzSSxUhPuOTFfeScgegtSBTHjIXi123exITJPD116n123ocil7PR3an116SGiqnp116IA117117",
+		"item_date": "2016-09-23 00:00:00",
+		"title": "Securing API against DDoS attacks",
+		"url": "http://security.stackexchange.com/questions/114685/securing-api-against-ddos-attacks",
+		"domain": "security.stackexchange.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123TzeTQ7Yb0X116ukaKcUfhyClehOEdYMMewNFV7EfPDIbsevznXZp2QBEFQ2AUPOpPzoOHbbj4hd2C6kGL2fWtdQ117117",
+		"item_date": "2016-09-24 00:00:00",
+		"title": "How Dropbox Scaled and Secured their API",
+		"url": "http://www.programmableweb.com/news/how-dropbox-scaled-and-secured-their-api/elsewhere-web/2016/09/24",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xm123HcYZgdEinQ1116WScv8bww65f123ybdeCu4IN6Re4LnQE2123STH5116vxBcufz699MvFBCR0PuFZMn2116tHoyfXmvSQ117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "7 Ways Cloud Alters The Security Equation",
+		"url": "http://www.darkreading.com/cloud/7-ways-cloud-alters-the-security-equation/d/d-id/1326980",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "u95czUlC7um0Sylt3g92rjh6Wbh7t2oU4l1n123S1169klJyAc9HQWDBwQ3zWtl0NBx7QVCH1luBhFiH276XDWg8nw117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "Box Announces Four New Security and Governance APIs",
+		"url": "http://www.programmableweb.com/news/box-announces-four-new-security-and-governance-apis/2016/09/22",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "A116zzvIRkMNI116rNJl7O116K3yhRTFFIpe1236OaNyMJYbeMfg1123aPxH5j821tww4QLb4lLtKY1Lx5DuF5wrGB7eaCgQ117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "10 Ways To Lock Down ThirdParty Risk",
+		"url": "http://www.darkreading.com/operations/10-ways-to-lock-down-third-party-risk----/d/d-id/1326975",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "KYQV1jdyhN824H116Q7S4UKghBDThFq1WmRHpJP1STHSMEkjrsOG116gCKFdR123QOC123mci0Ant1123fBRXWgsmfMisfmw117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "7 Factors That Make Security Organizations More Effective",
+		"url": "http://www.darkreading.com/operations/7-factors-that-make-security-organizations-more-effective/d/d-id/1326983",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116Ys149zTJ6FtKTf8Ld85pDVVkLlJsYr9j0L0YEv8K2pJ9pPU0c3u7U123jjAxyZQECCgBXSH6oJwCmAohtOcyQ2Q117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Industrial IoT is inching toward a consensus on security",
+		"url": "http://www.pcworld.com/article/3122128/industrial-iot-is-inching-toward-a-consensus-on-security.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7j123F6t7MoaLBJ4OPkYJ7Ob38sB33Sc123MVv6CHt4g2JsSqkUhO60Dv6fIt2T9qGqcoH0feKDNXJUcP9CuWL2abA117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Demystifying Threat Intelligence",
+		"url": "https://community.infoblox.com/t5/Security-Blog/Demystifying-Threat-Intelligence/ba-p/7725",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GVDnqSPIhk6F9fkZ3116PDyV116hGEeU409LjM09shAnorDLgloiVUM3AwViqtlkgVq123mT51116N1FaZN1TFjcHhhbEA117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "Why its time to start developing a drone security strategy",
+		"url": "http://www.networkworld.com/article/3120288/mobile-wireless/why-its-time-to-start-developing-a-drone-security-strategy.html#tk.twt_nww",
+		"domain": "www.networkworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "JNSnt6GE1KRkxfRbnu4Jf123qKxOEqA3LIvmu116olWsdh5u7xaeHgUBWkP1s4z3touI0D4LS4wAsMMGHPeHHmggpA117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "HTML standardization group calls on W3C to protect security researchers from DRM",
+		"url": "https://www.eff.org/deeplinks/2016/09/html-standardization-group-calls-w3c-protect-security-researchers-drm",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "2rM7oDsTdQyBOHOE00XhSfebzuktBEmdYpr3maC7uw4JAI123t123shDNyQt0w9dVgwDyZlNyEpDs4zX6r116i116LSqnw117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "DHS Assistant Secretary Internet Of Things Security Is A Public Safety Issue",
+		"url": "http://www.crn.com/news/security/300082188/dhs-assistant-secretary-internet-of-things-security-is-a-public-safety-issue.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lDoHFE0NM2v9wqekcKD3CKe09116IUYxgcjdqgpcG8r1hjtJ123116su8JppH39BoVnODVRuCGPOCYG9Vu7gYclM647Q117117",
+		"item_date": "2016-09-22 00:00:00",
+		"title": "How Security Enables Digital Transformation",
+		"url": "https://dzone.com/articles/how-security-enables-digital-transformation-highli",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qzlhl5xLrjEU3xDa3m7JMffn5K3o1233pTxjriBDq9116FDtMdQvrmOjyogRJJbSNksyRL8HzjJymdoIky4yM3nZZw117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Webroot Expands Network Security IoT Capabilities With Acquisition Of CyberFlow Analytics",
+		"url": "http://www.crn.com/news/security/300082132/webroot-expands-network-security-iot-capabilities-with-acquisition-of-cyberflow-analytics.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hzxL9Eip8XWJ1G9NI70ONJlgg4z4qF7MJzYXsyBGnBUs6s2TDMtx7huSGgK123xUeLRVstj0i5D123LfdLndepxf6g117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "Internet of Things Security from the Ground Up",
+		"url": "http://www.codeproject.com/Articles/1130661/Internet-of-Things-Security-from-the-Ground-Up",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fmtjgydWybe3gBTrSCBpGWvK22g3G2Jn22K8XnDQihgyWWF2faN3116Srs0lCqcHqt5CZSDwRKwoboZpI4njc89A117117",
+		"item_date": "2016-09-20 15:01:01",
+		"title": "PowerUpSQL  A PowerShell Toolkit for Attacking SQL Server",
+		"url": "https://www.digitalmunition.me/2016/09/powerupsql-powershell-toolkit-attacking-sql-server/",
+		"domain": "www.digitalmunition.me",
+		"image": ""
+	},
+	{
+		"curated_id": "1UxT85MRjkh9eEDJP4wtWDDcheSFz0D1qEPNcPUc7hKilTjPpU6PtX1nTMococ7PkZ9i5jYDPFjkuH3O5p6MNA117117",
+		"item_date": "2016-09-20 17:10:05",
+		"title": "Insurer Warns of Drone Hacking Threat",
+		"url": "http://www.infosecurity-magazine.com/news/insurer-warns-of-drone-hacking/",
+		"domain": "www.infosecurity-magazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zrCgd9C6XXBf0GxsCzWznb6Os5DsVHPbJiLpn93sGI6Kv116M6b97Tc7OgMOBRUauoCcS7n8AZR1230eXAMTux116gsw117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "Kaspersky Lab Expands Its Threat Intelligence Platform",
+		"url": "http://www.cxotoday.com/story/kaspersky-lab-launches-machine-readable-threat-intelligence-platform/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EpZD7bWIwcgKbFG116qH5xpqCrGldSDdAz7PYY2ddkp4jUG6RFEA3HjpBy297me8u0AgGXGCPEElTtaY9oA6f2vg117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "BooleBox The Top Secure Solution To Protect Your Companys Sensitive Data",
+		"url": "http://www.darkreading.com/boolebox-the-top-secure-solution-to-protect-your-companys-sensitive-data/d/d-id/1326902",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3JWvFgf1y8BAIj4tB0qpvbslgkhCcVDLJ2Y8lG8VugpD22sgNSyJo1238YfonlW6YsyymNoUQP3b1PwVWLHJG6Tw117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "Rise Of Machine Learning Advancing Security With ML",
+		"url": "http://www.darkreading.com/threat-intelligence/rise-of-machine-learning-advancing-security-with-ml/v/d-id/1326956",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "A9RkVRGsU6KDAIIkVpuyBm86lTSeU2CIy116mYMY116xev8POcCozmKqh0nJ33DaXtVLtxh116cFfLtjcaYzdnzhYWXA117117",
+		"item_date": "2016-09-20 00:00:00",
+		"title": "More Than 90 Percent of European Businesses Have Been Hit by a Data Breach",
+		"url": "https://continuum.cisco.com/2016/09/20/more-than-90-percent-of-european-businesses-have-been-hit-by-a-data-breach/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wy41i0LXWa52ZgT123LtG8dZ2YYQuAgWjJSmGVIN8X5Vuy06116wBJY123WswURSR9TVdx2HpvIYJF0VNKCcS123AC8iSw117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "Study finds smart home tech gaining in popularity yet still woefully insecure",
+		"url": "http://www.itsecurityguru.org/2016/09/21/study-finds-smart-home-tech-gaining-in-popularity-yet-still-woefully-insecure/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "4t3Ep4YaV0zkUCDTfhZ8xheVGzd4DlTPbx8FgzDYbF5KBh7hSZkdZt7pVzN116sY9HE3YM8bafn7Q2YE7123rxMijw117117",
+		"item_date": "2016-09-19 12:53:11",
+		"title": "Hacking WordPress Sites on Shared Servers",
+		"url": "https://blog.sucuri.net/2016/09/hacking-wordpress-sites-shared-servers.html",
+		"domain": "blog.sucuri.net",
+		"image": ""
+	},
+	{
+		"curated_id": "CIrOMU6syfmwFw6WdNwuBz9jdSSZLlIrDL4hSx3P116nQDBamcZkVs9ybG116P37bRpkFz6B9AHDDcmLJBA116Zvx6lQ117117",
+		"item_date": "2016-09-20 07:13:06",
+		"title": "GitHub  massivedynamicopenftp4 A list of all FTP servers in IPv4 that allow anonymous logins",
+		"url": "https://github.com/massivedynamic/openftp4",
+		"domain": "github.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8b116BL4NeXGvY8JoO6123A116FA4Rle3TmwPl2znhuNKdcAKiCDLfjubHO2116Pp3yqtqnFAZHYG123La123UJTEEHPM1231LkQ117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "What Smart Cities Can Teach Enterprises About Security",
+		"url": "http://www.darkreading.com/attacks-breaches/what-smart-cities-can-teach-enterprises-about-security/a/d-id/1326945",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Rw11166A7yXJRf5lWPvb1wkPUPG38aYefjqaGLomHEbqH116116y116A116c123116jaf6qrQR8yNGwrxpiqjqq4Asi28O5ikRrg117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Researcher Finds Nearly 800000 FTP Servers Accessible without Authentication",
+		"url": "https://continuum.cisco.com/2016/09/19/researcher-finds-nearly-800000-ftp-servers-accessible-without-authentication/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hITGPpXEw2mC81ZBHvgYCrILxN33erepMmX9icas7aj123iLRKQoT5RUaAMu22t7QzdzYFOB3cgSnyifOnq5mdZA117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Industrial Internet Consortium Delivers Industrial Internet Security Framework",
+		"url": "https://dzone.com/articles/industrial-internet-consortium-delivers-industrial",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116nhhdR1YMOwl4KV62u3116qJ7ajEQhInydJg5ipCA1160xQ8Smg8RvvR6MRn1S3ESOClXglBMC8GETOYD3TyZ2bCsg117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Google Safe Browsing API is here to make Android apps a whole lot safer from malware",
+		"url": "http://www.digitaltrends.com/mobile/google-safe-browsing-api-launch/",
+		"domain": "www.digitaltrends.com",
+		"image": ""
+	},
+	{
+		"curated_id": "pxjPkBJRXGEmI7QmdtcnwzAQ1IEUAmL116l9x9W123xARGdXTpRcjAAMATnbJYRzD5IEMawIA8tXoi4eAYYdD116PeGA117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Security through Community Introducing the Vendor Security Alliance",
+		"url": "https://blog.docker.com/2016/09/docker-vsa-security/",
+		"domain": "blog.docker.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wzpDJ8kSMokiuAurMTm80T2viE116x3AMTirHdk8y123VgKxawIeXEIM2116A1231zHvIHH0XqV9VZJlpg51JtW4JN116IOw117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Google Chrome To Flag NonHTTPS Logins Credit Card Info Not Secure",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/google-chrome-to-flag-non-https-logins-credit-card-info-not-secure/d/d-id/1326921",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116LaQH6pVBo8Mvp92nLNvlyTiyJSxq1235123nLDvYMLkmRpWDCc6FO2IS5Hu4116HevEaTt5YA9iUdIs5bKRHFYk1J8g117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Stop Blaming Users Make Security UserFriendly",
+		"url": "http://www.darkreading.com/careers-and-people/stop-blaming-users-make-security-user-friendly/v/d-id/1326910",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mtmzYLAPQWWuhWtOmZEdIrNRjSYiJy95dgdxac4quXqjK3pRkTzE116YUwd7t64KKnor6kR0ZAiWHtQmasV7SwSQ117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Data Loss Risks Rise In The Age Of Collaboration",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/vulnerability-management/data-loss-risks-rise-in-the-age-of-collaboration/d/d-id/1326905",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1KxfXBradvzJbIm9wiCzuM5gQfkNL5Kcm1NF9KqiKjAmhpVCkNeNk7jGNeW32FixYXltvzAL6SMrIGNipplbXg117117",
+		"item_date": "2016-09-15 00:00:00",
+		"title": "Use Intelligent IPAM to Better Secure your Network from Rogue and Infected Devices",
+		"url": "https://community.infoblox.com/t5/Security-Blog/Use-Intelligent-IPAM-to-Better-Secure-your-Network-from-Rogue/ba-p/7688",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "9vngnSJJpTg3ZFjGd2rLt116DGORFQTSAwSTESFSa7tPftS9HW123wrU123B95GoafV5o8p38OGl5nji00NLkkahYpww117117",
+		"item_date": "2016-09-12 00:00:00",
+		"title": "The IoT and Cloud security measures  not as well developed as needed",
+		"url": "http://www.designworldonline.com/iot-cloud-security-measures-not-well-developed-needed/",
+		"domain": "www.designworldonline.com",
+		"image": ""
+	},
+	{
+		"curated_id": "9ke6u116P3vyUwRdsRuN0gqA0NgTq018iNaeKwIJEPQE1YBYfu3P3Ezw123GvH0WUT52DPYLXunrpEhRnNWdmf4nfQ117117",
+		"item_date": "2016-09-12 00:00:00",
+		"title": "Application Firewall for Cisco ACI",
+		"url": "https://marketplace.cisco.com/catalog/companies/positive-technologies-cjsc/products/application-firewall-for-cisco-aci",
+		"domain": "marketplace.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gB4SiRBesqKVZd06JTw8dx3WtoCeZ8mJjXffQuuTxg6vLnRtEMh4aceBdgUX5KJ116x0ZeEAzJTRce8116Bs1ZoVnA117117",
+		"item_date": "2016-09-14 00:00:00",
+		"title": "Keep It Simple Security For A Complex Enterprise",
+		"url": "http://www.darkreading.com/cloud/keep-it-simple-security-for-a-complex-enterprise/v/d-id/1326899",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1Hz6dWvuFd116c1m79wjXvltz1jwHrCeNezyd7w7123116ufNMG3Vhm2HengNLbmt0116kfM116GcwETk2KXzUrjKmzfwHcQ117117",
+		"item_date": "2016-09-14 00:00:00",
+		"title": "Volkswagen is founding a new cybersecurity firm to prevent car hacking",
+		"url": "http://www.pcworld.com/article/3120283/volkswagen-is-founding-a-new-cybersecurity-firm-to-prevent-car-hacking.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hZEtVlFYQtTUOaUnvGAbSfwwSZZ3ofegz47M123dqhgzRAndzoYQyeNyQlDgL116i116wrWrwbvwRnUh46TdkjrUPbPA117117",
+		"item_date": "2016-09-14 00:00:00",
+		"title": "324000 Financial Records with CVV Numbers Stolen From A Payment Gateway",
+		"url": "http://www.itsecurityguru.org/2016/09/14/324000-financial-records-with-cvv-numbers-stolen-from-a-payment-gateway/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "KVw0LCxUSBn9DmoGw8tC1BeinyFHnCYZUQWrzpKVQGhhL6iL4IoYPx3uxHhcnsMV116SbtharUuKPgk2up79kQMQ117117",
+		"item_date": "2016-09-14 00:00:00",
+		"title": "A total of 89 per cent of users wouldnt know if their mobile device had been cyber attacked",
+		"url": "http://www.itsecurityguru.org/2016/09/14/a-total-of-89-per-cent-of-users-wouldnt-know-if-their-mobile-device-had-been-cyber-attacked/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "IBSFKkcEcV9sQO116zfXPfdpqaacN123WLjdnDrVxYBMSiroWvYV11JrxqZ1233123Uy2ocdt0ounLOuLKmxDKe7y1O116Bg117117",
+		"item_date": "2016-09-13 06:48:03",
+		"title": "Zeroday vulnerability found within MySQL database application",
+		"url": "http://www.zdnet.com/article/zero-day-vulnerability-found-within-mysql-database-application/#ftag=RSSbaffb68",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "smue1OnKS11691dS1EgT1eJldkPOAmsPLyLHVTwh0iqWGO2LQ4rNwDKq123Shdz3HE8VBc1233kshjd0Oy58L9h116ZmGQ117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "Security Certifications Highly Valued But Not Always Verified",
+		"url": "http://www.darkreading.com/careers-and-people/security-certifications-highly-valued-but-not-always-verified/d/d-id/1326882",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116F67n1hQ5l7lK18VByXILKGn3eI5K9zI7XNlGrciR7Ewqaa57KS2uqU8Krzy2Ljy116fkHCcvxoqh0Q5XCInwRYA117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "A Moving Target Tackling Cloud Security As A Data Issue",
+		"url": "http://www.darkreading.com/cloud/a-moving-target-tackling-cloud-security-as-a-data-issue/a/d-id/1326885",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XC31agUJoInQtsIaKslwzBfjnbn6zr4KeYF8VFKXS6364bYa0olDeQWsXlWDfLwKblSSP4PfArtClt194uQBCw117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "Portrait Of A Bug Bounty Hacker",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/portrait-of-a-bug-bounty-hacker/d/d-id/1326884",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UXBU9t7CetyaoALPT1wM934NLXj7116qlM46123wu7a72DHrH0116o1168jhp8OHu1Zld123fulruT88jHtogiKlN123JOYNCA117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "The USB Killer Now Has Commercial Competition",
+		"url": "http://hackaday.com/2016/09/13/the-usb-killer-now-has-commercial-competition/",
+		"domain": "hackaday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Pxc0P44UBtgPq4euxQ99Ow1Zl4JNH116Wj3fmwgDGCbbMflUzeRU6z5hs2J0tYFvncVy123iE4GiW9GcKWfMw123ygHw117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "How To Ensure Service Delivery During DDoS Attacks",
+		"url": "http://dyn.com/blog/how-to-ensure-service-delivery-during-ddos-attacks/",
+		"domain": "dyn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mbcNCG0unPHfEYaR0qtn3kF4W02pq2wGMFFJnnQhWsUbehfS116bQe7vS1166SEEvYEmZqC2BsgqaTAQXwHOBR4WlA117117",
+		"item_date": "2016-09-13 00:00:00",
+		"title": "Beware the Driveby Attack",
+		"url": "http://www.itsecurityguru.org/2016/09/13/beware-the-drive-by-attack/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "N61S1237f80sLqn1PQQGT1167U9mP9j9lGFWMVp1pugLAY2Vm3SuH2f123TWA4ZXThV7N116nh94f5xwza5lnjBLlwek7g117117",
+		"item_date": "2016-09-12 00:00:00",
+		"title": "Paladion Networks Launches New Security Service",
+		"url": "http://www.cxotoday.com/story/paladion-networks-launches-new-security-service-cyberactivesm-saas/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SOf116FevxvzqpvMEJuwI5S9ebLw9UaiS1MZmYJfbrn9pKghlZ690f79116vLIj5VwjnQB116BsZin7CUjL71LX45nTw117117",
+		"item_date": "2016-09-06 05:00:15",
+		"title": "Tweet How Dwolla reduced fraud by 50 with Sift Science httpstcocYE2FfTFGg httpstcoHM2gjcaqI5",
+		"url": "https://twitter.com/siftscience/statuses/773128677601271808",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Po1cwx6djBbuK4jm116j8L123KEscGLUHKYjWR2X5w302zROJQ5hIKtDgKQGh123Umno116hnvRBr9CtKsIEwKdoO353ew117117",
+		"item_date": "2016-09-09 21:13:39",
+		"title": "Tweet Cloudflare has graciously arranged to host the vDOS attack log which is pretty large as text files go httpstcogfK3VdR0zn",
+		"url": "https://twitter.com/briankrebs/statuses/774460806020956160",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kMps90ZjVDxstp98hBbW9x7WD9oV5CG32h123K8d116tiHD6sWmGT3XDzPd2lI116D6h5hVssHX123123sa1KeoqFtqEjZ0Q117117",
+		"item_date": "2016-09-07 15:01:38",
+		"title": "Tweet How to steal any developer039s local database httpstcouJSIznIkYx by bvdbijl",
+		"url": "https://twitter.com/datawireio/statuses/773642408462540800",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "4H4123oBzks1232Y8w2NP21116Upklk6eD116OuPN1AQ3D123116j7VDa5QnWAgUdS5RyfOuvkjK8IjRUA4XMYoXdYdAbSEXGg117117",
+		"item_date": "2016-09-10 09:00:16",
+		"title": "Hypervisor security eroXen How guest VMs can hijack host servers",
+		"url": "http://www.theregister.co.uk/2016/09/08/xen_security_bugs/",
+		"domain": "www.theregister.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "noqlPlI9NHcNwjWt1D123mO3C3KkiLiDtusPi0T116OBgA4cE6Y76oqp6Fs4AJ1MqnSSB0KFquJrK3VSdBo3116HGz2Q117117",
+		"item_date": "2016-09-05 00:00:00",
+		"title": "Explore Docker Images For Security Concerns",
+		"url": "https://dzone.com/articles/explore-docker-images-for-security-concerns",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "M0EwbIE2XraGw8fiKkYtO5byj0tRQ116xGcr7u9U0116XY123SDs6XLF1omkfDUbLz7KKNqAyLWXw9eVwiy0Kpmvc2GQ117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "We Build Security for People",
+		"url": "https://duo.com/blog/we-build-security-for-people",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "B9wGCYhX116Y47dY3kutEzcbl123iZUaQfOgb2bA8xOJ7eD8TN2PqZ5cpqchA26zTQmu0ZhfG116CClW2wCXpeAU26SA117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "How security enables digital transformation",
+		"url": "http://blogs.ca.com/2016/09/06/security-enables-digital-transformation/",
+		"domain": "blogs.ca.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kKm3LXPf6fu123WNI1164SzoFDZz9nj0sIoS7XVioMzPmWKR3uOCUOxA9EHqcWTGsmq1236KfZZWwwYbmoeS4Oo2h68A117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "Yelp Offers Up To 15K Per Bug Via New Bounty Program",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/yelp-offers-up-to-$15k-per-bug-via-new-bounty-program/d/d-id/1326823",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bz24AAZdavwSyheMMEE3QqbqsYRF1ViDxW7Uhn4U0umEcaLazWtxwv5n3I3VwuUxMmaHO4VYfnxv64q7GWZzVQ117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "Cryptographic Key Reuse Remains Widespread In Embedded Products",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/cryptographic-key-reuse-remains-widespread-in-embedded-products/d/d-id/1326826",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "C3gdesYTVzAXv1NtmKEQ9ckYft4SPGFWfZOfCswCN7EUeIRMx0OdENwtrHBf3z0123IPqsmxB1169vUe3I9w1231ba1g117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "The How and Why of Container Vulnerability Management",
+		"url": "https://blog.openshift.com/container-vulnerability-management-openshift-commons-briefing-47/",
+		"domain": "blog.openshift.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tlxfVEg5ABkjs1klg4PLOZcbPx76pifwLG123123Nl1RIrRYVobmfbY0hVgvfMtiaUakPuNYIsyh9Dguj0T9YwpWMA117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Optimizing time allocation for network defence",
+		"url": "http://cybersecurity.oxfordjournals.org/content/1/1/37",
+		"domain": "cybersecurity.oxfordjournals.org",
+		"image": ""
+	},
+	{
+		"curated_id": "CdYgM0BlyLbA7tHQyFNFAD1DnO4wdfuajAoXClFbWIyhmCYndf3m0EVaOc5jstUzxIZJmQHYwamyS2t0zZh66Q117117",
+		"item_date": "2016-09-08 09:14:06",
+		"title": "A SoftwareDefined Approach to Networking and Security",
+		"url": "http://thenewstack.io/software-defined-approach-networking-security/",
+		"domain": "thenewstack.io",
+		"image": ""
+	},
+	{
+		"curated_id": "i123116y9f1162ZYBUjMEtQj2oxAWTnx2UY123qpZq6VJhWC1K5tgu123k6LMs52MLNC123bdQqax0Rr85R4jFMbQxkmZKyxBg117117",
+		"item_date": "2016-09-08 11:00:52",
+		"title": "Chromium Blog Moving Towards a More Secure Web",
+		"url": "http://blog.chromium.org/2016/09/moving-towards-more-secure-web.html",
+		"domain": "blog.chromium.org",
+		"image": ""
+	},
+	{
+		"curated_id": "oiwT89mFgrjgml6x5RJht5WeFq0w3p123kyzN116H116Dm3V123a9w8yWgJlnP116XAXCIh7TzYaStM3SeRRq3BYciTjiDuA117117",
+		"item_date": "2016-09-08 14:01:09",
+		"title": "IoT Pilots should include basic security functional elements for experience Mastering IoT security means mastering new security techniques  Constellation Research Inc",
+		"url": "https://www.constellationr.com/blog-news/iot-pilots-should-include-basic-security-functional-elements-experience-mastering-iot-0",
+		"domain": "www.constellationr.com",
+		"image": ""
+	},
+	{
+		"curated_id": "m8L116Uk1d3116eb1gwsZg116ac7swe5NgeO9ncHeskxMvbNMaE50E3bxNqHoKwqKLn3pLpxT116V3z7QEi116an6z0Wrjnw117117",
+		"item_date": "2016-09-08 14:02:12",
+		"title": "Clash of Ops How Security turns Stateless into Stateful",
+		"url": "https://devcentral.f5.com/articles/clash-of-ops-how-security-turns-stateless-into-stateful-21727#.V9HB1IYCiiM.twitter",
+		"domain": "devcentral.f5.com",
+		"image": ""
+	},
+	{
+		"curated_id": "34BTWEx6nUlYipz62AcMXBAkThxSLNvoOIO123Sr7Q2YeJE9V6AY5uYEPnDxXmJO6ZoSRyHrEp52PaAQefm1KYkQ117117",
+		"item_date": "2016-09-08 14:02:12",
+		"title": "Twitter",
+		"url": "https://twitter.com/lmacvittie/status/773989841100910592/photo/1",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QO6nMW2JPbRxADWaIqq6WLP41dU7qdZWK123apSR184tdyFBZacVYnrR5aGKgEev0Dk9123fkj3NHjRR1qWUTWuJTw117117",
+		"item_date": "2016-09-08 20:14:59",
+		"title": "App Shopper AntiKeylogger Doctor  AntiVirus keylogger scanner  remover Utilities",
+		"url": "http://appshopper.com/mac/utilities/antikeylogger-doctor-antivirus-keylogger-scanner-remover",
+		"domain": "appshopper.com",
+		"image": ""
+	},
+	{
+		"curated_id": "T1lQ0mgVyGxC123MgAYwsd0wsq79CbV9NGtBdStcBXFNuQ8IgA6vD6L9123TrnvrCKZ76BY1g23GTYFsxV116RE116i0jQ117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Hedge Fund and Cybersecurity Firm Team Up to ShortSell Device Maker",
+		"url": "http://www.nytimes.com/2016/09/09/business/dealbook/hedge-fund-and-cybersecurity-firm-team-up-to-short-sell-device-maker.html",
+		"domain": "www.nytimes.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Ti123Db6wh19ljLaUAo49AYJD123x6AExSx54TvKxhaTYYsT0yC9BxViy49wt116SyMcq123hC99aQNeJEVvs8P8Wb3116AQ117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Partners Analysts Thrilled By Intel Security Deal To Become StandAlone Security Vendor",
+		"url": "http://www.crn.com/news/security/300082009/partners-analysts-thrilled-by-intel-security-deal-to-become-stand-alone-security-vendor.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "57R116zuf0m1hMX4vaEK2EOd9MneYD4ZwgtMuFnNm9nU6FFJjDNcVfDD80mSM7ORuTMHA2RB9dp54SHekFMMLgnQ117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "HackProof Systems Challenges Hackers To Breach Server Security",
+		"url": "http://www.darkreading.com/attacks-breaches/hackproof-systems-challenges-hackers-to-breach-server-security/d/d-id/1326844",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bJFkLhD6IgHto9123Mqtyuza6OY7uyT123wxjMtMicIuftFkpfc0mWKy116PZa1234AckTN39mc4MfmlqAYrXmTYo116c4wg117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Chrome to start labeling HTTP connections as nonsecure",
+		"url": "http://www.zdnet.com/article/chrome-to-start-labeling-http-connections-as-non-secure/",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lw10Z7PrXmQuAoz123VFSoFn12S8NkIQgMgfSs6iCxhhDaz8KNHRqzSwe6EyQ9UztNc1xDk5W1znN7jFk2qqEwnQ117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "Intel Spins Off McAfee to Private Equity Firm",
+		"url": "http://www.pcmag.com/news/347709/intel-sells-its-stake-in-mcafee",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "M116CB4rHIeJc9UHe2UxgZN7116XWFtvBbOGS13cQpo8SftE9pT3B63SpBiH7xB7P116OzYQtHYEpbP7yebcGWlIO8fQ117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "USBKill Power Surge Test Tool can Blow Up and Damage Any PC Laptop or TV",
+		"url": "http://www.itsecurityguru.org/2016/09/09/usbkill-power-surge-test-tool-can-blow-up-and-damage-any-pc-laptop-or-tv/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "1ZS4123116yXKRJJtmtUqzWbwZe116bjZd2tXrnrLfggay59tNRTmVQGVWdCP116123Jr13R7RPWdQN8116gZRR4IquSBsAOqw117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "The dangers of connecting phones to connected cars",
+		"url": "http://www.itsecurityguru.org/2016/09/09/the-dangers-of-connecting-phones-to-connected-cars/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "116Rlz3Pu10mVQzb8x3QU8SMQ2gtmbzqp8aMcjI6QDwplQV8LWfjtlJtQv4YzwwnP4irHzykGAvgt1ZNmZ8MoltQ117117",
+		"item_date": "2016-09-09 00:00:00",
+		"title": "Leading Cybersecurity Companies Create Connected Security Alliance to Solve the Data Breach Problem",
+		"url": "http://www.itsecurityguru.org/2016/09/09/leading-cybersecurity-companies-create-connected-security-alliance-to-solve-the-data-breach-problem/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "590iSOwbErCCNAsnX8h2HScaHsMxjZlwv22Wd8xVa6iaFfLxKOgVpJp996gkhLhFMDYDt5WAexunRHq51U37FA117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Data hoarders are shining a spotlight on past breaches",
+		"url": "http://www.pcworld.com/article/3118357/security/data-hoarders-are-shining-a-spotlight-on-past-breaches.html",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CfRsbyxGfMTZTLPixyriSRssvhAjHXaeY3OcZinz116xTQAGU6d3aVcIFNAWF4QD7ehTR9zi56TZTyZH5KbnCBsw117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "The security industry needs updating  not just the cyber one",
+		"url": "http://disruptiveviews.com/security-industry-updating/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2H5qFkKWdojT4NHqP9f6wJDDK116nyGs4xl92JizHmV116TThjtN1NAzFsTh6ot116hpOM6sMDSyZpNpY3DYzYE651bw117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Google Chrome to start marking HTTP connections as insecure",
+		"url": "http://www.pcworld.com/article/3118164/security/google-chrome-to-start-marking-http-connections-as-insecure.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "R1ejMbejyJ6ssGfdF3dG8s12322jjdiYi1uAysq2bRt9Kag1161236X7116YLeqtXuM43ngrK6jvVoTH1sTU33123H210CvA117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "The Security Risks of ThirdParty Data",
+		"url": "https://thelasttechie.com/2016/09/04/the-security-risks-of-third-party-data/",
+		"domain": "thelasttechie.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SROyL116Fi1cAmDcplfbzkPUUReUNcZQ68MNjxP83WFtYa6hQadVKtik0lm3uQoPPDUh986kgwZFCEF5OLMepo2A117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Securing the Skies Cybersecurity in Aviation",
+		"url": "http://www.csoonline.com/article/3111448/internet-of-things/securing-the-skies-cybersecurity-in-aviation.html",
+		"domain": "www.csoonline.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wiBd4VzUZradqGevFjF9VeGsJxR4rvLuIu0to8dFiEoRa38Qs9iwtkwFtbN5GVw2bODRmDXBYkpMy2J36LHT4g117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Intel Security Spins Off To Private Equity In 42B Deal",
+		"url": "http://www.crn.com/news/security/300081995/intel-security-spins-off-to-private-equity-in-4-2b-deal.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YVKLiUZJM6ORGdCIkca24t5MiHMlrGznYfaikpb00nTjtvIDokVJPzh9jsAfl1XPye123r6f0RfpD0SgKgtITQ8Q117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Printers now the leastsecure things on the internet",
+		"url": "http://www.itsecurityguru.org/2016/09/08/printers-now-the-least-secure-things-on-the-internet/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "xOQk0szur1235tyvNB0z7TLa3o123vsoqkUWvYK2bwUep8X5w123iHVfuMIMA6D116o80flH0KQb6j7J8Lxpz1ZVv7lL123Q117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Nextgeneration security means a step beyond people process and technology",
+		"url": "http://www.itsecurityguru.org/2016/09/08/next-generation-security-means-a-step-beyond-people-process-and-technology/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "1235fut6sMtw3XXhhy6s123H4KXbLMe9bvIXskI1236p7Ca5xjpekJWNeDzfV0116YcO9Rm9OqGXEvs7iJ5Y2nO116iiqkPA117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "One Cryptomalware Attack Can Cost an SMB up to 99K",
+		"url": "http://www.itsecurityguru.org/2016/09/08/one-cryptomalware-attack-can-cost-an-smb-up-to-99k/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "92kKSF4bgGmehXE7116CESUsjrflMP2wogQFbkBaV1Pu1l0116v116lg6C3Qier6o6Zl6NcX8OjBc116r6A12348W6ZErO5w117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Yelp Launches Public Bug Bounty Program",
+		"url": "http://www.pcmag.com/news/347677/yelp-launches-public-bug-bounty-program",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "w116477isZzdB1168VVakIa8D123jBw8EmJBHzg7IpoIbQ0OJxr123OtvJQsnx0BEYwosSbZFdGQfWobs0IlhSSWCzeifg117117",
+		"item_date": "2016-09-08 00:00:00",
+		"title": "Help Us to Help You Get to the Next Big Thing in DNS Security",
+		"url": "https://community.infoblox.com/t5/Company-Blog/Help-Us-to-Help-You-Get-to-the-Next-Big-Thing-in-DNS-Security/ba-p/7605",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "49pEzs6XEBXcrJ1Ju6yMqPUFt7lOfmf4lam2t116DhREbZ6onow6a0ywe7Yii7cNbFbyk8Q123123rmDblt116QWYfNlbA117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Get Smarter About Threat Intelligence",
+		"url": "http://www.darkreading.com/get-smarter-about-threat-intelligence/v/d-id/1326830",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qfbmqLStQQdSK85pX56OUoPYsDN6hJ8fTU9Z2gyaEzaL4AAIZ52aQdwksK9hIgLX2xPS9Mp3Ascdlpn2zvhvFQ117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "Catastrophic DDoS Attack Pummels Linode Servers over Labor Day Weekend",
+		"url": "http://www.itsecurityguru.org/2016/09/06/catastrophic-ddos-attack-pummels-linode-servers-over-labor-day-weekend/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "FydvqhM7ea29VWBILeb4iUDSFE0a4b0BPhrhSjsAHeZSTj53obzun0lpAsi3MPQROYbHpV9j2vrofcKg2i0cRA117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "ISPs treat cyber security as a top priority",
+		"url": "http://www.itsecurityguru.org/2016/09/07/isps-treat-cyber-security-as-a-top-priority/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "G25MEkMF9sq5fMWmYz1pzAdsmK4mky5BQybYaqysJhA4sCQk4FE0K9E3tybFPYma1231XfRh0dTve8NzuUmutL8Q117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Brazzers Porn Forum Hacked User Data Exposed",
+		"url": "http://www.pcmag.com/news/347627/brazzers-porn-forum-hacked-user-data-exposed",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Q2LEONPwizFOiYHhzhG116OJALJ77zEaHeO5wkC0xM4QgVrLA7ndagRRLkGBXkeOfeuXeG116juA0GKY8116yg3zzt8A117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "How Can I Move To Public Cloud And Still Stay Secure",
+		"url": "http://dyn.com/blog/how-can-i-move-to-public-cloud-and-still-stay-secure/",
+		"domain": "dyn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Yvker6VMDOGiC5YTC8uaI6CHcscfAsBtIlbuLD1238GzZkV3116EWOEWoTeRULwWJBfrvylc2ERhsFxsmfraprrdoQ117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Gugi malware targets Android banking apps bypasses Marshmallow permission feature",
+		"url": "http://www.itsecurityguru.org/2016/09/07/gugi-malware-targets-android-banking-apps-bypasses-marshmallow-permission-feature/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "BY116ZOf3123cvbeBi3kHBk6nVH3zQipeHIFGQuvdKBEMgZMjl7N9Nr2116FAH6ZpnVsNV90v3Ybp9SLaf7h116626D4Qw117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "Data Breaches At US Office Of Personnel Management Was Preventable Investigation Finds",
+		"url": "http://www.huffingtonpost.com/entry/opm-data-breach-investigation_us_57cfcf69e4b06a74c9f1903b",
+		"domain": "www.huffingtonpost.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cYUvp11683b3aPdY123CsiQOsChT7hH83hW05116dQFHH9RqTlmg1N1162t116TghgxyNQ0eu116zNyjTXRcuCa5ZGZwOSWndw117117",
+		"item_date": "2016-09-06 00:00:00",
+		"title": "ITOps in the Modern Ops World",
+		"url": "https://dzone.com/articles/itops-in-the-modern-ops-world",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Fuv9G86CVVZOp2Ufzeqm2123qPSMfS0qAKaPyHJsc0w0hJP2RFsBwfXbpCegyer3Yc41r1160kjJ8OftDFVqILRrxA117117",
+		"item_date": "2016-09-02 23:26:59",
+		"title": "New cloud attack takes full control of virtual machines with little effort",
+		"url": "http://arstechnica.com/security/2016/08/new-attack-steals-private-crypto-keys-by-corrupting-data-in-computer-memory/",
+		"domain": "arstechnica.com",
+		"image": ""
+	},
+	{
+		"curated_id": "sx6ceM23ylLnpJpwHBlUrMFkUaEh15R4wWSjXqBFo5odkkhaOzlbAyxdmd30kPV116DyouZx9cWyIN2RRz123D6wBQ117117",
+		"item_date": "2016-09-03 00:00:00",
+		"title": "Cloud Security Alliance 10 Ways To Achieve Access Control For Big Data",
+		"url": "http://www.darkreading.com/cloud/cloud-security-alliance-10-ways-to-achieve-access-control-for-big-data/d/d-id/1326794",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "V123VORWEd0H123p123UsiEKS123RbuOZLfxz116izzPtUtl00IlETwbx8FcEmKRfhZkNayJaWhx9QyOa06DQ8NidFth3QAA117117",
+		"item_date": "2016-09-03 00:00:00",
+		"title": "43M Lastfm Passwords Hacked in 2012 Breach",
+		"url": "http://www.pcmag.com/news/347579/43m-last-fm-passwords-hacked-in-2012-breach",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Rk65rA116ZHhfJYt8T6Jh8u8itqKsm116Xzzby4kLoEdqh7WCw3vbs1dgwkr05HOxhVM4t9ja116IvO51233BBJQmLU116Fw117117",
+		"item_date": "2016-09-01 12:03:02",
+		"title": "Learn How to Encrypt your Data and Security Best Practices",
+		"url": "https://www.ctl.io/developers/blog/post/server-general-cloudwalk?hootPostID=3297d70e7f8ad73f886fa60f00c9e6f5",
+		"domain": "www.ctl.io",
+		"image": ""
+	},
+	{
+		"curated_id": "S1238nqh72411628uyye3K7c4qaYNzbGF7N0TwUJmRjEjXxfo116Xh6ea2R5huowJP6RFWS5HV3gJiSofCh5jhzyvdog117117",
+		"item_date": "2016-08-31 13:00:49",
+		"title": "The Problem with Securing Single Page Applications",
+		"url": "https://stormpath.com/blog/secure-single-page-app-problem?",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ECoyftOxYovEF4he5ExT6Ulsjv123iWnp40WK116fkeqrsxCcoiCIPKGsuzS6sI116kN0vJ12IMKy8jXjKHOALxQh75w117117",
+		"item_date": "2016-08-29 16:30:07",
+		"title": "Crank up security on your site with some of our most recommended PageRules",
+		"url": "https://www.cloudflare.com/features-page-rules/harden-security/",
+		"domain": "www.cloudflare.com",
+		"image": ""
+	},
+	{
+		"curated_id": "joJIXen116prMCNqL8CwUOgmd60ThnXDjHNgI3Hs74aqrLOSfsng4RA3rLtRVLnKlOtbhyPavgp5OIAVzGmv9LmQ117117",
+		"item_date": "2016-09-02 09:28:03",
+		"title": "VMworld Can you trust your API",
+		"url": "http://www.welivesecurity.com/2016/09/01/vmworld-can-trust-api/",
+		"domain": "www.welivesecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CqB5ZegChaLyBs8116zd116yNtXSjR2pu8NDlPhCRDRU1237xG72neapYiT9mF7owVer123W4tipb92123YrJjKZrZAqBW4Q117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "40 Homemade Arduino radio device can Intercept Vehicle Key Fobs  More Than 100 Million Cars are Vulnerable",
+		"url": "https://blog.adafruit.com/2016/09/02/40-homemade-arduino-radio-device-can-intercept-vehicle-key-fobs-more-than-100-million-cars-vulnerable/",
+		"domain": "blog.adafruit.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116yjWME47BdV2YR90aIYLq8A7cluv0116dGd7hPcGlhRL123K0T2CogTyDXGQF7nnJGSTyXuzVMmkx3Qa123jTntipAtA117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Should We Have a Standardized Score for Data Breaches",
+		"url": "https://continuum.cisco.com/2016/08/30/should-we-have-a-standardized-score-for-data-breaches/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7AJyGjUTZxMRTzYrf4b50DXD2h5oqeLFHdIGwQHIzR123MSTVlDKL6XgzE1oUelDF7rgkQu5C6KRT1234agB6qP9123A117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "More Than 1 Million IoT Devices Compromised by Single Malware Family",
+		"url": "https://continuum.cisco.com/2016/08/30/more-than-1-million-iot-devices-compromised-by-single-malware-family/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "0j3HvXo0BQBafCFG72eFcvd123qGnNfuS6wpkGMKiPYz116WpoKrbZnZJ23tyJzkrmf9cShjYbqyQG1wEdDIeTP123Ig117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "After Breaches At Other Services Spotify Is Resetting Users Passwords",
+		"url": "http://motherboard.vice.com/read/spotify-passwords-reset-security-precaution",
+		"domain": "motherboard.vice.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lgUFdlTcTJJsM123WYwuPKRmEipl3c5NarRtNcWCH5MT7rQ3Q5txx7on21gdZF116IBwQPME89s4iZxKnAKfHvrrFw117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Vulnerabilities found in cars connected to smartphones",
+		"url": "http://www.itsecurityguru.org/2016/09/01/vulnerabilities-found-in-cars-connected-to-smartphones/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "lgYejQRa123AFG9wfeBfLSXeA4MA04i8GS3tuRR12340j6rndpd9SCrIFtXhmeGY123hHChGv1EzRCcfwmMxDwG4667g117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "New standard in firewall change automation released by FireMon",
+		"url": "http://www.itsecurityguru.org/2016/09/01/new-standard-in-firewall-change-automation-released-by-firemon/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "n4VjRzOrcUQ4urLxRscvt8DBo9PdRxJSKjIHtq9phVY6LYRoeedGFyCoWTyt116apDQTb2QRJ3zhwvrEVkw1116tCg117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Hackers use BMW Amazon and Chanel brands to launch social media attacks",
+		"url": "http://www.itsecurityguru.org/2016/09/01/hackers-use-bmw-amazon-and-chanel-brands-to-launch-social-media-attacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "fbF4AsvGNlsMC3UA9wB3WQzgrSrSA0mrtVRWKExoJK8noUzrOv64LNi7kaU1166lX7mcoioN39Txpv116ThRoXIW0A117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Lastfm breach from 2012 affected 43 million users",
+		"url": "http://www.pcworld.com/article/3115165/security/lastfm-breach-from-2012-affected-43-million-users.html",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "phRHKC6X5qOt116PdcTBsoqvhmDfn7116MCjfXjnl0u9fvomOmv5YicdhYJzBiRRO87wtma8bPu51oCY2bmrCqEhrA117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "FairWare ransomware infects servers through exposed Redis instances",
+		"url": "http://www.pcworld.com/article/3115248/fairware-ransomware-infects-servers-through-exposed-redis-instances.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tg123HUBmHjHVzyht14f116GOM863SzF5voWqHDp4C9dd4yELGvX7HRcBPBC4K9RV0wV2jhKGP4j5oluPbIrph3Oyg117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "Pointofsale data breaches have now reached the cloud",
+		"url": "http://www.pcworld.com/article/3116090/point-of-sale-data-breaches-have-now-reached-the-cloud.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1JCRirsV116DTHrlpyGqJ4Eq11II1231dIDUYV6yB8VS3kGzVS7xCjPGgiKhdJZrNSkVU9smSwFhD3G8mImCywwAZA117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "MedSecMuddy Waters  The Future Of IoT Security",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/medsec-muddy-waters-and-the-future-of-iot-security-/d/d-id/1326806",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bsk8Y116lV8HolWzJA16NEHIUHhYaPt1bDTU1TqlMI12302OUDcZ3WMq123cIXeQitVBGW4ubtth2BzmEcAEWJwyNUWg117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "Content Security DRM with the Native Player SDKs",
+		"url": "http://docs.brightcove.com/en/perform/mobile-sdks/guides/drm.html",
+		"domain": "docs.brightcove.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kRntfCJW2XEz759Yr5YBPA116123o116H9zxKBxyZYjGsjtYC81EBBCn123VbvDUT7Es2sCmBiZkhj7AuHq3vNJBjyudug117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Platform Security",
+		"url": "http://developer.samsung.com/tech-insights/knox/platform-security",
+		"domain": "developer.samsung.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yr461167Xw5r8xY4R46UmzJSTK9rzfn2eRHLknuL7f5aGfTrhpZn9mn5OGupohrjSBsbp4tLs0116VWfTtOhry123pYA117117",
+		"item_date": "2016-09-02 00:00:00",
+		"title": "43 million Lastfm users passwords were stolen so stop using that one old password already",
+		"url": "http://www.businessinsider.com/43-million-lastfm-user-passwords-logins-stolen-2012-hack-leakedsource-2016-9",
+		"domain": "www.businessinsider.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123PaoplDBDs3WnbrDFLGAN2czmUXNnRlC9e742b95sAId7OGfi7ccFNCTmDc8Voh36eoZb1230650OPWKIdHUyVUA117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Security Weekly 478  Heather Mahalik SANS",
+		"url": "http://securityweekly.com/2016/09/01/security-weekly-478-heather-mahalik-sans/",
+		"domain": "securityweekly.com",
+		"image": ""
+	},
+	{
+		"curated_id": "S65InhnfSMvMh4eV123UIE9vRRTFKUXlqo2Opfk116hwn7v5MukhB123FY5pNSJPePwmS5CkdDeGkL9HWypRH123Vxpfxw117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Social Media Fraud Spikes Study Finds",
+		"url": "http://www.darkreading.com/cloud/social-media-fraud-spikes-study-finds-/d/d-id/1326805",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8H1mxK4hroZDOYtJc7mNvVqWgDkm6EkBSqo3iTlSR7T123M3OSPbNB4123g5Oh9MAx0dTRcHgBmQIiJgtQ6i9y6uUA117117",
+		"item_date": "2016-09-01 00:28:26",
+		"title": "Hackers Had Access to OneLogIn Data for More Than a Month",
+		"url": "http://www.infosecurity-magazine.com/news/hackers-had-access-to-onelogin-data",
+		"domain": "www.infosecurity-magazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tYKCcMbxQ9fv4123UCu9jaWV4k9oybkwu116X75y6VKKoEpaiT6iyf8tCp6oZskhsHyhCACDin1166norZ123Uent1FvXQ117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "InterContinental unit Kimpton Hotels hit by payment card data breach",
+		"url": "http://www.reuters.com/article/us-hotels-cyber-intercontinental-idUSKCN11632D",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "S999ahXnEACEuRFEvnDHYV8TR0UAWQrb4itQY20cLJiVz116zABRCem7hePxIZRwwxeOm6OGex2t5Jfyo28Dhx1A117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "More Than 40 Of Attacks Abuse SSL Encryption",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/more-than-40--of-attacks-abuse-ssl-encryption/d/d-id/1326789",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c123DSHNuW46vdz6w97PaYH4NyiNxTPF7pqVohdBMpSmwzkj9Ey5Y6fMzG9AP0z2PUlQjjwaGp0IU3y3F123gYRWiw117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Intruders Pilfered Over 68 Million Passwords In 2012 Dropbox Breach",
+		"url": "http://www.darkreading.com/attacks-breaches/intruders-pilfered-over-68-million-passwords-in-2012-dropbox-breach/d/d-id/1326792",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cMYfuzFhBrW2rxyFK77BlfZ1PgEeCHG1ShSXkYQgjuGgUgeDDljJl3u0C4lBLqKcHyHEz1osnaiXco5N5NIbNA117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Password Expiration",
+		"url": "https://www.infosecblog.org/2016/09/password-expiration/",
+		"domain": "www.infosecblog.org",
+		"image": ""
+	},
+	{
+		"curated_id": "j123wLvFfj93ci116PJwiKuuA116EQlz6BG7KNG83Dl116WH46zHMubo1Dx6kAcWdVTOZVGbnUfyawPFmNejkTIl6123Q91A117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Security Best Practices for Kubernetes Deployment",
+		"url": "http://blog.kubernetes.io/2016/08/security-best-practices-kubernetes-deployment.html",
+		"domain": "blog.kubernetes.io",
+		"image": ""
+	},
+	{
+		"curated_id": "vmLRHVly9EHrFHdZguk1w116VNS14FIbpmYsiYZT4TgmQWlq1168HNM89syTjimwqsHRFoEYvlbdSsJGAEZEx9vA9A117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "PasswordStealing Trojan Now Also Attacks With Cerber Ransomware",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/-password-stealing-trojan-now-also-attacks-with-cerber-ransomware-/d/d-id/1326797",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Go4jOan5QgVRdrJ0YAUjDOvY123C8dspLjKLD4kDKK1uPQP8wPry8d7HczkOX116ugdVRXWWCtBEKN9S9gXCf8KARA117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "SWIFT Reveals New Hacking Attempts On Member Banks",
+		"url": "http://www.darkreading.com/attacks-breaches/swift-reveals-new-hacking-attempts-on-member-banks/d/d-id/1326795",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "D9qp9bw0k7hISDoHCueMlXRGQsAOobLbYbagMUc4i5LUDFnY5NTmQzPn411EMwBEsR116Jy123zCRHiQf8wUKY0r7A117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Alarms are being raised about connected vehicle security",
+		"url": "http://disruptiveviews.com/connected-vehicle-security/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HjJcLyWSjJVd4EkuAbNozaQhEmiAyrUBbKo1QvzSi0yq5V3oSaBYTa9LSwWePinagYF2IW116Ga8atBJBn8clxYg117117",
+		"item_date": "2016-09-01 00:00:00",
+		"title": "Swisscom deploys BICS crowdsourcing solution FraudGuard",
+		"url": "http://disruptiveviews.com/swisscom-deploys-fraudguard/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rnOBqbjy3fAHtJ0IpUqzRGu2NRIgvneL75FyuS116RkCB3uWda43U8gD2KErZU1163B98R4rexgFR60Uj1S116q5o1Lw117117",
+		"item_date": "2016-08-31 09:15:38",
+		"title": "Flaw in Facebook password resets could allow random account takeovers severity of bug disputed",
+		"url": "http://www.scmagazine.com/flaw-in-facebook-password-resets-could-allow-random-account-takeovers-severity-of-bug-disputed/article/519417/",
+		"domain": "www.scmagazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FCQLVZRmWx8JpEbsBPUDNXJmeXhuOtaeyh123MZ1J21qoGIyXceTOiCwr1AS1yOucaUHjlNbDrESTJCQhi3xRLnw117117",
+		"item_date": "2016-08-31 09:36:34",
+		"title": "How to Bring Security Best Practices to Life in Your Organization",
+		"url": "https://www.infosecurity-magazine.com/webinars/bring-security-best-practices-to",
+		"domain": "www.infosecurity-magazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kJlIvcxmvT2nqR14XLfS3HjHUKKshG5R40sxYpnCaAMChrW3SB0L1QWxEY123oY15zfbJAx81IWPHKoArZMjnSOQ117117",
+		"item_date": "2016-08-31 10:05:50",
+		"title": "How Point of Sale Breaches Happen",
+		"url": "https://www.bitsighttech.com/blog/how-point-of-sale-breaches-happen",
+		"domain": "www.bitsighttech.com",
+		"image": ""
+	},
+	{
+		"curated_id": "e07116UHVKaCRDbQ9cGUr32KeR8YuLX0GirwLE4ctYPMOhyokq9CFQ6F6k1230SGmABGHHlqCToBLh2DR123YFG6V4yg117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Stateless Sessions for Stateful Minds JWTs Explained and How You Can Make The Switch",
+		"url": "https://auth0.com/blog/stateless-auth-for-stateful-minds/",
+		"domain": "auth0.com",
+		"image": ""
+	},
+	{
+		"curated_id": "b0YY0rg6o7P116PeqJJ5Ag3V7aRC6MzzTl2T4AjPqZaT2kXFVWCjtDICgmipbzJvppt6TDVpIUrUtY123ChlLqbOAA117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "The Dropbox hack is real",
+		"url": "http://www.itsecurityguru.org/2016/08/31/the-dropbox-hack-is-real/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "f123ZvshPxBdrFwMQ123VjT92z116QOCZrsmwNtiwgEXtAUhHOgzr45IqcJd00DooD0T9B5rV8PRg5R7guw4TSye2Bpg117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Security Weekly 478  Security News",
+		"url": "http://securityweekly.com/2016/08/31/security-weekly-478-security-news/",
+		"domain": "securityweekly.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ouGwokvMDEYNeAEyQ8LJeXDfJBqhSzzwAow67rPVM9aPcYojvDDQJPqDnfYzqqCvRHqDcS4C0eDsS94MiPGWMg117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Dropbox hack affected 68 million users",
+		"url": "http://www.bbc.co.uk/news/technology-37232635",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "yP116ynFMW8aM2AZE56c9QXnNC98G123HIzbwI123PrLJldzy116pvMD8qW6urPUBBU2EPbz0w1236xMvUds5u8116xH7CYCEA117117",
+		"item_date": "2016-08-31 00:00:00",
+		"title": "Using Azure AD Service Principals to Secure Applications",
+		"url": "https://dzone.com/articles/using-azure-ad-service-principals-to-secure-applic",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yPp4SAGW953CjNqAgP9NEs4z6SOUanQUcOXcKh7HamWpJW8WgwXFaIYe1KN9VevsMkXJv0yUUIlOtk7tuNKLsw117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Social Engineerings Role in Malicious Macros and OLE",
+		"url": "http://www.itsecurityguru.org/2016/08/30/social-engineerings-role-malicious-macros-ole/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "PmszLOkJfqHhrLUjdcfWdeRcpRfIQZQRdp6jxqMJpl116OTlQEZgZk8x4nrWICVe8lYjIfJXpNFxhcumQwj9A9og117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "17 Million Opera Sync Users May Have Been Affected by Data Breach",
+		"url": "http://www.itsecurityguru.org/2016/08/30/1-7-million-opera-sync-users-may-have-been-affected-by-data-breach/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "s5ICskZhwueQrMUOa1eBrpXLvaebBey123sJicHH4gKFFej116FRTFFAUvmnDVraw116PG71tosdyrlqKJYOMFJgBAiw117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Hackers access SCAN Health Plan breach data of more than 100000 patients",
+		"url": "http://www.itsecurityguru.org/2016/08/30/hackers-access-scan-health-plan-breach-data-of-more-than-100000-patients/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "2Z9jZSyg0uSNHzVcJv2imPPT2TUWfitpfswK4CbL2SsN6BEfkyD8TNLCFeZy2H123M3OJkzAhsl129QySsHAWHdA117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Balancing security and convenience in online commerce",
+		"url": "http://www.itsecurityguru.org/2016/08/30/balancing-security-and-convenience-in-online-commerce/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "mujt2123AbjCmU9fwp94tHXw662N1eSneGnvgKLbR2501162RXc116RKTdqrHJOrk7owpFNAOGjzNU3116oyEiwEg1KGVw117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "Can SecurityasaService help UK businesses plug the skills deficit",
+		"url": "http://www.itsecurityguru.org/2016/08/30/can-security-as-a-service-help-uk-businesses-plug-the-skills-deficit/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "TLXjLM116PCr0cBJeg9jCWnjKzzJDlULF2NG2n7p9HWejcxC6COOBiQG7lHNIq116q123xB2NLbl0LyJxlJX58dfsy116Q117117",
+		"item_date": "2016-08-30 00:00:00",
+		"title": "NGINX Release Targets Application Security",
+		"url": "https://www.infoq.com/news/2016/08/NGINX-Plus-R10",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7mkjrWWI6M123BjiYzmPK1VTxbsX3wUud116gWASyXx01D7rB1DOLURD3saGv4HAA5SisYP4frhQBGsV3116fi764fNw117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Improve Security Groups Using VPC Flow Logs and AWS Config",
+		"url": "https://dzone.com/articles/improve-security-groups-using-vpc-flow-logs-and-aw",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ajst2x123BHkbbzKXz97bhdmC6Pe2OwYVvuNvHRPhZy86KZXmOse8vwPKBQJqSkP116XX8W123FLGn5116vqsBy8jE3QBQ117117",
+		"item_date": "2016-08-29 00:00:00",
+		"title": "Security Considerations for Container Orchestration",
+		"url": "http://blogs.adobe.com/security/2016/08/security-considerations-for-container-orchestration.html",
+		"domain": "blogs.adobe.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ZVpGUN2gCH7iabTBQiQVdV25123zEKrDjdVOVkLJjMmCHVOHr6MWLtXOVZx116j0neMQ2J0RDJc39uTB116KqS0C1123Qg117117",
+		"item_date": "2016-08-26 10:03:01",
+		"title": "Hackers call for federal funding regulation of software security",
+		"url": "https://www.the-parallax.com/2016/08/09/hackers-federal-funding-regulation-software-security/",
+		"domain": "www.the-parallax.com",
+		"image": ""
+	},
+	{
+		"curated_id": "KCsb23y1R15123BWYifv96RK123fEquxpNaEbG7gpiFj0KHdvgOq2cCp9oMmQ5GcFh123SVXQra1MaweRKvbyQKw7rwg117117",
+		"item_date": "2016-08-26 00:00:00",
+		"title": "Medical device security ignites an ethics firestorm",
+		"url": "http://www.pcworld.com/article/3113054/medical-device-security-ignites-an-ethics-firestorm.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6116FywDU0Rbd0LBc5iqwilwI6lCY123NisD0Sjjbw4kkQQjkN5if1czcfrzb7Ww4FzUnnSudUNn116uJj7hKVWSOeKw117117",
+		"item_date": "2016-08-26 00:00:00",
+		"title": "A quarter of banks data breaches are down to lost phones and laptops",
+		"url": "http://www.itsecurityguru.org/2016/08/26/a-quarter-of-banks-data-breaches-are-down-to-lost-phones-and-laptops/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "Dg9UN116MmAPCspFDcL7yDTiv1QfS1gz116FpAuoy4mqZk123kIfA3ooaC4Zd123IX4K1164n604Ug2BRRFq6nYe123123YqeUug117117",
+		"item_date": "2016-08-26 00:00:00",
+		"title": "How the Automated Attacks on the Pokmon GO API Happened",
+		"url": "http://www.programmableweb.com/news/how-automated-attacks-pok%C3%A9mon-go-api-happened/elsewhere-web/2016/08/26",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "DiwPBv116TCiYDIVRbns3R6lpTndz0Kq0DIyGHpQaLG3116UfwCgpB1W7AGBF1JN116jzfqugVWaP116ujQUX123Yg2M123ZJA117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "ICSCERT Releases WMI for Detection and Response White Paper",
+		"url": "https://ics-cert.us-cert.gov/ICS-CERT-Releases-WMI-Detection-and-Response-White-Paper",
+		"domain": "ics-cert.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "ibl03YwZsITNRx7QSsfGcmuKL8ygxpwzi4RxDmV7FBxFOUxoqkGzw3CHJRW123g9iaeoz7ixJay2Q1WO4pSlrZYQ117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "CrowdStrike Integrates Scanning Engine With VirusTotal",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/crowdstrike-integrates-scanning-engine-with-virustotal-/d/d-id/1326735",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NrICkhxExDrcsRtXaINrHwsFLLxIrI0ceZJI1234gIvwYrEnl123k123Mzuxg8rE0nmEnrnZWmEr18ZOSf1169Ag0FXfVw117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "Heres Exactly Why SMS TwoFactor Is Not Enough",
+		"url": "https://continuum.cisco.com/2016/08/25/heres-exactly-why-sms-two-factor-is-not-enough/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IUqmr67NNzUsuEITDmdjzkdbZ3y4gTmgTNPbAgzWvW6lpGdjo0V6TPpnkPhDOOoVsbC0VlkDh13XAAuphU5FDg117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "Confusing Security Risks with Moral Judgments",
+		"url": "https://www.schneier.com/blog/archives/2016/08/confusing_secur.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "JTW6EUWiWLaOmRodXMHhQACLW116Kt9oGoFLduHHQeLMUIfo4V123GLdxyD4o5cDgbDfeoON8U8123nxL6PDXICqkIRw117117",
+		"item_date": "2016-08-24 12:24:29",
+		"title": "Newly Released Exploits Affect Cisco Juniper  Other Vendors",
+		"url": "https://duo.com/blog/newly-released-exploits-affect-cisco-juniper-and-other-vendors",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Roy11WTgshUKMbcUWUJB4xwhqiCMeSN11652p123nX116iKnkXXFCZ5VgZj1IFC4r9rMw4EPTvM3STmMfHy123xmAC7kRQ117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "Informatica CEO Data security is an unsolved problem",
+		"url": "http://www.pcworld.com/article/3112641/informatica-ceo-data-security-is-an-unsolved-problem.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Bhxhal116bgW58DdO12caun116akq64VJNwQIM3jq4UwQZEVQnfBo4Agi1E8odrHZ4Wptvk46TSVPR9xJvv1x435123g117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "How the Consumer Product Safety Commission is Inadvertently Behind the Internets Largest DDoS Attacks",
+		"url": "https://blog.cloudflare.com/how-the-consumer-product-safety-commission-is-inadvertently-behind-the-internets-largest-ddos-attacks/",
+		"domain": "blog.cloudflare.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mW2RiPS0jFqoS5a116h36hom123HrmXbWIm123qzSMI123oH8123t1dEjwS2qJIZzz7aggK0HSQDsjl9vD1bARTS7JZFIumg117117",
+		"item_date": "2016-08-21 00:00:00",
+		"title": "Access control system streamlines building access in Illinois village",
+		"url": "http://americancityandcounty.com/products-work/access-control-system-streamlines-building-access-illinois-village",
+		"domain": "americancityandcounty.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jvfA116OLuxUGiV2udwJiqAvVsSVcgkimkzh544CN6XIz1Vi123NBC3vubq2NmZNYDlUIf9k9qEdzlyZHcCb123q9DkA117117",
+		"item_date": "2016-08-22 00:00:00",
+		"title": "Security Weekly 477  Security News",
+		"url": "http://securityweekly.com/2016/08/22/security-weekly-477-security-news/",
+		"domain": "securityweekly.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UgJysDHUoF7v9ozAQxGQhrxeLwRzr10u8na0FLkPKyTOX123q116lPK4oI116qUnrPz77tjXSykKlOyh8116LddzErw8116g117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Bounty hunters are legally hacking Apple and the Pentagon  for big money",
+		"url": "http://www.itsecurityguru.org/2016/08/23/bounty-hunters-are-legally-hacking-apple-and-the-pentagon-for-big-money/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "NyPsgCt80Kk1CnUMt5LxVUQXeqoruxjioshrgnXE8EzwEliEeUl123ueFYS7gZU2123fVij5TXp116WjB123yyUYCjl9gg117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Epic Games forum hack underscores the need to install security patches",
+		"url": "http://www.pcworld.com/article/3111269/security/epic-games-forum-hack-underscores-the-need-to-install-security-patches.html",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "OGMsp01Y7Xdc5HRqjZeiOcXSVf2ANI9SC8EV6arsHOtiFN2EFjZy0r52q10F7R0D59Mxj55Re123ZFu6AgTEeVAA117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "More security companies sharing information in malware fight",
+		"url": "http://disruptiveviews.com/security-companies-sharing-information/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "umar1YaXV5jlbmZ8G41T9XSqIGjhO4gc0nAGR3UHlObexbMy30Wy123qzUdEd7xKu0khROav9FN4P3PkWR123xQfuQ117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "United Airlines Sets Minimum Bar on Security",
+		"url": "http://www.itsecurityguru.org/2016/08/25/united-airlines-sets-minimum-bar-on-security/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "4fRRShUD1rwXfys4123SRFYwVQ1QLBhdDb9KFT3ejbUnMhYnBcS3KWp116Uc1r1166hPRJUzh7USXVoT116lzJ1azpQyJA117117",
+		"item_date": "2016-08-25 00:00:00",
+		"title": "In Case You Missed These AWS Security Blog Posts from June July and August",
+		"url": "https://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August",
+		"domain": "blogs.aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RIk6eNdZMDD85Cfm24TUFTXXGzvZVQDf4Bq1Mm63x2YQV4116iLf9CXewBUccKK7px7K7Kx89WCz33uJ1q123m6123zA117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Protecting Microsoft Email with Duo",
+		"url": "https://duo.com/blog/protecting-microsoft-email-with-duo",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fjiaaC123VyR6YHB6z3HKShJBxA3X7FBmuHFOh1Nbzq0DmsNRE6mvnu2HFkTDIvXAft1163nqCwQKbdnOPCT3y41EA117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Announcing Password Breach Detection for Auth0",
+		"url": "https://auth0.com/blog/announcing-password-breach-detection/",
+		"domain": "auth0.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1IhiHKWA8s0a37zzyh7VWQqU116LXwnWZVgH9RPlCxaS2WdMop0IoA123nMogcBGdEMq4LRmUEHecoqkI6RHiUjeIw117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Grand Theft Auto Fan Site Hacked",
+		"url": "http://www.itsecurityguru.org/2016/08/24/grand-theft-auto-fan-site-hacked/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "kL3bUaswyH3ayDos1123Q96CzgWeZv0J1239til9ipV1168XXIQtQl3NpXDvT6alBERSbr3X116gcB123WNYTFKGyBRLBieQ117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Poor security aided Ashley Madison hack",
+		"url": "http://www.itsecurityguru.org/2016/08/24/poor-security-aided-ashley-madison-hack/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "K2puVY2uBOb3y3cTISdP53hZqSWSO5egmgVZD1I2vM123kt1FxtELvf116b25L1DyEevgMW1160R9Ub3rK5HCHJmZs0w117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "When Securing Your Applications Seeing Is Believing",
+		"url": "http://www.darkreading.com/cloud/when-securing-your-applications-seeing-is-believing/a/d-id/1326710",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dsZcofwmnsTGe0Fd8GkSBzVzEVDTIMXdb4uZTedqKualWoUcIBCsuZjHMrsbFiPkf2n2TcDgYcHeVrmxZjhqHA117117",
+		"item_date": "2016-08-24 00:00:00",
+		"title": "Security Leadership  The Art Of Decision Making",
+		"url": "http://www.darkreading.com/analytics/security-leadership-and-the-art-of-decision-making-/a/d-id/1326716",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c8GLlXFX123qA1CUdFNeF0AZDFOtjVeJpxWLg116WFphx6116PUAaFlh2EdZXMauINissyF7gnsIDQhITXkl2lQ8i20Q117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Ashley Madison misled users with a fake security award",
+		"url": "http://www.pcworld.com/article/3111414/security/ashley-madison-misled-users-with-a-fake-security-award.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vSKlvOC3DFslkyb9prylzBJpJ3JJv2XHkVn9pPbVsFOdmfjh8lUtDTuC5wlzAo8jP4116oU8f3AFgNclqTe7116oBA117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Trailbot  Monitor your files and react upon unwanted modification",
+		"url": "https://trailbot.io/",
+		"domain": "trailbot.io",
+		"image": ""
+	},
+	{
+		"curated_id": "GDFJ4P9u5KAOfebXyAweO34kPmW3wXJa0aDQviVJULqO2LACtK116qqf8JRZlLy5mIIH7cg515VH6n362Eaf7ZXw117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "HitAndRun Tactics Fuel Growth In DDoS Attacks",
+		"url": "http://www.darkreading.com/attacks-breaches/hit-and-run-tactics-fuel-growth-in-ddos-attacks/d/d-id/1326709",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "pa9epDhJiDyYWzyQMjwz123euZJ7zRghijTHODtc59AIDmFbqHYVgq9Lirt6OYTFHd7npXquRGIUydb6V0KXY8WQ117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "ThreatQuotient Secures 12M in Series B Funding",
+		"url": "http://www.finsmes.com/2016/08/threatquotient-secures-12m-in-series-b-funding.html",
+		"domain": "www.finsmes.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rTmHsF3ZXwEDaVS3kyD2bAflKKoJYCGV84CwBr123FavfSvQXGvq1CTnp3aaykGxh1j3tIuOLunImdUPePMqY5kQ117117",
+		"item_date": "2016-08-22 12:16:22",
+		"title": "Cloud Use Increases Attack Surface But Security Not Keeping Up",
+		"url": "http://www.infosecurity-magazine.com/news/cloud-use-increases-attack-surface/",
+		"domain": "www.infosecurity-magazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CNMbwteKM9PDBuone8XTCfZ3w3YMiGwMKr4fkcx2QoXtITGBD3QgRQi1pv22umEztoPNpi116OrjCs1cE472RgfA117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Your Software is Safer in Docker Containers",
+		"url": "https://blog.docker.com/2016/08/software-security-docker-containers/",
+		"domain": "blog.docker.com",
+		"image": ""
+	},
+	{
+		"curated_id": "0ZZrpAAeilWXGTsiWsTi4rSn3wW97XyT5IrKBmXnke1167tCQaTmdmvvtFQfLrq5rLH9G116r45FEA5ykKlMfwef6Q117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Securing the Enterprise Software Supply Chain Using Docker",
+		"url": "https://blog.docker.com/2016/08/securing-enterprise-software-supply-chain-using-docker/",
+		"domain": "blog.docker.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MlxrYVKr8omEXhM2JhQlpz5FsuWjjZWJbeihfKRQdeWD3AYibzg9dD722nLgNGzm123emYhQDzsNhKM6M58El9JA117117",
+		"item_date": "2016-08-23 00:00:00",
+		"title": "Anatomy Of A Social Media Attack",
+		"url": "http://www.darkreading.com/analytics/anatomy-of-a-social-media-attack/a/d-id/1326680",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "p7WIFtzGMXIJGknqy123y8OOIi3fm116WOpMqbidhcmTQLOBQfySN7xAmGNyHG66yWNe116MA3P7XfXPEWjnPn4KUHPQ117117",
+		"item_date": "2016-08-22 00:00:00",
+		"title": "Passwords broken warning rethink on security needed",
+		"url": "http://www.itsecurityguru.org/2016/08/22/passwords-broken-warning-rethink-on-security-needed/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "hb21166lpmRmSp5UEVq8XiZO1u4lGDpEONm9yVnHal7BcbjgmOUpxgS8sN1167siusfBGOgjO3NZNfMPLpwWYStZFg117117",
+		"item_date": "2016-08-22 00:00:00",
+		"title": "I Thought I Was a Security Rockstar I Was Just Stupid",
+		"url": "https://www.liquidmatrix.org/blog/2016/08/22/thought-security-rockstar-just-stupid/",
+		"domain": "www.liquidmatrix.org",
+		"image": ""
+	},
+	{
+		"curated_id": "j4OhOXllhzRL6QQZt4rXXlFbzDh4SWoZyH116XiC9jIvRL16K47EakKirdJjWah4mDbDKLCHEW116PhIZ123g9DgCmYA117117",
+		"item_date": "2016-08-22 00:00:00",
+		"title": "Why biometrics are less secure than passwords",
+		"url": "http://www.itsecurityguru.org/2016/08/22/why-biometrics-are-less-secure-than-passwords/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "9leDwwAdbVZV1JJvxtRSs3Nt7yU3IYTg956YmU2oV5pYYGhXmyp26Wz90s2pwrHVbitDmMwp2XE3JemwgBS1YA117117",
+		"item_date": "2016-08-15 00:00:00",
+		"title": "Metapacket analyzes outbound network traffic to flag and block malware",
+		"url": "https://techcrunch.com/2016/08/15/metapacket-analyzes-outbound-network-traffic-to-flag-and-block-malware/",
+		"domain": "techcrunch.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ExOzgMmzNsqh9hXqT8JZJvISBr4123QUwedxZRsomqkZA123JnKgF6JGXYLhir6LEyETZcI1161169Afiz0IHJc2LHKN1Q117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "Updated Whitepaper Available AWS Best Practices for DDoS Resiliency",
+		"url": "https://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency",
+		"domain": "blogs.aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FqHvKKZ1ihX12342VOu0JnPEfdBimOXjIARYP65pL5tsX8VIMEIpMPGiKIPof1sZVKw8Vl123p7Nd2Sny0EWY09wzg117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "API Security Ways to Authenticate and Authorize",
+		"url": "https://dzone.com/articles/api-security-ways-to-authenticate-and-authorize",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "pHSaUT7XHuWZD74amIzzAGjNe116g8u2loTkyyWyDRV5YpMo7guctYK9CfsvmWofjcId9vDVbWbhRrFA4eFibG4A117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "Can Openness in the US Government Lead to Better Application Security",
+		"url": "https://dzone.com/articles/can-openness-in-the-us-government-lead-to-better-a",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MB1166rm5LCN3bu9TrIxb57d5VcrnnRPSns8QPUertISEQ4yNLzztRCq1123aymtaX123hamojR8i1uEnPqm9NRsov6w117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "New CryptoCurrency Rewards Users For Participating In DDoS Attacks",
+		"url": "http://www.itsecurityguru.org/2016/08/16/new-crypto-currency-rewards-users-for-participating-in-ddos-attacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "lpqk73UYIdJ1XkOa7mucF3n3T45w4s97WFCa1zZ39hwXphUGm84GGP7k2Pe46736wKQWoa4aQjhNz0SJgPPAPg117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "3 Ways to Fortify Your APIs to Make Sure Theyre Battle Ready",
+		"url": "http://blog.smartbear.com/api-testing/fortify-apis-with-api-testing/",
+		"domain": "blog.smartbear.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AE116nC0123MhAA5ru9zEtxpJLzSUUqKrgMx40pG7ZLKEUJ116wnKFpDH6c5q8IUMETpEKeLnCzWFQ276ScBWnJoPhCQ117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "What Mr Robot Can Teach Businesses About Security",
+		"url": "http://www.darkreading.com/attacks-breaches/what-mr-robot-can-teach-businesses-about-security/d/d-id/1326648",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WsLjR9LpcUqO3UL1QL97zbe4FDTm7X123deOofjuFuGDtfKRb91Oo3LskWV123OVQTUFhkn2rRZ21La41MvF9mjZwg117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Prevent Security Breaches Due to OutofDate Flash Vulnerabilities",
+		"url": "https://duo.com/blog/prevent-security-breaches-due-to-out-of-date-flash-vulnerabilities",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "f9l5G3ke6Yboz0s5WBFOoXcK8tsbAo2oqzz2VF6cEHd123vo4gW0vOlgD0wsFmubJxVHkIXdY1R5u9VQjE427lpA117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Rackspace Cloud Identity Api 20",
+		"url": "https://developer.rackspace.com/docs/cloud-identity/v2/",
+		"domain": "developer.rackspace.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8pSV123uSZIIjxQXQDCLMVc689cak7Or1F8inUiwUXUMbTXolsg0LmhOyXbLlfizRuQX116fLccRZt2ulDk5YunCNg117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "A researcher claims 2 bank apps can be hacked using iPhones Live Photos",
+		"url": "http://www.businessinsider.com/bank-apps-facial-recognition-hacked-using-iphone-live-photos-2016-8",
+		"domain": "www.businessinsider.com",
+		"image": ""
+	},
+	{
+		"curated_id": "p12347WXytB2msmIb4jCKEOhbluMJ7VWSu01pbWjb6Zv6dcfzAdIJnLki1123DCT5uv6s5zGAPe116IXpCINJ6116rOUIg117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Complete AWS IAM Reference",
+		"url": "https://dzone.com/articles/complete-aws-iam-reference",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "G9y66uUVl8xogQJe4HNNmqiJZdPPQPC0ESeT1EaCs5qmothWeJHo1162QizFGfT4WmEOixFbXRnZbfpQORdIVKhQ117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Attackers Playbook Top 5 Is High On Passwords Low On Malware",
+		"url": "http://www.darkreading.com/operations/attackers-playbook-top-5-is-high-on-passwords-low-on-malware/d/d-id/1326667",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xAJyaEVx9Zs116U9NCl0LaCttoZ2Xxtk8116iKf116Rb8iY1oxSOvpZlbkNsPcbBOxrP3TkELU951uDbX8yCMlwH4YYg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Why Security Needs Automation Users Ingore 87 of Security Warnings Anyway",
+		"url": "https://continuum.cisco.com/2016/08/19/why-security-needs-automation-users-ingore-87-of-security-warnings-anyway/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ssLWGaTb34Oh123mBqQWQAfo116skTvJwPQWQUJwfHjynXcCTqxIGVjkQh123nRYcZ5c7ysh4Mj8Ki9Iq1gnWOlQtRIA117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "The Windows 10 Anniversary Update is breaking webcams",
+		"url": "http://www.pcworld.com/article/3109163/windows/the-windows-10-anniversary-update-is-breaking-webcams.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MRbMOHMR8mea7O1zf9qcs5J8brPbb3JA1OjPcW5DTQI3w4C7Pg3LW2yknn4Xe0f1s123w8U5yqGst4sZOz3aJm5A117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Sage data breach highlights the risk of the insider threat",
+		"url": "http://www.pcworld.com/article/3109491/sage-data-breach-highlights-the-risk-of-the-insider-threat.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "a8MpgpSuvaqkxtp4U4jLT4h0CGCUaDVpCcRm123ZBYaRaJd123xH3SShfOuBrRkI50lFs813116ZCgLtQtcUt2y7fBIg117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Fortinet Security Fabric Infoworld White Paper",
+		"url": "http://resources.infoworld.com/ccd/assets/117349/detail",
+		"domain": "resources.infoworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RZ60SrE9uddWQnysvP4TNE6MppmrPHUP4d9fCII116Uv0ZEzTljOBxIfl4EooUVO9PYjtLnnd6sSNS7k116YsZTQZA117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Who Is to Blame for IoT Security Risks",
+		"url": "https://dzone.com/articles/who-is-to-blame-for-iot-security-risks",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "sc4n6ar7QY8xkN3EBHGVuVBKwEDh82lpMgmdUWDhp4Xk5hWfuiLpY123123OSjUmBqTaWopBDbdt3umUQEfJmf6Glg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Malware Infected All Eddie Bauer Stores in US Canada",
+		"url": "http://www.itsecurityguru.org/2016/08/19/malware-infected-all-eddie-bauer-stores-in-u-s-canada/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "TK5Dq116Fqkr123214IzS116M3RZIOrNwIJpZL3bFhdTaruGrR5p8ebcRwtbX0MMFUApCgF3i1vi2VwgSVrdRnDQYFRg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Research finds security risks prevent consumers from cbuying into mobile banking",
+		"url": "http://www.itsecurityguru.org/2016/08/19/research-finds-security-risks-prevent-consumers-from-buying-into-mobile-banking/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "WKD8w0z0nhIyqp8TKoUSj0Ma4APGptOz1oPp8aa3JV7lzhh123NZvOfb2tIrsu6s6GWjqlWzSswZK5VyVc7Is7Kg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "MFiles and AIIM Survey Reveals Frequency of Information Security Breaches",
+		"url": "http://www.itsecurityguru.org/2016/08/19/m-files-and-aiim-survey-reveals-frequency-of-information-security-breaches/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "yNCTqpYV3Vw56AaIHbH80ANvnTZcuRRyKy41rb123SQaBJM8VTodjCqBuECJJ8AOie0pCo116TabKdEqsa2chNoPlg117117",
+		"item_date": "2016-08-19 00:00:00",
+		"title": "Employee Arrested For Breach At Software Firm Sage",
+		"url": "http://www.darkreading.com/attacks-breaches/employee-arrested-for-breach-at-software-firm-sage/d/d-id/1326677",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "e73a8qelqIlDMC7ql116Q116x11629HtTiPGJn116fXVaxODQgcyOO45LYkmYnrQn123e9WxPciv123lrJlcfoEasDYNjwQ8iw117117",
+		"item_date": "2016-08-18 00:00:00",
+		"title": "Here is what companies are doing to secure the IIoT",
+		"url": "http://industrialiot5g.com/20160818/security/companies-secure-iiot-tag31-tag99",
+		"domain": "industrialiot5g.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2Pc2hDKFI7GrScUlHMcEmZr5E6HcCsEBWwp0BR9gF6T4tuGDUAkLMbIiA3kGMWsEY1ekqWEzs1O8u0m60OhvVA117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Security Must Become Driving Force For Auto Industry",
+		"url": "http://www.darkreading.com/cloud/security-must-become-driving-force-for-auto-industry/a/d-id/1326637",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NEcbsNZd6123Z0kJpU7EI4cnVb7qRjHX123GlOszh1qhb1GeMGAmWYWfV116jP5S22JkylQyNtuQXEr4iNU9IxYuB8lA117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Millions Of Keyless Volkswagen Cars Can Be Hacked Research",
+		"url": "http://www.darkreading.com/attacks-breaches/millions-of-keyless-volkswagen-cars-can-be-hacked-research/d/d-id/1326651",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3awiJar0sd0gFOW3qb123NguOACkKgk7kO2gwqh7iKWquln6cmZ6RPPgVBZGGMwrkxou1zqe093NQHPxSqOoTIeg117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Best Security Practices to Prevent Costly Social Engineering Attacks",
+		"url": "http://www.itsecurityguru.org/2016/08/17/best-security-practices-to-prevent-costly-social-engineering-attacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "TUY3J7nDBk8EiMOd3WU1165yqNAKXicbpz8Ruh4a3z5pgM1dy116LkcTXmnh9lROFnI7E0BTaMG1123iauR6IF8p116qyg117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "New Research Shows  More than  30 of Employees Put Their Companies at Risk of Data Breach Due to Phishing Attacks",
+		"url": "http://www.itsecurityguru.org/2016/08/17/new-research-shows-more-than-30-of-employees-put-their-companies-at-risk-of-data-breach-due-to-phishing-attacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "MrnupmJ116Y123zdYFfUgbi0nwp2FqpyUHN2HqEWQXH1239poX4csKtAPLkYN6svjTsdREsNQren7odOxozkJqgZY26g117117",
+		"item_date": "2016-08-17 00:00:00",
+		"title": "Lack of process and security culture are chief factors leaving firms open to cyber attack",
+		"url": "http://www.itsecurityguru.org/2016/08/17/lack-of-process-and-security-culture-are-chief-factors-leaving-firms-open-to-cyber-attack/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "coxqMGSo116dUDLa2iQrCYR9FiI116Vv6nUSpN7lkjTAvW73HHqUHBFFPGVrHC2FzXsHtEi123NyDj9RAMJjINJIRPrw117117",
+		"item_date": "2016-08-16 00:00:00",
+		"title": "SignalFire New Firmware Adds AES128 Encryption to its Wireless Remote Monitoring Product Line",
+		"url": "http://www.remotemagazine.com/main/markets/security-channels/signalfire-new-firmware-adds-aes-128-encryption-to-its-wireless-remote-monitoring-product-line/",
+		"domain": "www.remotemagazine.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VcuYi5EWc116jFO09RHpxGj6IsB1zjsEVO116G3116LcLEKORCgsYCKygNP4iM5H9bab3pbAzfGTuhffB6Bd4ot5IkAQ117117",
+		"item_date": "2016-08-15 00:00:00",
+		"title": "Major Hotel Chains Hacked Credit Card Details Stolen",
+		"url": "http://www.pcmag.com/news/347015/major-hotel-chains-hacked-credit-card-details-stolen",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RzlJqXpCk0nT4cKn9Pw9qH9DCxIhCGxwm123LiLogTjnUb9ZaW1XuUlPPBF8HXAWCuQ88Kn4yB1161Qet4qrBBSl1A117117",
+		"item_date": "2016-08-14 00:00:00",
+		"title": "HEI Hotels reports pointofsale terminals breach",
+		"url": "http://www.pcworld.com/article/3107281/hei-hotels-reports-point-of-sale-terminals-breach.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lsDEIMhF116cYukO7lWroXw8rLBpYmLPgWByx6XgrlopXfoC1udzWgu48oQ9kLGf0VSepT2qOqWjkoSM1A123HWa116Q117117",
+		"item_date": "2016-08-12 13:01:42",
+		"title": "Airtel is sniffing and censoring CloudFlares traffic in India and CloudFlare doesnt even know it",
+		"url": "https://medium.com/@karthikb351/airtel-is-sniffing-and-censoring-cloudflares-traffic-in-india-and-they-don-t-even-know-it-90935f7f6d98#.rllbwnqwu",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zIsXwTl2040Ns0jBA98wAbaz3kxB9w2QB35a8tMSMv3116Nw8aXZU2AlW4aD5XJ7FYFdf116gq5kSL116dOajjwryxNg117117",
+		"item_date": "2016-08-13 11:42:27",
+		"title": "Web API  Security Review  How to Hack an API and Get Away with It",
+		"url": "https://www.linkedin.com/pulse/web-api-security-review-how-hack-get-away-brijesh-mishra",
+		"domain": "www.linkedin.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Tt3PQQk09goeOGS67liEGlSEUTjyCUpTAX2fsYCroyO0dWLATLg6HdzU1l4ckF1168QnfCR4vyl116cnzp0AhBz0Pw117117",
+		"item_date": "2016-08-13 00:00:00",
+		"title": "6 Things To Know For Securing Amazon Web Services",
+		"url": "http://www.darkreading.com/cloud/6-things-to-know-for-securing-amazon-web-services/d/d-id/1326595",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FSuB4PbSOl123m8k2XXpJ6gkwjT9a116yU24ndcjEyp5uB2zJF7qwQ9CiVdi2e6JFWwzGiYH2NJ0779yvZBYh133TA117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Kaspersky Internet Security 2017",
+		"url": "http://www.pcmag.com/article2/0,2817,2460964,00.asp",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6gzV3ID10VpRLoVxuRjkDfK8e1kLeryvnbsBQ116AnhshV1E4svbwiyAZjDfJQkaENEAzPfFM3yCa3aFei1231Cjbg117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Drive a Volkswagen Think Twice About Using Keyless Entry",
+		"url": "http://www.pcmag.com/news/346959/drive-a-volkswagen-think-twice-about-using-keyless-entry",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fZl7ZP7InIAhKAoa6TsV4Ojimr9sAWsY123zi1LW3fipMpOhx11623vo6DcMoiOGNZU123gv6n2RnHNITxJ123DXFVuQ0w117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "Big Data Security Issues in the Enterprise",
+		"url": "http://www.bmc.com/blogs/big-data-security-issues-enterprise/",
+		"domain": "www.bmc.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Ciqs123GB8Y8Dih3nDm15yP2z3cZwreUGwfLok0jAe1j7aj5cBslvlNzueujANWT4jqvm5uxUDwEunzQx6D123YfJg117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "Securing Slack Webhooks With Firebase and Nodejs",
+		"url": "http://cliffordhall.com/2016/08/securing-slack-webhooks/",
+		"domain": "cliffordhall.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PhqNx3uPRX5GgHmNjCFBkaro1kFQXYCpoWkHWjq5RwJU08uNLCeCHkydzeRjH5yVtkFUkk1BRHnFe123t5mEZBFg117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Where Is The Ethical Line When Defining And Securing The API Landscape",
+		"url": "https://dzone.com/articles/where-is-the-ethical-line-when-defining-and-securi",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WRg91WiKkBsxh2dOyZ2T123gG2VYUhsP71C80SvstkQLJ5zMahm8DDt4HT43mkfbB123nwPS6M4pBEVIhxri116TtSDQ117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Thieves can wirelessly unlock up to 100 million Volkswagens each at the press of a button",
+		"url": "http://www.itsecurityguru.org/2016/08/12/thieves-can-wirelessly-unlock-up-to-100-million-volkswagens-each-at-the-press-of-a-button/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "rAPNX1xjVpVLE01bH5kv2kuSmPHa7Hy4UDs9gsnT1165sOjO1a6JsNLH1164OpCcvNoWQQlbpbWT68l1DUo4ktGkEw117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Making Open Banking safe is simple despite concerns over cybersecurity",
+		"url": "http://www.itsecurityguru.org/2016/08/12/making-open-banking-safe-is-simple-despite-concerns-over-cybersecurity/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "yPCJ123V4Si6IgM0Yz4ctYzyzSR8DgTHb116kjAKSB9n123K34Ya7qJzH116ZXTx116ZEAIYLMnLPFrg3uzf6OvWrTKXtoBQ117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "Millions of Volkswagen cars can be unlocked via hack",
+		"url": "http://www.bbc.co.uk/news/technology-37057689",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "Y78wX4Zn1SRFPYQf3IweiOu5Q9jjepy2NWetcT0XHow3CXVtOGaY7FcxLIsyBmINBdnj7T5YnarbZRJh6Gp116Xw117117",
+		"item_date": "2016-08-12 00:00:00",
+		"title": "A security expert who in his spare time discovers data breaches affecting millions explains why he does it",
+		"url": "http://www.businessinsider.com/interview-security-researcher-chris-vickery-data-breaches-future-hacking-2016-8",
+		"domain": "www.businessinsider.com",
+		"image": ""
+	},
+	{
 		"curated_id": "5siZwsgcepuH4yJCaSEeTTE0123n1mDpUqh1exUy0xGDxBDT7NhGNZ4yKn2uMYjCjt7CEnouA3U1Q96p1L2A5JDA117117",
 		"item_date": "2016-08-11 00:00:00",
 		"title": "New  Bring Your Own Keys with AWS Key Management Service",
-		"url": "http://feedproxy.google.com/~r/AmazonWebServicesBlog/~3/yjfStxJtSd4/",
-		"domain": "feedproxy.google.com",
+		"url": "https://aws.amazon.com/blogs/aws/new-bring-your-own-keys-with-aws-key-management-service/",
+		"domain": "aws.amazon.com",
 		"image": ""
 	},
 	{
@@ -43,7 +1787,7 @@
 		"curated_id": "gBEdQ4FNv926BBMchsE823gGgsahrKQNquWOGQabFLFqW4tZxaz123DDhiQV5SgBdmkzJ7UG8ALJaNjNV5Z7hYOw117117",
 		"item_date": "2016-08-07 00:00:00",
 		"title": "Datadog Adds RealTime Security Monitoring With Immunio",
-		"url": "https://dzone.com/articles/datadog-adds-real-time-security-monitoring-with-im?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/datadog-adds-real-time-security-monitoring-with-im",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -147,7 +1891,7 @@
 		"curated_id": "h1Qs1QKnuc9BbBWFlpGBAtEy8aV2YDXAq3FCuSEZFvRSQG5pW5bA1163uNl9iU8C9ovLzyiKpTh116z3sH4nD5zGAw117117",
 		"item_date": "2016-08-09 00:00:00",
 		"title": "The Importance of Security When It Comes to Data Accuracy",
-		"url": "https://dzone.com/articles/the-importance-of-mobile-workforce-data-accuracy?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/the-importance-of-mobile-workforce-data-accuracy",
 		"domain": "dzone.com",
 		"image": ""
 	},
