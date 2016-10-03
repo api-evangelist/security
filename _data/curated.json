@@ -1,18 +1,354 @@
 [
 	{
-		"curated_id": "01zOfQPzxx160UZFY116jsLGPz7zTOjX9meTH7zRKL8ZwfgBsfdK4NJYo03Rx53kK123aGg3lveDJIP5qHJvKGtVtg117117",
-		"item_date": "2016-09-28 10:32:30",
-		"title": "Twitter",
-		"url": "https://twitter.com/i/web/status/781184198597935104",
-		"domain": "twitter.com",
+		"curated_id": "MoFo2TAby8H8EqunETSJlAGQeWUh1WnElK7kTDfNANfJMff4GTAiyPCK9Ez1rirvUNwzewXr116oo116PCwTMI6wJA117117",
+		"item_date": "2016-10-02 00:00:00",
+		"title": "Box Introduces Four New Security and Governance APIs",
+		"url": "http://www.infoq.com/news/2016/10/box-security-governance?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+		"domain": "www.infoq.com",
 		"image": ""
 	},
 	{
-		"curated_id": "awd4sk9ZcEGLkTNu3B123123XZzzz9ZQtzwmPhhEC9cm116eyNMNBSxw9rTehk0YCuRuFjGIdtMWmWzfMBfBZhGK9yhA117117",
-		"item_date": "2016-09-29 07:37:38",
-		"title": "Twitter",
-		"url": "https://twitter.com/i/web/status/781501293173047296",
-		"domain": "twitter.com",
+		"curated_id": "SU29G3MCIjilIBIh1123UukM11660oYcBGnDy1mOi7tWIG5zJ116i123qQ9P3Skh7UrmIqjv4JI5dQqqGVZbMeXdbXAwjQ117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "Reshaping web defenses with strict Content Security Policy",
+		"url": "https://security.googleblog.com/2016/09/reshaping-web-defenses-with-strict.html",
+		"domain": "security.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ttzjjHAFyjh3Qa5YAiF116DF116t4GS6L8qtRu7WDn116HBoUJr116GiNjbNKdnfZ0qamoC8VHkoY8owP123wOuUmpWrMdxg117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "API Best Practices Security",
+		"url": "http://apigee.com/about/blog/cto-musings/api-best-practices-security",
+		"domain": "apigee.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xUoq61238AQOutDFURV1h123Hr2TAwSBInjhp3aIxQA4RemBRatKmdhsDAX3ThZ116cAOW5vMLKY92LBH1YNVdacpPsA117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "State Of The Exploit Kit",
+		"url": "http://www.darkreading.com/operations/state-of-the-exploit-kit/d/d-id/1326981",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116BQiUqNLYczItouLzbvLbSnBX7bvOOsQnaXbNnL123jl2iFHM4TWYiepm1233RUrUolIvhlhMM7q2jtIM4j1l5cMiA117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "Skyhigh Networks raises 40m funding to tap cloud security market",
+		"url": "http://www.cbronline.com/news/cybersecurity/business/skyhigh-networks-raises-40m-funding-to-tap-cloud-security-market-260916-5014987",
+		"domain": "www.cbronline.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NZBiUVAeo3KvY6e141EVbNWnyYSchUbNMY7TbL7otZjN63dgcicvXp123NirwPQy3123VOqY5nJxiFRGy7qXWfytTA117117",
+		"item_date": "2016-09-26 00:00:00",
+		"title": "Partners Cheer Microsofts Product Moves Around Security Cloud And Containers",
+		"url": "http://www.crn.com/news/cloud/300082217/partners-cheer-microsofts-product-moves-around-security-cloud-and-containers.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "T5XhtBBnpkd6b3jpLkFI4Z123R7CsviLOjqeoT3Tai0jryyIF2BqV4zQiJ0TUCHgSF1NRnqiU3UVWTXHRjs3EwfQ117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Spamhaus Warns of a Rise in IPv4 Network Hijacks",
+		"url": "http://www.itsecurityguru.org/2016/09/27/spamhaus-warns-of-a-rise-in-ipv4-network-hijacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "fgpW2m9I1DYCbAC4vbFPtlwzjyCC9UdMMSMEnyFnkEl0s5U16mydhrue3anQopp2msajhqIpohj8JrNHp123v0sg117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Securing Your IoT Deployment",
+		"url": "http://www.codeproject.com/Articles/1133508/Securing-Your-IoT-Deployment",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oOaqcFV116CUEpT123116xIPjN6rVLeVOinyPLEUv4KQ41Atn4dLL3lG6gPZzPpwNQhPhaCe1Z4kxhXU123QOQbEIptjIw117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Yahoo Sued By User Over 2014 Hacking",
+		"url": "http://www.darkreading.com/attacks-breaches/yahoo-sued-by-user-over-2014-hacking-/d/d-id/1327018",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8E8L1idDXyMRPaCnScVh1nsNnyuUWneaiQBX0ztqwzF116KJw116QRfqlrYYzBWfZ123oUWmY1zduhVQkrSS1G9Q3zlA117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "Yahoo hack may become test case for SEC data breach disclosure rules",
+		"url": "http://www.reuters.com/article/us-yahoo-cyber-disclosure-idUSKCN1202MG",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cvqXNGyrKYkPJGTi19mLWESWIjmzh3q4GvJ6uQJFIKFHiLY7G4VJ0uqlRnwXEsKBtsaPFGeAFJrd2G28oVpS0A117117",
+		"item_date": "2016-10-01 00:00:00",
+		"title": "Your next DDoS attack brought to you courtesy of the IoT",
+		"url": "http://boingboing.net/2016/10/01/your-next-ddos-attack-brought.html",
+		"domain": "boingboing.net",
+		"image": ""
+	},
+	{
+		"curated_id": "LprnIHHgsywmhBYVQ8dujLnKnhG1XpXL2rnvUTIckgKzYsGo11T9KheOcOtDpCDC6oehDfGk1B4cZy3llLjZDQ117117",
+		"item_date": "2016-10-01 00:00:00",
+		"title": "What Does the Massive Yahoo Hack Mean for Banks",
+		"url": "http://bankinnovation.net/2016/10/massive-yahoo-hack-exposes-frailty-of-password-based-security/",
+		"domain": "bankinnovation.net",
+		"image": ""
+	},
+	{
+		"curated_id": "PFq8vHg799nocNWtJ1M1evzH4CdlY6Voc123FO6mmgRqXpNYn9ebsgYo9peKKVX5WtX2AzlPSLBP116Kv123bDNn3e7Q117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "Yahoo hack may become test case for SEC data breach disclosure rules",
+		"url": "http://www.reuters.com/article/us-yahoo-cyber-disclosure-idUSKCN1202MG",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "BChI6xajIRcDcGRj123J7zkvWoGZNpa7nIQOYyFe123yKUfILpOSr9RLxhB2Uo80Z7qylrWhcZa116TTb0wrly9ye123MQ117117",
+		"item_date": "2016-09-29 14:30:09",
+		"title": "Time to Kill Security Questionsor Answer Them With Lies",
+		"url": "https://www.wired.com/2016/09/time-kill-security-questions-answer-lies/",
+		"domain": "www.wired.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hCkgaTNNKCLsHjwdeoePYPwgl398FD5n9rCbnRHEZbnk1167J7yCUcy439qSJPJFU0N6SQ12HPxkY0AHBi2Do7TA117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "A Yahoo insider believes the hackers could really have stolen over 1 billion accounts YHOO",
+		"url": "http://www.businessinsider.com/yahoo-insider-hacking-2016-9",
+		"domain": "www.businessinsider.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UOHJGb123cJiD8UmrB4U9WkPX4maF60uAL123EZdEtETlP1NHwwIpjfejihF2qKDeP1HM4amMWa9kjcVVOjdeFIqzw117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "Ransomware spreads through weak remote desktop credentials",
+		"url": "http://www.pcworld.com/article/3126256/security/ransomware-spreads-through-weak-remote-desktop-credentials.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gF8jvGPKRmNg123AZfEEBdkGVVOf0QUSOd7MNfpTd19FID116vewzedvwQarXVNm1ho1oThegx34pXwTqapIvy9VFA117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "API Security Keeping Data Private but Accessible",
+		"url": "https://dzone.com/articles/api-security-keeping-data-private-but-accessible",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CJvH9LrKm3q9z8123n21XgsMUA5a0L8hLwvBLNLaB123rWa4KK9auXUP0hb2vuDWPO1l5T9tYhG6P1gC2123pEhjElMQ117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Dont Hide DRM in a Security Update",
+		"url": "https://www.eff.org/deeplinks/2016/09/dont-hide-drm-security-update",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "tr0wy123i2KSd0KCH7M1235xTUjct8ZGgIMvFmoVQZ62f4DfRrABH8jhVWHsAZft4EqRnefxkl77WVJu2OW6sKt1og117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Invest in Cloud Security With a 4Point Plan",
+		"url": "https://dzone.com/articles/invest-in-cloud-security-with-a-4-point-plan",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7898fyJ1w0123xDOZTNX4b116jk7dcc0oGlQ123ZiSpsd9XDshqDqycU123j7uw7123Dw3k123kFevuc98G4fH1160zy11695u27Ig117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "How to Engage Developers in App Security",
+		"url": "https://dzone.com/articles/how-to-engage-developers-in-app-security",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123Q5I5CWNuieKdmQV9EBu1KL116qx6Ga4UxTKCJukcztzr6ONW2UCtw0qmkkwxQeblSXf04mdlC9g2Cr1mY7JKl2Q117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Why and How Every Organization With APIs Must React Immediately to the Yahoo Breach",
+		"url": "http://www.programmableweb.com/news/why-and-how-every-organization-apis-must-react-immediately-to-yahoo-breach/analysis/2016/09/28",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "j1kznb1123E5nDjMjWS123l2Q27D59kLYowUx4wFvqJh123cbeFnJjwPIYEAKz969Vd116KhTXekx9lsJade1237cF9292qw117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "Cloudflare039s Traffic Control Could Be Used to Target Specific API Security Concerns",
+		"url": "http://www.programmableweb.com/news/cloudflares-traffic-control-could-be-used-to-target-specific-api-security-concerns/brief/2016/09/29",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "azYp8H8z5TrzWX2jl116gCcZmWfK94DWa1160oznEUrvZkKiEYLDEacE1R9tWUgIB0sEy7IHZ59aQKz2qfa6Rh1234oA117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "Containers Security and Double Dipping",
+		"url": "https://dzone.com/articles/containers-security-and-double-dipping",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lczqdch6696mPdL3IYRGzvD5LcQ116qHAuVskHKHWwbGvBfAImJ123r8P80mNvwpri116d1SslP0L0uEXjwPRvdXJwPg117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "Enhanced thirdparty access protection for Google Sheets",
+		"url": "https://gsuite-developers.googleblog.com/2016/08/enhanced-third-party-access-protection.html",
+		"domain": "gsuite-developers.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dux0JEY7hEfCLGIWQnIL8R1Fh1232DlcDgH6yjrtBOO7t5H123sZnArje0KZ5grN3bKIu8GteeGjcz5HgDstfEnt7g117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "EFF Asks Court to Block US From Prosecuting Security Researcher For Detecting and Publishing Computer Vulnerabilities",
+		"url": "https://www.eff.org/press/releases/eff-asks-court-block-us-prosecuting-security-researcher-detecting-and-publishing",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "dE0116dS11CTJmNYr6HlBAaHU2gqUreDL36wBTETJ123gwrDTayLrGHWVrh6pJQMzcqVRupc123y3xBMURIRWWZVvCKw117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "Eight Big Data Security Issues in the Enterprise",
+		"url": "https://dzone.com/articles/eight-big-data-security-issues-in-the-enterprise",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "i5rEbguDbC7EeHoRpIb5NOGc1qr9WgrTvHzeEHHCX2po5zEYXwuogL1A4ui6kQsANNsZDs0iiUABT8Lfunna5g117117",
+		"item_date": "2016-09-29 11:42:00",
+		"title": "Data Protection By Design",
+		"url": "https://pkware.cachefly.net/webdocs/pk_pdfs/whitepapers/Whitepaper_EU-Data-Protection.pdf",
+		"domain": "pkware.cachefly.net",
+		"image": ""
+	},
+	{
+		"curated_id": "mzULgljoo7gcIth4GPvhkCkx00hvsreZGdbYp3BmdYorIE5CBQjv5YlV1uo2OiSj9eWgx7RDKdjjyOrr5Rx6Mw117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "Army of webcams used in net attacks",
+		"url": "http://www.bbc.co.uk/news/technology-37504719",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "BvsNjrqQufZZ1pKMlTCyGpBzb8WiVPEjVx29i8pIdDgLDIKgm123QUlgQdKxIF8iP0123yn7gmnw7Sdmer116EOc6ccg117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "A Bug Bounty RealityCheck",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/a-bug-bounty-reality-check/d/d-id/1327051",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hU116Rj7zDnKznGrh2HzKmClaT2bMqQP56B2cAmFHBEVinHTK123ELK2AiZMP9tAkgYR1a6y1be1kUzi4EVjlryrIA117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "Fear  Loathing In The Cloud",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/fear-and-loathing-in-the-cloud/a/d-id/1327031",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "eJXsSbMnlMMN6PoxOHaxY9OQI4mQT123116ulQPgUgSD116xukxN6mfv0Z9m2QXoKkCh01kVWZ3wU7IZUIYX3WjSChdQ117117",
+		"item_date": "2016-09-29 00:00:00",
+		"title": "NHS Digital aims to put healthcare on firm cyber security footing",
+		"url": "http://www.itsecurityguru.org/2016/09/29/nhs-digital-aims-to-put-healthcare-on-firm-cyber-security-footing/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "U6EXAeDVjwhx8A123He3UZEm1dNu69seqoOuJfqvOub8fvF5a47RsPuhGzpHecUg3S1231NGnN983eHNlqaPVOTEjA117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Will Yahoos Data Breach Help Overhaul Online Security",
+		"url": "http://knowledge.wharton.upenn.edu/article/will-yahoos-data-breach-help-overhaul-online-security/",
+		"domain": "knowledge.wharton.upenn.edu",
+		"image": ""
+	},
+	{
+		"curated_id": "C9pmvuu123gA238YQT65c8KSE5kmF3Mt9XRnvvucAL7XtNTXak5ACJUdKPA7zGy92rAdQHjqSiERhHipH9LVrHKw117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "MA Is Security Industry Set For A Paradigm Shift",
+		"url": "http://www.cxotoday.com/story/ma-is-security-industry-set-for-a-paradigm-shift/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tUIsDh8jzDYOa3XAsrPpm2to4wknFxtqpc28LXP3oTDfTN1ZxYDouTfeImHZotpYTQqx4JzEIXqWjMreVJHeiw117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Hack It Yourself Before Getting Hacked",
+		"url": "http://www.cxotoday.com/story/hack-it-yourself-before-getting-hacked/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8ZpFAJdMmWYg9TVJrhzcoylTdbHg7Gj046kj4O123ttK8L9A9l9rF5bBlpagJddAUJYfVEVlfhSOmKA8bcdVkpag117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Yahoo data dump indicates need for web monitoring",
+		"url": "http://www.itsecurityguru.org/2016/09/27/yahoo-data-dump-indicates-need-for-web-monitoring/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "63Xq9n48aYDOa5123reQ7C3G0DndDwIm3SEWL4erZp8KPt8Mki0jCOxVJwJ4NxoLt116GSuZ1237Es1164zysM123cdiP0CQ117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Progress on security for the Industrial Internet of Things",
+		"url": "http://disruptiveviews.com/security-industrial-iot/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "d6Wp6z8TDk7rCxC5osR5JQDDs11615lvRaNwxCUC116wcvzmoo6grARoTfcI9oCWnMXa6Z7EeymDTqopXaA1PanaVg117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Yahoo failed to prioritize security report",
+		"url": "http://thehill.com/policy/technology/298238-report-yahoo-denied-resources-to-security-teamn",
+		"domain": "thehill.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lUKWOg3116jp123q0XCwSmNx2g1VImXk7MtULPU3wn123dM8Z4v2B8v116snQACDEIq6r7aiTKpg1NkPxI4Qll4Ki8jYwQ117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Malware Tries to Detect Test Environment",
+		"url": "https://www.schneier.com/blog/archives/2016/09/malware_tries_t.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qtuueUQ5B13T1161pBbi1Z4wHLTrOOlKmfnn11674K116PQrJetswox9R2MwbbbGDc02qBDKrZUjV116lMEcGMfnlIz7Lw117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Improving Security Savvy Of Execs And Board Room",
+		"url": "http://www.darkreading.com/careers-and-people/improving-security-savvy-of-execs-and-board-room/v/d-id/1327047",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FBvoHq116GiBIguKZeWVVpYJbjuJ4GohK116ikBdOW11680R2TCvg8116n2hkrHlx1237AafnPJ3L116SJLcd1AilkWMWcxxYA117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "More Than Half Of IT Pros Employ Insecure Data Wiping Methods",
+		"url": "http://www.darkreading.com/operations/more-than-half-of-it-pros-employ-insecure-data-wiping-methods/d/d-id/1327032",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6pK116kEE6zsdq3XgxK3kMifWQnxCgst1uJ6VfdpPFGZLwDx123s1vEMpl4G1116kpVEliJfatmdqCoMda3NvYUgD6cg117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "OnHub Powerful protection for peace of mind",
+		"url": "https://security.googleblog.com/2016/09/onhub-powerful-protection-for-peace-of.html",
+		"domain": "security.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NPfnsNJtuC4s7YusoFcd116GBk4mgV67ei8XhcKwZZXOlBx7TU123E5CLKFZPE3FJQkvgHFxURbEuMggccnZRQKPNA117117",
+		"item_date": "2016-09-28 00:00:00",
+		"title": "Fast Security Is Not Always High Security",
+		"url": "https://dzone.com/articles/fast-security-is-not-always-high-security-todays-o",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "F3Mb35lVyjzhF9itXSYoksM8q0oDuPk5IGKccKpmK8p123bgZ1XUNTsgfKOOUKTZkwAfrKhpjiq123gW61UjAKXAsA117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Microsoft leads 9 million investment round in container security startup Aqua Security",
+		"url": "http://www.zdnet.com/article/microsoft-leads-9-million-investment-round-in-container-security-startup-aqua-security/",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XJPGf1AC5hltG116027RwnwbTJrk2PShUsx0YIpC9zZZCcbuBUxHlb0X11KNHcvS116WUMGIpYoF3IYTcXvpb1kWUA117117",
+		"item_date": "2016-09-27 00:00:00",
+		"title": "Automation AI among key takeaways for security execs ecosystem",
+		"url": "http://www.zdnet.com/article/automation-ai-among-key-takeaways-for-security-execs-ecosystem/",
+		"domain": "www.zdnet.com",
 		"image": ""
 	},
 	{
@@ -501,14 +837,6 @@
 		"title": "Clash of Ops How Security turns Stateless into Stateful",
 		"url": "https://devcentral.f5.com/articles/clash-of-ops-how-security-turns-stateless-into-stateful-21727#.V9HB1IYCiiM.twitter",
 		"domain": "devcentral.f5.com",
-		"image": ""
-	},
-	{
-		"curated_id": "34BTWEx6nUlYipz62AcMXBAkThxSLNvoOIO123Sr7Q2YeJE9V6AY5uYEPnDxXmJO6ZoSRyHrEp52PaAQefm1KYkQ117117",
-		"item_date": "2016-09-08 14:02:12",
-		"title": "Twitter",
-		"url": "https://twitter.com/lmacvittie/status/773989841100910592/photo/1",
-		"domain": "twitter.com",
 		"image": ""
 	},
 	{
