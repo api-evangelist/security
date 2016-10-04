@@ -1,9 +1,33 @@
 [
 	{
+		"curated_id": "0neWzVQxtsof2PaizdhTHL8MqxdwS2nW7J5o116jXzwGk1167123Ha7Zm32ENfFBlQqkOq116DmLVYkudjC08I2mOK7Eyg117117",
+		"item_date": "2016-09-28 10:32:30",
+		"title": "Twitter",
+		"url": "https://twitter.com/i/web/status/781184198597935104",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oQVijoozN13i393j4carltNpqZ00LoG6IYiUjWhsGLKRqFoqioaZZ123IHQKbJu8CvO4123EXxK116FfTT0uW2NfBTWQ117117",
+		"item_date": "2016-09-29 07:37:38",
+		"title": "Twitter",
+		"url": "https://twitter.com/i/web/status/781501293173047296",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6i4W116Xx4Vxq1CWAEnjno4ZKBHZceczVzz123FYufFid5lVqETCEM79Ja9YTAP123qiZ123NakNOHe6r116rLYjko9zlB9A117117",
+		"item_date": "2016-10-03 00:00:00",
+		"title": "Security Design Stop Trying to Fix the User",
+		"url": "https://www.schneier.com/blog/archives/2016/10/security_design.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
 		"curated_id": "MoFo2TAby8H8EqunETSJlAGQeWUh1WnElK7kTDfNANfJMff4GTAiyPCK9Ez1rirvUNwzewXr116oo116PCwTMI6wJA117117",
 		"item_date": "2016-10-02 00:00:00",
 		"title": "Box Introduces Four New Security and Governance APIs",
-		"url": "http://www.infoq.com/news/2016/10/box-security-governance?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+		"url": "https://www.infoq.com/news/2016/10/box-security-governance",
 		"domain": "www.infoq.com",
 		"image": ""
 	},
