@@ -1,5 +1,69 @@
 [
 	{
+		"curated_id": "Kj1HRLoNob7vGVsge7FxxOywottLJ116BXez5jp0zIFrfdpD7fFWDLVeuFdjtVuAdkoe6TO2123H123Pu1g4xTcc3Ycw117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Some insulin pumps vulnerable to hacks",
+		"url": "http://thehill.com/policy/cybersecurity/299212-hackers-can-hijack-certain-johnson-and-johnson-insulin-pumpsn",
+		"domain": "thehill.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oufyCrckMFZxJ4zBzIqpGaJTeT123RXV12372zBtUmt9nFiqT3tg64CycvfXlcaiP2ZbM0JWoaToCmdmwS4V5ydX2Q117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Is WhatsApp Hacked",
+		"url": "https://www.schneier.com/blog/archives/2016/10/is_whatsapp_hac.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kPzZCuPXg7aIVtydxVfefBVRpOiKe2xu8dLLTxLUsL0Im8PofWv0z3dZGmm2HylP1116pCLGJtY68GzdXbr0wIng117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Johnson  Johnson says insulin pump could be hacked",
+		"url": "http://www.bbc.co.uk/news/business-37551633",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "7PEEFqO626KDH14iwzp1GKNZFORGrkCDCUK8odNlHn4FPl1GNsL2jtXlS4Snro1233qs7exnV116bv7elCiEfG0lNQ117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Defining Security Automation Goals Part I",
+		"url": "http://blogs.adobe.com/security/2016/10/defining-security-automation-goals-part-i.html",
+		"domain": "blogs.adobe.com",
+		"image": ""
+	},
+	{
+		"curated_id": "94g3116MBzAlpJsSUkyekl5uHaMtSAz08bUXtwrBCplQBX4pDY7BFYGW9u4eg67spGS123sLQ1Y5jPdQ7CtbBhP0xA117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Akamai acquires enterprise security firm Soha",
+		"url": "http://feedproxy.google.com/~r/zdnet/BTL/~3/ISiTzN_VVt8/",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "P2123Lx9LBUgFdKLpyHcvsYBbeQv8zZLPwbPNHbLgTsmm0pG3sEXx4hvaBOGPyjXCo12379lKMSNd9RwN0y0RrD9tw117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Have hackers turned my printer into an offensive weapon",
+		"url": "http://www.bbc.co.uk/news/technology-37552066",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "ml5AIHj1uZJyKk0827z20nL2KHcl6bTu6lWjz0o2HNrVSshz0aBjWiNDnha6W6sbUdMAvmumSz116t6TconvFS8Q117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Homeland Security Warns Certain Huawei Devices Vulnerable To DDoS",
+		"url": "http://www.itsecurityguru.org/2016/10/04/homeland-security-warns-certain-huawei-devices-vulnerable-to-ddos/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "mGxqQa5KMXTyNUMd116sJjzDJ4KK5N9Mk7XWQPdFVn0CZy2dClF1couvNFSWrGyjWChj4r1c6UxttVkveEWHbIyQ117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Organisations a long way from plugging the gaps in their IT estate to prevent data leakage",
+		"url": "http://www.itsecurityguru.org/2016/10/04/organisations-a-long-way-from-plugging-the-gaps-in-their-it-estate-to-prevent-data-leakage/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
 		"curated_id": "0neWzVQxtsof2PaizdhTHL8MqxdwS2nW7J5o116jXzwGk1167123Ha7Zm32ENfFBlQqkOq116DmLVYkudjC08I2mOK7Eyg117117",
 		"item_date": "2016-09-28 10:32:30",
 		"title": "Twitter",
