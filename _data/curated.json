@@ -1,10 +1,82 @@
 [
 	{
+		"curated_id": "hWnvlx0Ldys1D3wiffKDentkSSH123BICMgdZGiWW4pMHCsVAj7ygJiog1LfspWF6iftDSFsAsGlpmWXW116N0116pKg117117",
+		"item_date": "2016-10-07 00:00:00",
+		"title": "Bruce Schneier We Need to Save the Internet From the Internet of Things",
+		"url": "http://motherboard.vice.com/read/we-need-to-save-the-internet-from-the-internet-of-things",
+		"domain": "motherboard.vice.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FKzf9mcXQ1k070fOqT123eJjtfaYmOggA3116rK7HWat2NaMA3tXSjZJoZ123Vh41Ac25vXY40YeKK7Gy6eXd1rnd94A117117",
+		"item_date": "2016-10-04 00:00:00",
+		"title": "Securing Every Application",
+		"url": "https://duo.com/blog/securing-every-application",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "t7GSdE12RdQs7AY6ueDwkyvPvf3Z1yOHIVHwLWQqkimhrd2KVq116Zk1HBjnIooenOGkOsuX5bjUpfpfHOk0ITUQ117117",
+		"item_date": "2016-10-05 00:00:00",
+		"title": "OTA Issues Checklist For Securing IoT Devices",
+		"url": "http://www.darkreading.com/operations/ota-issues-checklist-for-securing-iot-devices/d/d-id/1327099",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Q4Wo1zEPkF1CsTDE1234EW5r5nJl8J9q7BZeQXFXf0QJdIrrWEPGVz4lJhDkIaKbqRW123jz0C2iLHzy6jNxGneuig117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "Apigee Sense Protection Act on Threats to Your APIs",
+		"url": "http://apigee.com/about/blog/engineering/apigee-sense-protection-act-threats-your-apis",
+		"domain": "apigee.com",
+		"image": ""
+	},
+	{
 		"curated_id": "1jsHaHKfIsaOESXcQyfWXUOnWA8prGrrjJUXlNxrBwRBhPK123v123CZT05116cMigKUUF5LjLvOY39NDrsAKgEgMv8w117117",
 		"item_date": "2016-10-07 00:00:00",
 		"title": "Data Science  Security Overcoming The Communication Challenge",
-		"url": "http://www.darkreading.com/threat-intelligence/data-science-and-security-overcoming-the-communication-challenge/a/d-id/1327117?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/threat-intelligence/data-science-and-security-overcoming-the-communication-challenge/a/d-id/1327117",
 		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "79jCwI1160pcm123v3FtXejtzaijEAhp0Ac3o2fzxvx7f1164HCn8yZLEZAfQGrhksBJAYvd4WJ6rY0JgcmVkD8EDOoQ117117",
+		"item_date": "2016-10-07 00:00:00",
+		"title": "SoftwareDefined Security The Missing Piece in Your SDDC Strategy",
+		"url": "http://sdn.cioreview.com/cxoinsight/softwaredefined-security-the-missing-piece-in-your-sddc-strategy-nid-17128-cid-147.html",
+		"domain": "sdn.cioreview.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NyCx5bi9P8oMkpE9l1HZ3wVEaiMXoxkwU8UjQiL2A6hPteqD116A145M123CK0Dq8zbujcPZH2iAqSAAth5ygjKD6Q117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "Group Security in the Firebase Database",
+		"url": "https://firebase.googleblog.com/2016/10/group-security-in-firebase-database.html",
+		"domain": "firebase.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NNyAnz1u1239R116R4t116CXMkPpFgP28OFy9i60qH4m116wTlH1aK69qjkZr3sxt93U0FSfe4DCBlPNLoBmEd7IeIS1Cg117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "Arizona Official Says Hack Of Voter Data Came Via Employee Email",
+		"url": "http://www.darkreading.com/arizona-official-says-hack-of-voter-data-came-via-employee-email/d/d-id/1327114",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Dcqv0MAsFAwlJd0za2uNdQDbx4zBoJiyEA7fhf123F123Wqd6x5jiocGjwIxLKzDtAVYSv1235Y5s6n123116g6jwYiUblwg117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "TalkTalk hit by record 400000 fine over data breach",
+		"url": "http://www.itsecurityguru.org/2016/10/06/talktalk-hit-by-record-400000-fine-over-data-breach/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "Me3kI8E0m2wroZLrob1XYwM0DC9VJT2EYideXboP9l7BgKmolcq0UiyXXIwoSx5B1168MksS5Gs9ExLhXykuwziw117117",
+		"item_date": "2016-10-06 00:00:00",
+		"title": "Urgent security shift required as severity of data breaches continues",
+		"url": "http://www.itsecurityguru.org/2016/10/06/urgent-security-shift-required-as-severity-of-data-breaches-continues/",
+		"domain": "www.itsecurityguru.org",
 		"image": ""
 	},
 	{
@@ -72,6 +144,22 @@
 		"image": ""
 	},
 	{
+		"curated_id": "FYmRC3rxJw6Ad1168pr7LGYEO5aLDbIJHuAmRyGttDQ8ZZU0erIukqX4W123aNTXBho2fGQVj0SNrJ80123lj01gt6xA117117",
+		"item_date": "2016-10-03 00:00:00",
+		"title": "Who Makes the IoT Things Under Attack",
+		"url": "https://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WveYb4EiFGLllPDJHqbfMgz4KzOb20sR4Rel7F1160FQyrx4Yh7ojg8JBZNqJo7NdBmLcn3dk3npnFnIl0116bjyvw117117",
+		"item_date": "2016-10-03 00:00:00",
+		"title": "IoT botnet highlights the dangers of default passwords",
+		"url": "http://www.pcworld.com/article/3127257/security/iot-botnet-highlights-the-dangers-of-default-passwords.html",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
 		"curated_id": "P2123Lx9LBUgFdKLpyHcvsYBbeQv8zZLPwbPNHbLgTsmm0pG3sEXx4hvaBOGPyjXCo12379lKMSNd9RwN0y0RrD9tw117117",
 		"item_date": "2016-10-04 00:00:00",
 		"title": "Have hackers turned my printer into an offensive weapon",
@@ -117,6 +205,14 @@
 		"title": "Security Design Stop Trying to Fix the User",
 		"url": "https://www.schneier.com/blog/archives/2016/10/security_design.html",
 		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ovZO7XmM8P5i3BhKk75t9Lz4lWKYp4c31116a9hiV8O6jowOglJZpnU9h4MCyJrdtJMpkWhnDGvQml0q2jPw1X9Q117117",
+		"item_date": "2016-10-01 11:35:15",
+		"title": "Tweet How to ensure your APIs aren039t naked httpstcouMVx2xRuLe  Security httpstcoGMocO04tBk",
+		"url": "https://twitter.com/Apigee/statuses/782287780848214016",
+		"domain": "twitter.com",
 		"image": ""
 	},
 	{
