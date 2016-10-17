@@ -1,5 +1,229 @@
 [
 	{
+		"curated_id": "C1234X1160lxI1D1k3wQM1QCoXGD9F8W8Ox58F0d5z6E9Sg116xnYx81RxcE3Ym5icRtho1ngFhE123iPLhWmpal123C9ZHg117117",
+		"item_date": "2016-10-15 16:51:00",
+		"title": "WhatsApp has made too many compromises that put user security and privacy at risk",
+		"url": "https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "tBPXgIlBNCKcTTn6RX5XTEmFAVwM2TD1g1Kpvjnx23Ypagd123AQi0gVZWGPX5h6biB8J2q7D3cEAWOYiYagoieg117117",
+		"item_date": "2016-10-13 10:45:02",
+		"title": "Tweet ICSCERT issued advisory ICSA1628701 OSIsoft PI Web API 2015 R2 Service Acct Permissions Vuln to ICSCERT website httpstco75NYwcMOb2",
+		"url": "https://twitter.com/ICSCERT/statuses/786623795083608064",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hffuFwih12354LY5aOgqJofDwt116NlRXxihBkHKTzZ1116QMU2vaKHNCjCJjhxV1P5nYNfa2123jnB22W8CCfNdXvHY116A117117",
+		"item_date": "2016-10-10 05:59:00",
+		"title": "Tweet Europe to push new security regulations amid IoT mess httpstco0ZtGpQsek6",
+		"url": "https://twitter.com/briankrebs/statuses/785464650402004992",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123apBOjBd5hu4o1Npou1fqWnjg3lAYZ66fE3KemwvBnPG4LUZVAgiDt7116JQu63OjbCklhk1CfzwLfn116QZzZwUqQ117117",
+		"item_date": "2016-10-15 00:00:00",
+		"title": "Security Insights into the LXD Container Hypervisor",
+		"url": "http://www.infoq.com/news/2016/10/lxd-hypervisor-security-insights?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+		"domain": "www.infoq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123EQbW116cplIkXHc8csv82M25BiGoTKS9123X116NrWY9fgh2wc80P3116mTRUVfF8cSvET123I0pQ116ZAyyb116t29kCuQLHIg117117",
+		"item_date": "2016-10-14 20:51:01",
+		"title": "Instegogram Leveraging Instagram for C2 via Image Steganography",
+		"url": "https://www.endgame.com/blog/instegogram-leveraging-instagram-c2-image-steganography",
+		"domain": "www.endgame.com",
+		"image": ""
+	},
+	{
+		"curated_id": "n123n1NveXvvZWjGd0SX98w6hJETnVjPrbssaMELpOd123cqNfsFfgoaZX6hDSKrN6vxsqbwVJxLf7feUQBDa123MjIw117117",
+		"item_date": "2016-10-11 06:05:09",
+		"title": "Say Cheese  a snapshot of the massive DDoS attacks coming from IoT cameras",
+		"url": "https://blog.cloudflare.com/say-cheese-a-snapshot-of-the-massive-ddos-attacks-coming-from-iot-cameras/",
+		"domain": "blog.cloudflare.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7P08qoEcS9bhfcTG8aZorZgFwptr81BvNI5Fw8TO8UzM0s8ZXPMLXIjZzQJH2h5Tw4116eX8NHC123G3aBSAHLZLwg117117",
+		"item_date": "2016-10-10 00:00:00",
+		"title": "Black Hat Europe 2016  BooleBox A New Perspective On Enterprise Data Protection",
+		"url": "http://www.darkreading.com/black-hat/black-hat-europe-2016--boolebox-a-new-perspective-on-enterprise-data-protection/d/d-id/1326902",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5HekQXjkvJECgoKE5sIc4PzSVTL0onnTBM116NmB2eA8I116Bs9RpENtUH5VjTNifUpMgcB123IaWSCjlXjRND07VEkw117117",
+		"item_date": "2016-10-10 00:00:00",
+		"title": "Securing the Digital Enterprise with API Management",
+		"url": "http://www.tibco.com/blog/2016/10/10/securing-the-digital-enterprise-with-api-management/",
+		"domain": "www.tibco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RTArHg8klVVI9123R5K58QQAex2XY3ad1231sQOn2Hbk5wcu7hf7e123c1168EORf0uKu6ok9J2vcTvi6123dcjcb3sR8OJw117117",
+		"item_date": "2016-10-10 00:00:00",
+		"title": "Should the Government Be More Involved in IoT Security",
+		"url": "https://continuum.cisco.com/2016/10/10/should-the-government-get-involved-in-iot-security/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2HtzVYiL4LjiBKNUgOoxhw86BqeLTx3hKXO8av7UiYSP1fdHTn4Hz7TjwKepYVwqZA6VxDJ6OCsus7ZDYxrypw117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Vera Bradley Stores Report Payment Card Breach",
+		"url": "http://www.darkreading.com/attacks-breaches/vera-bradley-stores-report-payment-card-breach/d/d-id/1327173",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ro8nCWHvuKGk0djEpGlg7My4CG006EvkXyr1RZULdCHuHkZBGwOlSYoJ9aKthwM8hf5zlRvRQOcwbOrI0TchIw117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "IoT Default Passwords Just Dont Do It",
+		"url": "http://www.darkreading.com/attacks-breaches/iot-default-passwords-just-dont-do-it-/a/d-id/1327150",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Nk6DAqI123TWSASSdKduD5sXwtsKniZbtt1z4k3oVqDBohXSIawRzjBrIBlHA0Wp5IVH1230oyG1SYYZTgKRvrZ116rg117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "7 Ways Electronic Voting Systems Can Be Attacked",
+		"url": "http://www.darkreading.com/attacks-breaches/7-ways-electronic-voting-systems-can-be-attacked/d/d-id/1327172",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kD968qdSnVKkxSBB3FvcoVFlwCWP3Z13fAyyjneyClckkF4CpbONmR2sXHeKQXkuQkLnhZoGR7vsjZ8DiNA116MA117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Internet Routing Security Effort Gains Momentum",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/internet-routing-security-effort-gains-momentum/d/d-id/1327180",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Kq11PjURhZ8OSgkVlcm371rfAR3W9XdeyjDc8lUN0tnEr6hLNlvSMVQqqud4jrSrtsvmzI3IvFSSbsrIZyqdog117117",
+		"item_date": "2016-10-14 00:00:00",
+		"title": "VMware vSphere hardening for virtual machine security with Puppet",
+		"url": "https://puppet.com/blog/vmware-vsphere-hardening-virtual-machine-security-puppet",
+		"domain": "puppet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "np21GzYY1231tj6eCT4pvFP123116K0qjN7EyUClVG2anSVSdbnkB8luERFuOOVht6BuITdKxKnJSoWerqThKvTQRrdQ117117",
+		"item_date": "2016-10-13 15:35:33",
+		"title": "12yearold SSH vulnerability in IoT devices being abused",
+		"url": "http://www.itproportal.com/news/12-year-old-ssh-vulnerability-in-iot-devices-being-abused/",
+		"domain": "www.itproportal.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3wpW77p2s1s1cYGf116y2MICro116gPsDEv9yu9zDLJYqE0tVKDL00sh8Zkn2LaOwihw3qslbKqq8CkRzhZ1237DuzhQ117117",
+		"item_date": "2016-10-14 00:00:00",
+		"title": "Splunk  Cisco Web Security Appliance WSA  BFF Dear ITAdmin My Internet is so slow",
+		"url": "http://blogs.splunk.com/2016/10/14/splunk-cisco-web-security-appliance-wsa-bff-dear-it-admin-my-internet-is-so-slow/",
+		"domain": "blogs.splunk.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wthkc4p8N116ZLjwWWGQbxsYjlQvlKA9i0rEx2omZtX5VVW0bhavTyMfKKr464O98f11606pxTmfyId1165swh0l2VVw117117",
+		"item_date": "2016-10-12 00:00:00",
+		"title": "Eko Malware Targets Facebook Users",
+		"url": "http://www.itsecurityguru.org/2016/10/12/eko-malware-targets-facebook-users/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "axzAWxWbsikSQ6XHrM4Opa0cybpq3fVtBbdO123MaJT6cmwwTtIdSOomoGaZRCvEc2cvQXM6TiS7MFQcJMeZ8Zxw117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Keep IoT AOK  Hackers Capitalise on Software Vulnerabilities",
+		"url": "http://www.itsecurityguru.org/2016/10/13/keep-iot-a-ok-hackers-capitalise-on-software-vulnerabilities/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "TaWqDLZ4OdNof3XdA123CRs90HDcYaqhMTJASC8J04jwWShiJZFMT40uBLjBU7KdZ7TIfPRPagiv37w6LiKD564g117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Almost 6000 online shops hit by hackers",
+		"url": "http://www.bbc.co.uk/news/technology-37643754",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "yexpHQXHdHPHJGiQMuHdKRVsnkls93mD9TxcMR4P5edobvF4O3qU5rwyLlwKQZGKvKw0x2116ZPxhBB4aAcKL35Q117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "IoT Devices as Proxies for Cybercrime",
+		"url": "https://krebsonsecurity.com/2016/10/iot-devices-as-proxies-for-cybercrime/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PSnECf8qAsyhwxS3BqZbLNhbjtxNLkBsWve1gz075cXuiqI0AqR116cOlP4JMpwBGJlCB7ZJD2neVrD9BB8MQj7w117117",
+		"item_date": "2016-10-13 00:00:00",
+		"title": "Where WhatsApp Went Wrong EFFs Four Biggest Security Concerns",
+		"url": "https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "lGpp0E0FmEqPUqCmPQD50iuBILT8PnrUDV8zVWzSvqCdBSFhHCYPEnSBI9vYVmCys4dWG6K3DdLtu5jh9wDSnA117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "NTT Security Standardizes Managed Security Services Offerings On Qualys",
+		"url": "http://www.crn.com/news/managed-services/300082386/crn-exclusive-ntt-security-standardizes-managed-security-services-offerings-on-qualys.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PDIUFCMSsBt9mOKkHiBp8neQ8zSAYJErKKmjQqg9S6YuX6Mauh1xhvHtBfzevsvdC9wNYxVrRgLbW3LoT3CXZQ117117",
+		"item_date": "2016-10-12 00:00:00",
+		"title": "Attackers Exploit Weak IoT Security",
+		"url": "http://www.darkreading.com/threat-intelligence/attackers-exploit-weak-iot-security/d/d-id/1327159",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kwP1M34n4LkmR4DrgQ123J73NB116F5CMRc5Q123MqdHZZjstRSYlO3ZkrCnSSb3DvuEjcl0dsZ116JIq5ihawbj0CUfXQ117117",
+		"item_date": "2016-10-11 15:14:04",
+		"title": "Security Awareness Training  AntiPhishing Simulation",
+		"url": "https://securityiq.infosecinstitute.com/",
+		"domain": "securityiq.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hgO1if1bboI0zSfGjddV2MhaS4QLDAAVqru0vLRIVNwoDNmcJokLSLFWxcBPvJ1oG69N7f4oJLfPPtgOgqnRPQ117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "DDOS Protection for Public Cloud Customers",
+		"url": "http://resources.infosecinstitute.com/ddos-protection-for-public-cloud-customers/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MHLW8mvi7PxnCdpqksbw6o116I0116otI8V116HzH0qwYgryHAqcHiltQKFne5h9cLLBW4o116fXfd116lM0nLnTkITClUaQ117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "Where Is Your Data Safer In the Cloud Or On Premise",
+		"url": "http://resources.infosecinstitute.com/where-is-your-data-safer-in-the-cloud-or-on-premise/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Ko1237aZNLGqyt87cUTpCmtgskWHK64HM8oLliH7XqgFARJYh3123CRyoCN14jmyYCgMxwxd6uK8UZsHSfibKXtY4w117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "A new security imperative",
+		"url": "http://blogs.ca.com/2016/10/11/a-new-security-imperative/",
+		"domain": "blogs.ca.com",
+		"image": ""
+	},
+	{
+		"curated_id": "LM36AClLUUh116umQjtXZE7123MQpEXt0NoYqnrz9yuyarMGsYx7szak3zg123zJJSvrZJezcd63GkWSwDqSM4tWZPYw117117",
+		"item_date": "2016-10-11 00:00:00",
+		"title": "BRIEFPrevas participates in research project within IoT security",
+		"url": "http://www.reuters.com/article/idUSFWN1CH0AV",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
 		"curated_id": "GB00QqiVQkCNP6jGfYVy1116gaO5SqA123coj3TlHWHLL3tndlXfAoQGWNWeV116Bg5MhHkM116dpFulxbi1I21kOaw3Cw117117",
 		"item_date": "2016-10-06 13:26:43",
 		"title": "Tweet Apigee Sense Protection Take action on threats to your APIs httpstcoOzl1stzpLB",
