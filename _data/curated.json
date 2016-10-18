@@ -10,24 +10,24 @@
 	{
 		"curated_id": "tBPXgIlBNCKcTTn6RX5XTEmFAVwM2TD1g1Kpvjnx23Ypagd123AQi0gVZWGPX5h6biB8J2q7D3cEAWOYiYagoieg117117",
 		"item_date": "2016-10-13 10:45:02",
-		"title": "Tweet ICSCERT issued advisory ICSA1628701 OSIsoft PI Web API 2015 R2 Service Acct Permissions Vuln to ICSCERT website httpstco75NYwcMOb2",
-		"url": "https://twitter.com/ICSCERT/statuses/786623795083608064",
-		"domain": "twitter.com",
+		"title": "ICSCERT issued advisory ICSA1628701 OSIsoft PI Web API 2015 R2 Service Acct Permissions Vuln to ICSCERT",
+		"url": "https://ics-cert.us-cert.gov/advisories/ICSA-16-287-01",
+		"domain": "ics-cert.us-cert.gov",
 		"image": ""
 	},
 	{
 		"curated_id": "hffuFwih12354LY5aOgqJofDwt116NlRXxihBkHKTzZ1116QMU2vaKHNCjCJjhxV1P5nYNfa2123jnB22W8CCfNdXvHY116A117117",
 		"item_date": "2016-10-10 05:59:00",
 		"title": "Tweet Europe to push new security regulations amid IoT mess httpstco0ZtGpQsek6",
-		"url": "https://twitter.com/briankrebs/statuses/785464650402004992",
-		"domain": "twitter.com",
+		"url": "https://krebsonsecurity.com/2016/10/europe-to-push-new-security-rules-amid-iot-mess/",
+		"domain": "krebsonsecurity.com",
 		"image": ""
 	},
 	{
 		"curated_id": "123apBOjBd5hu4o1Npou1fqWnjg3lAYZ66fE3KemwvBnPG4LUZVAgiDt7116JQu63OjbCklhk1CfzwLfn116QZzZwUqQ117117",
 		"item_date": "2016-10-15 00:00:00",
 		"title": "Security Insights into the LXD Container Hypervisor",
-		"url": "http://www.infoq.com/news/2016/10/lxd-hypervisor-security-insights?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+		"url": "https://www.infoq.com/news/2016/10/lxd-hypervisor-security-insights",
 		"domain": "www.infoq.com",
 		"image": ""
 	},
