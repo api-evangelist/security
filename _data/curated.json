@@ -1,5 +1,173 @@
 [
 	{
+		"curated_id": "SBj9RG5q1232n8123XBEcwmXuujwpkmwHRGmBrZsEg5j5tbD1fSQWEPato4M116frBw4ZFhr9lJ1l7JHQQbkv6etPLSA117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "IT Asset Management A Key in a Consistent Security Program",
+		"url": "http://blogs.adobe.com/security/2016/10/it-asset-management-a-key-in-a-consistent-security-program.html",
+		"domain": "blogs.adobe.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uoBPgcDarfsIF123ts1NDkMVhGoUjbIiSfGnvd8MwpVLzJHWRt8r1fdCpy17sef6MJfIlYUNIPqg7mBqOVlgQiPA117117",
+		"item_date": "2016-10-18 00:00:00",
+		"title": "SITA Completes ISO Certification for Information Security at Changi Airport",
+		"url": "http://airfax.com/blog/index.php/2016/10/18/sita-completes-iso-certification-for-information-security-at-changi-airport/",
+		"domain": "airfax.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lZ8Dg8V7aU1nublWEh36Bc2lVvS5ViVwpI2mVBtpXYsqBa116ynooOmY93jeVlBn3Z7BlXwernmMqFTFTuHdt1rw117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "Flipping Security Awareness Training",
+		"url": "http://www.darkreading.com/endpoint/flipping-security-awareness-training/a/d-id/1327250",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PIKlDvGeZlG4lokeXxsj9T2gImL0N91WpHrAnCotPKKwrO9jOK5GMxl7rJ0pCRu4zJwh0VTd85YixN4q56J4Og117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Walking the Tight Rope of REST API Security Best Practices Will Hold You Steady",
+		"url": "http://blog.smartbear.com/readyapi/rest-api-security-best-practices/",
+		"domain": "blog.smartbear.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VrM116amz9dH3PirLuZ1236wfkHx3Si555VPcZi3TJCh6fRCaZt3AIlzjgpozlGqg4inC116My2ajrLT8h9hOo123of78Q117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Survey findings reveal that most businesses dont have comprehensive programs to tackle firmware security risks",
+		"url": "http://www.itsecurityguru.org/2016/10/19/survey-findings-reveal-that-most-businesses-dont-have-comprehensive-programs-to-tackle-firmware-security-risks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "SszxX0GA3116ObFrvQ7cdYtiqK97DK7nWbyH1YHqQ6aH123mOT7h0JhDTRDPufyyZXJh4LMnDYvw8nC6xIOh116I8KEw117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Grey Hats and Blue Skies Dealing with Airline Security",
+		"url": "http://airfax.com/blog/index.php/2016/10/19/grey-hats-and-blue-skies-dealing-with-airline-security-cso-online-2/",
+		"domain": "airfax.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CmlScitQ0u0OriamVPoZFW3nOgkkJNWe42B123Co0sCzwsJxU6StPmOdl6PBkmyXdMm1qXmcw6k116fsgyAZL123Mqvw117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "How to Protect Civil Aviation From Cyberattacks",
+		"url": "http://airfax.com/blog/index.php/2016/10/19/how-to-protect-civil-aviation-from-cyberattacks-aviation-week/",
+		"domain": "airfax.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hc90E5BjFcmbujDaDqt123U44HOw0KhNofjGn7JCOOQHqAKJLK8wI2JuixJq8CYk8hUzfG9grqTWwzIbtsguoTXg117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "The Dangers of InFlight WiFi Airplanes Unique Hacking Grounds",
+		"url": "https://netguide.co.nz/story/dangers-flight-wi-fi-airplanes-unique-hacking-grounds/",
+		"domain": "netguide.co.nz",
+		"image": ""
+	},
+	{
+		"curated_id": "uey9NOnR518jqtsMKKO8ZbIkEd7Qp59KEddaJxPV3azUXlAFQbqc3PlfQzYY8KHO1231IkOCdD6r3qZ01XbkXY9g117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Warning About InFlight WiFi",
+		"url": "http://airfax.com/blog/index.php/2016/10/19/warning-about-in-flight-wi-fi-photo-review/",
+		"domain": "airfax.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WyI8o123CqIW8ghVu1ja3QlEcKVfUC123zlXVtlPewpD67WqnTIwg2y3gCumMJiEQVcUTR2JBKauM3T9P2w9tp123BPg117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "InFlight WiFi Latest Attack Vector for Cyber Theft Requires VPN Protection",
+		"url": "http://www.itwire.com/wi-fi/75289-in-flight-wi-fi-the-latest-attack-vector-for-cyber-theft-requires-vpn-protection.html",
+		"domain": "www.itwire.com",
+		"image": ""
+	},
+	{
+		"curated_id": "0Yez116svSiAcFrRJlDSqlTFyPSnt3v93niGQiSs7b5182zt90P4bCNXdTZrwHVGX6zowxGdK0cY1230JpwVo6VbUA117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "How Vendors Are Moving Beyond IoT Security Concerns",
+		"url": "http://www.crn.com/news/internet-of-things/video/300082490/how-vendors-are-moving-beyond-iot-security-concerns.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Yf6U123M4U4on0iYd5DdokIa4bUO123Re64idDTyBLZKZk3VP1167urActcAsP0O4116xmJYLFiLmqbE0jo5qh123ZWFNJ4Q117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "ThreatConnect Shares Incident Information on Major Financial Institution Domain Squat",
+		"url": "https://www.threatconnect.com/blog/obi-onyeka-domain-squat-identified/",
+		"domain": "www.threatconnect.com",
+		"image": ""
+	},
+	{
+		"curated_id": "gg2rCOFgBvlhAPknb05CZrU6Yrbrim123CeEKfxqKBq5NAvWMW6OJvDbmzffJtQnw3wfQyBBKWQ1RgTQer7sjngw117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "The need to stay alert as data breach costs rise",
+		"url": "http://www.itsecurityguru.org/2016/10/21/the-need-to-stay-alert-as-data-breach-costs-rise/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "OecJ4JFn4j123PkgORqcnf0RI4i6G116q58bkkV5smeO2RjqI2rhkNl0FhF0FhjCN7f1guf6B4DF0IZmGE8Qxrz1164g117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "ThreatConnect Shares Incident Information on a Phishing Page Serving Fake Login for University",
+		"url": "https://www.threatconnect.com/blog/phishing-page-serves-fake-login-for-university/",
+		"domain": "www.threatconnect.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HyGED3bXqT4LcIB6eQNnUqkcu7123tNIXKZBC6W7HXFRfUXcHKWZfuAhY3n6zEAz9mpU3WYScKHw108zdNGAzYSA117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "The Importance of Securing Your Database and the Cost of Failure",
+		"url": "https://dzone.com/articles/lack-of-database-security-has-exposed-the-personal",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "O116OFmwWS7ZRQuFrAvcnooKz1lW4IXm2viDGbCCYsE8hujxcSsnOUcucE4MYgirb34ifxcSA7K54w0PoXHsU8rg117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "7 Great Tips to Get the Most Out of Your Threat Intelligence with Infoblox",
+		"url": "https://community.infoblox.com/t5/Security-Blog/7-Great-Tips-to-Get-the-Most-Out-of-Your-Threat-Intelligence/ba-p/8048",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "l8vn1p7vorNOk05fQVZV123MbEG5i6u1AcXe67loKIbJ6oPAoi9L92B1vcj2Eo949uw4xRtETVy116Mfz123hCRa52mA117117",
+		"item_date": "2016-10-20 00:00:00",
+		"title": "Pokmon GO or No Go Mobile Games May Pose More Risks to Companies beyond Employee Distraction",
+		"url": "http://www.itsecurityguru.org/2016/10/20/pokemon-go-or-no-go-mobile-games-may-pose-more-risks-to-companies-beyond-employee-distraction/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "HXylNm951KcqUsw116dRvaWjpsI0dT5XR9mHmnKgzMWHsHAdW4mreXLtWAOzFKLpsCRi123qBOwbJ1W116CFpo4Q1spQ117117",
+		"item_date": "2016-10-19 00:00:00",
+		"title": "Smarter Security Camera A POC Using the Intel IoT Gateway",
+		"url": "http://www.codeproject.com/Articles/1141431/Smarter-Security-Camera-A-POC-Using-the-Intel-IoT",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "35WX969MZcTsipAi116123ZjHnlNcwLX3oSLkehqfncbOibrLzI9PfLAHWtJc78eItcVNdUkwrvdwi1123zQsa89qziQ117117",
+		"item_date": "2016-10-18 00:00:00",
+		"title": "RSA Execs Future Is Bright For Security Partners",
+		"url": "http://www.crn.com/news/security/300082466/rsa-execs-future-is-bright-for-security-partners.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XJd0C9E648UJ123jYor8zN3LTEJc72MGxZFRUWYlejQB4jGmv1TR5Mcch7CNuPa5UIXQW4smwEoGmBaTFJYdU1PA117117",
+		"item_date": "2016-10-18 00:00:00",
+		"title": "Public WiFi Use Grows Despite Security Risks",
+		"url": "http://www.darkreading.com/cloud/public-wi-fi-use-grows-despite-security-risks/d/d-id/1327206",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IEllb8uAM0DLySYWn116PKt1235gDAIuRkbU9akex0YNnofStiGx8mmYZvgKTTQ1n4RneuF4qdNP46Hdst5plPkTzw117117",
+		"item_date": "2016-10-17 00:00:00",
+		"title": "How We See the Future of Information Security",
+		"url": "http://resources.infosecinstitute.com/how-we-see-the-future-of-information-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "C1234X1160lxI1D1k3wQM1QCoXGD9F8W8Ox58F0d5z6E9Sg116xnYx81RxcE3Ym5icRtho1ngFhE123iPLhWmpal123C9ZHg117117",
 		"item_date": "2016-10-15 16:51:00",
 		"title": "WhatsApp has made too many compromises that put user security and privacy at risk",
