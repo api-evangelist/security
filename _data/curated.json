@@ -1,5 +1,125 @@
 [
 	{
+		"curated_id": "ug59dJ6gFQ93E8w2WstdUqQi67nD2HRk6lN116LBlKRED2KWAcHwz6HGmapeYIgBzbEsVeaHsTYeX6IhS6JInBuQ117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Top 5 REST API Security Guidelines",
+		"url": "http://news.securemymind.com/201612186741.html",
+		"domain": "news.securemymind.com",
+		"image": ""
+	},
+	{
+		"curated_id": "difOUAyxMWTNinS1RgZD123i8EyrVQUM1XRcBEQovY116y8NZNCOstsEO98NyRNl116uJGoamlEoBQKY743Af3VQzpNw117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Britain urged to increase cyber security in financial services",
+		"url": "http://www.reuters.com/article/us-britain-politics-cyber-idUSKBN148011",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NXjl116OraAFFR6fL1rFjBTQVZCfecM6lKcLuwT116i39rty6WE8hjNeVDfGjN857mOiZmYJAyx7Zsf831c116bZFJfA117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Insurers handling hundreds of breach claims",
+		"url": "http://www.bbc.co.uk/news/technology-38346427",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "Y3FmTlDA5Xm1RQcG4yWzFPPykIb4Ph123hXi3u26Fyby9MgYEKVSjomuU8U11663116G7XEaUJjUE123116PxCiPKIsv3xkA117117",
+		"item_date": "2016-12-18 00:00:00",
+		"title": "Bug Bounty Is It The Right Solution to Catching Security Threats",
+		"url": "https://dzone.com/articles/bug-bounty-is-it-the-right-solution-to-catching-se?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rdlnD123atX8xzSE1ozXDQd7EfPZopZdSbtnaKzuQvq5nL116V1b6pgb7nMSnLCGhmeEh9weJGqz4M53oCfNeaFLnA117117",
+		"item_date": "2016-12-17 00:00:00",
+		"title": "What the Galactic Empire Could Learn From OWASP",
+		"url": "https://stormpath.com/blog/galactic-empire-owasp-infosec",
+		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "bbkN9ZQCg6JQ1VYhKFgsa1QhWtoUEbWwIzpcBrvpgzgByYQIvTTRhq1230OeOcB3ct123Cg3bl2gokyg0KavyPGViA117117",
+		"item_date": "2016-12-16 00:00:00",
+		"title": "Stolen Yahoo User Data Sold for 300K",
+		"url": "http://www.pcmag.com/news/350396/stolen-yahoo-user-data-sold-for-300k",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "4bFk5Vrsdx0QHfdRo5k116Ne5p4mvtnIL0b3uAB1234NQQcpgGAsJ6EcCHf4avDZrK1236JwuiAc8BippJqfCAQn31TA117117",
+		"item_date": "2016-12-16 00:00:00",
+		"title": "Feedback from The Apache Software Foundation on the Free and Open Source Security Audit FOSSA",
+		"url": "https://blogs.apache.org/foundation/entry/free_and_open_source_security",
+		"domain": "blogs.apache.org",
+		"image": ""
+	},
+	{
+		"curated_id": "uMTJ98w1EWx3WgBjYrsiFg8pce1ua3IRI3C7rOoKHScWEJrjqcugrOmR8123NZoeBi123DBDoMuBnol2Detq6xgziw117117",
+		"item_date": "2016-12-16 00:00:00",
+		"title": "Using Authy TwoFactor Authentication in Nodejs and AngularJS",
+		"url": "https://dzone.com/articles/using-authy-two-factor-authentication-in-nodejs-and-angularjs",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EUQC0UQOAGI123PT1168FtJnhk3ES8zyBUiXSahP3faHX123cd0FblKpVCez6Fvk6SfJSMDS4cvBwe9MRLKnEe2T4lpg117117",
+		"item_date": "2016-12-16 00:00:00",
+		"title": "NAB accidentally sends out overseas customers banking details",
+		"url": "http://www.newsjs.com/au/enough-is-enough-in-ceo-pay-bonanza-nabs-chairman-ken-henry-says/d5IvzcM6cW5aCcMAbMxre5QUjaM-M/",
+		"domain": "www.newsjs.com",
+		"image": ""
+	},
+	{
+		"curated_id": "z3917hheaFHZzozgm7p5t6ZcWcjWZe77gLJCC9hfH9ejrUXwszOd116OIsVte4I0MhSJkaAC4WuG8ovXhoBrSc6w117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Commerce survey Cyber researchers fear legal repercussions",
+		"url": "http://thehill.com/policy/cybersecurity/310524-commerce-survey-cyber-researchers-fear-legal-repercussionsn",
+		"domain": "thehill.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3nGR4CnHM6bw123aXT85i9S9vsoZyYfSSkXpyrZgrvgJbnuTP2kaB61DOtdNj0D44OOsCWam2tWwilfhhf2dW7Ew117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Centralized Security Governance Practices To Help Drive Better Compliance",
+		"url": "http://blogs.adobe.com/security/2016/12/centralized-security-governance-practices-to-help-drive-better-compliance.html",
+		"domain": "blogs.adobe.com",
+		"image": ""
+	},
+	{
+		"curated_id": "enqAzRrzEI8WXoACh8vFlIOBytzlj9Ku9V1vbaGXAdkXBrjGBjlMtX8HZ3tGP7j0IGUp0uRNuOBzR123I8E2aWJg117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Malvertising campaign targets routers and every device connected to router",
+		"url": "http://www.itsecurityguru.org/2016/12/15/malvertising-campaign-targets-routers-every-device-connected-router/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "Mhjy4w6B5116QDvH0IO6123mAvEoDDCFJ9a123aYqKtPAwBA05leJKEsA7bIgOOf4YRo8PdTHtFUuWMaKGpZA9ynZWJQ117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Confidential Blog Post On Email Security",
+		"url": "https://ctovision.com/confidential-blog-post-email-security/",
+		"domain": "ctovision.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7HtJ9YwiyEiysudNAIdiRHfrTYK25j06A8Fpno1236QFHRRaHjHF36AGLy4Yl5qaZXJXmj15TR55kg9YtqXc7TLg117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Microsoft Execs Identity Threat Intelligence Driving Companys Security Strategy",
+		"url": "http://www.darkreading.com/operations/microsoft-execs-identity-threat-intelligence-driving-companys-security-strategy/d/d-id/1327727",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Lnn3OEtxcgKZn116x9KdfnAT9N1BoVxs7q91123xloQIehQ2wWSjRiGfZTri1KCuqGtt2QeLN7LCT2cKoHpsrgDB9A117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Hurricanes Earthquakes  Threat Intelligence",
+		"url": "http://www.darkreading.com/endpoint/hurricanes-earthquakes-and-threat-intelligence/a/d-id/1327692",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
 		"curated_id": "MAm1s6i7K1sdr3sLeybtCveOc123a12p0trip79kpS12308gtx1NVm6H1XMeW0Zqmm4dTQ7oUK0xQ8wQxizJOlJm7A117117",
 		"item_date": "2016-11-30 17:48:04",
 		"title": "Twitter",
