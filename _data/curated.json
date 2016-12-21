@@ -1,5 +1,53 @@
 [
 	{
+		"curated_id": "octW4aEe59LyCMa6123cj1BqNf4rhEJE6mtaC1cPxQbVlAVJjZaAoBwWmbXGEPbWn6na36Aa7xnbqleOylO123URJQ117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Security Operations",
+		"url": "http://resources.infosecinstitute.com/security-operations/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "G0TwCoPFBs4116xA6LLSRMBgkXPCYvDzur2icTG4RNXdIszjKSCI5LFfmCprRjO20AomPNawEYPQkZ2RF5s123YDcA117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Understanding Access Control",
+		"url": "http://resources.infosecinstitute.com/understanding-access-control/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jIRGr9uxfNc8OyGU54E1bJWZzALy5tmD6OuKKRy1yYMz6LDU5ic123klBoAaDbKxLj186YtwzC8Mphs123skbD116yHg117117",
+		"item_date": "2016-12-19 00:00:00",
+		"title": "Project Wycheproof",
+		"url": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/a5LxvmGjPnw/project-wycheproof.html",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UzJ123yQW1234OkNA9k7t123qWc4NnnpVS7Q7Z1237QvFhuQkHzCvjo116gBqrOzEpfxnBeLuZhKX4KJNk2tYTrSe5ahWR116w117117",
+		"item_date": "2016-12-19 00:00:00",
+		"title": "In the Eye of Hailstorm",
+		"url": "https://blog.opendns.com/2016/12/19/in-the-eye-of-hailstorm/",
+		"domain": "blog.opendns.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ZbQ5diqGt3xCEymZ4z6op116rj7jG9EsLr80IJ1ardFnDL9kfQWNEh3Ab116la1165J123W2SY50RVm4yLZ9CG8R1W91Cg117117",
+		"item_date": "2016-12-19 00:00:00",
+		"title": "LinkedIns skill learning unit Lyndacom hit by hack",
+		"url": "http://www.pcworld.com/article/3151533/security/linkedin-skill-learning-unit-lyndacom-hit-by-database-breach.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "f116diNu72aR123quNLtIkArX0SN2sc116KUEAHPGYCkVR4PcAx98BCpvNPm0evCPmUAQwOXAEH4IwA9cEewelHzaXcA117117",
+		"item_date": "2016-12-19 09:26:22",
+		"title": "Ciscos Vision of Next Generation Cybersecurity",
+		"url": "https://guardtime.com/blog/cisco-s-vision-next-gen-cybersecurity",
+		"domain": "guardtime.com",
+		"image": ""
+	},
+	{
 		"curated_id": "ug59dJ6gFQ93E8w2WstdUqQi67nD2HRk6lN116LBlKRED2KWAcHwz6HGmapeYIgBzbEsVeaHsTYeX6IhS6JInBuQ117117",
 		"item_date": "2016-12-18 00:00:00",
 		"title": "Top 5 REST API Security Guidelines",
@@ -27,7 +75,7 @@
 		"curated_id": "Y3FmTlDA5Xm1RQcG4yWzFPPykIb4Ph123hXi3u26Fyby9MgYEKVSjomuU8U11663116G7XEaUJjUE123116PxCiPKIsv3xkA117117",
 		"item_date": "2016-12-18 00:00:00",
 		"title": "Bug Bounty Is It The Right Solution to Catching Security Threats",
-		"url": "https://dzone.com/articles/bug-bounty-is-it-the-right-solution-to-catching-se?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/bug-bounty-is-it-the-right-solution-to-catching-se",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -37,6 +85,14 @@
 		"title": "What the Galactic Empire Could Learn From OWASP",
 		"url": "https://stormpath.com/blog/galactic-empire-owasp-infosec",
 		"domain": "stormpath.com",
+		"image": ""
+	},
+	{
+		"curated_id": "E116MCMogV0Refny1bXYJk3K7Y8F1rT116tpJVfonbaabB123LvFJafIBNmCvvAoCFx0kY8YT116Zleu2vgDvoCXvVQ7116g117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Biometric Vehicle Access System Market by Authentication type Future Technology Vehicle Type and Region  Global Forecast to 2021",
+		"url": "http://oliberta.com/business/Biometric-Vehicle-Access-System-Market-by-Authentication-type-Future-Technology-Vehicle-Type-and-Region-Global-Forecast-to-2021-1715701.html",
+		"domain": "oliberta.com",
 		"image": ""
 	},
 	{
@@ -104,6 +160,30 @@
 		"image": ""
 	},
 	{
+		"curated_id": "116wuXTTkX5u35vuBB123afupCpXIo123jis1YTidMEqjC116a5hUTYi116eputc4xYI1t75NwAEW2ZsVe116Po36AeXIfyk3g117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Yahoo Reveals Biggest Hack Over 1Bn Accounts Compromised",
+		"url": "http://www.cxotoday.com/story/yahoo-reveals-biggest-hack-over-1b-accounts-compromised/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "sL8eVDscdGe9dHyayYlI9p5fF912JCOaqznVSlbhIkcp7geN4N3HvyqaQVEYXn123M81161IYe0kZKax9CSA6r5GWA117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Yahoo Data Breach What Do I Do Now",
+		"url": "https://www.privacyrights.org/blog/yahoo-data-breach-what-do-i-do-now",
+		"domain": "www.privacyrights.org",
+		"image": ""
+	},
+	{
+		"curated_id": "87oFQIjsEQMpiVqnD4123kiofiMfOzDGpykO5IYaDtZHnAEkujfUsEDcPgAZp5H116EYjn116TBaKV7kjyWQ8Lqa270A117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Selfdriving cars are prone to hacks  and automakers are barely talking about it",
+		"url": "http://www.businessinsider.com/driverless-cars-hacking-ricks-2016-12",
+		"domain": "www.businessinsider.com",
+		"image": ""
+	},
+	{
 		"curated_id": "7HtJ9YwiyEiysudNAIdiRHfrTYK25j06A8Fpno1236QFHRRaHjHF36AGLy4Yl5qaZXJXmj15TR55kg9YtqXc7TLg117117",
 		"item_date": "2016-12-15 00:00:00",
 		"title": "Microsoft Execs Identity Threat Intelligence Driving Companys Security Strategy",
@@ -117,6 +197,38 @@
 		"title": "Hurricanes Earthquakes  Threat Intelligence",
 		"url": "http://www.darkreading.com/endpoint/hurricanes-earthquakes-and-threat-intelligence/a/d-id/1327692",
 		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lr6YJ1116JW3123Wz123oz1Rn4k5oKyRABiSpfaNIK123H1XEbRqbBQWWHB9mKXrqnU7ulNbKd1nBgJFQ8hoA1vvSc9QYw117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Softwaredefined security for burnout avoidance",
+		"url": "https://blog.cloudpassage.com/2016/12/15/security-burnout/",
+		"domain": "blog.cloudpassage.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QPKxVOQNF123TCLNk09pcu1XZ0L2FHCujKirs6dhC4CBcRz2MoedU5dw41L19UE1wNYc96116bLCDjp5upzJSxzTqA117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Study Bounty Hunters Expect Open Communication above Payouts",
+		"url": "https://continuum.cisco.com/2016/12/15/study-bounty-hunters-expect-open-communication-above-payouts/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cCmbzN8NNWHanggTt1lABTb86lVYURnB80MZPhrd116VCARoB3jJ4A2fXIOFalEHedVHnGOKa3OoQcnoa1njpo0w117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "AntiMalware Is Necessary In The Data Center 3 Examples",
+		"url": "http://www.darkreading.com/endpoint/anti-malware-is-necessary-in-the-data-center-3-examples/a/d-id/1327706",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "TwIw4OKCTA3LqQ3QuNaRoHNPhrCDNNO42oAm21sVHqqMFr4Hf3vOlClRqeGC1kVdKhRt9KwKh7JTCi6lNXiH5Q117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Feature announcement advanced permissions",
+		"url": "https://postmarkapp.com/blog/feature-announcement-advanced-permissions",
+		"domain": "postmarkapp.com",
 		"image": ""
 	},
 	{
