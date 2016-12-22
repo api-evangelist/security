@@ -3,7 +3,7 @@
 		"curated_id": "octW4aEe59LyCMa6123cj1BqNf4rhEJE6mtaC1cPxQbVlAVJjZaAoBwWmbXGEPbWn6na36Aa7xnbqleOylO123URJQ117117",
 		"item_date": "2016-12-15 00:00:00",
 		"title": "Security Operations",
-		"url": "http://resources.infosecinstitute.com/security-operations/",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-operations/",
 		"domain": "resources.infosecinstitute.com",
 		"image": ""
 	},
@@ -19,8 +19,8 @@
 		"curated_id": "jIRGr9uxfNc8OyGU54E1bJWZzALy5tmD6OuKKRy1yYMz6LDU5ic123klBoAaDbKxLj186YtwzC8Mphs123skbD116yHg117117",
 		"item_date": "2016-12-19 00:00:00",
 		"title": "Project Wycheproof",
-		"url": "http://feedproxy.google.com/~r/GoogleOnlineSecurityBlog/~3/a5LxvmGjPnw/project-wycheproof.html",
-		"domain": "feedproxy.google.com",
+		"url": "https://security.googleblog.com/2016/12/project-wycheproof.html",
+		"domain": "security.googleblog.com",
 		"image": ""
 	},
 	{
@@ -80,6 +80,38 @@
 		"image": ""
 	},
 	{
+		"curated_id": "2zQoqN4dyN53KrAXXegfUamSUqP0e116udpcedeWBmhm8kvULSKf4e9NpMyquoQOhu4qni4vC3I8EHALlwJ72qgA117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "FACT SHEET Release of the Joint United StatesCanada Electric Grid Security and Resilience Strategy",
+		"url": "https://ics-cert.us-cert.gov/FACT-SHEET-Release-Joint-United-States-Canada-Electric-Grid-Security-and-Resilience-Strategy",
+		"domain": "ics-cert.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "lO1162F4QATmog2ZNCrDTALWw0PvQPj2x7zTnr9rtCCnyUCjIt7VeS2lItAmlLBQTWmGFDXbhCHfnhsshqXzxcww117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "91 Of Cyberattacks Start With A Phishing Email",
+		"url": "https://ics-cert.us-cert.gov/91-Cyberattacks-Start-Phishing-Email",
+		"domain": "ics-cert.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "cG3T2OkWTSn116ySFl2n20iMRxXTcpOw69umLN9GwXlnaSwXb3RsRrzG9J123MG30u116niNXcMkwCp9HVXQirYKahGw117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Yahoo says one billion accounts exposed in newly discovered security breach",
+		"url": "http://www.reuters.com/article/us-yahoo-cyber-idUSKBN1432WZ",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "sH2KQ116Qm22wbCuSAvjCbo5bT6vwt6GAO6ajEfDzzocm3ro34N1YkWdRXRl6Wpr0zP2IG29Iu0BnzMz70c4116rKA117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Yahoo Says 1 Billion User Accounts Were Hacked",
+		"url": "http://www.nytimes.com/2016/12/14/technology/yahoo-hack.html",
+		"domain": "www.nytimes.com",
+		"image": ""
+	},
+	{
 		"curated_id": "rdlnD123atX8xzSE1ozXDQd7EfPZopZdSbtnaKzuQvq5nL116V1b6pgb7nMSnLCGhmeEh9weJGqz4M53oCfNeaFLnA117117",
 		"item_date": "2016-12-17 00:00:00",
 		"title": "What the Galactic Empire Could Learn From OWASP",
@@ -88,11 +120,27 @@
 		"image": ""
 	},
 	{
+		"curated_id": "t123cpaka1162MmwC0MgbfloEpbJQP3FPjYJ123ZO1yAddoMjsSefFEb332c4dNdzgXs59116Hd116go3Dlu2116j4h6vRB4xQ117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Security Assessment and Testing",
+		"url": "http://resources.infosecinstitute.com/security-assessment-and-testing/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "E116MCMogV0Refny1bXYJk3K7Y8F1rT116tpJVfonbaabB123LvFJafIBNmCvvAoCFx0kY8YT116Zleu2vgDvoCXvVQ7116g117117",
 		"item_date": "2016-12-14 00:00:00",
 		"title": "Biometric Vehicle Access System Market by Authentication type Future Technology Vehicle Type and Region  Global Forecast to 2021",
 		"url": "http://oliberta.com/business/Biometric-Vehicle-Access-System-Market-by-Authentication-type-Future-Technology-Vehicle-Type-and-Region-Global-Forecast-to-2021-1715701.html",
 		"domain": "oliberta.com",
+		"image": ""
+	},
+	{
+		"curated_id": "quRtP1f0116wn5g9MBchy3116DvNs3YH116ik116VqRZQUd8ac0xpJq1wwP6fyPeOTWVrkV0uBYNbAcxkSk05lHojAMyZg117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Yahoo discloses hack of 1 billion accounts",
+		"url": "http://thehill.com/policy/technology/310477-yahoo-discloses-hack-of-1-billion-accountsn",
+		"domain": "thehill.com",
 		"image": ""
 	},
 	{
@@ -229,6 +277,46 @@
 		"title": "Feature announcement advanced permissions",
 		"url": "https://postmarkapp.com/blog/feature-announcement-advanced-permissions",
 		"domain": "postmarkapp.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7fXFHZ3oLi123uJW3xVnShSwzMR3bS2ETTydTWQVRDAP8LGIUDtN8dZl13Hdon9sUkYbPw06R3kcmMMMglL5PKqg117117",
+		"item_date": "2016-12-14 00:00:00",
+		"title": "Vendor Accountability  The Security Supply Chain",
+		"url": "http://www.darkreading.com/operations/vendor-accountability-and-the-security-supply-chain/d/d-id/1327717",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uySc7bKccBCgul87BYMF116qBDGd116Y61116VwRNESUwuxdeLqBWvF5us7CtRKEV123gAxCrmo76ShC116ShVRT3Jmi7wTQ117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "Cyber attacks on Swift payment network are continuing  and are succeeding",
+		"url": "http://www.itsecurityguru.org/2016/12/13/cyber-attacks-swift-payment-network-continuing-succeeding/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "GX1FhicKQQlDYkddhA5UO06544N7v116KuizmxOu116Comef9HTvlKK2Ij2YGbP6BMF4fRBSSpSW1OR3HMSWg9wlQw117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "Scammers spreading celebrity nude PDFs on Facebook pushing malware installation",
+		"url": "http://www.itsecurityguru.org/2016/12/13/scammers-spreading-celebrity-nude-pdfs-facebook-pushing-malware-installation/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "oioz2JZrCSDaFgmrzIhkCUfSKksikBuF0A3nMEE7J6mbGSgzuCMv5EvfPwb5V116FJz49aip0wwULCWHJIBaPiFg117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "Skype and WhatsApp face tougher EU customer data security rules",
+		"url": "https://disruptiveviews.com/skype-whatsapp-face-tougher-eu-rules/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Duh30EIEc1tw99Waj08Hx1uk0izTwDrPjs5bkb9wODdaG8SH2ve8rDbiVQPVMubEJcO00olAKoxHYcHIHcdyLA117117",
+		"item_date": "2016-12-13 00:00:00",
+		"title": "More cyber thefts new hacking tactics confirmed by SWIFT",
+		"url": "https://disruptiveviews.com/more-cyber-thefts-hacking-tactics-swift/",
+		"domain": "disruptiveviews.com",
 		"image": ""
 	},
 	{
