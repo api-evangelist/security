@@ -1,5 +1,29 @@
 [
 	{
+		"curated_id": "fx7uoyVXSEDeDcwo2ofrZqUWFOQIpRcg8mfqdoHbDuJKTdkpS1166dP123mZmw1NKf123j3iu116VzbfVpL9H1167aUWIzYA117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Database Architecture and Security",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-engineering/database-architecture-and-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AZEYp8VHNyq4x4xHTZhZgqirxogX5VjaubkL03ApOUsFt3123harCnYtziuL1xYZfyEoIOVgUcOwa3prELlqYzFg117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Embedded Devices and Cyber Security",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-engineering/embedded-devices-and-cyber-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "x03123HZLkBAwa0WpHLo5UPzQP7slgxtj3PuOVy1169LFT5Y3ioPBV116OvZwdEmlYdTTa8S69o1UKyZWi6BHyTGPo123A117117",
+		"item_date": "2016-12-15 00:00:00",
+		"title": "Data Center Physical Security",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-engineering/data-center-physical-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "octW4aEe59LyCMa6123cj1BqNf4rhEJE6mtaC1cPxQbVlAVJjZaAoBwWmbXGEPbWn6na36Aa7xnbqleOylO123URJQ117117",
 		"item_date": "2016-12-15 00:00:00",
 		"title": "Security Operations",
@@ -11,7 +35,7 @@
 		"curated_id": "G0TwCoPFBs4116xA6LLSRMBgkXPCYvDzur2icTG4RNXdIszjKSCI5LFfmCprRjO20AomPNawEYPQkZ2RF5s123YDcA117117",
 		"item_date": "2016-12-15 00:00:00",
 		"title": "Understanding Access Control",
-		"url": "http://resources.infosecinstitute.com/understanding-access-control/",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/identity-and-access-management/understanding-access-control/",
 		"domain": "resources.infosecinstitute.com",
 		"image": ""
 	},
