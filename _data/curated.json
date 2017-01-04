@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "AeRnZma1W7oRhrcTGSTIvICDkNlkp8RXr9iKgeKFh3BGHYcb6vgjWCqLdoVVScVnESV3gAiWG123PONAMQZT0FQw117117",
+		"item_date": "2017-01-02 00:00:00",
+		"title": "OWL Insecure Internet of Energy Monitors",
+		"url": "http://hackaday.com/2017/01/02/owl-insecure-internet-of-energy-monitors/",
+		"domain": "hackaday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SP0N7cVec30Q48IfYYvs7dvPmvNlkVPrpT16tF0WCJIUayOieGRAzZ9xD116g2VIeeCTjHLFGRi116ZFDiaS7wkrzw117117",
+		"item_date": "2017-01-02 00:00:00",
+		"title": "The Age of Resilience  Security in 2017",
+		"url": "http://feedproxy.google.com/~r/Techcrunch/~3/6Sa0ZaB8j8k/",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116on2s123HEVElsowOoUG5S3dQAzVSLY80BIDrepcxqr123aatyfhiHOInh6pOkMgv7Jj6K6JY54Q2b9gGKiTqOeWcw117117",
+		"item_date": "2017-01-02 00:00:00",
+		"title": "German fintech company N26 left redfaced after security hole discovered",
+		"url": "https://disruptiveviews.com/fintech-company-n26-left-red-faced/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "swRgd123oj25c1DnszXA8Jy6QLOZ7A116c2BZJgDavUwlGqBdhjP1123116TG5LUym123DIgNmWw4QR2AYPPNE15d8a4TXyg117117",
+		"item_date": "2016-12-30 00:00:00",
+		"title": "Risky business Finegrained data breach prediction using business profiles",
+		"url": "http://cybersecurity.oxfordjournals.org/content/2/1/15",
+		"domain": "cybersecurity.oxfordjournals.org",
+		"image": ""
+	},
+	{
+		"curated_id": "V7VJAKo3KkpGwiAyubUtt7VvR3D28Bce1ho5502Bo9uLE123y7n2eH12396eIc1236RO0tf116LWxg116OEXaFSWokDox1EA117117",
+		"item_date": "2016-12-30 00:00:00",
+		"title": "The economics of mandatory security breach reporting to authorities",
+		"url": "http://cybersecurity.oxfordjournals.org/content/2/1/29",
+		"domain": "cybersecurity.oxfordjournals.org",
+		"image": ""
+	},
+	{
 		"curated_id": "boB4M0eObQune116gs7PM0HIrQ123hcsSEHu4123RKCUK116mVkbl0s1iqbDyoLIM9o6NofZIzIkY1YPdBzuSyNzdNNGkg117117",
 		"item_date": "2016-12-23 05:59:31",
 		"title": "How some drone companies are creating virtual fences for security  CBS News",
