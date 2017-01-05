@@ -1,5 +1,37 @@
 [
 	{
+		"curated_id": "TWelSqQoYcRKyoBvMK116fErHl7VpYkE4tDUYfvIFvg8i3NvhAgidUxfUkY4123rv123gbzTYe8i9Iy6mc5BJ9erkZZQ117117",
+		"item_date": "2016-12-28 00:00:00",
+		"title": "Mozilla Releases Security Update",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2016/12/28/Mozilla-Releases-Security-Update",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "9QQ123hWo5JSxtLQcvDc9kIx116wKzNNxJYkebLEPANi82MndsWf7bV76Bv1J6XHFg0lsFh5NI5Qsj1233DcWeCv3bOA117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Most Young Gig Economy Companies Way Behind On Protecting User Data 2016 In Review",
+		"url": "https://www.eff.org/deeplinks/2016/12/most-young-gig-economy-companies-way-behind-protecting-user-data-2016-review",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "YZnd5JZFewXaniZswJcC6KP0qcvlTdqAQTe2dCn6Mt123gKWGTbRPibyFwpkU4P116GrDQKGQV1PV2C7L7mVstoDSg117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Secure Messaging Takes Some Steps Forward Some Steps Back 2016 In Review",
+		"url": "https://www.eff.org/deeplinks/2016/12/secure-messaging-2016-year-review",
+		"domain": "www.eff.org",
+		"image": ""
+	},
+	{
+		"curated_id": "upRm62LhOK9YVAv0nrtqmm123116qrYmCgVP7W0bc29U4sKk3yEoiSgqwB0jazNWUSXk5Z988hQlNUdgbqkCDRHvWw117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Introducing Advanced Features in Zoho Vault to Curb Security Threats and Boost Productivity",
+		"url": "https://www.zoho.com/vault/blog/introducing-advanced-features-in-zoho-vault-to-curb-security-threats-and-boost-productivity.html",
+		"domain": "www.zoho.com",
+		"image": ""
+	},
+	{
 		"curated_id": "AeRnZma1W7oRhrcTGSTIvICDkNlkp8RXr9iKgeKFh3BGHYcb6vgjWCqLdoVVScVnESV3gAiWG123PONAMQZT0FQw117117",
 		"item_date": "2017-01-02 00:00:00",
 		"title": "OWL Insecure Internet of Energy Monitors",
@@ -11,8 +43,8 @@
 		"curated_id": "SP0N7cVec30Q48IfYYvs7dvPmvNlkVPrpT16tF0WCJIUayOieGRAzZ9xD116g2VIeeCTjHLFGRi116ZFDiaS7wkrzw117117",
 		"item_date": "2017-01-02 00:00:00",
 		"title": "The Age of Resilience  Security in 2017",
-		"url": "http://feedproxy.google.com/~r/Techcrunch/~3/6Sa0ZaB8j8k/",
-		"domain": "feedproxy.google.com",
+		"url": "https://techcrunch.com/2017/01/02/the-age-of-resilience-security-in-2017/",
+		"domain": "techcrunch.com",
 		"image": ""
 	},
 	{
@@ -37,6 +69,54 @@
 		"title": "The economics of mandatory security breach reporting to authorities",
 		"url": "http://cybersecurity.oxfordjournals.org/content/2/1/29",
 		"domain": "cybersecurity.oxfordjournals.org",
+		"image": ""
+	},
+	{
+		"curated_id": "6avi7YEVz123mSTeh061z3dXM78TO0UXRrN5zbL8r8eqD9Y3054PJn78ZbtNTkp116iNxcc8aZRIhlVPiYmiSnvUKQ117117",
+		"item_date": "2016-12-28 00:00:00",
+		"title": "The 10 Biggest Data Breaches Of 2016",
+		"url": "http://www.crn.com/slide-shows/security/300083246/the-10-biggest-data-breaches-of-2016.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HWVcm95Jond5EZC116iws6inV32lTCsg65tS6YlDt7CCG116116Zl1uK85Ae0uEW79Nk94C54LsPfMHKPqcv1169tgm2yw117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "InterContinental Hotels Probes Possible Card System Breach",
+		"url": "http://www.darkreading.com/endpoint/intercontinental-hotels-probes-possible-card-system-breach-/d/d-id/1327807",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "S8iY50FYbrPV9zO3Tgk3123b116IiOIA3z116RBlBp8u0aIvVTMHfi5AKKtxUH6ARaVZHLpG2KPbtTrn2eqNJApGZQrQ117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "Effects of the 2011 DigiNotar Attack",
+		"url": "https://www.schneier.com/blog/archives/2016/12/effects_of_the_.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "qdA2gAL3HekXUcPTen2cMr20MVoyXt0XejbQ123qpzJuGG6eL116IVH8K6CdsZWpcU3Mog1ses8dxOr05Bk24J4Urg117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "NH Department of Health and Human Services Announces Data Breach",
+		"url": "http://www.itsecurityguru.org/2016/12/29/nh-department-health-human-services-announces-data-breach/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "yKDdibw01MQ11sLoRNiYPnmKU116482ULYDk5Jsrd8pg2oBerGoE6T94UgII1XV05n5EGlJ5udC5Bgwgkdz5I116VA117117",
+		"item_date": "2016-12-29 00:00:00",
+		"title": "The Bug Bounty Model 21 Years  Counting",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/the-bug-bounty-model-21-years-and-counting/a/d-id/1327752",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dnBX7HCEdXOvCCm1x9IVgpxNnuWZuTaC123FDPRIKZnX1HWWAHJ9LYdOZhvDl2eudYUyuxi69M0o9XdFSdw2hQ7w117117",
+		"item_date": "2016-12-28 09:58:46",
+		"title": "WordPress block anonymous Rest API access",
+		"url": "https://www.ghacks.net/2016/12/27/wordpress-block-anonymous-rest-api-access-information-leak/",
+		"domain": "www.ghacks.net",
 		"image": ""
 	},
 	{
