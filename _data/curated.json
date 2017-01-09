@@ -1,5 +1,69 @@
 [
 	{
+		"curated_id": "G8bBJ8b7hcP3RPMzukdB5MsQlDhn6vhViKJ4Ml790isKR3CHQ8SURWu0PLlIHV4qBUwmpKIz4r46Xteq6sGWYA117117",
+		"item_date": "2017-01-02 00:00:00",
+		"title": "Be Prepared for Many More Data Breaches This Year",
+		"url": "http://www.cxotoday.com/story/be-prepared-for-many-more-data-breaches-this-year/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "PWskdJaWWQP6roA7GIoriyUeT123fV4NisM5IOvbwj2YAmjcGJ123mhqA3NiWLy9MKM4Kl123116CHlMioedg79u116alm4Q117117",
+		"item_date": "2017-01-03 00:00:00",
+		"title": "Class Breaks",
+		"url": "https://www.schneier.com/blog/archives/2017/01/class_breaks.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jHEDm9hhwOyVhNeLsTb2VFiQsIweYWFdSHdM123VX1rt2ZFKTuit57gJf19p9dIWaIs6AdIqTfTS0ZRZCc4qrazA117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "FTC Files Complaint Against DLink Over Router Camera Security Issues",
+		"url": "http://www.crn.com/news/internet-of-things/300083325/ftc-files-complaint-against-d-link-over-router-camera-security-issues.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "q0vWOlfUToplfwmRWH8rR116H9e4lL123UbFA1LCXheB1RYp81238ydyq10stulrT83C0V123gvgKpBGIYPFTplhd1RXrA117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "The Advantages and Benefits of Automating Web Security",
+		"url": "http://resources.infosecinstitute.com/the-advantages-and-benefits-of-automating-web-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IUPMq70UD7B59bEMbOgbEb9N116m1161123BBCmZc7d116Vshsf6116TvJMXhqY720Y6kOgnCuAxSD6Au5f116Qe4nAYtShu3Q117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "FTC Charges DLink With Unsecure Routers And IP Cameras",
+		"url": "http://www.darkreading.com/iot/ftc-charges-d-link-with-unsecure-routers-and-ip-cameras-/d/d-id/1327844",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tsolfE1kqRy116EODLpbJ7yiBPRv2X0MDGr123x5uRyeycAnmXg3k4CiFriq5xucDujWwZ40P9dLGa8wfs7yAa1ykA117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "DLink Calls The FTCs Router And IP Camera Security Allegations Baseless",
+		"url": "http://www.crn.com/news/networking/300083333/d-link-calls-the-ftcs-router-and-ip-camera-security-allegations-baseless.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vWOsA123EHlDonhK123nDMAL9NYm3ieAh8VeeG9vL1bKshe7GQA123QDETKSPImsMEhnY1QljOPzaIqK8EGbevsZeB2g117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "FTC Sues DLink Over Insecure Routers Cameras",
+		"url": "http://www.pcmag.com/news/350850/ftc-sues-d-link-over-insecure-routers-cameras?source=SectionArticles",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oqFVUNxVDCRFQKBkq3wAFFR2Dcy7dZH8l2A1123tBkLrSD6Av6zIodnTfFXSf5fKS1r2roSePHxlH1168ya44gIA116A117117",
+		"item_date": "2017-01-06 00:00:00",
+		"title": "New Android Malware Attacks Your Wireless Router Through Your Phone",
+		"url": "http://www.itsecurityguru.org/2017/01/06/new-android-malware-attacks-wireless-router-phone/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
 		"curated_id": "xG0tvC8V8Qk59511635pC116dr4QjUKXe7v6MKm7ujhfySAhw8aDd116xbyihF6E66JS6zu2HanABiMgLQpKy8wYVS5w117117",
 		"item_date": "2017-01-06 00:00:00",
 		"title": "Ransomware Attackers Are Going Old School with Social Engineering",
@@ -11,8 +75,192 @@
 		"curated_id": "9O11696EfG07hgUpJs6l3123pq2BRsi6k0KUYVunry35FjkcadhSCdKj2A7L5FawxDfs9Xz1CPOd3ZH2YWejKJ1SMw117117",
 		"item_date": "2017-01-06 00:00:00",
 		"title": "OWASP Security Knowledge Framework The Missing Tutorial",
-		"url": "https://dzone.com/articles/owasp-security-knowledge-framework-the-missing-tut?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/owasp-security-knowledge-framework-the-missing-tut",
 		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7FZdXbb3AoF6D0BDFzo6Q66cKJbjR9qCbFH4oUxkqqd8ZUvgSdMl0Hb5v5BvMbuy1116cNHA90cle3gnRx0Y3uLw117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "FTC Launches Contest For Technology Tool To Protect Home IoT Devices",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/ftc-launches-contest-for-technology-tool-to-protect-home-iot-devices/d/d-id/1327831",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "iYnEuguJSRKvqZyP123AzoVJKCL0123dtwG15123RVDXUk3d2RQlCKpZDT116u4Xhq4fEtwwAUPJwXmg1QtuH3o4Q116vLFQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "Penetration Testing and the Law",
+		"url": "http://resources.infosecinstitute.com/penetration-testing-and-the-law/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NTBP4ngE4udrkyd1161xS0PtAhr5eNi1238c1PlKLU1162kKJt6IxnRzyqCAhT123BcNT4116sMaOSYZ6oFtXaQfszxT7xpQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "CISSP Risk Management Concepts 2",
+		"url": "http://resources.infosecinstitute.com/cissp-risk-management-concepts-2/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vfjPoAUHN0116NetF7mUWvw116C3Oy116wmU51WKpwaQFIuw123yE2ebpTqaCsoejp2Ng4Q0l5a3VqyfxpcteRZItDeqWQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "Mitigating Access Control Attacks",
+		"url": "http://resources.infosecinstitute.com/mitigating-access-control-attacks/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "1peZprVMDbTSbE4RIv06oCrA1rj5BcIzD1s271srucrLXkltnZxcBM2ddngZwLEPRd116gUufXZERtluejU7aT7g117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "Bitdefenders second Bitdefender Box sniffs your homes network to detect hackers",
+		"url": "http://www.macworld.com/article/3154494/networking/bitdefenders-second-bitdefender-box-sniffs-your-homes-network-to-detect-hackers.html#tk.rss_all",
+		"domain": "www.macworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "KYBMDVlc1123qsZYlDpAgrsHP9TlQcKLNNqwo2xOX123vTdk5YgTRIq5SOmLUoOS906WSTWASHikth0ReXPJvSA0WA117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "System Configuration of BiometricsThe Network Topologies",
+		"url": "http://resources.infosecinstitute.com/system-configuration-of-biometrics-the-network-topologies/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wDdlNIzVzIdwdSoH99uK3SWDWovx7hsax116d7xiNqSN7ISQv1OrI5G4Xy3HQCPlBnd116P116FB123yBfhFS116M9oQFfXQ117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "The FTCs Internet of Things IoT Challenge",
+		"url": "https://krebsonsecurity.com/2017/01/the-ftcs-internet-of-things-iot-challenge/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YbenQ1164NF2BYzGKpunCtnIbnGLIZWGXHpQh07116qplkgm8f6Kz8iLSG116DMz83116K3XPbC1NIv5cvievJyGtHE2Zw117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "FTC launches 25K internetofthings security challenge",
+		"url": "http://thehill.com/policy/cybersecurity/312659-ftc-launches-25-thousand-internet-of-things-security-challengen",
+		"domain": "thehill.com",
+		"image": ""
+	},
+	{
+		"curated_id": "d3vnw36Xp2knxvipvyBF2uEHTbwE116y4zDSsQn5HFfKy3O5jzHX1tF9mHTiGQyIedMOwVj1mIZtWcwI4VTDEABg117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "The InSecurity of IoT",
+		"url": "http://www.forumsys.com/en/featured/the-insecurity-of-iot/",
+		"domain": "www.forumsys.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HT1NQMVxCpKpSj6XUiIqyYpWVH1Gk6HQKQiTTcDEvCM6GAGwZsHXrdk123klHAcbZ633wbmGdRcPZDP01231165Ot123iQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "Think Like a Hacker",
+		"url": "https://community.infoblox.com/t5/Security-Blog/Think-Like-a-Hacker/ba-p/8474",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XgLcLaVOUdQ6ELPZdHW50WUrlHEGjNm8116Q0SoMULtrI7yNADScTkZCTw7eoKzY3BpOo09SWbYpzxCUQAjFHYeQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "Feds allege security flaws in DLink routers cameras",
+		"url": "http://thehill.com/policy/cybersecurity/312897-ftc-files-complaint-against-d-link-routers-camerasn",
+		"domain": "thehill.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UaMXVIlxckSdocxYFO3IKIxwItwNLvU123116oKJQKW86MjVGsB116QuKjCJVg58Cg4wpmsmluN3KjaewWwIcxvBKZQQ117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "The US government showed just how easy it is to hack drones",
+		"url": "http://www.recode.net/2017/1/4/14062654/drones-hacking-security-ftc-parrot-dbpower-cheerson",
+		"domain": "www.recode.net",
+		"image": ""
+	},
+	{
+		"curated_id": "hjFsAXedO2itCuk6tt6NzU2EnzfOCTsHGWA8mhZJsZOfmVRhKUJR7123fWp0yeDMXYHspH0L6r116sMy7lkLaclEyw117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "The BCDR Impact of GDPR",
+		"url": "http://www.itsecurityguru.org/2017/01/05/bcdr-impact-gdpr/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "n5oAEM6YlKX1ftDqBqoHpewsELnTrkToZ7JZgou0frWnRXUUp7wX5zmBpQ21rpirNjlpHdMvg9EhTGU3UVwb4g117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "Ghost Hosts Bypass URL Filtering",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/ghost-hosts-bypass-url-filtering/d/d-id/1327842",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ydr3dTRS8iYYqtXmmspoTabGL85mjLMX3Z5cvSrXES116KpYo116GWPW3zHdbU4aawcuQu123HGMwcQdHOehWnwOWASA117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "MongoDB and Ransomware",
+		"url": "https://www.compose.com/articles/mongodb-and-ransomware/",
+		"domain": "www.compose.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IUp1DnEp35edClTTFNssYvX123s1oXG123hBdrql9lKr7ZR4yuQFIOWEvT7SWAN2z123qOCuJ1aoIqqCsT9116vfjzMveg117117",
+		"item_date": "2017-01-05 00:00:00",
+		"title": "UPDATE 1US sues DLink alleges lax security in routers cameras",
+		"url": "http://feeds.reuters.com/~r/reuters/technologysectorNews/~3/3mEGJyFk_P8/d-link-ftc-idUSL1N1EV1VA",
+		"domain": "feeds.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "eY1NYPVJVTrtuK589GmdzFYskH4UFTzFUc0IuMf161ye0B45iwtpRAKY946fq9MsS0ZpYka6De123eePSo116HNXQg117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "IT security sucks  part 2",
+		"url": "https://blog.cloudpassage.com/2017/01/04/it-delivery-security-sucks/",
+		"domain": "blog.cloudpassage.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EaOwjRZ1SyemWWDtFYbY1kyDI55eyE7csVrVVl116YvBkjFt6qCz3lwZR1Wa46Dp123Nhr116pSKbvwr1sPNcmZIpSKw117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "The Maximus Smart Motion Security Light looks like it could light up a prison yard",
+		"url": "http://www.pcworld.com/article/3154524/security-cameras/the-maximus-smart-motion-security-light-looks-like-it-could-light-up-a-prison-yard.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8fzCg116miAwzBwyZU283IeJL6Oki8d2mI9pQF116a8hS1pledp116Pw4XDCCfmap123cC8JnJqfFhMNHKmOTa123B116Vx123mw117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "The future for APIs  how management and security will have to come of",
+		"url": "http://www.idgconnect.com/blog-abstract/23562/the-future-apis-management-security-age",
+		"domain": "www.idgconnect.com",
+		"image": ""
+	},
+	{
+		"curated_id": "CqO8YpAr7w9BC56FtGaT6af1169lZ2A11233nOXdUlkPhZ3FlNj01EiLe76EDZXxP4qo8LQ5rwkkNEiTcj8x2123l02A117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "Data breach exposes US Army doctor details",
+		"url": "http://www.itsecurityguru.org/2017/01/04/data-breach-exposes-us-army-doctor-details/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "zokK9fuBuZyouQUCVih60SDuSx4kaiu9HgvPvl1166jOdYeazsgaOaNKk8qEffbowSrnlwTBqCYRI3BKUgpuCRoQ117117",
+		"item_date": "2017-01-04 00:00:00",
+		"title": "Hackers could explode horribly insecure smart meters pwn home IoT",
+		"url": "http://www.itsecurityguru.org/2017/01/04/hackers-explode-horribly-insecure-smart-meters-pwn-home-iot/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "fGpNzaFxuGycO0A116xaGa59lsNubG116OM1Puru3lt3IaYjLOxcB6E5TgZXy7JZLw5jS9Xor123s0qnVBw116Gq1VFe1Q117117",
+		"item_date": "2017-01-03 00:00:00",
+		"title": "Topps maker of sports cards discloses data breach",
+		"url": "http://www.itsecurityguru.org/2017/01/03/topps-maker-sports-cards-discloses-data-breach/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "MGqS8sgbxWZIMijUUMeFL7rp1mp9wXP8GzZt3CPi3MessruifyYUCu0CYDo9SfVocpeoKmgVX4EVdsWfGZIqOw117117",
+		"item_date": "2017-01-03 00:00:00",
+		"title": "Connect and HTTP Strict Transport Security",
+		"url": "http://blogs.adobe.com/connectsupport/connect-and-http-strict-transport-security/",
+		"domain": "blogs.adobe.com",
 		"image": ""
 	},
 	{
