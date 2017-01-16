@@ -1,10 +1,34 @@
 [
 	{
+		"curated_id": "ERWP116V2ykqNBtDr7OaCwifUKAaxwypfGZ3QfpyhakOhXOh3qT116bYPBvc8Oz9Su83qNxJiXUHVaOni2UY0Al8Rg117117",
+		"item_date": "2017-01-14 16:39:15",
+		"title": "Automated Analysis of SecurityCritical JavaScript APIs",
+		"url": "https://research.google.com/pubs/pub37199.html",
+		"domain": "research.google.com",
+		"image": ""
+	},
+	{
 		"curated_id": "ayW7Gshev2F57123FDrSIjwDjvwFeV7123snC2123Mup0sdC116B8Bb8VNZp70zNqWhlCGDmyDbfjEpxkb07h61168PCjJbw117117",
 		"item_date": "2017-01-13 00:00:00",
 		"title": "Dont Let Your Apps and Databases Become a Ransomware Targets How to Protect Your Database",
-		"url": "https://dzone.com/articles/dont-let-your-applications-and-databases-become-a?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/dont-let-your-applications-and-databases-become-a",
 		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YQt2SSTnumiL3RNCmr116kB2vcPFcQroNrF3PQm402j82TWluQkOrSgzHgVCD2ukyrp09LSFqrP88YPPvhcfTUJg117117",
+		"item_date": "2017-01-12 14:09:18",
+		"title": "Tweet Amazon CloudWatch Logs receives Provisional FedRAMPHigh Authorization to Process Sensitive Government Log Datahellip httpstcobTaIcBgkWy",
+		"url": "https://twitter.com/awscloud/statuses/819667599021588480",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3chPRINjiu0EKvX8xrcn3KFRd1Qpkkd5tVp3smjwUszGA274wKkXksTEVQKqliZSrY9YcsDSKBkU12InyUmCIA117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "EU Dissatisfied With US Clarification On Yahoo Secret Email Scan",
+		"url": "http://www.darkreading.com/eu-dissatisfied-with-us-clarification-on-yahoo-secret-email-scan/d/d-id/1327878?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
 		"image": ""
 	},
 	{
@@ -13,6 +37,22 @@
 		"title": "Setting up DMARC to Defeat Email Abuse",
 		"url": "http://bhconsulting.ie/securitywatch/?p=3058",
 		"domain": "bhconsulting.ie",
+		"image": ""
+	},
+	{
+		"curated_id": "oT4yLt90GqFOjsEHisihMs6TITE9T950NTWPiZjyxaCEA9y9ReJ4302fAaauOSGaBL1gomtMc7YVhmkIYBseWA117117",
+		"item_date": "2017-01-13 00:00:00",
+		"title": "TruffleHog Sniffs Github for Secret Keys",
+		"url": "http://hackaday.com/2017/01/13/trufflehog-sniffs-github-for-secret-keys/",
+		"domain": "hackaday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "DZ0h9uuv9A3exJPEWCH6c1232ptPpK1TCO3RJUkCPJDZQZlHldu1nU96nFHAy8y3pX116ah123EDa123BnSr7kb116wSVCUQ117117",
+		"item_date": "2017-01-12 11:03:00",
+		"title": "GitHub  googlekeytransparency A transparent and secure way to look up public keys",
+		"url": "https://github.com/google/key-transparency/",
+		"domain": "github.com",
 		"image": ""
 	},
 	{
@@ -29,6 +69,246 @@
 		"title": "5 Fundamental Security Features your Industrial Assets Must Have",
 		"url": "http://blog.opto22.com/optoblog/fundamental-security-features-for-industrial-assets",
 		"domain": "blog.opto22.com",
+		"image": ""
+	},
+	{
+		"curated_id": "4212373123XRtnYXrGV116iu3Rklc116dKuV6fw44zkWYLFHhj7zpQ7w7TC1krqcZ8zjmZAqLV5RmIDKscg59ug1mQYz4w117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "Security Through Transparency",
+		"url": "https://security.googleblog.com/2017/01/security-through-transparency.html",
+		"domain": "security.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7BvR8jsC7qhfd7ixPMEepqbqUM6OqlzuTR6NhDsjjBv7m71vrhcSqsvo2C4JoT116yZtzCYVIThP3uXITI3uO1rQ117117",
+		"item_date": "2017-01-09 12:02:03",
+		"title": "Tweet The GitHub Bug Bounty is turning three which makes it about 95 potty trained Let039s celebrate with payout bonuses httpstcoFbMRcNcjDd",
+		"url": "https://twitter.com/github/statuses/818548407987945473",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "sjaFwCcYyC3l9Szja5g06Z7OQnxX2AFo0YlyoUdA1J116mkBmffNb2qNrFmC5KuCud0ChWmBPffO5pmkcNAwJzPg117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "Twofish Power Analysis Attack",
+		"url": "https://www.schneier.com/blog/archives/2017/01/twofish_power_a.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "38qhte67eqQ4MP11Te89OKvn079uAlVEvpv3J1CLS2vBuylOR1j123PfwHiaGytmYZQhM5dLH5ykN123YldhW116hD116Q117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "Security overtakes availability as main priority for application deployment",
+		"url": "http://www.itsecurityguru.org/2017/01/12/security-overtakes-availability-main-priority-application-deployment/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "wSU1IxOPX2SG123gdKR9HRCSiWLh116B4nry123QM1161238123O3GvJvDKHK8hoqliVKEHg61233fL7YAORpoaSHFYaa7sy3WwA117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "Corporate financial data theft and customer information breaches are top two cyber concerns plaguing enterprises",
+		"url": "http://www.itsecurityguru.org/2017/01/12/corporate-financial-data-theft-customer-information-breaches-top-two-cyber-concerns-plaguing-enterprises/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "Ca8vYSo0yRp2igki5VeXmLOzim6xWUMknV123N8qvDpoHBd7hmT1235D4FmMKf8FUj116TSBTExjRUQSb116URD544K2kQ117117",
+		"item_date": "2017-01-12 00:00:00",
+		"title": "How we secure our infrastructure a white paper",
+		"url": "https://cloudplatform.googleblog.com/2017/01/how-we-secure-our-infrastructure.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c4a3Y123YtxseLpCwOZIqVRTFYSbBEkATsMWATRrzG1p5G1pt31g1w2u8Av0mfptJ123HzCDxlkFv460YBR123wB7Fjw117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Browser Autofill  Convenient but Dangerous to Your Security",
+		"url": "https://www.eagleeyenetworks.com/browser-autofill-convenient-dangerous-security/",
+		"domain": "www.eagleeyenetworks.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lBNfmEUgSbukvGcV26Es6IP141gJg7mW6gDfll9uejFHXVRCESaERzRiykKrn5q123OhR123t116HFI5116N71236vo116nCkw117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "ISC Releases Security Updates for BIND",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2017/01/11/ISC-Releases-Security-Updates-BIND",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "D6fN59DeShOOoHi21Qxo75qK116qn027jPh2db4PrWbNWSamvyJlhWR7VPHgocOlnCkvCXOOyb1239x3s45EZB3XIg117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Improving Visibility in Security Operations with SearchDriven Lookups",
+		"url": "http://blogs.splunk.com/2017/01/11/improving-visibility-in-security-operations-with-search-driven-lookups/",
+		"domain": "blogs.splunk.com",
+		"image": ""
+	},
+	{
+		"curated_id": "C2X412303pTb6zKVXg0wnE123P1tB116HDZ7jyncrya7CzDR6W6YmNZ0ZmPXCw1232116S8116cR5v8osgWpaSHQDBu1hPIv4A117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Managing encryption keys in the cloud introducing Google Cloud Key Management Service",
+		"url": "http://cloudplatform.googleblog.com/2017/01/managing-encryption-keys-in-the-cloud-introducing-Google-Cloud-Key-Management-Service.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "f411623TnRRda5NN9srN123eEqRjiTzv2x0CnKaLdTSMcR123q6MByK6123JC5c9xmJbpLaPY9G0kLWsrSv4t7jw5mzIRg117117",
+		"item_date": "2017-01-10 23:09:36",
+		"title": "Troy Hunt A data breach investigation blowbyblow",
+		"url": "https://www.troyhunt.com/a-data-breach-investigation-blow-by-blow/",
+		"domain": "www.troyhunt.com",
+		"image": ""
+	},
+	{
+		"curated_id": "afFmVSKmCnpNlrsWDFb5VdGF28RkW1J1169YdNyskI1166jjacoimtiMOJXdxwm4XIfvj76IAep123PLI5vmzw0DJb9Q117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Credit Freeze The New Normal In Data Breach Protection",
+		"url": "http://www.darkreading.com/endpoint/credit-freeze-the-new-normal-in-data-breach-protection/a/d-id/1327864?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "u8zy0Oq9qC8nYdeUf3IjAWdUxErta5rcyxJW116sNt5zwCT9A0EuIFPKnIyLgPms7123eJRbPftR123x4uRdV7EA1160AA117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Googles Cloud Platform gets a new key management service",
+		"url": "https://techcrunch.com/2017/01/11/googles-cloud-platform-gets-a-new-encryption-key-management-service/",
+		"domain": "techcrunch.com",
+		"image": ""
+	},
+	{
+		"curated_id": "BQMDVSNK3NB82aZOewe2FmvQPiJ5jKSyDNjo0MJrDC1Y123VG3ZATSznlv116XGLSkuWIOMHgftwzqi4D116P9L116BHKQ117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Google Cloud Platform launches Key Management Service in beta",
+		"url": "https://marketingnewsweb.wordpress.com/2017/01/11/google-cloud-platform-launches-key-management-service-in-beta/",
+		"domain": "marketingnewsweb.wordpress.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YbLdTZ1168nGn89Fh123OxTB123ih7OyZ7ABO123Mhd0g9wlQyx1s8F846OrZv7TQezR51116c1LoOgMRnaYXJzlYi1mpB5w117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "Foundational Security Operations Concepts",
+		"url": "http://resources.infosecinstitute.com/foundational-security-operations-concepts/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116MP123LzxyqYXARiG116p01230n6JOnRCIWApNMk3D123qoGhQCilsi9FmtRDp5wxuJVrcsvLJ116BsZc511161233jqSUHqf2Sg117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "Communications and Network Security",
+		"url": "http://resources.infosecinstitute.com/communications-and-network-security/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6tFmQ0gKmsPw116kMV6FUxFoJTfTOpK34abaitqdT6YHNf4WPwGmgcun123Weaif1kfTOjaIUFMcI116tGRkqGeMqhdQ117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "Krebss Immutable Truths About Data Breaches",
+		"url": "https://krebsonsecurity.com/2017/01/krebss-immutable-truths-about-data-breaches/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "iZK0KhwHDzWUHYMvfwY1236ztJEoUFK5UDlNKlGHB80lgfPXe3ovw5fsrNzkK1F9kt4TBwNNIDqe1zDq7x7NA41g117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "New Cybersecurity Regulation for NY Financial Services",
+		"url": "https://duo.com/blog/new-cybersecurity-regulation-for-ny-financial-services",
+		"domain": "duo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fh224nLN579wj0zK0Nm4JxoC7B3Xrw8xFue9t6LI3xKdpH4BHEFAAKTwSsdG57D4Xh116d8fwjpE123rnkI7SWdujw117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "Gogo Inflight WiFi Boosts Security with Bug Bounty Program",
+		"url": "http://www.eweek.com/security/gogo-inflight-wifi-boosts-security-with-bug-bounty-program.html",
+		"domain": "www.eweek.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tYjB3elk2WMd7HOZhq8di4Zthy1123PIPuaUp3ScrB1163cP6JENG5sAu0GJcitFcNPT0E0NfHMGAi0YkAaPdR6cAQ117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "Extortionists Wipe Thousands of Databases Victims Who Pay Up Get Stiffed",
+		"url": "https://krebsonsecurity.com/2017/01/extortionists-wipe-thousands-of-databases-victims-who-pay-up-get-stiffed/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NVZ3cQlNzPsI7PZH2lgwIlwxGhhoK9DTu4ErPXt116nwiYBTsj7bGu2NwKD4MWbXRBJyIeDoev4JOXtHlzSfARYQ117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "Security talks at Google during the RSA Conference",
+		"url": "https://cloudplatform.googleblog.com/2017/01/security-talks-at-Google-during-RSA-Conference.html",
+		"domain": "cloudplatform.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "O8HIL9qVoeH1VIrUAjcz9VFSryXnrcxM06lFg3SMDU5E2vLoNF7oPs6n2123i123xT2V8sI1FB116ykUOeO5x6MjPcAQ117117",
+		"item_date": "2017-01-11 00:00:00",
+		"title": "Latest Trends in Cybersquatting",
+		"url": "http://resources.infosecinstitute.com/latest-trends-in-cybersquatting/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SeSOqIaBfO8en6P116lFfbbtFSEWNVQoVPC2tczSf09116kPqkfnUeTkrOjne123hXcHKf71UA41P87DUNSUNPHOMagQ117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "Bug Uncovered in St Jude Medical Pacemakers Defibrillators",
+		"url": "http://www.pcmag.com/news/350928/bug-uncovered-in-st-jude-medical-pacemakers-defibrillators",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YSfcEF3djv3veLQgK1mSf1gg5STClGPOMyGIHOZsPnohcwX561cewr2mTgEodoJWeXOhvhjiyCs1pwmDKrBNLg117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "FTC Offers 25K for IoT Security Fix",
+		"url": "http://www.pcmag.com/news/350891/ftc-offers-25k-for-iot-security-fix",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "b1tXfRa4372T1xnAEFC116S7MBSM5r6SvoUvgygE5gRx123KEDDn5vgbG123ubiZKPok8Zy9Ibpvtgvor6Sw35Zh14yQ117117",
+		"item_date": "2017-01-10 00:00:00",
+		"title": "The Best Techniques to Avoid Phishing Scams",
+		"url": "http://resources.infosecinstitute.com/the-best-techniques-to-avoid-phishing-scams/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YVIDww3XRm6f7x7AUSy9HFVfvvWCLBJlKm7fLS9116123ew2c9SSCUyXsaZt09Ik123tK4GnSqYr5DeO39fUiiYMiU123g117117",
+		"item_date": "2017-01-09 09:55:16",
+		"title": "The Porcupine Attack investigating millions of junk requests",
+		"url": "https://blog.cloudflare.com/the-porcupine-attack-investigating-millions-of-junk-requests/",
+		"domain": "blog.cloudflare.com",
+		"image": ""
+	},
+	{
+		"curated_id": "lSKvuZkVKddb3uGuyiSFkra2NWcZ5Rbvwbs6Km2RzMunjgLj116Jjd123jxuHash9pl116X4Sfv9euDv2cd2hwVYCBMg117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "The CISSP CBK Domains Info and Updates",
+		"url": "http://resources.infosecinstitute.com/the-cissp-cbk-domains-info-and-updates/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Y6ZjA7hXw0AOun0blxBwEQuTx116uHXQaUFWLWtSeRVKZ1RdFRuX1fKcQf123b116y9us73cS75GR9EhObgVo9FI123lPA117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "Security Governance Principals",
+		"url": "http://resources.infosecinstitute.com/security-governance-principals/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vIIJeLLOUr3UkI4E8fzaxmO8qixCPHw5jtv0123W9xx3U2HmUbwwW6gqMviniJ7fpa8IuQx1YkSJb49T123F8lGkqw117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "The Secrets of WiFi Credentials",
+		"url": "https://www.codeproject.com/Articles/1164749/The-Secrets-of-Wi-Fi-Credentials",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zbjlgFZVUnzAgQfTNBZxA0FhvM4RM0KWoHS116lDVatF116PytAwq6V83Z9x1cwisvDWIGAulY8lMQWlCxiyHmVLoQ117117",
+		"item_date": "2017-01-09 00:00:00",
+		"title": "Stocktanking in St Jude Medical security disclosure might have legs",
+		"url": "http://www.pcworld.com/article/3155990/security/stock-tanking-in-st-jude-medical-security-disclosure-might-have-legs.html#tk.rss_all",
+		"domain": "www.pcworld.com",
 		"image": ""
 	},
 	{
