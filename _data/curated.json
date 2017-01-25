@@ -1,10 +1,66 @@
 [
 	{
+		"curated_id": "bJ123ejIxawoah8k1S9BLsKEBNe7xW5q5NFJb0hRsou4M123rC7CFL1233tu1ge7xVfhWvuN6SBPLloy123MgSC29GCvfg117117",
+		"item_date": "2017-01-23 00:00:00",
+		"title": "Yahoo under SEC investigation for keeping the lid on data breaches for years",
+		"url": "http://thenextweb.com/insider/2017/01/23/yahoo-sec-investigation-data-breach/",
+		"domain": "thenextweb.com",
+		"image": ""
+	},
+	{
 		"curated_id": "KuIYysH6ZZhbBpxsgc6R28U1ZvwVaOjNf6glRGmRULBR5WJrLE6y9t3EpjgT8g5Aq3XSqkbKk9v8JVLv7kvrdg117117",
 		"item_date": "2017-01-22 00:00:00",
 		"title": "BRIEFYahoo faces SEC probe over data breaches  CNBC citing DJ",
 		"url": "http://www.reuters.com/article/idUSFWN1FC00O",
 		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Menfc3JYWoofm6Rahhn1165AbJC9gWiIxbEPZdUPPlR88YGFETZWYKBZ123xDCguu8EiCbnygtKaKny123aSP4xrHOyg117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "App Security Improvements Looking back at 2016",
+		"url": "https://security.googleblog.com/2017/01/app-security-improvements-looking-back.html",
+		"domain": "security.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "9jB4KlOMvxT9EzselLSVIO09QtPpFR0kCEIF8VptE1nmA0WWRCZusgVwX8ufcnkA2s123ZgyMVefMKie39jlPptQ117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Building and Securing Koa and Angular 2 with JWT",
+		"url": "https://auth0.com/blog/building-and-securing-a-koa-and-angular2-app-with-jwt/",
+		"domain": "auth0.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123uwEMNFsPtzY7sNoKBjybog4gJHS123CXEMp8QUtrO6mqp0gM2qCxiPdoAqpPlfJTFe1vQAe9bKgmKjaziBS8MNg117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "An Introduction to tmux",
+		"url": "http://resources.infosecinstitute.com/an-introduction-to-tmux/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "z7wgmrCkwAvVO116aqLRNP1mkM0cQ4JPJjSgUXroo9xTATp7MErrDGOTPwDZMO1167pTr0kQE9pnEjjlyWSZ4rc116CQ117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "IC3 Warns of Employment Scams Targeting College Students",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2017/01/19/IC3-Warns-Employment-Scams-Targeting-College-Students",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "6HVlfm6j1eFTJ6Mbu8nVlSfVTpCLshxk1ZbosdCECE5KbhSfWGyWnyWbI1XABh37qj8ObnhRJu98sGuJ3Cpn0w117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Hacking the Army",
+		"url": "https://techcrunch.com/2017/01/19/hacking-the-army/",
+		"domain": "techcrunch.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2TRiPI3N116waDreCmuaB2u4Nj3hBTHcm8Wwr1UdflFsrDL2ArQAeWQX6FotsUxBgm2vNzVXOhP123bsMYVNqOxzgQ117117",
+		"item_date": "2017-01-20 00:00:00",
+		"title": "Handling HTTPS Requests With AkkaHTTPS Server",
+		"url": "https://dzone.com/articles/handling-https-requests-with-akka-https-server?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
 		"image": ""
 	},
 	{
@@ -24,11 +80,35 @@
 		"image": ""
 	},
 	{
+		"curated_id": "iJvLutD123kB123cIRJmT3a5yiLsdqWhhQeCTE4qGH4elVThoXIO123Ao1g6SwYtaBwBjW8oRAHl116Gcr13PQ8qVW44WA117117",
+		"item_date": "2017-01-20 00:00:00",
+		"title": "The commandline for cybersec",
+		"url": "http://blog.erratasec.com/2017/01/the-command-line-for-cybersec.html",
+		"domain": "blog.erratasec.com",
+		"image": ""
+	},
+	{
 		"curated_id": "fhr7X2tdnQRWzN1yoCqzQcI4fdr0lY6Z3jinCj58BQZMy116M8Ym116bxUjbrd123HfiP1B10botRx2OAb2NKS1zeTfw117117",
 		"item_date": "2017-01-20 00:00:00",
 		"title": "Barracuda Networks Brings DevOps Processes to IT Security",
 		"url": "http://www.itbusinessedge.com/blogs/it-unmasked/barracuda-networks-brings-devops-processes-to-it-security.html",
 		"domain": "www.itbusinessedge.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vmeKOHUQTXIBd123Lfls3L5xHY0YHOx123yk8ytYkYFQteN2ahHd9BovKNzuiAkrkTXlUKxREajrpPaOoNTTQApV116A117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Attackers start wiping data from CouchDB and Hadoop databases",
+		"url": "http://www.pcworld.com/article/3159527/security/attackers-start-wiping-data-from-couchdb-and-hadoop-databases.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "wy8rXivvpi6mF116u1KXoQa71bCWGBRqwlxFhxbea90KBTj1A9gh6NazDQlN5u123C6KWr9sNcwGfKHCItZwhNeYOw117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Dont Fall for This Sophisticated Gmail Phishing Scam",
+		"url": "http://www.pcmag.com/news/351113/dont-fall-for-this-sophisticated-gmail-phishing-scam",
+		"domain": "www.pcmag.com",
 		"image": ""
 	},
 	{
