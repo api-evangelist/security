@@ -24,6 +24,14 @@
 		"image": ""
 	},
 	{
+		"curated_id": "jZywRi1TIi721U8FoJbL2BSwFdxcbQtkfoqujv1mMDhKGQ116pcqTOLfvAQrBkgI3CLSed5RGfeuBERya7OeTzVQ117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "The 4 Top Barriers To Effective Incident Response",
+		"url": "http://www.darkreading.com/the-4-top-barriers-to-effective-incident-response/a/d-id/1327907",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
 		"curated_id": "9jB4KlOMvxT9EzselLSVIO09QtPpFR0kCEIF8VptE1nmA0WWRCZusgVwX8ufcnkA2s123ZgyMVefMKie39jlPptQ117117",
 		"item_date": "2017-01-19 00:00:00",
 		"title": "Building and Securing Koa and Angular 2 with JWT",
@@ -40,11 +48,27 @@
 		"image": ""
 	},
 	{
+		"curated_id": "e8xrnAuZ7duRegS123y4jEXk1l7CwYDbsZrmDeKo2h9ISr3rZ92116yGP6X5D0Okq8nOYGynXQL7D3toZnlQ10O0JQ117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Security Awareness Training for the European Union General Data Protection Regulation EU GDPR",
+		"url": "http://resources.infosecinstitute.com/security-awareness-training-for-the-european-union-general-data-protection-regulation-eu-gdpr/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "z7wgmrCkwAvVO116aqLRNP1mkM0cQ4JPJjSgUXroo9xTATp7MErrDGOTPwDZMO1167pTr0kQE9pnEjjlyWSZ4rc116CQ117117",
 		"item_date": "2017-01-19 00:00:00",
 		"title": "IC3 Warns of Employment Scams Targeting College Students",
 		"url": "https://www.us-cert.gov/ncas/current-activity/2017/01/19/IC3-Warns-Employment-Scams-Targeting-College-Students",
 		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "IjYvzH8WvDoPTvKLJ5rBE9R4kzaUGn0oo6Q7eiLyBcTI5116Ejt9C4g4ov9gn01NQIEwyK2HYGDiR629jAyHyeiA117117",
+		"item_date": "2017-01-19 00:00:00",
+		"title": "Number Of Data Breach Disclosures Jumped 40 in 2016",
+		"url": "http://www.darkreading.com/endpoint/number-of-data-breach-disclosures-jumped-40--in-2016/d/d-id/1327935",
+		"domain": "www.darkreading.com",
 		"image": ""
 	},
 	{
@@ -59,7 +83,7 @@
 		"curated_id": "2TRiPI3N116waDreCmuaB2u4Nj3hBTHcm8Wwr1UdflFsrDL2ArQAeWQX6FotsUxBgm2vNzVXOhP123bsMYVNqOxzgQ117117",
 		"item_date": "2017-01-20 00:00:00",
 		"title": "Handling HTTPS Requests With AkkaHTTPS Server",
-		"url": "https://dzone.com/articles/handling-https-requests-with-akka-https-server?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/handling-https-requests-with-akka-https-server",
 		"domain": "dzone.com",
 		"image": ""
 	},
