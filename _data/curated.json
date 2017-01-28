@@ -8,11 +8,75 @@
 		"image": ""
 	},
 	{
+		"curated_id": "CNL8jYvvJW0X5jYSpDXRqUpeJrMlrYETFyFZGknin123JVKkhYyl116P4CiqCKaJFuiHz116NvAWG7zMgV7saI5BCErQ117117",
+		"item_date": "2017-01-16 00:00:00",
+		"title": "Most Businesses Fail To Secure Customer Data Study",
+		"url": "http://www.cxotoday.com/story/why-businesses-need-to-be-careful-with-customer-data/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ST86tkV06oE6DTXyDT7meTckocJLYVrip116diPmeW123gy4Flfe97Tku3grEpXcxRy5yPetoV65u1s1230ub0Xeh7nA117117",
+		"item_date": "2017-01-16 00:00:00",
+		"title": "Critical flaw lets hackers take control of Samsung SmartCam cameras",
+		"url": "http://www.pcworld.com/article/3158189/security/critical-flaw-lets-hackers-take-control-of-samsung-smartcam-cameras.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
 		"curated_id": "KuIYysH6ZZhbBpxsgc6R28U1ZvwVaOjNf6glRGmRULBR5WJrLE6y9t3EpjgT8g5Aq3XSqkbKk9v8JVLv7kvrdg117117",
 		"item_date": "2017-01-22 00:00:00",
 		"title": "BRIEFYahoo faces SEC probe over data breaches  CNBC citing DJ",
 		"url": "http://www.reuters.com/article/idUSFWN1FC00O",
 		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8xt62uVuHgbPBXSRWiJy7jjqyH5Pgl2BPlY0gPCZXK2lYleRHNisvdmsqadITZ6mntGXglPL4xKZqFJD7wJ123Fg117117",
+		"item_date": "2017-01-17 00:00:00",
+		"title": "Apex Predator Everything You Need To Know About Alias Solutions",
+		"url": "http://dyn.com/blog/apex-predator-everything-you-need-to-know-about-alias-solutions/",
+		"domain": "dyn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fyEThRgtbwWFAxvyTSL0kn9FImdaYLwFnQfoceY8BJ986dK3iuCEOAed58JZGk7eQiu9Ap7nyjAepmnFONBS7A117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "Endpoint Detection and Response 3 Ways to Implement an EDR Capability in Your Security Program",
+		"url": "https://www.redcanary.com/blog/how-to-implement-edr/",
+		"domain": "www.redcanary.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ayKAsJGb8bWMQ4qQSYtKzL7HO116UWx1DEmnK123l2FcKUeBtz6NKIE9zWqYV1231162EqreXhlVW95123o4116EoB85Pgg90g117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "Mobile Security Gap Threatens Enterprises",
+		"url": "http://www.darkreading.com/mobile/mobile-security-gap-threatens-enterprises/d/d-id/1327925",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xJ4WGS1160byX3j2lXfvIpiT1IpFBctIQjYrgOmpBDP5zKgre0CttDQILbKJ123uapQhcqHFBNl123gvMd0N4RyUQRqQ117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "Google reveals how it flagged 25000 Android apps for malware",
+		"url": "http://thenextweb.com/google/2017/01/18/google-reveals-how-it-flagged-25000-android-apps-for-malware/",
+		"domain": "thenextweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ylERrf7dtAapmdVMXLLFNc123k30KP7hwvQNnQfSsmOjwUK8JZEtnZheImiW2hfnT4E1BehdMetztekyRXH123eNMA117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "SelfService IT Thrives in the Clouds",
+		"url": "http://www.bmc.com/blogs/self-service-thrives-clouds/",
+		"domain": "www.bmc.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8wAmkjAdqM2vt8Nky2g2ehsXIwAovlhGNxIxX0rrPxBq6fd6dKPn116JfcCW1234T65wdExLleqpJRCgncOyDccj123Q117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "Confessions of a Hacker and How to Protect Your Enterprise",
+		"url": "http://www.bmc.com/blogs/confessions-hacker-protect-enterprise/",
+		"domain": "www.bmc.com",
 		"image": ""
 	},
 	{
@@ -133,6 +197,38 @@
 		"title": "Dont Fall for This Sophisticated Gmail Phishing Scam",
 		"url": "http://www.pcmag.com/news/351113/dont-fall-for-this-sophisticated-gmail-phishing-scam",
 		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dbs1169NBGceULPEqjdPhDi2RVVB123PaE3123XgxSqQ123UFjvAWKnx2liLGn9OpejUhh4XSqFtZUTa123VmZrKQXKvyBgQ117117",
+		"item_date": "2017-01-18 00:00:00",
+		"title": "OptoNews New blog posts on security in automation",
+		"url": "http://blog.opto22.com/optoblog/optonews-new-blog-posts-on-security-in-automation",
+		"domain": "blog.opto22.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116ZY8Gxhs1123prCAYGJEEvp2JvBVXhVh1P8Wc3D1166hmyo5EejS123PRiXXvrfqrWH5TDoWlXICfkuInYFTt0qeKJrg117117",
+		"item_date": "2017-01-17 00:00:00",
+		"title": "API Security An Overview",
+		"url": "https://dzone.com/articles/api-security-an-overview",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "4qYpBwz07XWVzXocsXaMNtKnnfK1sm9hqR1fJie3ATwWV5NZCDoirSBvwIBhuL2VJsznMEg0siAf2BGWLRpMeQ117117",
+		"item_date": "2017-01-16 00:00:00",
+		"title": "10 Security Vulnerabilities That Broke the World Wide Web in 2016",
+		"url": "http://resources.infosecinstitute.com/10-security-vulnerabilities-that-broke-the-world-wide-web-in-2016/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "hmYhRo4Z4F116S6CQGvHxnRk3hSpNVUzuKX8UdZDasTO0pCRigQWNUMsjKHnn123rv9qZmr1BK1238rMJOzXA7pdAPKA117117",
+		"item_date": "2017-01-16 00:00:00",
+		"title": "EZVIZ Husky review This weatherproof camera gives you an eye on the outside of your home",
+		"url": "http://www.pcworld.com/article/3155335/security-cameras/ezviz-husky-review-this-weatherproof-camera-gives-you-an-eye-on-the-outside-of-your-home.html#tk.rss_all",
+		"domain": "www.pcworld.com",
 		"image": ""
 	},
 	{
