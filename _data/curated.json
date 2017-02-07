@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "ImRZ3FCEgJCVuKjXx220jdGxweZ4WnlXxpKckXrgAwK1169MtjbKaoCGwpuWxmen8R923J1sehWh3KuVQQ0KHEoQ117117",
+		"item_date": "2017-02-02 00:00:00",
+		"title": "WordPress REST API Content Injection",
+		"url": "https://securityshelf.com/2017/02/02/wordpress-rest-api-content-injection/",
+		"domain": "securityshelf.com",
+		"image": ""
+	},
+	{
 		"curated_id": "uepYMNLkO4YYqjR116Od8w0U123c5PmHlMlD3tFuXWRln116MWfaCHX11DnDWFmbIP578TByoCuCI5osEXXAgXZ3Kl4A117117",
 		"item_date": "2017-02-03 00:00:00",
 		"title": "Popular hacking tool Metasploit security kit can now hack IoT devices",
@@ -19,8 +27,8 @@
 		"curated_id": "DpwKhyPsv8i6qYlpZ8vr9thSrrTsUwTKt3VEaM0TpDm9Ry91WqpElcREyc2T7Qtt8WbaLJhtyiexGY5rKfjH116g117117",
 		"item_date": "2017-02-03 00:00:00",
 		"title": "Banks Still Not Confident To Detect Cybersecurity Breach Study",
-		"url": "http://feedproxy.google.com/~r/cxotoday/~3/j3FNFpzhxkg/",
-		"domain": "feedproxy.google.com",
+		"url": "http://www.cxotoday.com/story/banks-still-not-confident-to-detect-cybersecurity-breach-study/",
+		"domain": "www.cxotoday.com",
 		"image": ""
 	},
 	{
@@ -51,7 +59,7 @@
 		"curated_id": "TumAelDgGV6koezGB0oSF1169Q1AW5px9D316Y116TsJ7xBd7YQ10LpmdPIZwyi78U7Dqd398Yj6msTveF1CpJRT4g117117",
 		"item_date": "2017-02-03 00:00:00",
 		"title": "IRS Warns Of New W2 Phishing Attacks",
-		"url": "http://www.darkreading.com/attacks-breaches/irs-warns-of-new-w-2-phishing-attacks/d/d-id/1328055?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/attacks-breaches/irs-warns-of-new-w-2-phishing-attacks/d/d-id/1328055",
 		"domain": "www.darkreading.com",
 		"image": ""
 	},
@@ -80,11 +88,155 @@
 		"image": ""
 	},
 	{
+		"curated_id": "Z78WOPVHo123wIXeVeVqXE8bu2emMv159TS7HVQqHYQnjicZ3sf8RS32F4gzJqlplFJd9QHFlQVGa0lnlhojkSQw117117",
+		"item_date": "2017-02-01 00:00:00",
+		"title": "RealTime Security for AWS",
+		"url": "https://dzone.com/articles/real-time-security-for-aws",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "Cn116N7ibanSeOwsFO3PAn5IJ5MHxGih8DlHOu3YoyCzuytIC6flHNe9KtcFGfbXVTgWkjvOPZgtRRPQD5TnPVuA117117",
 		"item_date": "2017-02-02 00:00:00",
 		"title": "Review of Approov for Mobile API Security",
 		"url": "http://nordicapis.com/review-of-approov-for-mobile-api-security/",
 		"domain": "nordicapis.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Yu1iLXP116CJAU0hrZ0oHVCCuJO1GPLYAESdUgtUyGOc0BSszkvJbjWsSNeHp2g6WGrcoz6zrtm2f2HnXKnzUbEw117117",
+		"item_date": "2017-02-01 00:00:00",
+		"title": "WordPress Web API Vulnerability",
+		"url": "https://blogs.akamai.com/2017/02/wordpress-web-api-vulnerability.html",
+		"domain": "blogs.akamai.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8BxHoOCXnLObjIGAmrhz0qwPasbtczTdqmuixvxF0ZbYppfP1gF6lOV1XGwIQGcDnC6q116I0vKdMQxR1169RBCTeA117117",
+		"item_date": "2017-02-01 00:00:00",
+		"title": "NHS staff trigger Google cyberdefences",
+		"url": "http://www.bbc.co.uk/news/technology-38826821",
+		"domain": "www.bbc.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "qBPmqPXimErq4yESW4b123luB5qB4tE1dyAOR3ZaIoBg5fjYn6mj5jGqv1RWnhDRxSPftMbP4ZXKsJa8FHVLjIxw117117",
+		"item_date": "2017-01-30 00:00:00",
+		"title": "Retailers its time to reduce the hacker threat",
+		"url": "http://www.itsecurityguru.org/2017/01/30/retailers-time-reduce-hacker-threat/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "z1BcpHQu6gSes1231HehzYfJMfUKHcfTjwbZ5Rmflf4L0SJIBGLhOUmj7YEbkbvxWjOboGWkqIB0o116aCOYFOXk6g117117",
+		"item_date": "2017-01-30 00:00:00",
+		"title": "Data Asset Protection",
+		"url": "http://resources.infosecinstitute.com/cyber-security-policy-part-2-data-asset-protection/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2OutBsenk8EhPWRcdbNlww5sUbA9AAclleAtOj4UNTRRnpxwYYnUoTff4y8hRmmelGkDOOHUXLaSKwGyEJx58A117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Over 300 Bn Passwords Will Be Prone To Cyber Attacks By 2020 Report",
+		"url": "http://www.cxotoday.com/story/over-300-bn-passwords-will-be-prone-to-cyber-attacks-by-2020-report/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "OkIoA0cLnsyNPhvr116039qP5l44hdjo8x7R12334IRsNptAAG9nsppARPOErpJtUF0t7JzkceUk40DuqLVZWso7jQ117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "An Introduction to Threat Intelligence Feeds",
+		"url": "https://dzone.com/articles/introduction-to-threat-intelligence-feeds?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "HgH5W9oCRr9Ai94ILQJ9qU9ZO116HOG0wkit3TLiPohuUVEJrgde7eSWpBhF2inHEkqaNP1cJn116tuPs5QfLZsVvg117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Tax Identity Theft Awareness Week",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2017/01/31/Tax-Identity-Theft-Awareness-Week",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "i116HbGv116RxnVvEP116QQs0Kd4VJwMH123K2xNZ4ofurogFyT9gVG123spKn16SMmAVjbDYPhuiG5qGf0u66orxigmXgiQ117117",
+		"item_date": "2017-02-01 00:00:00",
+		"title": "Disclosure of Additional Security Fix in WordPress 472",
+		"url": "https://wp-cron.com/2017/02/01/disclosure-of-additional-security-fix-in-wordpress-4-7-2/",
+		"domain": "wp-cron.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6123uNHDuCvJa56BXc0mbEsTeIdk116Ndqv0Jt2rCJbHTetxBwMd1l2fiVKJUdd87RfPe06RC0lZ41pBkQklWX9GHg117117",
+		"item_date": "2017-02-01 00:00:00",
+		"title": "HPE Acquires Niara To Create What Keerti Melkote Is Calling The Industrys Top Visibility And Attack Detection System",
+		"url": "http://www.crn.com/news/networking/300083615/hpe-acquires-niara-to-create-what-keerti-melkote-is-calling-the-industrys-top-visibility-and-attack-detection-system.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7SrbtH7fa116QyS7J8M5kNZVzOl6A9EsLgLIuA0pWjexlTDsow3SYFYQF3nBuATtGZrjY8p116rJhtIWZGVRU9Sxfw117117",
+		"item_date": "2017-01-31 13:50:04",
+		"title": "Are IoT Devices Putting Your Organization at Risk",
+		"url": "http://www.businessnewsdaily.com/9723-iot-device-business-risks.html",
+		"domain": "www.businessnewsdaily.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NMKuGeYJgFyWrmCTi6i82zMuk9XSNQas1bNDhlXq0cVslomZW123a55OzVkBOFh8j5r7pCV7kmoD1z9j0gDhaDpg117117",
+		"item_date": "2017-01-31 14:16:16",
+		"title": "Google Paid 3 Million To Bug Hunters In 2016",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/google-paid-$3-million-to-bug-hunters-in-2016/d/d-id/1328026",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "t5vBT0LLc1YOALSX1Uopqo1kzRmbi0FiP4vZoRU31tZrOegjsJ1dtjmoK59MAEWSgeG1q8VDtPH6gNlJnKyPpw117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Feature announcement twofactor authentication",
+		"url": "https://postmarkapp.com/blog/feature-announcement-two-factor-authentication",
+		"domain": "postmarkapp.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Y11668s9oo56K5zCQwSYWQiKFJPnLz4o643bsGLFshRme3123116GM0pDrvFxObhUR3tEPgAb88dwLtC3ZCUHx6YnIpw117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Easytoexploit authentication bypass flaw puts Netgear routers at risk",
+		"url": "http://www.pcworld.com/article/3163242/security/easy-to-exploit-authentication-bypass-flaw-puts-netgear-routers-at-risk.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Q6z4wQjoFwLNmt8WJB123HvX5O7FbXuLgpSSCvaswQbD7ASKlcytw5uc1Wqifb4vnAO123bgRjw21f5nOOoeKKT123jw117117",
+		"item_date": "2017-01-31 00:00:00",
+		"title": "Why Do Spammers Love The Internet Of Things",
+		"url": "https://ctovision.com/spammers-love-internet-things/",
+		"domain": "ctovision.com",
+		"image": ""
+	},
+	{
+		"curated_id": "X001235upZoTJ2116pduOPNof62XuEyiwxnmBnh3z8Z3HrsEJno116GhywfPzb0ReLTxVP1164ioklFOxmuEoknMTCwTiA117117",
+		"item_date": "2017-01-30 00:00:00",
+		"title": "Netflix Scam Spreads Ransomware",
+		"url": "http://www.darkreading.com/attacks-breaches/netflix-scam-spreads-ransomware/d/d-id/1328012",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "xhhtgXKDEM5tEqCi3O7S4iwpWktrWoWjP3cLA6assqHNHjVZ8hljyuWP3knUJEB9d8tGW123j116LzE5qg05HrcE5Q117117",
+		"item_date": "2017-01-30 00:00:00",
+		"title": "Securing APIs With Zato and Vault Part I",
+		"url": "https://dzone.com/articles/securing-apis-with-zato-and-vault-part-1",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Dg123tCb4Ig0rW41cj2T9nY7OIfvIa9RBDEPXcX8gP116x5Bk1OFrwsG6IIYKLxynpTtTsrDRs5yMsfC2nD7LXHvRw117117",
+		"item_date": "2017-01-30 07:41:57",
+		"title": "Cops use pacemaker data as evidence to charge homeowner with arson insurance fraud",
+		"url": "http://www.networkworld.com/article/3162740/security/cops-use-pacemaker-data-as-evidence-to-charge-homeowner-with-arson-insurance-fraud.html#tk.rss_security",
+		"domain": "www.networkworld.com",
 		"image": ""
 	},
 	{
