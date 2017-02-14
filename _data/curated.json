@@ -1,5 +1,85 @@
 [
 	{
+		"curated_id": "JPeQ742UBZACD6ilOw2BI4OgYSWAckKeWacN123JlUmhatZd1wmjyavVrycsTti9xWxwjpECKAkjCTTi116uKYLpgQ117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "Darknet Forum Launches Its Own Bug Bounty Program",
+		"url": "https://continuum.cisco.com/2017/02/06/darknet-forum-launches-its-own-bug-bounty-program/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jWSFO11tnUyOpRQ53KLI123HeRakIflXLRMduxAtiwfcNknbiu7ffmyFc6eIqEA1GYA116GxlAbkFtB0Ne123QSHcT7w117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "WordPress REST API Vulnerability is Being Actively",
+		"url": "https://wptavern.com/wordpress-rest-api-vulnerability-is-being-actively-exploited-hundreds-of-thousands-of-sites-defaced",
+		"domain": "wptavern.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cGzbpdwHWZW0XxUmFjSo51VmjzmjmPdCyQBWvMEisBiQvFJnBDPzSEYfotDRVwcpttS116jkKc2FF6dlmojzqDeA117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "Securing IoT devices from within",
+		"url": "https://gcn.com/blogs/emerging-tech/2017/02/iot-cloud-security-chip.aspx",
+		"domain": "gcn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "MUFPuwRwkMZN123TNDlnNYNAtYuw14A116ncKBSwBVm116uZQLS9fC123sOwf3Fu4UXXH2Fpx6H36XzP5qynGn2O5rCi3w117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "Email authentication improving awareness and adoption with Deliverability Checkup",
+		"url": "http://blog.mailup.com/2017/02/email-authentication-deliverability-checkup/",
+		"domain": "blog.mailup.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oncPpXaC655xlXKCKJFRk5MX3tnhAcndbWK2Ol9RRNtiVta6xy02ngVQaJ2zffwEWLBK680dBaoHT00RPMoZ123Q117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Akamai Fortifies Web Security Solutions Portfolio",
+		"url": "https://www.benzinga.com/pressreleases/17/02/n9002630/akamai-fortifies-web-security-solutions-portfolio",
+		"domain": "www.benzinga.com",
+		"image": ""
+	},
+	{
+		"curated_id": "x1iNpXcYzf0L19Nwdl8ihBOhyQv116J116hU123G735W9agv116s123pTUbRuZkgu8wb7wWv1166lo116CWG7M9v4lElleJBQucw117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Akamai fortifies security solutions portfolio",
+		"url": "http://www.totaltele.com/496055/Akamai-fortifies-security-solutions-portfolio",
+		"domain": "www.totaltele.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GXTKSDYmsPuh8mzi7B7RuH8jdf8HUVpzwnoZ3v116vUuzVGd5lHUlsw3ktvPnHNa0qadFflAtiz88BfmPEuzJh0A117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Cryptkeeper Bug",
+		"url": "https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zpMKdlyT4OJSIHua123tefdgH7uyIyMlEfDCS0s84r77wr3H123vVtOuyn4116vhEU0123f6pF0IZELoPlp1A7fno116IAcg117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Researchers quantum hacking machine may help protect against quantum computing hacks",
+		"url": "http://www.itsecurityguru.org/2017/02/07/researchers-quantum-hacking-machine-may-help-protect-quantum-computing-hacks/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "8eskvRgM5bJWlUt6LRkr5KwHFgthnC7Qm7kfBrfLUswiE7QOJ1IM02ftKR0sWFdJG72abU3gIx8hB6tqrxPzeA117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Should Service Providers Turn DDoS Prevention into a Service",
+		"url": "https://gigaom.com/2017/02/07/ddosredarmor/",
+		"domain": "gigaom.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Y9YJai77AF9mTo5Dq3shH1161w1BQcvFQyk41163klZqz9QVxdz3au116EgoYL8Uq3lDbKrqku1bA9PYo74Qb22jk6rQ117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "80211s Security and Google WiFi",
+		"url": "https://security.googleblog.com/2017/02/80211s-security-and-google-wifi.html",
+		"domain": "security.googleblog.com",
+		"image": ""
+	},
+	{
 		"curated_id": "NgEUNi3W8FEC5juYteFwUgqTgVhJk6s2FnEpbalRz22DDPwlfZmQEVAVbQEAEQMiSsRca5qmZEzlLothk0PvqA117117",
 		"item_date": "2017-02-10 00:00:00",
 		"title": "WordPress security weak spot lets hackers infiltrate and vandalise",
@@ -149,6 +229,38 @@
 		"title": "Draft Financial Services  Financial API  Part 1 Read Only API Security Profile",
 		"url": "http://openid.net/specs/openid-financial-api-part-1.html",
 		"domain": "openid.net",
+		"image": ""
+	},
+	{
+		"curated_id": "PAGs4Qjk123q4yQNHmqk3xv116Shzmdgt7sNbD1166Z1161236NUL123wBOGrrEjnStzM123WrzygwttzuP5ZiZk9qK4oTvaxwew117117",
+		"item_date": "2017-02-07 00:00:00",
+		"title": "Akamai Beefs Up Web Security Services Line",
+		"url": "http://www.channelpartnersonline.com/news/2017/02/akamai-beefs-up-web-security-services-line.aspx",
+		"domain": "www.channelpartnersonline.com",
+		"image": ""
+	},
+	{
+		"curated_id": "12360SSQRjv44dZh116wO9o1169Gnw8LY6yMtNJhm7U6dT9m9YrmP9DmRzgjTkKlOaySxt1WogMG3P123GvFVu7ut2pD3Q117117",
+		"item_date": "2017-02-06 07:12:59",
+		"title": "The Web Bluetooth Security Model",
+		"url": "https://medium.com/@jyasskin/the-web-bluetooth-security-model-666b4e7eed2#.o6o38rqqb",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uTYU116Un6zco8d2WCbmTru116ljxldI86fPFghECsLEpUXWXvumhcRKEYJqIY0LbuPrPYBYqh61w1161161233RzrapmIUw117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "A Hacker Just Pwned Over 150000 Printers Left Exposed Online",
+		"url": "http://www.itsecurityguru.org/2017/02/06/hacker-just-pwned-150000-printers-left-exposed-online/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "0Aq9uXE2hv9zuH7ZGfUfiygempenHFr0gIYV116S0Dj9f2bab4VmqVk7YAiXvBk3VUW5sVrerhXh5pH0WLL5lCow117117",
+		"item_date": "2017-02-06 00:00:00",
+		"title": "Cybercriminals are biting into Android users banking data while banks not moving fast enough to adopt preventative technology",
+		"url": "http://www.itsecurityguru.org/2017/02/06/cybercriminals-biting-android-users-banking-data-banks-not-moving-fast-enough-adopt-preventative-technology/",
+		"domain": "www.itsecurityguru.org",
 		"image": ""
 	},
 	{
