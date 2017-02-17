@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "Wbkkb9wORTA8123PY6TEwj26116Jp123AIsHFVxYsxJ2fzn5rEc8oGZUzlmutpdSl116lF75VjIvcZOPqknyDr123o9Z0Nkg117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "Anomali Talks Threat Intelligence  Info Sharing",
+		"url": "http://www.darkreading.com/anomali-talks-threat-intelligence-and-info-sharing/v/d-id/1328164?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dknAQ8uRjxQndlrZheOlv123UySxrAxQegVFrIr5TMm3jiR6WcE0IxEnZlS116kMvhu52ryq3g9ePjUQC123xnFuki0w117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "FSecure Sense IoT Security Device Coming Soon",
+		"url": "http://www.pcmag.com/news/351754/f-secure-sense-iot-security-device-coming-soon",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "FVBF116DxtBW123oAM6UNp0qpzRAfLOezbzxfVraWM0zSeMKrV8FedO5L8UPbP6niR7kXfsaw8szA8BWWo1231238WJQYA117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "Man in the Cloud Attacks Prevention and Containment",
+		"url": "http://resources.infosecinstitute.com/man-cloud-attacks-prevention-containment/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VzrTHwxjWmrZnruQncJMI116jn116f9Z8116EIY5CKTPgvv123q62fN123mhTiPbCHx4GH5NvssHJnCxnwmH5MQaQrh0xQLA117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "IoT Security A Ways To Go But Some Interim Steps For Safety",
+		"url": "http://www.darkreading.com/iot/iot-security-a-ways-to-go-but-some-interim-steps-for-safety/d/d-id/1328156?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ERD123FPY72T05123JSt4otejGauTeA0v9U33x9nl5muyTfvN6tSUftBnXdsLVGeNKSpQr0ay0nEZCJVi8YQMdddAg117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "ElasticSearch Ransomware Attacks Highlight Need for Better Security",
+		"url": "https://dzone.com/articles/elasticsearch-ransomware-attacks-highlight-need-fo",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
 		"curated_id": "JPeQ742UBZACD6ilOw2BI4OgYSWAckKeWacN123JlUmhatZd1wmjyavVrycsTti9xWxwjpECKAkjCTTi116uKYLpgQ117117",
 		"item_date": "2017-02-06 00:00:00",
 		"title": "Darknet Forum Launches Its Own Bug Bounty Program",
@@ -10,7 +50,7 @@
 	{
 		"curated_id": "jWSFO11tnUyOpRQ53KLI123HeRakIflXLRMduxAtiwfcNknbiu7ffmyFc6eIqEA1GYA116GxlAbkFtB0Ne123QSHcT7w117117",
 		"item_date": "2017-02-06 00:00:00",
-		"title": "WordPress REST API Vulnerability is Being Actively",
+		"title": "WordPress REST API Vulnerability is Being Actively Exploited Hundreds of Thousands of Sites Defaced",
 		"url": "https://wptavern.com/wordpress-rest-api-vulnerability-is-being-actively-exploited-hundreds-of-thousands-of-sites-defaced",
 		"domain": "wptavern.com",
 		"image": ""
