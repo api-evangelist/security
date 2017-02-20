@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "v7AFknnpuuIhlWoFJ116CajR7123fseSgDKXL4n9sdxdzY8r0VqRmlVGWb5Ezop123kne16QYHsmYUrOTt17SKqrCzYw117117",
+		"item_date": "2017-02-15 00:00:00",
+		"title": "The Human Factor Remains Strong In Data Breach Incidents",
+		"url": "http://www.cxotoday.com/story/data-breaches-are-growing-in-complexity-and-sophistication/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2FCUq13KO59pNfLZYraedv1232dagwGhzLENrApl1Y0CRbpGrijzEyejgvPrtzrHAjAjodLX6MYFT116nOb9HVdMCg117117",
+		"item_date": "2017-02-16 00:00:00",
+		"title": "Launching our public bug bounty program",
+		"url": "https://medium.com/intercom-developers/launching-our-public-bug-bounty-program-5aa409803210",
+		"domain": "medium.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IueKNLHntUo870m9MefFBYjQJwIzcB1P59ZiB5Pkc5GB0j5qSBQtYCH3KmUuFalGrSacAKVqBY8zeNiI4A116w5A117117",
+		"item_date": "2017-02-16 00:00:00",
+		"title": "Alphabets Eric Schmidt Security Is Key For Preserving Internet As We Know It",
+		"url": "http://www.crn.com/news/security/300083789/alphabets-eric-schmidt-security-is-key-for-preserving-internet-as-we-know-it.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "w116t5Y1237CurS9VMruqljOa9YrRkcGlIDOObvjyd9jpxULtdfM1168CI50hgeXR9MM123G7HX116Z0i94ocCkWqp7w4GTA117117",
+		"item_date": "2017-02-17 00:00:00",
+		"title": "Seven Critical Steps to Revamp Your Enterprise Data Security",
+		"url": "https://dzone.com/articles/7-critical-steps-to-completely-revamp-your-enterpr",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "0eXCEL7hizBjAgBPK5BjHfQbecsPoKD807123Xo2HeHKR123Tx1BI9FQYkFduIlmkEFqEs116ET2IoQN4uLdxd42lEJA117117",
+		"item_date": "2017-02-16 00:00:00",
+		"title": "Study Majority of Oil and Gas Orgs Are Highly Vulnerable Few Have Plans to Fix It",
+		"url": "https://continuum.cisco.com/2017/02/16/study-majority-of-oil-and-gas-orgs-are-highly-vulnerable-few-have-plans-to-fix-it/",
+		"domain": "continuum.cisco.com",
+		"image": ""
+	},
+	{
 		"curated_id": "wYO0dPiwKTfldS8M6WMAlmRU9SA5R123dvdwndYyHE123CbKxzAeLTJq3xa7116GRD7kKA116YJPakKtMibRaekz4n4DTA117117",
 		"item_date": "2017-02-16 00:00:00",
 		"title": "A Developers Stages of Grief After a Failed Security Assessment Part One",
@@ -45,6 +85,46 @@
 		"title": "ElasticSearch Ransomware Attacks Highlight Need for Better Security",
 		"url": "https://dzone.com/articles/elasticsearch-ransomware-attacks-highlight-need-fo",
 		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SqhJ0ojFhYqu116nu123NGITyLJ123GEOfO1WQr8n4wTd99aabk116I4BmTTVP83vQCYkqYfa0zTZWVD162luTFFguhn6A117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "New Approach to Continuous Docker Container Security",
+		"url": "https://dzone.com/articles/new-approach-to-continuous-docker-container-securi",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rw9BA31PqssXeOZnoXS7iFmAIA116qWUtfFGShfFQwP123QlLjGIeNH5I73RZGpusmyDsJZPp1wdv5uOuE8a7OCbJg117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "London API Summit Calling Is Your Modern Architecture Secure",
+		"url": "http://www.forumsys.com/featured/london-api-summit-calling-is-your-modern-architecture-secure/",
+		"domain": "www.forumsys.com",
+		"image": ""
+	},
+	{
+		"curated_id": "DbezUmHlq116QEwHuPHMllX6IejnMYcxC9unGbtcmkU1234OgxBs6kpNkHMckAXo65g116FK2KYmJzcYQP0YyldazVEA117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "Intel Security Mends Cybersecurity Fragmentation with Unifying Strategy",
+		"url": "https://newsroom.intel.com/news-releases/intel-security-mends-cybersecurity-fragmentation-unifying-strategy/",
+		"domain": "newsroom.intel.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ERU1MLp387fYMTNJN0UkMrWmwXElthwwUpo7iDNvJZpVY2a0L9UDfILTqk1pjIjDDIL3k0moYdD0F0wUbp7BRg117117",
+		"item_date": "2017-02-14 00:00:00",
+		"title": "WordPress A million sites defaced in attacker feeding frenzy",
+		"url": "https://business-reporter.co.uk/2017/02/14/wordpress-million-sites-defaced-attacker-feeding-frenzy/",
+		"domain": "business-reporter.co.uk",
+		"image": ""
+	},
+	{
+		"curated_id": "KDOGyNoOpITWFFi7NMB123F123f116ndKqWSsblHd81H4Aq7A4UvDm71iGqk8bbIdTG402HSpOtCclvqxCm8jyAyecbQ117117",
+		"item_date": "2017-02-13 00:00:00",
+		"title": "Attackers Deface 15M Sites Using WordPress API Vulnerability",
+		"url": "https://continuum.cisco.com/2017/02/13/attackers-deface-1-5m-sites-using-wordpress-api-vulnerability/",
+		"domain": "continuum.cisco.com",
 		"image": ""
 	},
 	{
