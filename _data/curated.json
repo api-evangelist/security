@@ -1,5 +1,37 @@
 [
 	{
+		"curated_id": "oNLnX3uQfsQ4hrkoCbt5zLWyjRRdRESWSZr9C2L9OOa9xcQ3O92kcbNYY44NZcArPnjecV24IRttMWgin5YR123w117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Missteps in Securing Autonomous Vehicles",
+		"url": "https://www.codeproject.com/Articles/1172316/Missteps-in-Securing-Autonomous-Vehicles",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "9fkzrSsHDrqRM1eMq0BASBdjpfO116WqbA7jVB7ebaPA116zeTq3oP898RhlDzvk1flSvNpWoLm4yuIMV0Lci116U12Q117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Suspect Arrested In Connection With Mirai Botnet",
+		"url": "http://www.darkreading.com/attacks-breaches/suspect-arrested-in-connection-with-mirai-botnet/d/d-id/1328259?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vmwglVvaenoOsIz1lkaKAupKIW3Z6crFIr4VB116y1u116ZckZTZ83Ye123lT12xCLyxa79ZWOXwO1do30O116KNqbPBCg117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Security should be top priority for mobile developers to protect consumers",
+		"url": "http://www.itsecurityguru.org/2017/02/24/security-top-priority-mobile-developers-protect-consumers/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "Z12300osQ5U2GtM6xV123rA8MBsbMUYX46i123aMPmHKcnGYfOinDeGzhnvHEmnMRQpW116z98H85wnIpBmuJTng123fKckg117117",
+		"item_date": "2017-02-24 00:00:00",
+		"title": "Cloudflares bug bounty program is terrible",
+		"url": "https://thenextweb.com/insider/2017/02/24/cloudflares-bug-bounty-program-is-terrible/",
+		"domain": "thenextweb.com",
+		"image": ""
+	},
+	{
 		"curated_id": "v7AFknnpuuIhlWoFJ116CajR7123fseSgDKXL4n9sdxdzY8r0VqRmlVGWb5Ezop123kne16QYHsmYUrOTt17SKqrCzYw117117",
 		"item_date": "2017-02-15 00:00:00",
 		"title": "The Human Factor Remains Strong In Data Breach Incidents",
