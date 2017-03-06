@@ -24,6 +24,78 @@
 		"image": ""
 	},
 	{
+		"curated_id": "dP93WyNNPC8AoZ9dL5m6xleOE0I4cgLkE2PU1161wDocSQFvbhqf1thDccSjQGqHRWduQ6mW6Obbp2mPXraR1mRQ117117",
+		"item_date": "2017-02-27 23:58:07",
+		"title": "Tweet RT SlideWiki Kurt talking about API security and using kong httpstcoegN8UWCV7K SlideWiki hackathon V30 VUamsterdam httpstcohellip",
+		"url": "https://twitter.com/SlideWiki/status/834691391884316672",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Dp116GsoSI3X4Xo8cFlnVQ7UI123B8ijHRFygmyy5n4tVoKWXuN6116RvVRgrrgzmDa116DgVqBLHlCE4fTnFFI6IXZUqA117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Fintechs assure customers their data unaffected by Cloudbleed",
+		"url": "http://www.americanbanker.com/news/fintechs-assure-customers-their-data-unaffected-by-cloudbleed",
+		"domain": "www.americanbanker.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YocEZD1kq95xWoszEiJLVsIyAr25nvDsNzIfyRk123ZQZtanEIbtxYg1t6tvYUREv0QfvcD116AKeEgl87ux69123JpA117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "InternetConnected Teddy Bear Leaked 2 Million Recordings of Parents and Kids",
+		"url": "https://motherboard.vice.com/en_us/article/internet-of-things-teddy-bear-leaked-2-million-parent-and-kids-message-recordings",
+		"domain": "motherboard.vice.com",
+		"image": ""
+	},
+	{
+		"curated_id": "116FfkDeiStGYr13VaHD4H20RbSLuotf123aRHNKKyRIw2x7TMEuoacBk6swHQOoCdcblskhi9rlj2Ofr68VMAYQMg117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Debugging CDNs A Need for Change",
+		"url": "http://blog.catchpoint.com/2017/02/27/debugging-cdns-need-change/",
+		"domain": "blog.catchpoint.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8ZyDB2SfIchNGW7BdCstwnTmb68zXpT2g4L0my1230zngr123GeSgGqS8J5U6rI116Br9viyd116yC116UulU116r6V94tMyCA117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "CloudFlare states Adafruit not part of the Cloudflare issues cloudbleed adafruit",
+		"url": "https://blog.adafruit.com/2017/02/27/cloudflare-states-adafruit-not-part-of-the-cloudflare-issues-cloudbleed-adafruit/",
+		"domain": "blog.adafruit.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5gThf4lnUfDE39iJictmRhL5FjK3ApWlNkHFGrQWKKsta116cFmrVhvYaW9Dl3PrYlJfQbyMGUNZK1gctfbT1stA117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Cloudflare Cyber Security Bug  CloudBleed",
+		"url": "https://www.eagleeyenetworks.com/cloudflare-cyber-security-bug-cloudbleed/",
+		"domain": "www.eagleeyenetworks.com",
+		"image": ""
+	},
+	{
+		"curated_id": "NW5F83jkxKSemSJOeB04IvypqybIC815wv123B4123XRdh0P5ArLw1b116OHlhonTJ0HRIImuBl7116WpnFNSVZVrpYejw117117",
+		"item_date": "2017-02-28 00:00:00",
+		"title": "Zones of Trust A New Way of Thinking about IoT Security",
+		"url": "http://www.darkreading.com/iot/zones-of-trust-a-new-way-of-thinking-about-iot-security/a/d-id/1328261",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "TohjvYTUr116a8c5j4yDG62M285DeJ0lwoREEkE9ecBDdV1TykTsvJUK5IJuJi0d123xC3zOb1diZnHcPTb11pSDCQ117117",
+		"item_date": "2017-02-28 00:00:00",
+		"title": "Targeted Attacks On Critical Infrastructure On The Rise",
+		"url": "http://www.cxotoday.com/story/targeted-attacks-on-critical-infrastructure-on-the-rise/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zWdJLYKxrj8gcZ2l5116juPARlw116HWtsRCKHFY3E2C8Ks2RhTdCje3lz116zSZJ5QtjxDSSfTe1U30GMNQQvbup6sA117117",
+		"item_date": "2017-02-28 00:00:00",
+		"title": "Proactively Responding to CloudBleed with Splunk",
+		"url": "https://www.splunk.com/blog/2017/02/28/proactive-response-to-cloudbleed-with-splunk/",
+		"domain": "www.splunk.com",
+		"image": ""
+	},
+	{
 		"curated_id": "Jjoi2DV123wVih8gatD3116EsBl2r9AxTR116ib870ezfP1Q116kM1168F7Cr6SdeuJGO7hR123jfZkQ1ZxlgRzmidYkugdjxA117117",
 		"item_date": "2017-03-04 00:00:00",
 		"title": "Security News This Week An IoT Teddy Bear Leaked Millions of Parent and Child Voice Recordings",
@@ -35,7 +107,7 @@
 		"curated_id": "mW30AktTtpSeNrfG4NrYZP4gSz5hbabQaf116lTN4MEd3jmrTcjpwnEaNv25FiLDuQmMD269eME123Ck59arwu123RlQ117117",
 		"item_date": "2017-03-04 00:00:00",
 		"title": "WhiteHat Certified Secure Developer Program",
-		"url": "https://dzone.com/articles/whitehat-certified-secure-developer-program?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/whitehat-certified-secure-developer-program",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -51,7 +123,7 @@
 		"curated_id": "utmQycOhLY7ehBlHFikyW00m9llJVFIniBKWeOR9ysWacPhBi9dt5uT4CVUkl123J3x7H74oTG6B87zwh8sEAciQ117117",
 		"item_date": "2017-03-03 00:00:00",
 		"title": "HackerOne Offers Free Service for Open Source Projects",
-		"url": "http://www.darkreading.com/vulnerabilities---threats/hackerone-offers-free-service-for-open-source-projects/d/d-id/1328310?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/hackerone-offers-free-service-for-open-source-projects/d/d-id/1328310",
 		"domain": "www.darkreading.com",
 		"image": ""
 	},
@@ -141,6 +213,30 @@
 		"title": "Buzzword Watch Prosilience",
 		"url": "https://www.schneier.com/blog/archives/2017/03/buzzword_watch_.html",
 		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "IjZIofyIdBr116nwx3qrrynZXHWS97SJ0Du7l8egHoYCHdEbF1iZud70HbDYPn7E7XhJR116EVxOImsLyBzpLzhDuw117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Data Handling Requirements",
+		"url": "http://resources.infosecinstitute.com/__trashed-2/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "rv4uKjwT6BITSuZRz116sMYfpYs7kYl1ixQGTr3Nxzz8fpGb4Z82cGzTe3Oh0WYgGoMyAg2CdLtMriVInQrkScsw117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Patients put at risk after 700000 sensitive hospital letters go missing including test results from biopsies and patient treatment plans",
+		"url": "http://www.itsecurityguru.org/2017/02/27/patients-put-risk-700000-sensitive-hospital-letters-go-missing-including-test-results-biopsies-patient-treatment-plans/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "4x1f2QZ3tDNOMcclEktzkFrSwTtY5SqWedgl5J9Mj5r5NLLu8RMWTs0dh8jJhjmE8SzzYsHfAgMMh7jbROjD2w117117",
+		"item_date": "2017-02-27 00:00:00",
+		"title": "Could you hack into a car If so a cyber security career awaits",
+		"url": "http://www.itsecurityguru.org/2017/02/27/hack-car-cyber-security-career-awaits/",
+		"domain": "www.itsecurityguru.org",
 		"image": ""
 	},
 	{
