@@ -1,10 +1,178 @@
 [
 	{
+		"curated_id": "L364kFqy5kHgjayrETO2nOvvjG7aahvCD1FXkLj116udnwrTKzUDfGWbnJlW179rwBXln82EM8DqGjdyGF1QC2Jg117117",
+		"item_date": "2017-03-08 21:42:59",
+		"title": "How to Protect Your Web Application Against DDoS Attacks by Using Amazon Route 53 and an External Content Delivery Network",
+		"url": "https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/?sc_channel=sm&sc_campaign=ddosr53cdn&sc_publisher=tw&sc_medium=tw&sc_content=readpost&sc_country=global&sc_geo=global&sc_category=mult&sc_outcome=other",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
+		"curated_id": "blTTKL1EKdI11617Djlvl123Ow7LFDauBKPw1167L3ZhYp3MuZu116rtCdzrAZ1161osH8Rj123T1232aeyR116dhhL1xubDYqwCwA117117",
+		"item_date": "2017-03-06 00:00:00",
+		"title": "CA to acquire security testing firm Veracode for 614M",
+		"url": "http://www.pcworld.com/article/3177322/software/ca-to-acquire-security-testing-firm-veracode-for-614m.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "RwI0WgTUji9Rse3Ra12ot0xtBPvO8uu7iEUm2o53zEeD8SLxzjhs26uy7jbJVsW116SsH0qYcWAQRdk9mnQGHEMQ117117",
+		"item_date": "2017-03-07 00:00:00",
+		"title": "WordPress 473 Fixes Cross Site Scripting Vulnerabilities",
+		"url": "http://shopmatrix.eu/posts/2017/03/wordpress-4-7-3-fixes-cross-site-scripting-vulnerabilities/",
+		"domain": "shopmatrix.eu",
+		"image": ""
+	},
+	{
+		"curated_id": "fvC2cm7BjKzWAeDKg123e6C123Xfy3X1ZPpVnRw8khE8bnsdftUV1o2S1VtvFsxBjkV3KepUD5sOGgJwQ2eX0gwoJA117117",
+		"item_date": "2017-03-07 00:00:00",
+		"title": "Security considerations in a DevOps pipeline",
+		"url": "http://feedproxy.google.com/~r/CloudPassageBlog/~3/Ksxih1pQfag/",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yVNrRHW0PUKfbhmfM4UNELRPm7yQSMUDN123LQ7pm8F2EyogHFCJYUeXg0LOMMirTeYFgmk6KSBxS1PgGcJY123yOw117117",
+		"item_date": "2017-03-07 00:00:00",
+		"title": "ThreatConnect Announces Seven Partner Integrations",
+		"url": "http://www.dbta.com/Editorial/News-Flashes/ThreatConnect-Announces-Seven-Partner-Integrations-116801.aspx",
+		"domain": "www.dbta.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GGeGfOR8FNrUF0DpHcp1162IgHWGEFzIVX5gN4gnV2jkyjdd1164y8MHM7sZkbkHFLMujAvLWnL4lFzFhckPtQTDxg117117",
+		"item_date": "2017-03-11 00:00:00",
+		"title": "Leveraging The FFIEC Cybersecurity Assessment Tool CAT To Improve Corporate Culture and Raise Security Posture",
+		"url": "https://ctovision.com/leveraging-ffiec-cybersecurity-assessment-tool-cat-improve-corporate-culture-raise-security-posture/",
+		"domain": "ctovision.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AHupvhPmtcy7d9oKdPNOj9shZUDzRZ123dT2KWO5a5twmTj7WwTbWahiXSm1F4kQAGNTixBlbVcxuHel7123kLkflA117117",
+		"item_date": "2017-03-08 00:00:00",
+		"title": "4 ways cyber attackers may be hacking your IoT devices",
+		"url": "https://thenextweb.com/tech/2017/03/09/4-ways-cyber-attackers-may-hacking-iot-devices/",
+		"domain": "thenextweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "R04TNRTpnu5N3l4QgNqzegPvL3IsSSgwTdreFjYmDjQDNSVZKK4Frt4WtUaT5H8vsxnPmo3BaeDHegxYULBI2w117117",
+		"item_date": "2017-03-09 00:00:00",
+		"title": "Securing Todays Elastic Attack Surface",
+		"url": "http://www.darkreading.com/perimeter/securing-todays-elastic-attack-surface/a/d-id/1328355?_mc=RSS_DR_EDT",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5R8XaZidlOo3123SyvePg9ECINBPknmhzSuK123jDH6LJrACs5PAWef7LjzYHphPSYX7fXy00bnYtFJIucSJiTkRzQ117117",
+		"item_date": "2017-03-09 00:00:00",
+		"title": "Most Federal Government Websites Lack Basic Security",
+		"url": "http://www.darkreading.com/vulnerabilities---threats/most-federal-government-websites-lack-basic-security-/d/d-id/1328360",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "kheVH7SOOhK6JHoVG1163SSPbCnhB6u4123FteXKsq0lsMozJCwDj14B2dytoAk1161uKZwG2V1ZHTvGIv0rPzJlyOZw117117",
+		"item_date": "2017-03-09 00:00:00",
+		"title": "Google Releases Security Update for Chrome",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2017/03/09/Google-Releases-Security-Update-Chrome",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "0lmVD2lX39n3TB9VrsrngpMd8KPywYkWmgq3gtHZsrSwGVI3IpkC2iKXJYWJsN673e116116xTXX6La3K5lE1e1H1w117117",
+		"item_date": "2017-03-09 00:00:00",
+		"title": "Share The Love Using ThreatConnect as a Threat Intelligence Sharing Platform for ISACs ISAOs and their Members",
+		"url": "https://www.threatconnect.com/blog/isac-isao-threat-intelligence-sharing-platform/",
+		"domain": "www.threatconnect.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yQRqWFL1164COflz1jBGkOv5GdyzQOsuE3WaHbH98oz9LFnwePs381u9KiRgR123SSpOZeUZMG3LMzYZrCzhJvMGAQ117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "IoT  Liability How Organizations Can Hold Themselves Accountable",
+		"url": "http://www.darkreading.com/iot/iot-and-liability-how-organizations-can-hold-themselves-accountable-/a/d-id/1328324",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WnNvCJD4enl2kioGsw123Aq116c0VIVowMDgxypyxMgeR0scChxiUw1116RMp1KpVziNKSCpP0Y3Bp9mBBk5wHXBVsOg117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Newer car tech opens doors to CIA attacks",
+		"url": "http://www.pcworld.com/article/3179608/security/cias-exploration-of-zero-day-attacks-against-vehicles-isnt-a-first.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "60S4DMNU1Kh95C116NPfHG3XU07EyvHB5pVEiopWLwCM0uLVrsYjZdCh688ZmbJwjUUDHzZ74d5DIRkSmPvcSPaA117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Defense Against Doxing",
+		"url": "https://www.schneier.com/blog/archives/2017/03/defense_against.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5Mjk6RQnmZfTK0Ql6vcE7Gnx2S9jmAkJlMls6NBkJlbQfOMoGE6rpx4FpLU1231XCOHB4lk123IWPHKvqFv7TsEEVQ117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Datadog  SOC 2 Reaffirming our commitment to security",
+		"url": "https://www.datadoghq.com/blog/datadog-completes-soc2-audit/",
+		"domain": "www.datadoghq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3JUmHqlVW83H5cdQc05QaxgoasPG81PtCqMpk7cLe5NyeqVOtfqXldBxpliSBFSqoRTDX0123oLMs2YoUUiwegZg117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "TwoFactor Authentication Who Has It and How to Set It Up",
+		"url": "http://www.pcmag.com/article2/0,2817,2456400,00.asp?source=SectionArticles",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "GQF0dohePPVvo4TF0MtSWytmI43MiW0fTf3Ng2EwbGDMJt1iot12Z9Vr4J9aqFI123oqh9toEfHYPHxTD31jNN5Q117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Consumer Reports Proposes Open Source Security Standard To Keep The Internet Of Things From Sucking",
+		"url": "https://www.techdirt.com/articles/20170306/06501736850/consumer-reports-proposes-open-source-security-standard-to-keep-internet-things-sucking.shtml",
+		"domain": "www.techdirt.com",
+		"image": ""
+	},
+	{
+		"curated_id": "zLaB7gtZF123d2yiUTtQvUFCbX9POFMqRYRaXNt1165KbWckrZ0368y8qpDtbKE0Fm5MLCeYI2Hu3gyqUZ89x4I0XA117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "A Challenge to WikiLeaks Disclose Software Vulnerabilities on a Responsible Timeline",
+		"url": "https://www.carbonblack.com/2017/03/10/challenge-wikileaks-disclose-software-vulnerabilities-responsible-timeline/",
+		"domain": "www.carbonblack.com",
+		"image": ""
+	},
+	{
+		"curated_id": "2h6JJ6g3ykPs1nEM5JwsfrfjcQT6JJSUU1VzaJ3MkWbYUokUcKa20VSUCq1JeJS1uPDc123q5aLfbFahwjowO8ng117117",
+		"item_date": "2017-03-10 00:00:00",
+		"title": "Dahua Hikvision IoT Devices Under Siege",
+		"url": "https://krebsonsecurity.com/2017/03/dahua-hikvision-iot-devices-under-siege/",
+		"domain": "krebsonsecurity.com",
+		"image": ""
+	},
+	{
+		"curated_id": "T6x4mjikFvHJux1K123ljcUXJeBHLTWoS2tjBM116NBDsEHJmSy3bu0ryVJsI7obpu2nHylKgbV12ivFJOrhekrG3A117117",
+		"item_date": "2017-03-08 21:42:59",
+		"title": "How to Protect Your Web Application Against DDoS Attacks by Using Amazon Route 53 and an External Content Delivery Network",
+		"url": "https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "31167peCUfk8B9NY123KF1238AKGrGNc5vlRUrfKCoO40ZFKwZfJtchFtAtxWaIUccsxZjbaPrZ8svk7WoE8nFMqNvWw117117",
 		"item_date": "2017-03-08 00:00:00",
 		"title": "An Authoritative Guide to CORS CrossOrigin Resource Sharing for REST APIs",
-		"url": "http://feedproxy.google.com/~r/ProgrammableWeb/~3/qjbLySrZXSw/08",
-		"domain": "feedproxy.google.com",
+		"url": "https://www.programmableweb.com/news/authoritative-guide-to-cors-cross-origin-resource-sharing-rest-apis/how-to/2017/03/08",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vPX1lwrYybMtpNUBRsE76LgZSCtyWkrRv1238155B31fVR123OSXynrmkToyxCyWkrl3E116yoFQ05pL1238XYmgfIrffQ117117",
+		"item_date": "2017-03-08 00:00:00",
+		"title": "The Drive for Standardization",
+		"url": "http://blog.fortinet.com/2017/03/08/byline-the-move-to-standardization-and-open-architectures-enables-cybersecurity-automation-for-the-government-sector",
+		"domain": "blog.fortinet.com",
 		"image": ""
 	},
 	{
@@ -24,6 +192,30 @@
 		"image": ""
 	},
 	{
+		"curated_id": "qKIvM31QgVvSGX9Ybc0zOn9xy6Suxqzll5W2NAErAV2FwJhdJlC116qBXVQKIda4EAE4mhz8Y9qDc5lzPs5PGKtQ117117",
+		"item_date": "2017-03-08 00:00:00",
+		"title": "Why Printers Still Pose a Security Threat",
+		"url": "http://www.darkreading.com/endpoint/why-printers-still-pose-a-security-threat/d/d-id/1328316",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "fSPg413yxWCyGmOeqxH9WFhbOCIHLkkyERXU41DJveRjnVYzlF5mDsKuwT5r4Ljd6Rm5fSs7vU3LuiUWjWfQcQ117117",
+		"item_date": "2017-03-08 00:00:00",
+		"title": "The White Houses favorite secure messaging app is riddled with bugs",
+		"url": "https://thenextweb.com/apps/2017/03/08/white-house-messaging-app-confide/",
+		"domain": "thenextweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "123WqHe5116aCRMKQ5am3FMLO2Ab6123LcPPE2NMomVletQEUlW123x7DynNxYGHUJKyF123DTTH116FJUibJrw0Ao8x2YN8ZQ117117",
+		"item_date": "2017-03-08 00:00:00",
+		"title": "Nest Adds 2Factor Authentication",
+		"url": "http://www.pcmag.com/news/352227/nest-adds-2-factor-authentication",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
 		"curated_id": "iNLcZUHR7rOPEeIwRAuxsi09C36CdziVIlahAEE123Px5zqgQNEYTDRB1RCcNFYDOQcoAKu3HaRBxaeaiuvxWeyw117117",
 		"item_date": "2017-03-07 13:59:39",
 		"title": "Twitter",
@@ -34,9 +226,41 @@
 	{
 		"curated_id": "rq6kkpEH6SAOLVM3fDKIv7eFR6kap79zU2V36S0FkmMdERpu61FWF9eRzyauyPGo6XO3dSuaUy9j5lRXs0uVtg117117",
 		"item_date": "2017-03-07 13:59:39",
-		"title": "Untitled httpgizmodocomnestaddsasecurityfeatureitshouldhavehadallalo1793042317",
+		"title": "Nest Adds a Security Feature It Should Have Had All Along",
 		"url": "http://gizmodo.com/nest-adds-a-security-feature-it-should-have-had-all-alo-1793042317",
 		"domain": "gizmodo.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AUKSMjLyiQdaLvpXFkV1K463h8pw6cuewgaURstaLW116trallQHI1GLsq5gsdnEDpOJcyclPrspcxctJD8c1VLg117117",
+		"item_date": "2017-03-06 00:00:00",
+		"title": "Consumer Reports to grade tech products on security privacy",
+		"url": "http://www.pcworld.com/article/3177291/security/consumer-reports-to-grade-tech-products-on-security-privacy.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "K9DM116FSHz116FG123naJR22L60OQgoWcctKuGOkC5ntvdRnuhhNXUsxh8aExRXYboQrAhVHmuIO3iYWFLsYp4skhnQ117117",
+		"item_date": "2017-03-06 00:00:00",
+		"title": "Testing products for data privacy and security",
+		"url": "http://boingboing.net/2017/03/06/testing-products-for-data-priv.html",
+		"domain": "boingboing.net",
+		"image": ""
+	},
+	{
+		"curated_id": "Hoxn2yBH34kLtVigt5FDlBOrT6d116UKYAu116U0Jdf9j9LAKYcXdOcYP1VTNoyBq7q22Gwj2FDyK5TqSA1234rIyVZg117117",
+		"item_date": "2017-03-06 00:00:00",
+		"title": "NEW FILELESS ATTACK USING DNS QUERIES TO CARRY OUT POWERSHELL COMMANDS",
+		"url": "http://www.itsecurityguru.org/2017/03/06/new-fileless-attack-using-dns-queries-carry-powershell-commands/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "jCqbp7Kt116S7yO5bkC7n6OZTnRnfIMUkqhp3KoYFzKO116BpxyW81priVMGxx1E9O4q123123BaxFDX5Qwqj6NGgNTIQA117117",
+		"item_date": "2017-03-06 00:00:00",
+		"title": "Journalists How hacking details matter",
+		"url": "http://blog.erratasec.com/2017/03/journalists-how-hacking-details-matter.html",
+		"domain": "blog.erratasec.com",
 		"image": ""
 	},
 	{
