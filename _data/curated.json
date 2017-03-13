@@ -3,7 +3,7 @@
 		"curated_id": "L364kFqy5kHgjayrETO2nOvvjG7aahvCD1FXkLj116udnwrTKzUDfGWbnJlW179rwBXln82EM8DqGjdyGF1QC2Jg117117",
 		"item_date": "2017-03-08 21:42:59",
 		"title": "How to Protect Your Web Application Against DDoS Attacks by Using Amazon Route 53 and an External Content Delivery Network",
-		"url": "https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/?sc_channel=sm&sc_campaign=ddosr53cdn&sc_publisher=tw&sc_medium=tw&sc_content=readpost&sc_country=global&sc_geo=global&sc_category=mult&sc_outcome=other",
+		"url": "https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/",
 		"domain": "aws.amazon.com",
 		"image": ""
 	},
@@ -27,8 +27,8 @@
 		"curated_id": "fvC2cm7BjKzWAeDKg123e6C123Xfy3X1ZPpVnRw8khE8bnsdftUV1o2S1VtvFsxBjkV3KepUD5sOGgJwQ2eX0gwoJA117117",
 		"item_date": "2017-03-07 00:00:00",
 		"title": "Security considerations in a DevOps pipeline",
-		"url": "http://feedproxy.google.com/~r/CloudPassageBlog/~3/Ksxih1pQfag/",
-		"domain": "feedproxy.google.com",
+		"url": "https://blog.cloudpassage.com/2017/03/07/security-in-a-devops-pipeline/",
+		"domain": "blog.cloudpassage.com",
 		"image": ""
 	},
 	{
@@ -59,7 +59,7 @@
 		"curated_id": "R04TNRTpnu5N3l4QgNqzegPvL3IsSSgwTdreFjYmDjQDNSVZKK4Frt4WtUaT5H8vsxnPmo3BaeDHegxYULBI2w117117",
 		"item_date": "2017-03-09 00:00:00",
 		"title": "Securing Todays Elastic Attack Surface",
-		"url": "http://www.darkreading.com/perimeter/securing-todays-elastic-attack-surface/a/d-id/1328355?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/perimeter/securing-todays-elastic-attack-surface/a/d-id/1328355",
 		"domain": "www.darkreading.com",
 		"image": ""
 	},
@@ -123,7 +123,7 @@
 		"curated_id": "3JUmHqlVW83H5cdQc05QaxgoasPG81PtCqMpk7cLe5NyeqVOtfqXldBxpliSBFSqoRTDX0123oLMs2YoUUiwegZg117117",
 		"item_date": "2017-03-10 00:00:00",
 		"title": "TwoFactor Authentication Who Has It and How to Set It Up",
-		"url": "http://www.pcmag.com/article2/0,2817,2456400,00.asp?source=SectionArticles",
+		"url": "http://www.pcmag.com/article2/0,2817,2456400,00.asp",
 		"domain": "www.pcmag.com",
 		"image": ""
 	},
