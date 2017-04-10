@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "2NWiCOSzihGP5dkmcRLNp6hQ83L8S2g663fe9ulVHim4pvImxA81YebyUpknvLzdP45VxrBVpc1Fni3i123UyDDA117117",
+		"item_date": "2017-04-08 12:34:47",
+		"title": "Guidelines for Reducing API Security Threats",
+		"url": "http://www.cioreview.com/news/guidelines-for-reducing-api-security-threats-nid-24119-cid-111.html",
+		"domain": "www.cioreview.com",
+		"image": ""
+	},
+	{
 		"curated_id": "E6bHvt123DmC8RF123JBkZ3L1M8Z5FhZ4sESV9T1lDqa5IPUoVvNpt3VrJZyfotHcDOzjXH2YsC1az98gx4ReLb0hA117117",
 		"item_date": "2017-04-07 00:00:00",
 		"title": "Advanced DNS Protection is Now Available for Organizations of All Sizes",
@@ -19,7 +27,7 @@
 		"curated_id": "IVs7osi6m8MKYdaZ6iv123G0vngdc1yvtgNKaWMwgCFbHn1usdHCtKjwQv5Sh9crKwWNK2TTFGAmm9lJkoi3JalA117117",
 		"item_date": "2017-04-07 00:00:00",
 		"title": "How Boards Can Prioritize Cybersecurity in Corporate Governance",
-		"url": "https://dzone.com/articles/how-boards-can-prioritize-cybersecurity-in-corpora?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/how-boards-can-prioritize-cybersecurity-in-corpora",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -27,8 +35,8 @@
 		"curated_id": "6yEVHZP7AaqqT9DnnRR5blNmV1X3yJMqB4yw123123dDIq2Hu123KRAdVdwMDU9ST14EmLLRPfvpl6XLtjNGiDrqQ7cw117117",
 		"item_date": "2017-04-07 00:00:00",
 		"title": "Never underestimate the threat from insider cyber attacks",
-		"url": "http://feedproxy.google.com/~r/BillingViews/~3/YJ5qzQhZQuk/",
-		"domain": "feedproxy.google.com",
+		"url": "https://disruptiveviews.com/threat-insider-cyber-attacks/",
+		"domain": "disruptiveviews.com",
 		"image": ""
 	},
 	{
@@ -75,7 +83,7 @@
 		"curated_id": "0sAEibsqlhfP1160RDOMpKqMRfxhUooeqRp2EpbZxAwsHsOwOmo8l4bDpV1EDQWd123lRk9ASKceJH1m06aOmju6MQ117117",
 		"item_date": "2017-04-06 00:00:00",
 		"title": "Teaching Hospitals at Greater Data Breach Risk",
-		"url": "http://www.darkreading.com/attacks-breaches/teaching-hospitals-at-greater-data-breach-risk/d/d-id/1328576?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/attacks-breaches/teaching-hospitals-at-greater-data-breach-risk/d/d-id/1328576",
 		"domain": "www.darkreading.com",
 		"image": ""
 	},
