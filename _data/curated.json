@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "KnUfHGG116itcRlmNqbvZk5exUOe9Vsjgdjexp9stpxn123uJFn6UopWGhG8zoHqaDVOA4YAemMVJeZC7gJIx8CWbQ117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "2017 Security Protocols Workshop",
+		"url": "https://www.schneier.com/blog/archives/2017/04/2017_security_p.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "u3AwnM3123UdNBWNFPMmBnTHC95qMmedT0kfld1aHRvGU2ANIuouSCxXbvlQbp7TsQXv1CCdzlcuSv5RbvhSmEaw117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "Attacking the Cloud",
+		"url": "http://resources.infosecinstitute.com/attacking-the-cloud/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "2NWiCOSzihGP5dkmcRLNp6hQ83L8S2g663fe9ulVHim4pvImxA81YebyUpknvLzdP45VxrBVpc1Fni3i123UyDDA117117",
 		"item_date": "2017-04-08 12:34:47",
 		"title": "Guidelines for Reducing API Security Threats",
