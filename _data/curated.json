@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "123QJaiDGWAQ7ltTar9ZqbVOENUuApBKMuyir6Q3Yddy0A3PGNXYuzpmoHQsoue0a3OLoWFCz2RaSvwD2MviQhVg117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "95 of Organizations Have Employees Seeking to Bypass Security Controls",
+		"url": "http://www.darkreading.com/attacks-breaches/95--of-organizations-have-employees-seeking-to-bypass-security-controls/d/d-id/1328628",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "m9MAQ40XJDFT7iGAKEqKFYczyHe2FLmrNVXVhsq116YRvBjNX7mdozOelb116pCLdXUdmjOCJmVpnk2vU7FXypi22w117117",
+		"item_date": "2017-04-10 00:00:00",
+		"title": "Salesforce Data Security Model  Explained Visually",
+		"url": "https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually.html",
+		"domain": "developer.salesforce.com",
+		"image": ""
+	},
+	{
 		"curated_id": "KnUfHGG116itcRlmNqbvZk5exUOe9Vsjgdjexp9stpxn123uJFn6UopWGhG8zoHqaDVOA4YAemMVJeZC7gJIx8CWbQ117117",
 		"item_date": "2017-04-13 00:00:00",
 		"title": "2017 Security Protocols Workshop",
@@ -8,11 +24,123 @@
 		"image": ""
 	},
 	{
+		"curated_id": "jJd6G2qJ6dTSRagjF6AEiAQBvO9jBhYmj6WHxOlVHdFUbAS5InpQJaj4JWJ00hiww3qRjZc5pi1HDQWfwHy116HQ117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "Cloudflare Rate Limiting  Insight Control and Mitigation against Layer 7 DDoS Attacks",
+		"url": "https://blog.cloudflare.com/rate-limiting/",
+		"domain": "blog.cloudflare.com",
+		"image": ""
+	},
+	{
 		"curated_id": "u3AwnM3123UdNBWNFPMmBnTHC95qMmedT0kfld1aHRvGU2ANIuouSCxXbvlQbp7TsQXv1CCdzlcuSv5RbvhSmEaw117117",
 		"item_date": "2017-04-13 00:00:00",
 		"title": "Attacking the Cloud",
 		"url": "http://resources.infosecinstitute.com/attacking-the-cloud/",
 		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "5bVkxBn2odydpXmo8VTKmvA3LXHYuhJ7xHS116eniznjdGeF123cD1169320NLkMTJrPDkjjyFG5em2ch9iEAR8orQgw117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "New Breed of DDoS Attack On the Rise",
+		"url": "http://www.darkreading.com/attacks-breaches/new-breed-of-ddos-attack-on-the-rise/d/d-id/1328620",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6B116DgJSCCLLZWFgt2D7kc116e83MznkUiMlH6YBqUvMlZQce09UtlzVjllvFg116QXAcdoMOsbQFmQpEQZslTBPIGg117117",
+		"item_date": "2017-04-13 00:00:00",
+		"title": "Cyber security breaches have cost billions in shareholder value",
+		"url": "https://disruptiveviews.com/cyber-breaches-cost-billions/",
+		"domain": "disruptiveviews.com",
+		"image": ""
+	},
+	{
+		"curated_id": "c116R4V0P6uy5I7QzrfWsLfwW1jX7VxnImBYNhc2H123r123xTfSsKcKcIT116Atg0j63STzS4PNCn123Crsg8L4Va123H3DSw117117",
+		"item_date": "2017-04-11 00:00:00",
+		"title": "Partners Dallas Emergency Siren Hack Illustrates The Need For Regular Security Assessments",
+		"url": "http://www.crn.com/news/internet-of-things/300084513/partners-dallas-emergency-siren-hack-illustrates-the-need-for-regular-security-assessments.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "vbTD6z1UKxiS5GzQESE4rM123JNqy1erD4OdH2d1AY9AvoR4RrIEmbuMtgzeqDOh5FRKSyyBuXWgAFDMeQgCMtDw117117",
+		"item_date": "2017-04-11 00:00:00",
+		"title": "OWASP Top 10 Update Long Overdue Or SameOld SameOld",
+		"url": "http://www.darkreading.com/application-security/owasp-top-10-update-long-overdue-or-same-old-same-old/d/d-id/1328608",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "ANOkUTCAVxfPhRePqurf8B6MkecKP8sF2J6SWJtjxzxjSEAldZuNXbnLH07v07cFA51166FA9aFl4bEIyx0TwC2g117117",
+		"item_date": "2017-04-11 00:00:00",
+		"title": "Theres Gold in Those Endpoints Threat Mining vs Threat Hunting",
+		"url": "https://www.redcanary.com/blog/threat-mining-vs-threat-hunting/",
+		"domain": "www.redcanary.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EYUb3NgKB7rcKAn0h1236VKO1eXETq123Kd0JM3eEp4uBJbUWBRK123YcC75P4hbf4QiqnRtQbNNA1d116gfWLjFVGDp9w117117",
+		"item_date": "2017-04-11 00:00:00",
+		"title": "Steps for Establishing Your AWS Security Roadmap",
+		"url": "https://dzone.com/articles/steps-for-establishing-your-aws-security-roadmap",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EUiLLwLeNG5l4Mh0Di5lKeSKJX9ANqJEPOaCkDaH1HsdpFfs123RB7ny54opdmeKyH2PHIbBWVl123Em0nzVWp0uTQ117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "How Innovative Companies Lock Down Data",
+		"url": "http://www.darkreading.com/endpoint/how-innovative-companies-lock-down-data-/a/d-id/1328589",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "SPq7TwqgZ6ZtJ9z45nMerBT123pLP5bDP1234K6EhAYorNir8z8A3FtNw5AfanZ116A123Ld1Bg33qxRMS7AgSGJFSflaw117117",
+		"item_date": "2017-04-11 00:00:00",
+		"title": "Changes to OWASP Top 10",
+		"url": "https://dzone.com/articles/changes-to-owasp-top-10",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mlQtMb123Czwc1hfcsFyZVlv4l7I7PiszrB4D5xVck1H608PYXqc2twqWS116IFK1JCzShY0mYJUUaouKvKrcfdjSA117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "The Quadfecta of Data Protection",
+		"url": "http://www.itsecurityguru.org/2017/04/12/quadfecta-data-protection/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "hdbWebbzn8H0jcFAD0o14YgNO123tOU116xZAihqOesn4sWeK4ic9me116f717rlCHOZa2FzM7uZ8ifTFmMt4JlS123mog117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "The Rise of the IoT Botnet Beyond the Mirai Bot",
+		"url": "http://resources.infosecinstitute.com/rise-iot-botnet-beyond-mirai-bot/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "EY4z0oOPTBAjg5RMBPFMjKfsCB9yuqvh4yd9nb6nOwbxdWLXVAGRJAktmhDoQ116MvevcvRQllp3Mzi123sO123bstAA117117",
+		"item_date": "2017-04-12 00:00:00",
+		"title": "Cyber breaches have cost shareholders billions since 2013 report",
+		"url": "http://www.reuters.com/article/us-cyber-companies-idUSKBN17E0SA",
+		"domain": "www.reuters.com",
+		"image": ""
+	},
+	{
+		"curated_id": "7sRhopvx5uvy23mIIySYA3Tj2wMqFKFJ4NK35123as310sZegl0116zI9ZmKfR116RWzIIiJWyQ8G2EFYJ3vYRRJk07g117117",
+		"item_date": "2017-04-10 00:00:00",
+		"title": "Kaspersky Lab identifies ransomware actors focusing on targeted attacks against businesses",
+		"url": "http://www.itsecurityguru.org/2017/04/10/kaspersky-lab-identifies-ransomware-actors-focusing-targeted-attacks-businesses/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "DXnbNRnDkb4JH68shW2xXFz0kKOvSnU6oWYDIpPK4r972116WgY89FnL5X7s116Ub17P2jCcqvcaoO7q7SXd116hsfDg117117",
+		"item_date": "2017-04-10 00:00:00",
+		"title": "Malicious Torrent File Conducts Distributed WordPress Password Attack",
+		"url": "http://www.itsecurityguru.org/2017/04/10/malicious-torrent-file-conducts-distributed-wordpress-password-attack/",
+		"domain": "www.itsecurityguru.org",
 		"image": ""
 	},
 	{
