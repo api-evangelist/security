@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "5j8ZdGaRsd4mFGdlBWyur8V5r116S9H7lbFO09vyayiL9ahUPoZGDTJwPgcG123YBcZ9dBQ8SNvNWJBIUQO7wb1xsA117117",
+		"item_date": "2017-04-22 00:00:00",
+		"title": "Linksys Routers Vulnerable to DDoS Attacks",
+		"url": "http://www.pcmag.com/news/353228/linksys-routers-vulnerable-to-ddos-attacks",
+		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3CLRDcGWCIqljR6ZpfSGPmUC3bhZUTqyxSO1LBFkp116JjrV1231167123BUHDTL3rohX2i116LBgYKIMkg123p925ZDpXfilg117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "Tracing Spam from Email Headers",
+		"url": "https://www.schneier.com/blog/archives/2017/04/tracing_spam_fr.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Wb123U573afsFzauPUkOC0116gVqTpMyrTMXFi13123eUlMvJ3sfgVkoSIdYrPAj8LkyconLc4xQownkTY3xC2G8VFDg117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "IoT Security is Hard Heres What You Need to Know",
+		"url": "http://hackaday.com/2017/04/21/iot-security-is-hard-heres-what-you-need-to-know/",
+		"domain": "hackaday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "BIIc7ULViRQGoblT8oshqjNsJAADcSf2tGNO96nkx4cBNmUJao5krk7DMw4fkB4tZoVb4815SNKOlWgU00i22Q117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "Can an IoT device ever be secure",
+		"url": "http://www.itsecurityguru.org/2017/04/21/can-iot-device-ever-secure/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
+		"curated_id": "123ibNecz25w116Fns7blOGw3XNn116yLBPjFG4116gYA9FIlTJ6zmMKk9MG3R67116b3kRHLceBlFqcimpV7vZMtglJHkGg117117",
+		"item_date": "2017-04-21 00:00:00",
+		"title": "Top 10 OpenSource Security Tools Released by Tech Giants",
+		"url": "http://resources.infosecinstitute.com/top-10-open-source-security-tools-released-tech-giants/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "123QJaiDGWAQ7ltTar9ZqbVOENUuApBKMuyir6Q3Yddy0A3PGNXYuzpmoHQsoue0a3OLoWFCz2RaSvwD2MviQhVg117117",
 		"item_date": "2017-04-13 00:00:00",
 		"title": "95 of Organizations Have Employees Seeking to Bypass Security Controls",
