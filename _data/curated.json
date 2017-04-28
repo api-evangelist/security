@@ -1,5 +1,45 @@
 [
 	{
+		"curated_id": "EbSOfTnPe1EaP7mEjA4T1oFXJq5qKsgJvFqIgMNiXCerZcstiFPx7Z4kuJ5kj9w116yMuvq0Nq9VyVKYR1BCfr4A117117",
+		"item_date": "2017-04-17 00:00:00",
+		"title": "Managed Is No Longer a Dirty Word Taking a Fresh Look at Outsourcing Security",
+		"url": "https://www.redcanary.com/blog/managed-is-no-longer-a-dirty-word-outsourcing-security/",
+		"domain": "www.redcanary.com",
+		"image": ""
+	},
+	{
+		"curated_id": "yeM7HsHLOkSDvxlPj2123b4KoZLpK66ajSyyktCStAD0woMjfhd116qf8jTpn5yB5q7kk38hUmpmHD5qSr16qqo7cQ117117",
+		"item_date": "2017-04-17 00:00:00",
+		"title": "SQL Injection and CrossSite Scripting",
+		"url": "https://www.codeproject.com/Articles/102284/SQL-Injection-and-Cross-Site-Scripting",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
+		"curated_id": "6fLbrVMPCpjDrXIeOr4c7Gjt38wJPCh9eiGQv66t4X8D4LhB5cV4T6ZA2HXhKyJbftKYcdfdZAcLjhXhmrRTaw117117",
+		"item_date": "2017-04-17 00:00:00",
+		"title": "Surveillance and our Insecure Infrastructure",
+		"url": "https://www.schneier.com/blog/archives/2017/04/surveillance_an_2.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "88z9kJl6DMVA97VSidCMDV4fKlkekW1jnLsYjoKz6RTid4d6VJZ50CxrlVxhRdCSKXaAMnJHPAF09vHy9GOW116Q117117",
+		"item_date": "2017-04-17 00:00:00",
+		"title": "Part Three Bug Bounty Programs  Is Your Organization Ready",
+		"url": "https://www.okta.com/blog/2017/04/part-three-bug-bounty-%E2%80%8Aprograms-%E2%80%94-%E2%80%8Ais-your-organization-ready/",
+		"domain": "www.okta.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cF3RKC7123sLjuZKIXlRkokSlSPOVxllHMT9UTR9F9qMbAMuFUOpd8GZ5pM42VkVtgKamuS6SxK9ZMOpxDjbG4xg117117",
+		"item_date": "2017-04-18 00:00:00",
+		"title": "Security Evaluation Models",
+		"url": "http://resources.infosecinstitute.com/category/certifications-training/cissp/domains/security-engineering/security-evaluation-models/",
+		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
 		"curated_id": "g4EnsP4iOR8uO5dZlVcWO3Zm116AHNioFeZ123haYxj15vJ8OJ6U9116DDjY116EEDpFs9vOcrL8Pj9123MFhMWDvNVi57oQ117117",
 		"item_date": "2017-04-19 00:00:00",
 		"title": "3 Tips for Updating an Endpoint Security Strategy",
@@ -69,6 +109,22 @@
 		"title": "Chrome Blocks Crafty URL Phishing Method",
 		"url": "http://www.pcmag.com/news/353205/chrome-blocks-crafty-url-phishing-method",
 		"domain": "www.pcmag.com",
+		"image": ""
+	},
+	{
+		"curated_id": "YtKpIE0t476iJk50nlLJWxbhtzcX78GUk6RBc1235AM9pAxz91161MtvtlwHTD1zh123vgim2hMWeeSvST72x291116yRg117117",
+		"item_date": "2017-04-19 00:00:00",
+		"title": "Token Migration Plan Pt1",
+		"url": "http://blog.storj.io/post/159746056098/token-migration-plan-pt1#_=_",
+		"domain": "blog.storj.io",
+		"image": ""
+	},
+	{
+		"curated_id": "oC7y0msmK315ZvbAvCKn1VTveF2HCI3pDbw6JrafuxcygseaK5p2uL88123HWjf123Kcp9NvK6dDoxU6MZPhpMZscQ117117",
+		"item_date": "2017-04-17 08:21:02",
+		"title": "Namespaces A key to container security",
+		"url": "http://sdtimes.com/namespaces-key-container-security/",
+		"domain": "sdtimes.com",
 		"image": ""
 	},
 	{
