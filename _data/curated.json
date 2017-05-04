@@ -10,17 +10,17 @@
 	{
 		"curated_id": "FYId8e1mVPZxXFLVVsXEIdH9BV6eA5xGwRBosc116w8eSRBxgE811629CJin3II09PLAp5qrcfhmrwIuA49DVC123iog117117",
 		"item_date": "2017-04-27 06:05:01",
-		"title": "Tweet Introducing Orbit from Cloudflare Protecting IoT devices from being exploited for DDoS attackshellip httpstcoZyJAOVsWiE",
-		"url": "https://twitter.com/Cloudflare/statuses/857581351301763072",
-		"domain": "twitter.com",
+		"title": "Introducing Orbit from Cloudflare Protecting IoT devices from being exploited for DDoS attacks",
+		"url": "https://blog.cloudflare.com/orbit/",
+		"domain": "blog.cloudflare.com",
 		"image": ""
 	},
 	{
 		"curated_id": "hV4DalANU53yWvZnpGhBDgccdag0Z9YLxhcE4ZNIwckEWd59nFFk123h5yCTWkwqonavYpSDcZsWIdYh0C1Vs123tw117117",
 		"item_date": "2017-04-27 13:58:01",
-		"title": "Tweet Are You Monitoring Your API Security httpstcopd08VoefBM",
-		"url": "https://twitter.com/APImetricStats/statuses/857700386072924160",
-		"domain": "twitter.com",
+		"title": "Are You Monitoring Your API Security",
+		"url": "http://apimetrics.io/2017/04/27/monitoring-api-security/",
+		"domain": "apimetrics.io",
 		"image": ""
 	},
 	{
@@ -32,10 +32,34 @@
 		"image": ""
 	},
 	{
+		"curated_id": "3gLWQrbYrjiV5Xk6ap0tC2pg4QOboL584L5QOkpScTjacwpEPhzD88MsBfuhd116CHjV8n7LubP5dFRvg7E3b1230A117117",
+		"item_date": "2017-04-24 00:00:00",
+		"title": "8 DDoS Attacks That Made Enterprises Rethink IoT Security",
+		"url": "http://www.crn.com/slide-shows/internet-of-things/300084663/8-ddos-attacks-that-made-enterprises-rethink-iot-security.htm",
+		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
 		"curated_id": "qMy123YxjQOyU1165L3EBKtR4TJ7pCIVNbp12DqGEk2PiyJWyHWZpweuaPyesoPaHIucwwcG5bwjGVbNn8wPtxnUGg117117",
 		"item_date": "2017-04-29 00:00:00",
 		"title": "OWASP Top Ten Web App Risks Are Being Updated",
-		"url": "https://dzone.com/articles/owasp-top-ten-web-app-risks-are-being-updated?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/owasp-top-ten-web-app-risks-are-being-updated",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "XjpWo0RsBw49ArmMgHnw61116aJG78NPch116vsOfUwBFcUkHJGIcxU4hmfXARYCiHqS02wMDjTZP8LcvnC3CvdPAQ117117",
+		"item_date": "2017-04-26 00:00:00",
+		"title": "Ransomware incidents surge education a hot bed for data breaches according to Verizon",
+		"url": "http://www.zdnet.com/article/ransomware-incidents-surge-education-a-hot-bed-for-data-breaches-according-to-verizon/",
+		"domain": "www.zdnet.com",
+		"image": ""
+	},
+	{
+		"curated_id": "B22116wC1160w123l8c123tfFmYVs3TvoirdGC123sR73uN95116sxaVGMUt5VKzvLs9yrQoSBQzBXP5FYvN86yOWjo8WsFQ7Q117117",
+		"item_date": "2017-04-26 00:00:00",
+		"title": "What Are Injection Attacks",
+		"url": "https://dzone.com/articles/what-are-injection-attacks",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -45,6 +69,14 @@
 		"title": "Cyber risks for Industrial environments continue to increase",
 		"url": "http://resources.infosecinstitute.com/cyber-risks-industrial-environments-continue-increase/",
 		"domain": "resources.infosecinstitute.com",
+		"image": ""
+	},
+	{
+		"curated_id": "glpTLkiBQ8JCJ5TqAN3a9cW6aPSfZB5g1165EfwlAEa123mrgdfkS6qPxjh4NrBoKHJzu1NUEi2S4tt6btSw13b1162Q117117",
+		"item_date": "2017-04-26 00:00:00",
+		"title": "Phishing Attacks How To Avoid Getting Hooked",
+		"url": "http://www.cxotoday.com/story/phishing-attacks-how-to-avoid-getting-hooked/",
+		"domain": "www.cxotoday.com",
 		"image": ""
 	},
 	{
@@ -59,7 +91,7 @@
 		"curated_id": "sd8x1UJml7dmcKKn2xVFF59cp8QTDAmpjWlrncg123iPfJSEg5jRS116Qi123ZAfFToWU3wwLwzHeh8q116zbQkk0k5pGA117117",
 		"item_date": "2017-04-27 00:00:00",
 		"title": "How Clever thinks about security and privacy",
-		"url": "http://blog.clever.com/2017/04/clever-thinks-security-privacy/",
+		"url": "https://blog.clever.com/2017/04/clever-thinks-security-privacy/",
 		"domain": "blog.clever.com",
 		"image": ""
 	},
@@ -75,7 +107,7 @@
 		"curated_id": "WBA123iApTS4op2hwvyC77LpQDASswzecdlR3gh5qItu116NDMCm116QEgLcQswI9LMezs9HlsaR116Ry1eCXC7HnGw94Q117117",
 		"item_date": "2017-04-28 00:00:00",
 		"title": "A Day in the Life of a Security Avenger",
-		"url": "http://www.darkreading.com/threat-intelligence/a-day-in-the-life-of-a-security-avenger-/a/d-id/1328761?_mc=RSS_DR_EDT",
+		"url": "http://www.darkreading.com/threat-intelligence/a-day-in-the-life-of-a-security-avenger-/a/d-id/1328761",
 		"domain": "www.darkreading.com",
 		"image": ""
 	},
@@ -85,6 +117,30 @@
 		"title": "5 Things Solution Providers Need To Know About Brickerbot The Newest IoT Malware",
 		"url": "http://www.crn.com/slide-shows/internet-of-things/300084690/5-things-solution-providers-need-to-know-about-brickerbot-the-newest-iot-malware.htm",
 		"domain": "www.crn.com",
+		"image": ""
+	},
+	{
+		"curated_id": "QX6psfzL6IkbRsKx2icCuRX9JnLIaPmBRxExlaoJbgqzxg981mB116A5nY5bdd37NIC30Cy123kmf9W04pTGZ4iRhg117117",
+		"item_date": "2017-04-25 13:35:36",
+		"title": "SocialEngineer Toolkit  TrustedSec  Information Security",
+		"url": "https://www.trustedsec.com/social-engineer-toolkit/",
+		"domain": "www.trustedsec.com",
+		"image": ""
+	},
+	{
+		"curated_id": "oTNNU97oAaYTAleRAHBzvzfiZwDJ4z5HOUZLi116LSxPmG9KcPqGJquo6UmqHAdDR34MEKl5tbvASKR17MCsXCJw117117",
+		"item_date": "2017-04-25 13:36:07",
+		"title": "I Got Hacked So You Dont Have To",
+		"url": "http://www.gq.com/story/getting-hacked-is-easier-and-dumber-than-you-think-it-is",
+		"domain": "www.gq.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mOpzpLvfFw0qVBT0imLaDmXyS8Su1iedT2nobcIINlimlcxlBtxkG3kCqNp123XDBUQsx0niAWor3ONyYO5BMWyg117117",
+		"item_date": "2017-04-24 00:00:00",
+		"title": "The Year of Data Breaches Why Encryption and Reformatting SSDs Is Not Enough",
+		"url": "https://dzone.com/articles/the-year-of-data-breaches-why-encryption-and-refor",
+		"domain": "dzone.com",
 		"image": ""
 	},
 	{
