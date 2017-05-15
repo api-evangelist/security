@@ -1,5 +1,101 @@
 [
 	{
+		"curated_id": "53E4vNL1310Tx8z116g9xF2830Eh3FdJeIO4XaS7os6kosq9Y123fzkUI3ji7RaGooiAEUzeZJd0zI5lV116l123116xiI8g117117",
+		"item_date": "2017-05-12 00:00:00",
+		"title": "4 Things That Every Developer Should Know About Security",
+		"url": "https://dzone.com/articles/4-things-that-every-developer-should-know-about-se?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "UUwHnmji123fipshNLZkDbvTjPcM123PY3k3iRnT03PO7t3YE5RtNtAC0nHdRMxdTaaTVWF2yqYhvQDutcjwv4ti5A117117",
+		"item_date": "2017-05-13 00:00:00",
+		"title": "Google will review web apps that want access to its users data",
+		"url": "http://www.pcworld.com/article/3196626/security/google-will-review-web-apps-that-want-access-to-its-users-data.html#tk.rss_all",
+		"domain": "www.pcworld.com",
+		"image": ""
+	},
+	{
+		"curated_id": "AUDJeAK123mztuQFpWKyeCMp34J1OGI96fhIKGIVc116py4Lbt123EkbGimMPbPmSpw123mvfBBy123LT30uJ33W43UQuQUw117117",
+		"item_date": "2017-05-08 00:00:00",
+		"title": "How to secure your server in 5 minutes",
+		"url": "http://feedproxy.google.com/~r/pusherb/~3/hKrNlZRbdWU/",
+		"domain": "feedproxy.google.com",
+		"image": ""
+	},
+	{
+		"curated_id": "eRtU68IIzWcvI123USQ217WGq1DWgB5Qj3S7CmD123W8DEtFIT123oCNJYUWcZBZZ1t0S9UINFP2qIvRndn3NHchJ2vw117117",
+		"item_date": "2017-05-09 00:00:00",
+		"title": "What Is a Host Header Attack",
+		"url": "https://dzone.com/articles/what-is-a-host-header-attack?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "3123bQ5CxA116Um116WHdTvvRzJ10RtYjZbbFxjPeg8bNhEUWNaudqPBrcb32Bm4CjUCA9y0WIIkixvaTEh9HWZ2c3Pg117117",
+		"item_date": "2017-05-12 00:00:00",
+		"title": "Dynamic Security Analysis with OWASP ZAP",
+		"url": "https://kuridotcom.wordpress.com/2017/05/12/dynamic-security-analysis-with-owasp-zap/",
+		"domain": "kuridotcom.wordpress.com",
+		"image": ""
+	},
+	{
+		"curated_id": "8ixl6tPQKb1JNYD243Q7Wn8uwPDOQnw6CxJq1tW6jyMAxJw68SvE1164WSJrMPnV40d4lMpDws9yoZsQejtpmAxQ117117",
+		"item_date": "2017-05-10 00:00:00",
+		"title": "Cisco Releases Security Update",
+		"url": "https://www.us-cert.gov/ncas/current-activity/2017/05/10/Cisco-Releases-Security-Update",
+		"domain": "www.us-cert.gov",
+		"image": ""
+	},
+	{
+		"curated_id": "FN116lnCBV0o1237U116Fh116tMS0BDKTPLDYm5c116yR116gqQ123167SAbO9S69KuAAC953T2XOjc9116ca1JTzedHNcI9OTmH5A117117",
+		"item_date": "2017-05-12 00:00:00",
+		"title": "Stealing Voice Prints",
+		"url": "https://www.schneier.com/blog/archives/2017/05/stealing_voice_.html",
+		"domain": "www.schneier.com",
+		"image": ""
+	},
+	{
+		"curated_id": "WGa5GR116fKav8fA7y0cOF2n568vpjEPz00HFAiYB1235LTKRCqMJOPnjgMR0d2jYsjzB116hOtqwjXEIdTf1232qkdP6g117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "Using DNS Threat Intelligence and Network Context In Your Security Lifecycle",
+		"url": "https://community.infoblox.com/t5/Company-Blog/Using-DNS-Threat-Intelligence-and-Network-Context-In-Your/ba-p/9831",
+		"domain": "community.infoblox.com",
+		"image": ""
+	},
+	{
+		"curated_id": "mLYxphWYHek6LnIR5123VnC7Cj35y123V7hv3nIryW71160pGMMt7OLqPfvTIagki4cIKynPoSMSY7xMbf3uCbfzkjyA117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "APAC Banks Say No To Suppliers Who Fail Cybersecurity Audits",
+		"url": "http://www.cxotoday.com/story/apac-banks-say-no-to-suppliers-who-fail-cybersecurity-audits/",
+		"domain": "www.cxotoday.com",
+		"image": ""
+	},
+	{
+		"curated_id": "tu4FzlYOiv116jaXn0VrdfLITctGQ7B0BQv83LNrcxUJjHtAqVudPPc1QS1cA8ajtxb7w1231UjStrYKJgpTEFAuIQ117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "What Developers Dont Know About Security Can Hurt You",
+		"url": "http://www.darkreading.com/application-security/what-developers-dont-know-about-security-can-hurt-you/a/d-id/1328824",
+		"domain": "www.darkreading.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Iywx1233RNuXVvT4jTbVQ12xBISA6mZuNUHfav9UImSPKyhERIIAY6Ago5Fu0Q9jCSwn4iofdyE0RFkFrObDkR7g117117",
+		"item_date": "2017-05-11 00:00:00",
+		"title": "Updating developer identity guidelines and registration processes to protect users",
+		"url": "https://developers.googleblog.com/2017/05/updating-developer-identity-guidelines.html",
+		"domain": "developers.googleblog.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uQelWPUIwWCkezdqnBFMa3QLr2eaihVUM2RRRqCk3BoLiptq1123WYZDfK95Os6xP5L9ZmYfPPaY2jDPlaObL2qQ117117",
+		"item_date": "2017-05-10 00:00:00",
+		"title": "Cisco Patches Leaked 0day in 300 Of Its Switches",
+		"url": "http://www.itsecurityguru.org/2017/05/10/cisco-patches-leaked-0-day-300-switches/",
+		"domain": "www.itsecurityguru.org",
+		"image": ""
+	},
+	{
 		"curated_id": "zKWdTlp4P06UtL1231WS1iRZpdGztEwMyENvLdV123GnGgiiTkzR8Ed4x1167ZsYb2WNVyrETRyS8sxJO9gFThw9CeEQ117117",
 		"item_date": "2017-05-07 00:00:00",
 		"title": "5 Steps to Implementing Intelligent Asset Strategies Part 4 Threat Detection",
