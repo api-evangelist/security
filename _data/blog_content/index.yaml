@@ -1,0 +1,15 @@
+- title: API Management Blog
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png'
+  header: >-
+    These are the blog posts I've writen on API Evangelist that I've tagged as
+    "management". Usually because they have some elements that speaks to why or
+    how APIs are being managed, covering core elements of modern API management
+    like authentication, service composition, rate limiting, reporting, billing,
+    analytics, as well as some of the softer things of managing a community
+    around an API.
+  footer: >-
+    If you have a story you think I should telling about I recommend you write
+    up the thought on your own blog and share a link with me, or feel free to
+    submit a Github issue on this research project's repository, or use of the
+    other channels available on the contact page.
+  tags: Management

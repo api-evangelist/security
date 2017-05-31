@@ -1,0 +1,1241 @@
+- building_block_id: getting-started
+  type: Management
+  category: Onboarding
+  name: Getting Started
+  description: >-
+    Laying out simple, clear steps for developers on how to register,
+    authenticate, access documentation and code samples, and get support and any
+    other details that are essential to integration.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-running.png
+  tags: 'Management,API Management Onboarding'
+- building_block_id: selfservice-registration
+  type: Management
+  category: Onboarding
+  name: Self-Service Registration
+  description: >-
+    Providing a self-service registration for a developer portal, allowing
+    developers to signup and get access to an API, 24 hours a day, 7 days a
+    week.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-hand-wrench.jpg
+  tags: 'Management,API Management Onboarding'
+- building_block_id: best-practices
+  type: Management
+  category: Onboarding
+  name: Best Practices
+  description: >-
+    Publishing of a plain english introduction to the best practices around
+    integrating with an API, providing introductory lesson for developers of how
+    to properly integrate with an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-yingyang.jpg
+  tags: Management
+- building_block_id: faq
+  type: Management
+  category: Onboarding
+  name: FAQ
+  description: >-
+    Providing developers a list of the common questions asked of an API
+    platform, with simple answers to each question, allowing them to understand
+    the common problems faced during onboarding.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-question-mark.png
+  tags: 'Management,API Management Onboarding'
+- building_block_id: service-accord
+  type: Management
+  category: Onboarding
+  name: Service Accord
+  description: >-
+    Service level agreements (SLA) provide a legal framework managing the
+    relationships between API consumers, and service accords provide a plain
+    english explanation of what they expect from a provider, without the
+    legaleze, in a format they can understand without calling the lawyers.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-handshake.jpg
+  tags: 'Management,API Management Onboarding'
+- building_block_id: sign-up-email
+  type: Management
+  category: Onboarding
+  name: Sign Up Email
+  description: >-
+    Providing a simple, informative, personal email immediately upon signup,
+    letting developers know what they need to onboard.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-email-open.png
+  tags: 'Management,API Management Onboarding'
+- building_block_id: google-authentication
+  type: Management
+  category: Onboarding
+  name: Google Authentication
+  description: >-
+    Allowing developers to create their API account using their Google account,
+    and allowing the to login in the future using their Google oAuth.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-google.png
+  tags: 'Management,API Management Onboarding'
+- building_block_id: github-authentication
+  type: Management
+  category: Onboarding
+  name: Github Authentication
+  description: >-
+    Allowing developers to create their API account using their Github account,
+    and allowing the to login in the future using their Github oAuth.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg
+  tags: 'Management,API Management Onboarding'
+- building_block_id: facebook-authentication
+  type: Management
+  category: Onboarding
+  name: Facebook Authentication
+  description: >-
+    Allowing developers to create their API account using their Facebook
+    account, and allowing the to login in the future using their Facebook
+    credentials.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-facebook.png
+  tags: 'Management,API Management Onboarding'
+- building_block_id: flexible-messaging-area
+  type: Management
+  category: Onboarding
+  name: Flexible Messaging Area
+  description: >-
+    Provide a simple, flexible messaging area on the top or bottom of login or
+    signup, providing consumers with simple updates about platform operations.
+  image: ''
+  tags: Management
+- building_block_id: search
+  type: Management
+  category: Onboarding
+  name: Search
+  description: Provide a keyword search option for discovery across API operations.
+  image: ''
+  tags: Management
+- building_block_id: documentation
+  type: Documentation
+  category: Elements
+  name: Documentation
+  description: >-
+    Simple, easy to understand, documentation of what an API does, that is kept
+    up to date with API roadmap.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation.png
+  tags: 'Management,Documentation'
+- building_block_id: list-of-endpoints
+  type: Documentation
+  category: Elements
+  name: List of Endpoints
+  description: >-
+    A simple listing of all endpoints provides a quick introduction of what is
+    available with an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png
+  tags: 'Management,Documentation'
+- building_block_id: interactive-documentation
+  type: Documentation
+  category: Elements
+  name: Interactive Documentation
+  description: >-
+    Interactive, hands-on documentation, provided by common approaches like
+    Swagger and API Blueprint.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation-interactive.png
+  tags: 'Management,Documentation'
+- building_block_id: api-explorer
+  type: Documentation
+  category: Elements
+  name: API Explorer
+  description: >-
+    API explorers allow users to make calls and explore REST APIs using a web
+    interface.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-explorer.png
+  tags: 'Management,Documentation'
+- building_block_id: error-response-codes
+  type: Documentation
+  category: Elements
+  name: Error Response Codes
+  description: >-
+    Provide a robust, complete, clear and meaningful list of API error response
+    codes.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-error.png
+  tags: 'Management,Documentation'
+- building_block_id: blog
+  type: Communication
+  category: Communications
+  name: Blog
+  description: >-
+    Providing a blog dedicated to API platform operations, with stories about
+    the providers, consumers, and other related stories.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-blog-icon.png
+  tags: Management
+- building_block_id: blog-rss-feed
+  type: Communication
+  category: Communications
+  name: Blog RSS Feed
+  description: >-
+    Make sure there is an RSS feed for any blog that is published as part of API
+    operations.
+  image: ''
+  tags: Management
+- building_block_id: twitter
+  type: Communication
+  category: Communications
+  name: Twitter
+  description: >-
+    Provide an active Twitter account for support, as well as evangelism efforts
+    around an APIs operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-twitter-icon.png
+  tags: Management
+- building_block_id: email
+  type: Communication
+  category: Communications
+  name: Email
+  description: >-
+    Provide an email for not just support, but also general platform
+    communications.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-email.png
+  tags: Management
+- building_block_id: linkedin
+  type: Communication
+  category: Communications
+  name: LinkedIn
+  description: >-
+    Provide an active LinkedIn account for support, as well as evangelism
+    efforts around an APIs operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-linkedin.png
+  tags: Management
+- building_block_id: facebook
+  type: Communication
+  category: Communications
+  name: Facebook
+  description: >-
+    Provide an active Facebook account for support, as well as evangelism
+    efforts around an APIs operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-facebook.png
+  tags: Management
+- building_block_id: google+
+  type: Communication
+  category: Communications
+  name: Google+
+  description: >-
+    Provide an active Google+ account for support, as well as evangelism efforts
+    around an APIs operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-google-plus.png
+  tags: Management
+- building_block_id: email-newsletter
+  type: Communication
+  category: Communications
+  name: Email Newsletter
+  description: >-
+    An email newsletter dedicated to cover news across platform operations,
+    providing weekly summary of activity in the inbox.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-email-newsletter.png
+  tags: Management
+- building_block_id: instagram
+  type: Communication
+  category: Communications
+  name: Instagram
+  description: >-
+    Using Instagram as a way to communicate with platform users, and let users
+    know there is someone home.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-instagram.png
+  tags: Management
+- building_block_id: vimeo
+  type: Communication
+  category: Communications
+  name: Vimeo
+  description: >-
+    Using Vimeo as a communication channel for educating users about an API
+    platform.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-vimeo.png
+  tags: Management
+- building_block_id: youtube
+  type: Communication
+  category: Communications
+  name: Youtube
+  description: >-
+    Using Youtube as a regular content and communication channel to help users
+    learn about platform operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-youtube.png
+  tags: Management
+- building_block_id: chat
+  type: Communication
+  category: Communications
+  name: Chat
+  description: >-
+    Providing a live chant mechanism in the developer portal, allowing
+    developers to connect directly with API support and evangelists.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-chat.png
+  tags: Management
+- building_block_id: slack
+  type: Communication
+  category: Communications
+  name: Slack
+  description: >-
+    Using Slack to create private channels just for communicating with internal,
+    partner, or public API consumers.
+  image: ''
+  tags: Management
+- building_block_id: status-dashboard
+  type: Road Map
+  category: Now
+  name: Status Dashboard
+  description: >-
+    A single location, at dedicated subdomain, providing status update(s) for
+    all API resources, giving developers a place to go when looking to see if
+    platform is available.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-status-dashboard.png
+  tags: 'Management,API Management Updates,Road Map'
+- building_block_id: status-rss
+  type: Road Map
+  category: Now
+  name: Status RSS
+  description: >-
+    Providing an RSS feed for a status dashboard, allowing users to receive
+    updates on any website, and via any RSS client.
+  image: ''
+  tags: 'Management,API Management Updates,Road Map'
+- building_block_id: change-log
+  type: Road Map
+  category: Past
+  name: Change Log
+  description: >-
+    A detailed list of changes have been made to an API platform, giving
+    consumers a single place they can go to learn about what changes have been
+    made.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-recycling.jpg
+  tags: 'Management,API Management Updates,Road Map'
+- building_block_id: authentication-overview
+  type: Authentication
+  category: Overview
+  name: Authentication Overview
+  description: >-
+    An overview of how authentication is handled for a platform, and which
+    formats are supported, setting expectations for consumers.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-authentication.png
+  tags: Management
+- building_block_id: authentication-tester
+  type: Authentication
+  category: Overview
+  name: Authentication Tester
+  description: >-
+    Providing a testing tool for authentication, that allows developers to test
+    key and Basic Auth to oAuth, to help them understand how authentication
+    works and if they are using proper credentials.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-authentication-test.png
+  tags: Management
+- building_block_id: oauth-scopes
+  type: Authentication
+  category: Overview
+  name: OAuth Scopes
+  description: >-
+    Providing a dedicated page or section to listing out the different OAuth
+    scopes used by a platform. Providing a transparent window into all the
+    scopes available, and some of the logic into why they exist.
+  image: ''
+  tags: Management
+- building_block_id: developer-dashboard
+  type: Management
+  category: Developer Account
+  name: Developer Dashboard
+  description: >-
+    Provide developers a single dashboard for getting at all their tools,
+    metrics and information they need to successfully manage their usage.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-dashboard.png
+  tags: Management
+- building_block_id: account-settings
+  type: Management
+  category: Developer Account
+  name: Account Settings
+  description: >-
+    Provide developers access to their basic account detail and settings, giving
+    them quick access to their account configuration and allow for easy updates.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-account-settings.png
+  tags: Management
+- building_block_id: reset-password
+  type: Management
+  category: Developer Account
+  name: Reset Password
+  description: >-
+    Provide the necessary tools for developers to gain access to their account
+    if they lose their password.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-reset.jpeg
+  tags: Management
+- building_block_id: application-manager
+  type: Management
+  category: Developer Account
+  name: Application Manager
+  description: >-
+    Providing an interface that allows developers to manage one or many
+    applications that will be integrating with an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-app-icon.jpg
+  tags: Management
+- building_block_id: usage-logs--analytics
+  type: Management
+  category: Developer Account
+  name: Usage Logs & Analytics
+  description: >-
+    Allowing developers to be able to see where they stand with usage, logging
+    and other aspects of operations, by providing them reports and analytics of
+    their history.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-analytics-2.png
+  tags: Management
+- building_block_id: billing-history
+  type: Management
+  category: Developer Account
+  name: Billing History
+  description: >-
+    Provide clear and easy access to what a developer has been billed, allowing
+    them to access and download their billing history around API usage.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-history.jpeg
+  tags: Management
+- building_block_id: message-center
+  type: Management
+  category: Developer Account
+  name: Message Center
+  description: >-
+    Providing developers with a messaging system within their developer
+    accounts, and communicate with API providers, and receive system updates.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-message-send.png
+  tags: Management
+- building_block_id: github-authentication
+  type: Management
+  category: Developer Account
+  name: Github Authentication
+  description: >-
+    Allow developers to create and login to their API developer account using
+    their own Github account credentials.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg
+  tags: Management
+- building_block_id: delete-account
+  type: Management
+  category: Developer Account
+  name: Delete Account
+  description: >-
+    Giving developers the ability to delete their account from within their
+    account portal.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/3-factor-x.jpeg
+  tags: Management
+- building_block_id: service-tier-management
+  type: Management
+  category: Developer Account
+  name: Service Tier Management
+  description: >-
+    Allow developers to change the service tier they operate with in via their
+    developer dashboard, without having to request changes from platform
+    support.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-tiers.jpg
+  tags: Management
+- building_block_id: forum
+  type: Support
+  category: Self-Service Support
+  name: Forum
+  description: >-
+    A modern, up to date, active, and well monitored forum, providing
+    self-service access to information about an APIs operation.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forum.png
+  tags: Management
+- building_block_id: forum-rss
+  type: Support
+  category: Self-Service Support
+  name: Forum RSS
+  description: 'Going beyond just a forum, and providing an RSS feed for all forum activity.'
+  image: ''
+  tags: Management
+- building_block_id: stack-overflow
+  type: Support
+  category: Self-Service Support
+  name: Stack Overflow
+  description: >-
+    Using the public QA site Stack Overflow as part of support operations for an
+    API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-stack-exchange.png
+  tags: Management
+- building_block_id: knowledgebase
+  type: Support
+  category: Self-Service Support
+  name: Knowledgebase
+  description: >-
+    Providing a single repository of content, organized by title, and tag,
+    allowing you to search for keywords and phrases, as well as browse for
+    answers.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-knowledge.png
+  tags: Management
+- building_block_id: road-map
+  type: Road Map
+  category: Future
+  name: Road Map
+  description: >-
+    A detailed list of what additions and changes are being planned as part of
+    API operations, giving consumers a place where they can go learn about what
+    is next in an APIs evolution.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-highway.png
+  tags: 'Management,API Management Updates,Road Map'
+- building_block_id: basic-auth
+  type: Authentication
+  category: Approaches
+  name: Basic Auth
+  description: >-
+    Usage of the basic authentication format that is part of the standard HTTP
+    operations, employing a username and password as credentials for accessing
+    API resources.
+  image: ''
+  tags: Management
+- building_block_id: key-access
+  type: Authentication
+  category: Approaches
+  name: Key Access
+  description: >-
+    Providing simple tokens, often called API key as a common way to access to
+    APIs, issuing one to each developer and per application they register.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-key.png
+  tags: Management
+- building_block_id: oauth
+  type: Authentication
+  category: Approaches
+  name: oAuth
+  description: >-
+    Providing an oAuth layer to API operations, securing high value APIs, while
+    also opening up a conversation between an API platform, developers, and
+    end-users regarding the access of their content and data.
+  image: ''
+  tags: Management
+- building_block_id: widgets
+  type: Embeddable
+  category: Embeddable Tools
+  name: Widgets
+  description: >-
+    Widgets are highly functional, API is driven​ JavaScript tools that provide
+    portable applications that can be embedded on any website or application.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-widget.png
+  tags: 'Management,API Management Embeddable,Embeddable'
+- building_block_id: buttons
+  type: Embeddable
+  category: Embeddable Tools
+  name: Buttons
+  description: >-
+    Buttons are shareable snippets of code that often share, syndicate or
+    trigger a variety of events that use APIs as their source.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-power-button.png
+  tags: 'Management,API Management Embeddable,Embeddable'
+- building_block_id: badges
+  type: Embeddable
+  category: Embeddable Tools
+  name: Badges
+  description: >-
+    Badges are common for displaying content and resources delivered via an API
+    and allow these assets to be embedded on any website or application.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-badges.png
+  tags: 'Management,API Management Embeddable,Embeddable'
+- building_block_id: email
+  type: Support
+  category: Direct Support
+  name: Email
+  description: >-
+    Providing a simple email address that API consumers can use when looking to
+    get answers to their questions.
+  image: ''
+  tags: Management
+- building_block_id: contact-form
+  type: Support
+  category: Direct Support
+  name: Contact Form
+  description: >-
+    A contact form available in the central API portal, that developers can use
+    to ask questions.
+  image: ''
+  tags: Management
+- building_block_id: phone
+  type: Support
+  category: Direct Support
+  name: Phone
+  description: Providing a phone number that developers can call when they need support.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-phone.jpeg
+  tags: Management
+- building_block_id: ticket-system
+  type: Support
+  category: Direct Support
+  name: Ticket System
+  description: >-
+    Provide a central ticketing system for all support requests, possibly using
+    popular support software like Zendesk.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-ticket-system.png
+  tags: Management
+- building_block_id: office-hours
+  type: Support
+  category: Direct Support
+  name: Office Hours
+  description: >-
+    Dedicated a specific time each week or monthly where support staff will be
+    available via live chat to answer questions.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clock.jpeg
+  tags: Management
+- building_block_id: calendar
+  type: Support
+  category: Direct Support
+  name: Calendar
+  description: >-
+    A single calendar of all events related to API operations, providing a place
+    where developers can find all related goings on.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-calendar.png
+  tags: Management
+- building_block_id: paid-support-plans
+  type: Support
+  category: Direct Support
+  name: Paid Support Plans
+  description: >-
+    Providing paid support tiers for developers to use, allowing them to pay by
+    the minute, hour, or project, and get the intimate, direct support they
+    desire.
+  image: ''
+  tags: Management
+- building_block_id: widget-builder
+  type: Embeddable
+  category: Embed Engines
+  name: Widget Builder
+  description: >-
+    A widget builder provides a form that API consumers can use to configure a
+    predefined widget that is integrated with an API, allowing them to customize
+    and tailor the widget experience.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-embeddable.png
+  tags: 'Management,API Management Embeddable,Embeddable'
+- building_block_id: javascript-api
+  type: Embeddable
+  category: Embed Engines
+  name: JavaScript API
+  description: >-
+    A complete JavaScript API that developers can use to build and manage their
+    own JavaScript integrations with an APIs resources, beyond existing widgets.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-javascript-api.png
+  tags: 'Management,API Management Embeddable,Embeddable'
+- building_block_id: case-studies
+  type: Documentation
+  category: Resources
+  name: Case Studies
+  description: >-
+    Offering a wealth of case studies of actual implementations that have
+    occurred with an API , showing potential consumers what is possible.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-case-study.png
+  tags: 'Management,API Management Resources'
+- building_block_id: howto-guides
+  type: Documentation
+  category: Resources
+  name: How-to Guides
+  description: >-
+    Providing how-to guides that walk consumers through common aspects of API
+    integration, giving them self-service resources they can use.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-how-to-guide.png
+  tags: 'Management,API Management Resources'
+- building_block_id: white-papers
+  type: Documentation
+  category: Resources
+  name: White Papers
+  description: >-
+    Offer white papers that educate consumers around topics that are relevant to
+    the platform, consumers, and the industry that is being operated in.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-documentation.png
+  tags: 'Management,API Management Resources'
+- building_block_id: webinars
+  type: Documentation
+  category: Resources
+  name: Webinars
+  description: >-
+    Provide online webinars on a regular basis that API consumers can attend to
+    learn about various aspects of platform operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-webinar.png
+  tags: 'Management,API Management Resources'
+- building_block_id: events
+  type: Documentation
+  category: Resources
+  name: Events
+  description: >-
+    Publish a page with information about any events the an API program will be
+    attending, or maybe links to video and slide decks from past conferences.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-calendar.png
+  tags: 'Management,API Management Resources'
+- building_block_id: slideshare
+  type: Documentation
+  category: Resources
+  name: Slideshare
+  description: >-
+    Publish a list of slide decks available on a Slideshare account, providing
+    developers with access to past talks the API program has done.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-slideshare.png
+  tags: 'Management,API Management Resources'
+- building_block_id: codecademy
+  type: Documentation
+  category: Resources
+  name: Codecademy
+  description: >-
+    Creating courses on Codecademy, then publishing them within an API developer
+    area, providing lessons for developers on how an API operates.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-codecademy.png
+  tags: 'Management,API Management Resources'
+- building_block_id: tour
+  type: Documentation
+  category: Resources
+  name: Tour
+  description: >-
+    Providing a guided tour of how a platform and API operates, allowing new
+    developers to walk through all aspects of operations in an interactive or
+    video format.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-path.png
+  tags: 'Management,API Management Resources'
+- building_block_id: glossary
+  type: Documentation
+  category: Resources
+  name: Glossary
+  description: >-
+    A glossary of terms that applies to an industry, platform, and the business
+    or technical aspects of operations, providing API consumers who may not be
+    familiar with sector or platform specific terms, with a dictionary they can
+    use during integration.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-dictionary.png
+  tags: 'Management,API Management Resources'
+- building_block_id: videos
+  type: Documentation
+  category: Resources
+  name: Videos
+  description: >-
+    Provides video resources, helping people understand the API platform, how it
+    can be put to use, and any other supporting areas of API operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-video.png
+  tags: 'Management,API Management Resources'
+- building_block_id: mobile-overview
+  type: SDK
+  category: Mobile Solutions
+  name: Mobile Overview
+  description: >-
+    An overview page, dedicated to mobile application development, giving equal
+    time to each platform, including iOS, Android, and Windows.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: ios-sdk
+  type: SDK
+  category: Mobile Solutions
+  name: iOS SDK
+  description: >-
+    Providing mobile-focused SDKs for developers to build IOS mobile
+    applications on top of an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-iphone.png
+  tags: 'Management,SDK'
+- building_block_id: android-sdk
+  type: SDK
+  category: Mobile Solutions
+  name: Android SDK
+  description: >-
+    Providing mobile focused SDKs for developers to build Android mobile
+    applications on top of an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-android.jpg
+  tags: 'Management,SDK'
+- building_block_id: html5
+  type: SDK
+  category: Mobile Solutions
+  name: HTML5
+  description: >-
+    Providing mobile focused SDKs for developers to build HTML5 mobile
+    applications on top of an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-html5.png
+  tags: 'Management,SDK'
+- building_block_id: appery.io
+  type: SDK
+  category: Mobile Solutions
+  name: Appery.io
+  description: >-
+    Providing mobile focused SDKs for developers to build mobile applications on
+    top of an API, using Appery.io.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-appery.png
+  tags: 'Management,SDK'
+- building_block_id: windows-mobile-sdk
+  type: SDK
+  category: Mobile Solutions
+  name: Windows Mobile SDK
+  description: >-
+    Providing mobile focused SDKs for developers to build Windows mobile
+    applications on top of an API.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: github
+  type: SDK
+  category: Code Management
+  name: Github
+  description: >-
+    Using Github for managing of code samples, libraries, SDKs, and other
+    supporting elements of an API platform.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-github.jpg
+  tags: Management
+- building_block_id: wordpress
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: Wordpress
+  description: >-
+    Providing ready to go WordPress integration, allowing developers, and
+    sometimes even non-developers to immediately put an API to use through their
+    WordPress site(s).
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: application-gallery
+  type: SDK
+  category: Code Management
+  name: Application Gallery
+  description: >-
+    A gallery of all applications that have been built on top of an API
+    platform, for the public and API community to explore.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-app-icon.jpg
+  tags: Management
+- building_block_id: heroku
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: Heroku
+  description: >-
+    Providing ready to go Heroku integration, allowing developers, and sometimes
+    even non-developers to immediately put an API to use through their Heroku
+    platform account.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: open-source
+  type: SDK
+  category: Code Management
+  name: Open Source
+  description: >-
+    Using open source licenses across any code samples, libraries, SDKs, and
+    complete applications provided as part of aPI operations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-open-source.png
+  tags: Management
+- building_block_id: drupal
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: Drupal
+  description: >-
+    Providing ready to go Drupal integration, allowing developers, and sometimes
+    even non-developers to immediately put an API to use through their Drupal
+    site(s).
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: starter-projects
+  type: SDK
+  category: Code Management
+  name: Starter Projects
+  description: >-
+    Offer fully functional applications that API developers can reverse
+    engineer, and possible put to use as a starting point for their
+    integrations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-starter-kit.png
+  tags: Management
+- building_block_id: salesforce
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: SalesForce
+  description: >-
+    Providing ready to go SalesForce integration, allowing developers, and
+    sometimes even non-developers to immediately put an API to use through their
+    SalesForce account.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: community-supported-libraries
+  type: SDK
+  category: Code Management
+  name: Community Supported Libraries
+  description: >-
+    In addition to providing your own company developed libraries, showcasing
+    the libraries of trusted developers fro within the API community.
+  image: ''
+  tags: Management
+- building_block_id: joomla
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: Joomla
+  description: >-
+    Providing ready to go Joomla integration, allowing developers, and sometimes
+    even non-developers to immediately put an API to use through their Joomla
+    account.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: google-app-engine
+  type: SDK
+  category: Platform Development Kits (PDK)
+  name: Google App Engine
+  description: >-
+    Providing ready to go Google App Engine integration, allowing developers,
+    and sometimes even non-developers to immediately put an API to use through
+    the Google Cloud platform.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: code-builder
+  type: SDK
+  category: Code Management
+  name: Code Builder
+  description: >-
+    A tool allowing for the generation of client code for various API endpoint,
+    for specific language or platform objectives.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-tools.png
+  tags: Management
+- building_block_id: code-page
+  type: SDK
+  category: Code Management
+  name: Code Page
+  description: >-
+    A page dedicated to providing access to code resources, whether samples,
+    libraries, SDKs, PDKs, or starter projects.
+  image: ''
+  tags: Management
+- building_block_id: value
+  type: Monetization
+  category: Direct Value
+  name: Value
+  description: >-
+    What is the value of an API resource? Often you will be just making this up,
+    but at the least you should be able to articulate in some way.
+  image: ''
+  tags: 'Management,Monetization'
+- building_block_id: revenue
+  type: Monetization
+  category: Direct Value
+  name: Revenue
+  description: >-
+    What revenue opportunities for the ecosystem around an API and its
+    operation, sharing in the money made from platform operations.
+  image: ''
+  tags: 'Management,Monetization'
+- building_block_id: angular.js
+  type: SDK
+  category: Single Page Applications (SPA)
+  name: Angular.js
+  description: >-
+    Providing developers with AngularJS framework integration, allowing them to
+    build single page applications using API resources.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: chrome-extension
+  type: SDK
+  category: Browser Development Kits (BDK)
+  name: Chrome Extension
+  description: >-
+    Providing ready to go Google Chrome browser integration, allowing
+    developers, and sometimes even non-developers to immediately put an API to
+    use in their browser, with a Google Chrome extension.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: firefox-addon
+  type: SDK
+  category: Browser Development Kits (BDK)
+  name: Firefox Add-On
+  description: >-
+    Providing ready to go Mozilla Firefox browser integration, allowing
+    developers, and sometimes even non-developers to immediately put an API to
+    use in their browser, with a Mozilla Firefox add-on.
+  image: ''
+  tags: 'Management,SDK'
+- building_block_id: service-level-agreement
+  type: Terms of Service
+  category: Services
+  name: Service Level Agreement
+  description: >-
+    Provide a service level agreements (SLA) describing what service(s) are
+    offered by an API provider, with details about the quality of service, an
+    ​warranties, disaster recovery, and steps for termination of agreement.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-handshake.jpg
+  tags: 'Management,API Management Legal'
+- building_block_id: deprecation-policy
+  type: Terms of Service
+  category: Services
+  name: Deprecation Policy
+  description: >-
+    Provide a API deprecation policy setting expectations with API consumers
+    about when and how API resources will be deprecated and shut down.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-deprecation.png
+  tags: 'Management,API Management Legal'
+- building_block_id: monetization-guidelines
+  type: Terms of Service
+  category: Monetization
+  name: Monetization Guidelines
+  description: >-
+    Providing legal guidelines for how developers can monetize around resources
+    that are available via an API.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-dollar-sign.png
+  tags: 'Management,API Management Legal'
+- building_block_id: trademarks
+  type: Terms of Service
+  category: Corporate
+  name: Trademarks
+  description: >-
+    Providing a reference to​ corporate trademarks that are part of API
+    operations, and developers may have to consider.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-trademark.png
+  tags: API Management Legal
+- building_block_id: compliance
+  type: Terms of Service
+  category: Regulation
+  name: Compliance
+  description: >-
+    A page providing compliance related information, covering how a company,
+    platform, and APIs complies with government and industry regulations.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-compliance.png
+  tags: 'Management,API Management Legal'
+- building_block_id: terms-of-service
+  type: iPaaS
+  category: Reciprocity
+  name: Terms of Service
+  description: >-
+    Provide loose enough terms of service, that users can migrate their data
+    from one platform to another, without violating the terms of service.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-terms-conditions.png
+  tags: Management
+- building_block_id: data-portability
+  type: iPaaS
+  category: Reciprocity
+  name: Data Portability
+  description: >-
+    Providing users with the ability to get data out of a system through a bulk
+    download and via an API in a usable format that employs open standards.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-suitcase.png
+  tags: Management
+- building_block_id: automation
+  type: iPaaS
+  category: Reciprocity
+  name: Automation
+  description: >-
+    Offer ready to go integrations with popular API automation platforms like
+    Zapier and IFTTT, allowing any user to migrate data between platforms.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-clock-gear.png
+  tags: Management
+- building_block_id: oauth
+  type: iPaaS
+  category: Reciprocity
+  name: oAuth
+  description: >-
+    Provides an identify and access layer for API driven resource, one that
+    allows for reciprocity to occur within a single API ecosystem, and between
+    multiple ecosystems.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/oauth-logo.png
+  tags: Management
+- building_block_id: integrations
+  type: iPaaS
+  category: Reciprocity
+  name: Integrations
+  description: >-
+    Integrations showcase other 3rd party platforms that an API provider is
+    already connected to, providing ready to go platform integration solutions
+    that any developer can take advantage of.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-gears.png
+  tags: Management
+- building_block_id: sandbox
+  type: Management
+  category: Environment
+  name: Sandbox
+  description: >-
+    Provide developers a sandbox environment to develop and test their code,
+    reducing headaches for consumers when developing their applications.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-sandbox.jpeg
+  tags: Management
+- building_block_id: production
+  type: Management
+  category: Environment
+  name: Production
+  description: >-
+    Offer a production environment in addition to a sandbox, allowing developers
+    to push an application into production mode when it is ready.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-production.png
+  tags: Management
+- building_block_id: simulator
+  type: Management
+  category: Environment
+  name: Simulator
+  description: >-
+    Providing an environment where developers can find existing profiles,
+    templates or other collections of data, as well as the ​sequence for
+    simulating a particular experience via an API platform.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-data-template.png
+  tags: Management
+- building_block_id: templates
+  type: Management
+  category: Environment
+  name: Templates
+  description: "Offering predefined templates of\_operation, when a new environment is setup, either sandbox, production, or simulator, it can be pre-populated with data, and other configuration."
+  image: ''
+  tags: Management
+- building_block_id: documentation-language
+  type: Management
+  category: Internationalization
+  name: Documentation Language
+  description: >-
+    Use a&nbsp;query string lang= parameter to set the language the API
+    documentation should be speaking.
+  image: ''
+  tags: Management
+- building_block_id: internationalization
+  type: Management
+  category: Internationalization
+  name: Internationalization
+  description: >-
+    Provide resources that help developers localize, and internationalize their
+    applications to meet the needs of specific global markets.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-global.png
+  tags: 'Management,API Management Resources'
+- building_block_id: team-showcase
+  type: Management
+  category: Corporate
+  name: Team Showcase
+  description: >-
+    Provide a simple team page, showcasing the team behind the API, including
+    photos, personal stories or bios, and any relevant social media accounts
+    like Twitter and Github.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-teams.jpeg
+  tags: Management
+- building_block_id: mission
+  type: Management
+  category: Corporate
+  name: Mission
+  description: >-
+    What is the mission of your company, organization, or government agency
+    behind the platform.
+  image: ''
+  tags: Management
+- building_block_id: user-management
+  type: Management
+  category: Management API
+  name: User Management
+  description: >-
+    A user management API, enabling the ability to create, read, update, and
+    delete information associated with a specific user.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-users-male-female.png
+  tags: Management
+- building_block_id: account-management
+  type: Management
+  category: Management API
+  name: Account Management
+  description: >-
+    An account management API, enabling users to create, read, update, and
+    delete information associated with their account.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-account-settings.png
+  tags: Management
+- building_block_id: application-management
+  type: Management
+  category: Management API
+  name: Application Management
+  description: >-
+    An application management API, allowing users to manage their registered
+    applications, and get information about their consumption.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-app.png
+  tags: Management
+- building_block_id: service-management
+  type: Management
+  category: Management API
+  name: Service Management
+  description: >-
+    A service management API, providing users to see what services are
+    available, and their access and usage levels for any given service.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-service-request.png
+  tags: Management
+- building_block_id: labs
+  type: Management
+  category: Research & Development
+  name: Labs
+  description: >-
+    Offering a labs environment, that showcases ideas that are being developed
+    internally and by partners, possibly even providing opportunities for public
+    consumers.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-app-development.png
+  tags: Management
+- building_block_id: ideas
+  type: Management
+  category: Research & Development
+  name: Ideas
+  description: >-
+    Like showcase existing applications, an idea showcase is about providing a
+    place where new and existing ideas can be shared, and potentially built upon
+    by the community.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-light-bulb-bright.png
+  tags: Management
+- building_block_id: opportunities
+  type: Management
+  category: Research & Development
+  name: Opportunities
+  description: >-
+    Providing an area where aPI consumers can find opportunities available on
+    the platform from potential projects, to posting job opportunities that are
+    currently available.
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-exlamation-point.gif
+  tags: Management

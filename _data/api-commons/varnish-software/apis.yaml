@@ -1,0 +1,23 @@
+name: Varnish Software
+description: "Varnish Software is the company behind Varnish Cache, a widely trusted
+  open source web accelerator, significantly enhancing web performance for businesses
+  online. We power major sites across all industry types\u2014for businesses such
+  as Nikon, Transport for London and Vimeo as well as more than 1.8 million websites
+  worldwide. Varnish Plus is our commercial suite, offering products for scalability,
+  customization, monitoring and expert support services."
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/varnish-software.jpeg
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/varnish-software/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: https://www.varnish-software.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

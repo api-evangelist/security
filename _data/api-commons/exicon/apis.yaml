@@ -1,0 +1,26 @@
+name: Exicon
+description: Exicon is the AppCycle management company that simplifies the creation,
+  deployment and management of mobile applications for some of the world's biggest
+  companies allowing them to accelerate their success in mobile. Through its proprietary
+  AppCycle Management platform, Exicon provides the services and tools to support
+  customers in defining their application needs, finding the best developers, storing
+  all components of the applications, reaching the end users for your application
+  and measuring its performance.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/exicon-logo.png
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/exicon/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.exiconglobal.com
+- type: x-blog
+  url: http://www.exiconglobal.com/blog/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

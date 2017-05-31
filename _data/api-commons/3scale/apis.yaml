@@ -1,0 +1,75 @@
+name: 3scale
+description: |
+  3scale provides Free & Enterprise API management solutions for developers, and companies to securely distribute, control, manage, operate and monetize their API to 3rd parties (e.g. developers, business partners, etc). 3scale API management platform is Plug and Play, configurable, flexible and scalable and brings API providers an unparalleled level of ownership, control and configuration to ensure QoS, SLA and a great user experience.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/3scale/apis.yaml
+specificationVersion: "0.14"
+apis:
+- name: 3Scale Account Management API
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+  humanURL: https://support.3scale.net/reference/activedocs#/account_management_api
+  baseURL: https://support.3scale.net/reference/activedocs#/account_management_api
+  tags:
+  - Management
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/3scale/3scale-account-management-api-openapi-spec.yaml
+- name: 3Scale Analytics API
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+  humanURL: http://apis.how/oyj1cus322
+  baseURL: https://support.3scale.net/reference/activedocs#/account_management_api
+  tags:
+  - Management
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/3scale/3scale-analytics-api-openapi-spec.yaml
+- name: 3Scale Billing API
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+  humanURL: https://support.3scale.net/reference/activedocs#/billing_api
+  baseURL: https://support.3scale.net/reference/activedocs#/account_management_api
+  tags:
+  - Management
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/3scale/3scale-billing-api-openapi-spec.yaml
+- name: 3scale Service Management API
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/3scale-logo.jpg
+  humanURL: http://apis.how/oyj1cus322
+  baseURL: https://support.3scale.net/reference/activedocs#/account_management_api
+  tags:
+  - Management
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/3scale/3scale-service-management-api-openapi-spec.yaml
+x-common:
+- type: x-blog
+  url: http://www.3scale.net/blog/
+- type: x-blog-rss-feed
+  url: http://www.3scale.net/feed/
+- type: x-github
+  url: https://github.com/3scale
+- type: x-dedicated-plans--pricing-page
+  url: https://www.3scale.net/pricing/
+- type: x-privacy-policy-page
+  url: https://www.3scale.net/privacy-policy/
+- type: x-support-overview-page
+  url: https://support.3scale.net
+- type: x-terms-of-service-page
+  url: https://www.3scale.net/terms-and-conditions/
+- type: x-twitter
+  url: https://twitter.com/3scale
+- type: x-website
+  url: http://www.3scale.net
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

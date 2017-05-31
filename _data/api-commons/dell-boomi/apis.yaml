@@ -1,0 +1,24 @@
+name: Dell Boomi
+description: "Dell Boomi, a business unit of Dell, is the first and only integration
+  solution built in the cloud, to fully exploit the value of the cloud. Organizations
+  of all sizes\u2014from small businesses to the largest global enterprises\u2014trust
+  Dell Boomi to quickly connect any combination of cloud and on-premises applications.
+  Leading SaaS players and enterprise customers such as salesforce.com, NetSuite,
+  Taleo, oneworld, AAA, and NASDAQ rely on Dell Boomi to accelerate time to market,
+  increase sales, and eliminate the challenges associated with integration."
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dell-boomi-logo.png
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/dell-boomi/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.boomi.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

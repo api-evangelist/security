@@ -1,0 +1,25 @@
+name: Restlet
+description: The Restlet API Platform enables developers and non-developers to design,
+  create, run and manage the APIs that provide access to any data or application.
+  Restlet Framework is the most widely used open source solution for Java developers
+  who want to create and use APIs. The first Platform-as-a-Service dedicated to web
+  APIs, APISpark enables any organization to become an API provider in minutes via
+  an intuitive browser interface.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Logo-Restlet-Horizontal-800x225.png
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/restlet/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://restlet.com/blog
+- type: x-website
+  url: https://restlet.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

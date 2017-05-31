@@ -1,0 +1,24 @@
+name: Apify
+description: Apify is a small and powerful open source library that delivers new levels
+  of developer productivity by simplifying the creation of RESTful architectures.
+  It helps development teams deliver quality web services and applications in reduced
+  amounts of time.  Web services are a great way to extend your application, however,
+  adding a web API to an existing web application can be a tedious and time-consuming
+  task. Apify takes certain common patterns found in most web services and abstract
+  them so that you can quickly write web APIs without having to write too much code.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/apify-logo.png
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/apify/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.apifydoc.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

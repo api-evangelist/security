@@ -1,0 +1,39 @@
+name: GitHub
+description: GitHub is a social network for programmers. Git is a distributed software
+  management program created by Linus Torvalds, originally for the Linux Kernel Development.
+  GitHub is a hosted Git repository. Github allows you to take part in collaboration
+  by forking projects, sending and pulling requests, and monitoring development.
+image: https://assets-cdn.github.com/images/modules/logos_page/Octocat.png
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/github/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://github.com/blog
+- type: x-blog-rss-feed
+  url: https://github.com/blog/subscribe
+- type: x-contact-form
+  url: https://github.com/contact
+- type: x-github
+  url: https://github.com/github
+- type: x-howto-guides
+  url: https://developer.github.com/guides/
+- type: x-ios-sdk
+  url: https://github.com/octokit/octokit.objc
+- type: x-status-dashboard
+  url: https://status.github.com/
+- type: x-twitter
+  url: https://twitter.com/github
+- type: x-webinars
+  url: https://github.com
+- type: x-portal
+  url: https://gelato.io/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

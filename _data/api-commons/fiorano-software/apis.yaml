@@ -1,0 +1,19 @@
+name: Fiorano Software
+description: |
+  Fiorano powers real time, digital enterprises with a bimodal integration and API Management strategy that leverages the best of systematic (centralized, high-control) and adaptive (federated, high-speed) approaches to deliver solutions across cloud, on-premise and hybrid environments. We provide microservice-centric platform infrastructure with sophisticated integration capabilities, Connecting Anything to Everything.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/fiorano-logo.gif
+tags:
+- Management
+created: "2016-11-29"
+modified: "2016-11-29"
+url: https://raw.githubusercontent.com/api-evangelist/management/gh-pages/_data/api-commons/fiorano-software/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-website
+  url: http://www.fiorano.com/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com

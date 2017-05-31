@@ -1,0 +1,24 @@
+swagger: "2.0"
+info:
+  title: 3Scale Analytics API
+  description: The API for managing 3Scale analytics
+  termsOfService: http://www.3scale.net/terms-and-conditions/
+  contact:
+    name: 3Scale
+    url: https://support.3scale.net/
+  version: "1"
+host: su1.3scale.net
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths: []
+definitions:
+  Errors:
+    properties:
+      Name:
+        description: The description of the error.
+        type: string
