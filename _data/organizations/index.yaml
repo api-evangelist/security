@@ -15,24 +15,8 @@
   blog: 'https://blogs.akamai.com'
   blog_rss: 'http://blogs.akamai.com/feeds.html'
   github: 'https://github.com/akamai'
-  image: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/akamai/akamai-logo.png'
   tags: 'Applications,Cloud,DNS,API LIfeycle,Bots,Performance,Security,DNS Cloud'
-- slug: akana
-  name: Akana
-  description: >-
-    Akana helps businesses accelerate digital transformation by securely
-    extending their reach across multiple channels &ndash; mobile, cloud and
-    Internet of Things. Akana enables enterprises to share data as APIs, connect
-    and integrate applications, drive partner adoption, monetize their assets,
-    and provide intelligent insights into their business and operations.
-  url: 'http://www.akana.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/AkanaInc'
-  blog: 'https://blog.akana.com/'
-  blog_rss: 'https://blog.akana.com/feed/'
-  github: 'https://github.com/akanainc'
-  image: ''
-  tags: 'Enterprise,Management,Security,Portal,Deployment,Gateway'
 - slug: arxan-technologies
   name: Arxan Technologies
   description: >-
@@ -48,21 +32,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arxan-logo.png
   tags: 'Security,Encryption'
-- slug: authy
-  name: Authy
-  description: >-
-    Authy is a the simplest way to add two-factor authentication to any Website
-    or App. Authy provides a simple API for developers to customize the user
-    experience when they add Two-Factor Authentication as well as multiple
-    addons for common Application such as Wordpres
-  url: 'https://www.authy.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/authy'
-  blog: 'https://www.authy.com/blog/'
-  blog_rss: ''
-  github: 'https://github.com/authy'
-  image: ''
-  tags: 'Authentication,Security,Authentication,Target'
 - slug: aws-certificate-manager
   name: AWS Certificate Manager
   description: >-
@@ -275,7 +244,7 @@
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
   tags: 'Microsoft,Authentication,Security,Management'
 - slug: briankrebs
-  name: briankrebs
+  name: Brian Krebs
   description: >-
     Brian Krebs worked as a reporter for The Washington Post from 1995 to 2009,
     authoring more than 1,300 blog posts for the Security Fix blog, as well
@@ -309,7 +278,11 @@
   tags: Security
 - slug: cisco-continuum
   name: Cisco Continuum
-  description: ''
+  description: >-
+    Continuum is a tailored view of the security industry and its most notable
+    stories and news. Here you will find the updates and conversations that are
+    driving the future of the industry. Security is a fascinating, swift moving
+    industry that effects every other, and we are all players within it.
   url: 'http://continuum.cisco.com/'
   short_url: ''
   twitter: 'https://twitter.com/ciscosecurity'
@@ -391,7 +364,12 @@
   tags: 'Security,Consulting'
 - slug: dark-reading
   name: Dark Reading
-  description: ''
+  description: >-
+    Long one of the most widely-read cyber security news sites on the Web, Dark
+    Reading is now the most trusted online community for security professionals
+    like you. Our community members include thought-leading security
+    researchers, CISOs, and technology specialists, along with thousands of
+    other security professionals.
   url: 'http://www.darkreading.com/'
   short_url: ''
   twitter: ''
@@ -401,20 +379,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dark-reading.png
   tags: 'Blog,Security'
-- slug: defense-information-systems-agency-disa
-  name: Defense Information Systems Agency (DISA)
-  description: ''
-  url: 'http://www.disa.mil/'
-  short_url: ''
-  twitter: 'https://twitter.com/USDISA'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: ''
-  tags: >-
-    Federal Government,Information Technology,cyber,Cloud
-    Computing,Cloud,Spectrum,Command And Control,National
-    Defense,Warfighter,Joint,Disa,Computing,Defense,DOD,Technology,Security,Network,Enterprise,Information,Military
 - slug: dome9-security
   name: Dome9 Security
   description: >-
@@ -460,7 +424,7 @@
   blog: 'http://blog.duosecurity.com'
   blog_rss: 'https://www.duosecurity.com/feed'
   github: ''
-  image: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/duo/duoLogo-web.png'
   tags: 'Two factor authentication,Authentication,Mobile,Security,Security'
 - slug: errata-security
   name: Errata Security
@@ -602,7 +566,13 @@
   tags: 'SMS,Security,Storage,Storage,Storage'
 - slug: infosec-institute
   name: Infosec Institute
-  description: ''
+  description: >-
+    InfoSec Institute was founded in 1998 by an expert team of information
+    security instructors. Their goal was to build a business by offering the
+    best possible training experience for students. We felt that by providing
+    the best possible hands on training, the most practical for today’s
+    demanding workplace requirements, that the business would grow by leaps and
+    bounds.
   url: 'https://www.infosecinstitute.com/'
   short_url: ''
   twitter: 'https://twitter.com/InfosecEdu'
@@ -613,7 +583,11 @@
   tags: 'Security,Security News'
 - slug: it-security-guru
   name: IT Security Guru
-  description: ''
+  description: >-
+    The IT Security Guru offers a daily news digest of all the best breaking IT
+    security news stories first thing in the morning! Rather than you having to
+    trawl through all the news feeds to find out what’s cooking, you can quickly
+    get everything you need from this site!
   url: 'http://www.itsecurityguru.org/'
   short_url: ''
   twitter: 'https://twitter.com/IT_SecGuru'
@@ -623,17 +597,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/itsecurityguru.jpg
   tags: 'Security,Blogs'
-- slug: joint-chiefs-of-staff-jcs
-  name: Joint Chiefs of Staff (JCS)
-  description: ''
-  url: 'http://www.jcs.mil/'
-  short_url: ''
-  twitter: 'https://twitter.com/NDU_EDU'
-  blog: ''
-  blog_rss: ''
-  github: ''
-  image: ''
-  tags: 'Federal Government,Jpme,Graduate Students,National Security'
 - slug: kevin-townsend’s-it-security
   name: Kevin Townsend’s IT Security
   description: ''
@@ -665,7 +628,11 @@
   tags: 'Security,Blog'
 - slug: liquidmatrix
   name: Liquidmatrix
-  description: ''
+  description: >-
+    I’m a security practitioner that has been in computer, network & information
+    security for almost two decades now. I have worked in the financial,
+    military, government, critical infrastructure and health care verticals to
+    name a few.
   url: 'https://www.liquidmatrix.org/blog/'
   short_url: ''
   twitter: 'https://twitter.com/liquidmatrix'
@@ -675,17 +642,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Home___Liquidmatrix_Security_Digest.png
   tags: 'Blog,Security'
-- slug: liquidmatrix-security-digest
-  name: Liquidmatrix Security Digest
-  description: ''
-  url: 'http://www.liquidmatrix.org'
-  short_url: ''
-  twitter: ''
-  blog: 'http://www.liquidmatrix.org/blog/'
-  blog_rss: 'https://www.liquidmatrix.org/blog/feed/'
-  github: ''
-  image: ''
-  tags: Security
 - slug: managedmethods-inc
   name: ManagedMethods Inc
   description: >-
@@ -914,18 +870,6 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/RiskIQ-Logo.png
   tags: Security
-- slug: rogers-information-security-blog
-  name: Rogers Information Security Blog
-  description: ''
-  url: 'https://www.infosecblog.org/'
-  short_url: ''
-  twitter: 'https://twitter.com/infosectweet'
-  blog: ''
-  blog_rss: 'http://www.infosecblog.org/feed'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Roger_s_Information_Security_Blog_-_Since_2004__a_source_for_ranting__reviews_and_InfoSec_news.png
-  tags: 'Security,Blog'
 - slug: sapience
   name: Sapience
   description: >-
@@ -973,28 +917,22 @@
   image: >-
     http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/secful-logo.png
   tags: Security
-- slug: security-weekly
-  name: Security Weekly
-  description: ''
-  url: 'http://securityweekly.com/'
-  short_url: ''
-  twitter: 'https://twitter.com/securityweekly'
-  blog: ''
-  blog_rss: 'http://feeds.feedburner.com/securityweekly/Lviv'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SecurityWeekly-1000x1000-nourl.png
-  tags: 'Blog,Security'
 - slug: shape-security
   name: Shape Security
-  description: ''
+  description: >-
+    Global 2000 corporations are currently experiencing millions of automated
+    attacks per day on web and mobile applications. Shape is the industry's
+    leading real-time adaptive application defense platform. Designed for rapid
+    deployment, Shape protects organizations against the most advanced automated
+    attacks that evade traditional security defenses.
   url: 'https://www.shapesecurity.com'
   short_url: ''
   twitter: 'https://twitter.com/shapesecurity'
   blog: 'https://www.shapesecurity.com/blog.html'
   blog_rss: ''
   github: ''
-  image: ''
+  image: >-
+    https://s3.amazonaws.com/kinlane-productions/shape-security/Shape_Security_logo_from_2017.png
   tags: Security
 - slug: sift-science
   name: Sift Science
@@ -1092,8 +1030,12 @@
     LIfeycle,Target,Service Level Agreement,Reliability
 - slug: thehive
   name: TheHive
-  description: ''
-  url: ''
+  description: >-
+    A scalable open source and free security incident response platform designed
+    to make life easier for SOCs, CSIRTs, CERTs and any information security
+    practitioner dealing with security incidents that need to be investigated
+    and acted upon swiftly.
+  url: 'https://thehive-project.org/'
   short_url: ''
   twitter: 'https://twitter.com/TheHive_Project'
   blog: 'https://blog.thehive-project.org/'
@@ -1122,7 +1064,10 @@
   tags: 'Security,Cybersecurity'
 - slug: threatpost
   name: Threatpost
-  description: ''
+  description: >-
+    Threatpost, The Kaspersky Lab security news service, is an independent news
+    site which is a leading source of information about IT and business security
+    for hundreds of thousands of professionals worldwide.
   url: 'https://threatpost.com/'
   short_url: ''
   twitter: ''
