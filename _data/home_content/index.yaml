@@ -8,18 +8,18 @@
     increasingly digital lives, providing access to the bits and bytes that make
     our personal and professional worlds go round.</p>
 
-    <p>This is my research specificially into the world of API mangement, and
-    how API providers are managing the details of their operations from
-    authentication, to service composition, rate limiting, reporting, and more.
-    This is the oldest area of my research, and has been the seed for every
-    other dimension of my API industry research.</p>
+    <p>This is my research specificially into the world of API security, which
+    tends to be an extension of web security. I am trying to look at it from
+    specifically an API lens, trying to understand what API providers need, as
+    well as help service providers focus in on delivering services that meet
+    their needs.</p>
 
     <p>API Evangelist is a network of data driven projects and APIs which I
     curate and manage as part of this ongoing research, hoping to provide easy
     access to the moving parts of my work. Everything you see here runs on
     Github, making everything forkable, and resuable for both humans and
     machines.</p>
-  tags: Management
+  tags: Security
 - content_id: home-about
   title: About This Research
   image: 'http://design.apievangelist.com/images/api-evangelist-in-api-we-trust.png'
@@ -40,4 +40,4 @@
     more about API management.</p>
 
     <p>Thanks for your support!</p>
-  tags: Management
+  tags: Security
