@@ -2,7 +2,7 @@
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-news-icon.png'
   header: >-
     These are the news items I've curated in my monitoring of the API space that
-    have some relevance to the API definition conversation and I wanted to
+    have some relevance to the API security conversation and I wanted to
     include in my research. I'm using all of these links to better understand
     how the space is security (or not) their API infrastructure, and addressing
     the biggest problem we face online today.
