@@ -361,7 +361,7 @@
   blogrss: http://feeds.feedburner.com/WordpressGuerrilla
   github: ""
   image: ""
-  tags: Security
+  tags: Security,Blog
 - slug: duo-security
   name: Duo Security
   description: Duo Security enables protected login and transactional functions for
@@ -387,7 +387,7 @@
   blogrss: http://blog.erratasec.com/feeds/posts/default
   github: ""
   image: ""
-  tags: Security,Security News
+  tags: Security,Blog
 - slug: fallible
   name: Fallible
   description: We are a group of hackers passionate about improving the security posture
@@ -535,7 +535,7 @@
   blogrss: http://feeds.feedburner.com/ITsecurity.co.uk/feed/
   github: ""
   image: ""
-  tags: Security
+  tags: Security,Blog
 - slug: light-blue-touchpaper
   name: Light Blue Touchpaper
   description: Light Blue Touchpaper is a weblog written by researchers in the Security
