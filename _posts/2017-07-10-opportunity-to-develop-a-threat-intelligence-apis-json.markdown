@@ -232,7 +232,7 @@ Of course if I responded to every impulse like this I would never get any of my 
         <td>
             NormShield Services provide thousands of domain information (including whois information) that potential phishing attacks may come from. Breach and blacklist services also available. There is free sign up for public services for continuous monitoring.
         </td>
-    </tr> 
+    </tr>
     <tr>
         <td>
             <a href="http://www.openbl.org/lists.html" target="_blank">OpenBL.org</a>
@@ -365,6 +365,6 @@ Of course if I responded to every impulse like this I would never get any of my 
     </tr>
 </table>
 
-Ideally, [each source on this list](https://github.com/hslatman/awesome-threat-intelligence) would be publishing a forkable version of their data on Github and/or deploying a simple web API, but alas it isn't the world we live in. Part of the process to standardardize and normalize the threat intelligence from all of these source would be to reach out to each provider, and take their temperature regarding working together to improve the data source by itself, as well as part of an aggregated set of data and API sources.
+<p>Ideally, [each source on this list](https://github.com/hslatman/awesome-threat-intelligence) would be publishing a forkable version of their data on Github and/or deploying a simple web API, but alas it isn't the world we live in. Part of the process to standardardize and normalize the threat intelligence from all of these source would be to reach out to each provider, and take their temperature regarding working together to improve the data source by itself, as well as part of an aggregated set of data and API sources.</p>
 
-Similiar to what I'm trying to do across many of the top business sectors being impacted by APIs, we need to to work aggregating all the existing sources of threat intelligence, and begin identifying a common schema that any new player could adopt. We need an open data schema, API definition, as well as suite of open source server and client tooling to emerge, if we are going to stay ahead of the cybersecurity storm that has engulfed us, and will continue to surround us until we work together to push it back.
+<p>Similar to what I'm trying to do across many of the top business sectors being impacted by APIs, we need to to work aggregating all the existing sources of threat intelligence, and begin identifying a common schema that any new player could adopt. We need an open data schema, API definition, as well as suite of open source server and client tooling to emerge, if we are going to stay ahead of the cybersecurity storm that has engulfed us, and will continue to surround us until we work together to push it back.</p>
