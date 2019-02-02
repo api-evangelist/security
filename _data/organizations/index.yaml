@@ -1,1013 +1,226 @@
----
-- slug: akamai
-  name: Akamai
-  description: Akamai Technologies, Inc. is a content delivery network or CDN and
-    cloud services provider headquartered in Cambridge, Massachusetts, in the United
-    States. Akamai's content delivery network is one of the world's largest distributed
-    computing platforms, responsible for serving between 15 and 30 percent of all
-    web traffic. The company operates a network of servers around the world and rents
-    capacity on these servers to customers who want their websites to work faster
-    by distributing content from locations close to the user
-  url: https://akamai.com
-  shorturl: ""
-  twitter: https://twitter.com/Akamai
-  blog: https://blogs.akamai.com
-  blogrss: http://blogs.akamai.com/feeds.html
-  github: https://github.com/akamai
-  image: https://s3.amazonaws.com/kinlane-productions/akamai/akamai-logo.png
-  tags: Applications,Cloud,DNS,API LIfeycle,Bots,Performance,Security,DNS Cloud
-- slug: arxan-technologies
-  name: Arxan Technologies
-  description: Arxan Technologies is an American technology company specializing in
-    anti-tamper protections for software. The company reports that applications secured
-    by it are running on over 500 million devices.
-  url: https://www.arxan.com/
-  shorturl: ""
-  twitter: https://twitter.com/Arxan
-  blog: https://www.arxan.com/company/blog/
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/arxan-logo.png
-  tags: Security,Encryption
-- slug: aws-certificate-manager
-  name: AWS Certificate Manager
-  description: AWS Certificate Manager is a service that lets you easily provision,
-    manage, and deploy Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
-    for use with AWS services. SSL/TLS certificates are used to secure network communications
-    and establish the identity of websites over the Internet. AWS Certificate Manager
-    removes the time-consuming manual process of purchasing, uploading, and renewing
-    SSL/TLS certificates. With AWS Certificate Manager, you can quickly request a
-    certificate, deploy it on AWS resources such as Elastic Load Balancers or Amazon
-    CloudFront distributions, and let AWS Certificate Manager handle certificate renewals.
-    SSL/TLS certificates provisioned through AWS Certificate Manager are free. You
-    pay only for the AWS resources you create to run your application.
-  url: https://aws.amazon.com/certificate-manager/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_ACM_certificate-manager.png
-  tags: Amazon Web Services,Security,Certificates,Encryption
-- slug: aws-config
-  name: AWS Config
-  description: AWS Config is a fully managed service that provides you with an AWS
-    resource inventory, configuration history, and configuration change notifications
-    to enable security and governance. Config Rules enables you to create rules that
-    automatically check the configuration of AWS resources recorded by AWS Config.
-    With AWS Config, you can discover existing and deleted AWS resources, determine
-    your overall compliance against rules, and dive into configuration details of
-    a resource at any point in time. These capabilities enable compliance auditing,
-    security analysis, resource change tracking, and troubleshooting.
-  url: https://aws.amazon.com/config/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
-  tags: Amazon Web Services,Applications,Regulations,Governance,Security,Authentication
-- slug: aws-directory-service
-  name: AWS Directory Service
-  description: AWS Directory Service for Microsoft Active Directory (Enterprise Edition),
-    also known as AWS Microsoft AD, enables your directory-aware workloads and AWS
-    resources to use managed Active Directory in the AWS Cloud. The Microsoft AD service
-    is built on actual Microsoft Active Directory and does not require you to synchronize
-    or replicate data from your existing Active Directory to the cloud. You can use
-    standard Active Directory administration tools and take advantage of built-in
-    Active Directory features such as Group Policy, trusts, and single sign-on. With
-    Microsoft AD, you can easily join&nbsp;Amazon EC2&nbsp;and&nbsp;Amazon RDS for
-    SQL Server&nbsp;instances to a domain, and use&nbsp;AWS Enterprise IT applications&nbsp;such
-    as&nbsp;Amazon WorkSpaces&nbsp;with Active Directory users and groups.
-  url: https://aws.amazon.com/directoryservice/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
-  tags: Amazon Web Services,Discovery,Authentication,Security
-- slug: aws-inspector
-  name: AWS Inspector
-  description: Amazon Inspector is an automated security assessment service that helps
-    improve the security and compliance of applications deployed on AWS. Amazon Inspector
-    automatically assesses applications for vulnerabilities or deviations from best
-    practices. After performing an assessment, Amazon Inspector produces a detailed
-    list of security findings prioritized by level of severity. To help you get started
-    quickly, Amazon Inspector includes a knowledge base of hundreds of rules mapped
-    to common security best practices and vulnerability definitions. Examples of built-in
-    rules include checking for remote root login being enabled, or vulnerable software
-    versions installed. These rules are regularly updated by AWS security researchers.
-  url: https://aws.amazon.com/inspector/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
-  tags: Amazon Web Services,Security
-- slug: aws-key-management-service
-  name: AWS Key Management Service
-  description: AWS Key Management Service (KMS) is a managed service that makes it
-    easy for you to create and control the encryption keys used to encrypt your data,
-    and uses Hardware Security Modules (HSMs) to protect the security of your keys.
-    AWS Key Management Service is integrated with several other AWS services to help
-    you protect the data you store with these services. AWS Key Management Service
-    is also integrated with AWS CloudTrail to provide you with logs of all key usage
-    to help meet your regulatory and compliance needs.
-  url: https://aws.amazon.com/kms/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg
-  tags: Amazon Web Services,Encryption,Security
-- slug: aws-security-token-service
-  name: AWS Security Token Service
-  description: The AWS Security Token Service (STS) is a web service that enables
-    you to request temporary, limited-privilege credentials for AWS Identity and Access
-    Management (IAM) users or for users that you authenticate (federated users).
-  url: http://docs.aws.amazon.com/STS/latest/APIReference/Welcome.html
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM_AWSSTS.png
-  tags: Amazon Web Services,Authentication,Security
-- slug: aws-snowball
-  name: AWS Snowball
-  description: Snowball is a petabyte-scale data transport solution that uses secure
-    appliances to&nbsp;transfer large amounts of data&nbsp;into and out of the&nbsp;AWS
-    cloud. Using Snowball addresses common challenges with large-scale data transfers
-    including high network costs, long transfer times, and security concerns. Transferring
-    data with Snowball is simple, fast, secure, and can be as little as one-fifth
-    the cost of high-speed Internet. With Snowball, you don&rsquo;t need to write
-    any code or purchase any hardware to transfer your data. Simply create a job in
-    the AWS Management Console and a Snowball appliance will be automatically shipped
-    to you*. Once it arrives, attach the appliance to your local network, download
-    and run the Snowball client to establish a connection, and then use the client
-    to select the file directories that you want to transfer to the appliance. The
-    client will then encrypt and transfer the files to the appliance at high speed.
-    Once the transfer is complete and the appliance is ready to be returned, the E
-    Ink shipping label will automatically update and you can track the job status
-    via&nbsp;Amazon Simple Notification Service (SNS), text messages, or directly
-    in the Console. Snowball uses multiple layers of security designed to protect
-    your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard
-    Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody
-    of your data. Once the data transfer job has been processed and verified, AWS
-    performs a software erasure of the Snowball appliance.
-  url: https://aws.amazon.com/snowball/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
-  tags: Amazon Web Services,Data,Security,Database
-- slug: aws-waf
-  name: AWS WAF
-  description: AWS WAF is a web application firewall that helps protect your web&nbsp;applications
-    from common web exploits that could affect application&nbsp;availability, compromise
-    security, or consume excessive resources. AWS&nbsp;WAF gives you control over
-    which traffic to allow or block to your web&nbsp;applications by defining customizable
-    web security rules. You can use AWS&nbsp;WAF to create custom rules that block
-    common attack patterns, such as SQL&nbsp;injection or cross-site scripting, and
-    rules that are designed for your specific application. New rules can be deployed
-    within minutes, letting you respond&nbsp;quickly to changing traffic patterns.
-    Also, AWS WAF includes a full-featured&nbsp;API that you can use to automate the
-    creation, deployment, and maintenance&nbsp;of web security rules. With AWS WAF
-    you pay only for what you use. AWS WAF pricing is based on how many rules you
-    deploy and how many web requests your web application receives. There are no upfront
-    commitments. You can deploy AWS WAF on either Amazon CloudFront as part of your
-    CDN solution or the Application Load Balancer (ALB) that fronts your web servers
-    or origin servers running on EC2.&nbsp;
-  url: https://aws.amazon.com/waf/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png
-  tags: Amazon Web Services,Security,Firewall
-- slug: azure-key-vault
-  name: Azure Key Vault
-  description: Azure Key Vault offers an easy, cost-effective way to safeguard keys
-    and other secrets in the cloud by using hardware security modules (HSMs). Protect
-    cryptographic keys and small secrets like passwords with keys stored in HSMs.
-    For added assurance, import or generate your keys in HSMs that are certified to
-    FIPS 140-2 level 2 and Common Criteria EAL4+ standards, so that your keys stay
-    within the HSM boundary. Key Vault is designed so that Microsoft does not see
-    or extract your keys. Create new keys for Dev-Test in minutes and migrate seamlessly
-    to production keys managed by security operations. Key Vault scales to meet the
-    demands of your cloud applications without the hassle required to provision, deploy,
-    and manage HSMs and key management software.
-  url: https://azure.microsoft.com/en-us/services/key-vault/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-enhance-data-protection.png
-  tags: Microsoft,Authentication,Security,Management
-- slug: briankrebs
-  name: Brian Krebs
-  description: Brian Krebs worked as a reporter for The Washington Post from 1995
-    to 2009, authoring more than 1,300 blog posts for the Security Fix blog, as well
-    as&nbsp;hundreds of stories&nbsp;for washingtonpost.com and The Washington Post
-    newspaper, including eight front-page stories in the dead-tree edition and a Post
-    Magazine cover piece on botnet operators.&nbsp;
-  url: http://krebsonsecurity.com
-  shorturl: ""
-  twitter: https://twitter.com/briankrebs
-  blog: ""
-  blogrss: http://krebsonsecurity.com/feed/
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/KrebsOnSecurity-Logo.jpg
-  tags: Security,Blog
-- slug: carbon-black
-  name: Carbon Black
-  description: Carbon Black is the top choice among serious security professionals.
-    Carbon Black delivers the industry&rsquo;s most complete endpoint security platform.
-    Whatever your endpoint security needs and goals, and wherever you&rsquo;re starting,
-    we can help.
-  url: https://www.carbonblack.com/
-  shorturl: ""
-  twitter: https://twitter.com/carbonblack_inc
-  blog: https://www.carbonblack.com/blog/
-  blogrss: https://www.carbonblack.com/feed/
-  github: https://github.com/carbonblack
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Carbon-Black-Tag-RGB-full-color.jpg
-  tags: Security
-- slug: cisco-continuum
-  name: Cisco Continuum
-  description: Continuum is a tailored view of the security industry and its most
-    notable stories and news. Here you will find the updates and conversations that
-    are driving the future of the industry. Security is a fascinating, swift moving
-    industry that effects every other, and we are all players within it.
-  url: http://continuum.cisco.com/
-  shorturl: ""
-  twitter: https://twitter.com/ciscosecurity
-  blog: ""
-  blogrss: http://feeds.feedburner.com/cisco/Qfbs
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cisco_Continuum.png
-  tags: Security,Blog
-- slug: cloudflare
-  name: CloudFlare
-  description: CloudFlare, Inc. is a U.S. company that provides a content delivery
-    network and distributed domain name server services, sitting between the visitor
-    and the CloudFlare user's hosting provider, acting as a reverse proxy for websites.
-    Its network protects, speeds up, and improves availability for a website or mobile
-    application with a change in DNS.&nbsp;
-  url: https://www.cloudflare.com
-  shorturl: ""
-  twitter: https://twitter.com/CloudFlare
-  blog: https://blog.cloudflare.com/
-  blogrss: http://blog.cloudflare.com/rss/
-  github: https://github.com/cloudflare
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cloudflare-logo.png
-  tags: DNS,Partners,My API Stack,Encryption,Security,CDN,DNS New
-- slug: cobalt
-  name: Cobalt
-  description: "Cobalt offers you agile time-limited security assessments as well
-    as ongoing bug bounty programs - the choice is yours. With our Bug Bounty Programs,
-    you pay per bug, not per hour, and you set the bounty sizes as you think appropriate.\LYou
-    can choose from public or private programs. We can also manage your program for
-    you."
-  url: https://cobalt.io/
-  shorturl: ""
-  twitter: https://twitter.com/cobalt_io
-  blog: https://cobalt.io/blog
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cobalt-logo.png
-  tags: Security,Security
-- slug: crosscheck-networks
-  name: Crosscheck Networks
-  description: Crosscheck Networks is the global leader in API Testing, Simulation,
-    and Gateway technologies with product deployments in over 50,000 customer networks
-    worldwide. Comprehensive API testing includes functional automation, performance,
-    compliance and security testing with patented dynamic mutation technology.
-  url: http://www.crosschecknet.com/
-  shorturl: ""
-  twitter: ""
-  blog: http://soa-testing.blogspot.com/
-  blogrss: http://feeds.feedburner.com/soatesting?format=xml
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cross-check-networks.png
-  tags: Testing,Security,Virtualization,API Gateways
-- slug: crowdstrike
-  name: Crowdstrike
-  description: CrowdStrike is a cybersecurity technology firm pioneering next-generation
-    endpoint protection, delivered as a single integrated cloud-based solution. CrowdStrike&rsquo;s
-    Falcon platform stops breaches by detecting all attacks types, even malware-free
-    intrusions, providing five-second visibility across all current and past endpoint
-    activity while reducing cost and complexity for customers. CrowdStrike&rsquo;s
-    Falcon platform is delivered via the security industry&rsquo;s only 100% native
-    cloud architecture, integrated with 24/7 managed hunting capabilities and in-house
-    threat intelligence and incident response teams. CrowdStrike&rsquo;s unique Threat
-    Graph harnesses the cloud to instantly analyze data from billions of endpoint
-    events across a global crowdsource community, allowing detection and prevention
-    of attacks based on patented behavioral pattern recognition technology.
-  url: https://www.crowdstrike.com/
-  shorturl: ""
-  twitter: https://twitter.com/CrowdStrike
-  blog: https://www.crowdstrike.com/blog/
-  blogrss: ""
-  github: https://github.com/CrowdStrike
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/crowdstrike-logo.png
-  tags: Security,Consulting
-- slug: dark-reading
-  name: Dark Reading
-  description: Long one of the most widely-read cyber security news sites on the Web,
-    Dark Reading is now the most trusted online community for security professionals
-    like you. Our community members include thought-leading security researchers,
-    CISOs, and technology specialists, along with thousands of other security professionals.
-  url: http://www.darkreading.com/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: http://www.darkreading.com/rss_simple.asp
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dark-reading.png
-  tags: Blog,Security
-- slug: dome9-security
-  name: Dome9 Security
-  description: Dome9 is the leading cloud firewall management service.Their patent-pending
-    security automation creates a strong, front-line defense that stops zero-day vulnerabilities
-    and exploits, secures remote access, and centralizes policy management. Available
-    for the enterprise and hosting providers, Dome9 automates security policy management
-    for cloud, dedicated, and Virtual Private Servers (VPS). Their sophisticated security
-    management platform controls Amazon EC2 &amp; VPC Security Groups, as well as
-    any OpenStack, CloudStack, Eucalyptus, and VMware vCloud-based private and public
-    clouds.
-  url: http://dome9.com
-  shorturl: ""
-  twitter: https://twitter.com/Dome9
-  blog: http://www.dome9.com/blog
-  blogrss: http://www.dome9.com/feed?cat=22
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1834_logo.jpg
-  tags: Cloud,Cloud,Security
-- slug: dr.-eric-cole
-  name: Dr. Eric Cole
-  description: ""
-  url: http://drericcole.blogspot.com/
-  shorturl: ""
-  twitter: ""
-  blog: http://drericcole.blogspot.com
-  blogrss: http://feeds.feedburner.com/WordpressGuerrilla
-  github: ""
-  image: ""
-  tags: Security,Blog
-- slug: duo-security
-  name: Duo Security
-  description: Duo Security enables protected login and transactional functions for
-    smartphones users. It does this by sending users authorization verification from
-    web-based platform to their phones, in addition to their login. Their REST API
-    provides integration to their two-factor authentication process. It is a RESTful
-    API, and returns JSON (defaut), BSON, and XML responses.
-  url: http://www.duosecurity.com
-  shorturl: ""
-  twitter: https://twitter.com/duosec
-  blog: http://blog.duosecurity.com
-  blogrss: https://www.duosecurity.com/feed
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/duo/duoLogo-web.png
-  tags: Two factor authentication,Authentication,Mobile,Security,Security
-- slug: errata-security
-  name: Errata Security
-  description: ""
-  url: http://blog.erratasec.com/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: http://blog.erratasec.com/feeds/posts/default
-  github: ""
-  image: ""
-  tags: Security,Blog
-- slug: fallible
-  name: Fallible
-  description: We are a group of hackers passionate about improving the security posture
-    of companies, tech startups in particular. We have previously worked at some of
-    the biggest internet companies, enterprise software and tech startups in domains
-    of video, ads, media, distributed systems and machine learning. In the last few
-    months, we have discovered severe vulnerabilities in almost all Indian startups
-    including Ola, Zomato, Jabong, Bigbasket etc. We are based out of Bangalore, India.
-  url: https://fallible.co/
-  shorturl: ""
-  twitter: https://twitter.com/fallible_inc
-  blog: https://fallible.co/blog/
-  blogrss: https://fallible.co/atom.xml
-  github: https://github.com/FallibleInc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Fallible_-_Secure_your_startup.png
-  tags: Security
-- slug: farsight-security
-  name: Farsight Security
-  description: Get critical, comprehensive contextual information needed by Security,
-    Security Operations Center (SOC) and Incident Response (IR) teams to take appropriate
-    actions to investigate, mitigate and avoid threats. As early as 2007, Farsight
-    Security's founders, led by Internet pioneer Dr. Paul Vixie, recognized that real-time,
-    ground-truth observations of global Internet activity, particularly passive observations
-    of the use of the Domain Name System (DNS), could help the security community
-    immensely. DNS, which maps domain names to IP addresses and other Internet infrastructure
-    resources, is the lifeline of the Internet.
-  url: https://www.farsightsecurity.com/
-  shorturl: ""
-  twitter: https://twitter.com/FarsightSecInc
-  blog: https://www.farsightsecurity.com/Blog/
-  blogrss: https://www.farsightsecurity.com/Blog/index.rss
-  github: https://github.com/farsightsec
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/farsight-logo.svg
-  tags: Security
-- slug: firebase
-  name: Firebase
-  description: Firebase is a mobile platform that helps you quickly&nbsp;develop&nbsp;high-quality
-    apps,&nbsp;grow&nbsp;your user base, and&nbsp;earn&nbsp;more money. Firebase is
-    made up of complementary features that you can mix-and-match to fit your needs.
-  url: https://firebase.google.com/
-  shorturl: ""
-  twitter: https://twitter.com/firebase
-  blog: https://firebase.googleblog.com/
-  blogrss: http://firebase.googleblog.com/feeds/posts/default?alt=rss
-  github: https://github.com/firebase
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/firebase-logo.png
-  tags: Real Time,API LIfeycle,Database,Command Line Interface,Links,Google APIs,Security,Testing,Virtualization
-- slug: forum-systems
-  name: Forum Systems
-  description: Forum Systems is the global leader in API Security Management with
-    industry-certified, patented, and proven products deployed in the most rigorous
-    and demanding customer environments worldwide for over 15 years.
-  url: http://www.forumsys.com/en/homepage/
-  shorturl: ""
-  twitter: https://twitter.com/ForumSystems
-  blog: http://www.forumsys.com/en/blog/
-  blogrss: http://www.forumsys.com/en/feed/
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/forum-systems.gif
-  tags: Security
-- slug: google-safe-browsing
-  name: Google Safe Browsing
-  description: The Safe Browsing APIs (v4) let your client applications check URLs
-    against Google's constantly updated lists of unsafe web resources. Examples of
-    unsafe web resources are social engineering sites (phishing and deceptive sites)
-    and sites that host malware or unwanted software. Any URL found on a Safe Browsing
-    list is considered unsafe.
-  url: https://developers.google.com/safe-browsing/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/SafeBrowsing_Icon.png
-  tags: Google APIs,Links,Privacy,Security
-- slug: google-site-verification
-  name: Google Site Verification
-  description: The Google Site Verification API lets you develop applications or services
-    that automate the process of verifying that the authenticated user owns a domain
-    or website. This is important, since some Google services can only be used by
-    site owners.
-  url: https://developers.google.com/site-verification/
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-site-verification-500x362.png
-  tags: Google APIs,Links,DNS,Security
-- slug: idrive-online-backup
-  name: IDrive Online Backup
-  description: Built with developers in mind, IDrive Encrypted Versioned file System
-    is a powerful, easy to use service that provides secure, encrypted and versioned
-    cloud storage. Unlike other generic storage systems, IDrive EVS has storage encryption,
-    versioning and block level incremental transfers built in both-ways for uploads
-    and downloads. This gives you the freedom to develop innovative applications to
-    customize your Backup, Storage, Sync, Sharing, Disaster recovery and more that
-    are highly efficient, scalable and require minimal coding. It provides powerful
-    APIs for uploading, retrieving, managing data and storage, at any time, from anywhere
-    on the Internet.
-  url: http://evs.idrive.com
-  shorturl: ""
-  twitter: https://twitter.com/IDriveBackup
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idrive-logo.jpeg
-  tags: SMS,Security,Storage,Storage,Storage
-- slug: infosec-institute
-  name: Infosec Institute
-  description: "InfoSec Institute was founded in 1998 by an expert team of information
-    security instructors. Their goal was to build a business by offering the best
-    possible training experience for students. We felt that by providing the best
-    possible hands on training, the most practical for today\u2019s demanding workplace
-    requirements, that the business would grow by leaps and bounds."
-  url: https://www.infosecinstitute.com/
-  shorturl: ""
-  twitter: https://twitter.com/InfosecEdu
-  blog: http://resources.infosecinstitute.com/
-  blogrss: http://resources.infosecinstitute.com/feed/
-  github: ""
-  image: ""
-  tags: Security,Security News
-- slug: it-security-guru
-  name: IT Security Guru
-  description: "The IT Security Guru offers a daily news digest of all the best breaking
-    IT security news stories first thing in the morning! Rather than you having to
-    trawl through all the news feeds to find out what\u2019s cooking, you can quickly
-    get everything you need from this site!"
-  url: http://www.itsecurityguru.org/
-  shorturl: ""
-  twitter: https://twitter.com/IT_SecGuru
-  blog: ""
-  blogrss: http://www.itsecurityguru.org/feed/
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/itsecurityguru.jpg
-  tags: Security,Blogs
-- slug: "kevin-townsend\u2019s-it-security"
-  name: "Kevin Townsend\u2019s IT Security"
-  description: ""
-  url: http://itsecurity.co.uk/
-  shorturl: ""
-  twitter: https://twitter.com/kevtownsend/
-  blog: http://itsecurity.co.uk/topic/news/
-  blogrss: http://feeds.feedburner.com/ITsecurity.co.uk/feed/
-  github: ""
-  image: ""
-  tags: Security,Blog
-- slug: light-blue-touchpaper
-  name: Light Blue Touchpaper
-  description: Light Blue Touchpaper is a weblog written by researchers in the Security
-    Group at the University of Cambridge Computer Laboratory. Read here brief and
-    timely essays on recent developments and topics related to computer security,
-    including pointers to interesting new research results and literature, opinions
-    on current developments, commentary on media coverage and other musings.
-  url: https://www.lightbluetouchpaper.org
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: https://www.lightbluetouchpaper.org/feed/
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Light_Blue_Touchpaper___Security_Research__Computer_Laboratory__University_of_Cambridge.png
-  tags: Security,Blog
-- slug: liquidmatrix
-  name: Liquidmatrix
-  description: "I\u2019m a security practitioner that has been in computer, network
-    & information security for almost two decades now. I have worked in the financial,
-    military, government, critical infrastructure and health care verticals to name
-    a few. "
-  url: https://www.liquidmatrix.org/blog/
-  shorturl: ""
-  twitter: https://twitter.com/liquidmatrix
-  blog: ""
-  blogrss: http://feeds.feedburner.com/Liquidmatrix
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Home___Liquidmatrix_Security_Digest.png
-  tags: Blog,Security
-- slug: managedmethods-inc
-  name: ManagedMethods Inc
-  description: Managed Methods Inc. develops and sells solutions for the governance
-    of cloud services and SOA environments. The company focuses on providing tools
-    that enable visibility and control of Web services in the production environment.
-    It offers CloudGate, a hosted cloud services management solution that delivers
-    security, monitoring, and governance that gives control of Web-based services
-    deployed in public cloud infrastructures. The company also provides JaxView, an
-    SOA management product that provides visibility and control for SOA, and cloud
-    services and APIs.&nbsp;
-  url: http://managedmethods.com/
-  shorturl: ""
-  twitter: https://twitter.com/managedmethods
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/managed-methods-logo.png
-  tags: Security
-- slug: metacert
-  name: MetaCert
-  description: With headquarters in San Francisco, MetaCert is the first and only
-    company to provide a security solution that protects consumers from mobile malware
-    and phishing attacks on the app-layer. MetaCert is also the first and only company
-    to provide a Security API to help developers stop pornography from appearing inside
-    their apps.
-  url: https://metacert.com/
-  shorturl: ""
-  twitter: https://twitter.com/MetaCert
-  blog: https://metacert.com/blog/
-  blogrss: ""
-  github: https://github.com/metacert
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/meta-cert-logo.png
-  tags: Security,Links,Security
-- slug: metapacket
-  name: Metapacket
-  description: We verify the source of each session and validate that it was generated
-    by humans in your network. Automated processes are whitelisted and anything remaining
-    is malware. Unlike other solutions that rely on intelligence or signatures, our
-    solution can detect and block zero-day malware and the most advanced persistent
-    threats to date. Out of the box would have detected and prevented hacks such as
-    ones to the DNC,OPM,Sony, and others. Metapacket automatically blocks malware
-    and exploitation attempts including from unknown or zero-day threats and generates
-    highly-focused and clear incident reports.
-  url: http://metapacket.com/
-  shorturl: ""
-  twitter: https://twitter.com/Metapacket
-  blog: ""
-  blogrss: ""
-  github: https://github.com/metapacket
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/metapacket.png
-  tags: Security,Network
-- slug: miicard
-  name: miiCard
-  description: miiCard (My Internet Identity) is a global Identity as a Service solution
-    that proves &nbsp;&lsquo;you are who you say you are&rsquo;, &nbsp;purely online,
-    in minutes and to the same level as a physical passport or photo ID check. &nbsp;Through
-    a patented process that leverages the trust between an individual and their financial
-    institution, miiCard establishes identity to Level of Assurance 3+ and meets Know
-    Your Customer and Anti-Money Laundering identity guidelines, enabling the sale
-    of regulated products and services purely online. &nbsp;Combining online identity
-    proofing with strong authentication, miiCard provides the trust and security required
-    for people and businesses to meet and transact with confidence in a purely digital
-    environment.
-  url: http://www.miicard.com
-  shorturl: ""
-  twitter: https://twitter.com/#!/miicard
-  blog: http://www.miicard.com/blog
-  blogrss: http://www.miicard.com/rss.xml
-  github: https://github.com/miiCard
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/847_logo.png
-  tags: Identity,Security,API United Kingdom,Identity,Authentication
-- slug: mollom
-  name: Mollom
-  description: Mollom is a web service that analyzes the quality of content posted
-    to websites. This includes comments, contact-form messages, blogs, and forum posts.
-    Mollom screens all contributions before they are posted to participating websites.
-  url: https://mollom.com/
-  shorturl: ""
-  twitter: https://twitter.com/mollom
-  blog: https://mollom.com/blog
-  blogrss: https://mollom.com/rss.xml
-  github: https://github.com/Mollom
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/440_logo.jpg
-  tags: Security,Spam,Content,Quality
-- slug: opendns
-  name: OpenDNS
-  description: OpenDNS is a company and service which extends the Domain Name System
-    (DNS) by adding features such as phishing protection and optional content filtering
-    to traditional recursive DNS services. The company hosts a cloud computing security
-    product suite, Umbrella, designed to protect enterprise customers from malware,
-    botnets, phishing, and targeted online attacks.&nbsp;
-  url: https://www.opendns.com/
-  shorturl: ""
-  twitter: https://twitter.com/OpenDNS
-  blog: https://blog.opendns.com/
-  blogrss: https://blog.opendns.com/feed/
-  github: https://github.com/opendns
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/opendns-logo.png
-  tags: DNS,Security,DNS New
-- slug: owasp-api-security-project
-  name: OWASP API Security Project
-  description: This project is designed to address the ever-increasing number of organizations
-    that are deploying potentially sensitive APIs as part of their software offerings.
-    These APIs are used for internal tasks and to interface with third parties. Unfortunately,
-    many APIs do not undergo the rigorous security testing that would render them
-    secure from attack.
-  url: https://www.owasp.org/index.php/OWASP_API_Security_Project
-  shorturl: ""
-  twitter: ""
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/OWASP_API_Security_Project_-_OWASP.png
-  tags: Security
-- slug: oxford-journal-of-cybersecurity
-  name: Oxford Journal of Cybersecurity
-  description: ""
-  url: http://cybersecurity.oxfordjournals.org/
-  shorturl: ""
-  twitter: https://twitter.com/oxfordjournals
-  blog: ""
-  blogrss: http://cybersecurity.oxfordjournals.org/rss/current.xml
-  github: ""
-  image: ""
-  tags: Security,Blog
-- slug: quttera
-  name: Quttera
-  description: Quttera Website Malware Scanner is a website security service that
-    scans websites for malicious and suspicious activity. The Quttera Website Malware
-    API provides real-time website malware monitoring and scanning that allow to act
-    quickly upon active threat detection.&nbsp;
-  url: http://quttera.com/quttera-web-malware-scanner-api
-  shorturl: ""
-  twitter: https://twitter.com/quttera
-  blog: http://blog.quttera.com
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/quttera-logo.png
-  tags: Malware,Security
-- slug: redcanary
-  name: redcanary
-  description: Red Canary continuously monitors your endpoints, reviews suspicious
-    activity, eliminates false positives and provides the tools and intelligence for
-    rapid response.&nbsp;Red Canary was founded to bring world-class endpoint threat
-    detection and response to every business. We were using the Carbon Black endpoint
-    data recorder for incident response. We realized that the data used for incident
-    response was ideal for detecting cyber threats.
-  url: https://www.redcanary.co/
-  shorturl: ""
-  twitter: https://twitter.com/redcanaryco
-  blog: https://www.redcanary.co/blog/
-  blogrss: http://www.redcanary.co/feed
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/red-canary-logo.png
-  tags: Security,Security,Monitoring
-- slug: rest-secured
-  name: Rest Secured
-  description: Rest Secured is a service that helps you easily verify the security
-    of your APIs. It reduces the cost typically associated with expensive audits by
-    leveraging automation, therefore minimizing the manual labor required by traditional
-    penetration testing suites. Rest Secured is used by developers and testing teams.
-    It is designed to be user friendly and requires no prior knowledge about security.
-  url: http://www.restsecured.xyz/
-  shorturl: ""
-  twitter: https://twitter.com/rest_secured
-  blog: https://blog.restsecured.xyz/
-  blogrss: https://blog.restsecured.xyz/feed
-  github: https://github.com/restsecured
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rest-secured-logo.png
-  tags: Security,New
-- slug: riskiq
-  name: RiskIQ
-  description: We enable security teams to expand their security programs outside
-    the firewall&reg; to address the growing challenge of external threats targeting
-    the enterprise, its customers, and employees. We&rsquo;re used by leading financial
-    institutions, insurance providers, and consumers. B2B brands use RiskIQ to protect
-    themselves and their users from code-level threats, malware, phishing, social
-    media attacks and fraud.
-  url: https://www.riskiq.com
-  shorturl: ""
-  twitter: https://twitter.com/riskiq
-  blog: https://www.riskiq.com/blog/
-  blogrss: https://www.riskiq.com/feed/
-  github: https://github.com/RiskIQ
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/RiskIQ-Logo.png
-  tags: Security
-- slug: sapience
-  name: Sapience
-  description: Sapience allows you to create an API profile by importing existing
-    API definition - we support over 10 most common formats including Swagger, API
-    Blueprint, Postman etc. Alternatively it's possible to create API profile manually
-    using our wizard.
-  url: https://sapience.io/
-  shorturl: ""
-  twitter: https://twitter.com/sapienceio
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sapience.png
-  tags: Security
-- slug: scrypt
-  name: scrypt
-  description: Designed for the rigors of healthcare, Sfax enables you to send, receive,
-    annotate, digitally sign and manage faxes without printing a single physical document.
-    All your documents are protected by military-grade encryption within our SSAE16
-    Type 2 data centers.
-  url: http://www.sfaxme.com/
-  shorturl: ""
-  twitter: https://twitter.com/scryptinc
-  blog: http://www.sfaxme.com/community/blog/
-  blogrss: http://www.sfaxme.com/feed/
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sfax.png
-  tags: Fax,Security,Messaging
-- slug: secful
-  name: SECful
-  description: Secful closes the API security gap with a new approach. Providing comprehensive
-    prevention of API attacks and precise real-time detection, Secful helps enterprises
-    achieve peace of mind.
-  url: http://www.secful.com/
-  shorturl: ""
-  twitter: https://twitter.com/Secful
-  blog: ""
-  blogrss: ""
-  github: https://github.com/SECful
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/secful-logo.png
-  tags: Security
-- slug: shape-security
-  name: Shape Security
-  description: Global 2000 corporations are currently experiencing millions of automated
-    attacks per day on web and mobile applications. Shape is the industry's leading
-    real-time adaptive application defense platform. Designed for rapid deployment,
-    Shape protects organizations against the most advanced automated attacks that
-    evade traditional security defenses.
-  url: https://www.shapesecurity.com
-  shorturl: ""
-  twitter: https://twitter.com/shapesecurity
-  blog: https://www.shapesecurity.com/blog.html
-  blogrss: ""
-  github: ""
-  image: https://s3.amazonaws.com/kinlane-productions/shape-security/Shape_Security_logo_from_2017.png
-  tags: Security
-- slug: sift-science
-  name: Sift Science
-  description: Sift Science fights fraud with machine learning. Machine learning teaches
-    a computer to mine data for statistical patterns, and continuously learn and adapt
-    as new data streams in. With simple APIs that take minutes to integrate, an online
-    business can leverage the latest in large-scale machine learning to protect themselves
-    from fraud. Chargebacks, spammers, account takeovers, etc. Online businesses send
-    Sift Science user events, which are mined for identity, behavioral, and network
-    patterns that correspond to past fraud. Sift Science also pools fraud patterns
-    across its network of customers. The network strengthens as more data streams
-    in. Customers can also &ldquo;train their own model&rdquo; and tailor their results
-    via a simple interface.
-  url: https://siftscience.com/
-  shorturl: ""
-  twitter: https://twitter.com/siftscience
-  blog: https://blog.siftscience.com
-  blogrss: ""
-  github: https://github.com/siftscience
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1475_logo.png
-  tags: Security,Utility,Analysis,Security,Commerce,Target,Commerce
-- slug: signifyd
-  name: Signifyd
-  description: Signifyd helps e-commerce businesses sell confidently while protecting
-    them from fraud. We simplify fraud prevention with tools and expertise built on
-    our years of experience at PayPal, RSA, Fraud Sciences and FedEx. We know how
-    to interpret a user's digital footprint and bridge the gap between Online and
-    Offline Identity. And we know how to do it without creating friction for legitimate
-    users.
-  url: https://www.signifyd.com/
-  shorturl: ""
-  twitter: https://twitter.com/signifyd
-  blog: http://blog.signifyd.com
-  blogrss: http://signifydblog.com/feed
-  github: https://github.com/signifyd
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1941_logo.png
-  tags: Security,Target,Commerce
-- slug: smartbear-software
-  name: SmartBear Software
-  description: SmartBear Software provides tools for over 100,000 software professionals
-    to build, test, and monitor some of the best software applications and websites
-    anywhere on the desktop, mobile and in the cloud.
-  url: http://smartbear.com/
-  shorturl: ""
-  twitter: https://twitter.com/smartbear
-  blog: http://blog.smartbear.com/
-  blogrss: http://feeds.feedburner.com/smartbear
-  github: https://github.com/SmartBear
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/SmartBear-Logo.png
-  tags: Security,Testing,Monitoring,Virtualization,Performance,API LIfeycle
-- slug: stackpath
-  name: StackPath
-  description: StackPath is the intelligent web services platform for security, speed
-    and scale. It is the first platform to unify enterprise security solutions by
-    leveraging collaborative intelligence that makes each service smarter and more
-    secure with every threat detected, in addition to vastly improving the customer
-    experience. More than 30,000 customers, ranging from Fortune 100 companies to
-    early stage startups already use StackPath technology. Headquartered in Dallas,
-    Texas, StackPath has offices across the U.S. and internationally.
-  url: https://www.stackpath.com
-  shorturl: ""
-  twitter: https://twitter.com/stackpath
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Stackpath.jpg
-  tags: Security
-- slug: stormpath
-  name: Stormpath
-  description: Stormpath is an authentication and user management service that helps
-    development teams quickly and securely build web and mobile applications and services.
-    With the Stormpath API, you can add a user management layer to simple or complex
-    applications, with little custom code.
-  url: http://www.stormpath.com/
-  shorturl: ""
-  twitter: https://twitter.com/gostormpath
-  blog: http://www.stormpath.com/blog/
-  blogrss: http://www.stormpath.com/blog/feed
-  github: https://github.com/stormpath
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1170_logo.png
-  tags: Identity,Security,Users,Authentication,User,Identity,API LIfeycle,Target,Service
-    Level Agreement,Reliability
-- slug: thehive
-  name: TheHive
-  description: A scalable open source and free security incident response platform
-    designed to make life easier for SOCs, CSIRTs, CERTs and any information security
-    practitioner dealing with security incidents that need to be investigated and
-    acted upon swiftly.
-  url: https://thehive-project.org/
-  shorturl: ""
-  twitter: https://twitter.com/TheHive_Project
-  blog: https://blog.thehive-project.org/
-  blogrss: https://blog.thehive-project.org/feed/
-  github: https://github.com/CERT-BDF
-  image: ""
-  tags: Security
-- slug: threatconnect
-  name: ThreatConnect
-  description: ThreatConnect, Inc. is the leading provider of advanced threat intelligence
-    products and services including ThreatConnect&reg;, the most comprehensive Threat
-    Intelligence Platform (TIP) on the market. ThreatConnect delivers a single platform
-    in the cloud and on-premises to effectively aggregate, analyze, and act to counter
-    sophisticated cyber-attacks. Leveraging advanced analytics capabilities ThreatConnect
-    offers a superior understanding of relevant cyber threats to business operations.&nbsp;
-  url: https://www.threatconnect.com/
-  shorturl: ""
-  twitter: https://twitter.com/ThreatConnect
-  blog: https://www.threatconnect.com/blog/
-  blogrss: https://www.threatconnect.com/feed/
-  github: https://github.com/ThreatConnect-Inc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/threatconnect-logo.png
-  tags: Security,Cybersecurity
-- slug: threatpost
-  name: Threatpost
-  description: Threatpost, The Kaspersky Lab security news service, is an independent
-    news site which is a leading source of information about IT and business security
-    for hundreds of thousands of professionals worldwide.
-  url: https://threatpost.com/
-  shorturl: ""
-  twitter: ""
-  blog: https://threatpost.com/feed/
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Threatpost___The_first_stop_for_security_news.png
-  tags: Blog,Security
-- slug: umbc-ebiquity-research-group
-  name: UMBC Ebiquity Research Group
-  description: The UMBC Ebiquity Research Group consists of faculty and students from
-    the Department of Computer Science and Electrical Engineering (CSEE) of University
-    of Maryland, Baltimore County (UMBC), located in Baltimore MD.
-  url: http://ebiquity.umbc.edu/
-  shorturl: ""
-  twitter: https://twitter.com/ebiquity/
-  blog: http://ebiquity.umbc.edu/blogger/
-  blogrss: http://feeds.feedburner.com/ebiquityStream
-  github: https://github.com/Ebiquity
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/UMBC
-    Ebiquity Lab.png
-  tags: Security,Surveillance,Trust
-- slug: voicevault
-  name: VoiceVault
-  description: Biometric Security Ltd. develops and markets biometric voice verification
-    system. It offers VoiceVault, which verifies an individual&rsquo;s identity on
-    phone or Internet, and develops voiceprints. The company's product is used for
-    business applications, including procurement, payment authorization, and corporate
-    security. It also serves banks, insurers, and government agencies.
-  url: http://www.voicevault.com/developers/
-  shorturl: ""
-  twitter: https://twitter.com/#!/voicevault
-  blog: ""
-  blogrss: http://www.voicevault.com/index.php/tools/blocks/problog_list/rss?cID=188
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1211_logo.png
-  tags: Biometric,Security,Verification,Biometrics,Telco
-- slug: white-ops
-  name: White Ops
-  description: White Ops, Inc. provides online fraud detection solutions. It offers
-    Real Time Dashboard, a solution that enables users to identify, track, and classify
-    automated fraud in real time; and Custom Reporting, a solution that provides traffic
-    analysis reports. The company also provides solutions for that detection of automated
-    or remote access by malware-infected nodes, including fraudulent information access
-    with user credentials, identification of resource-based DDOS, and differentiation
-    between benign and malicious client-based malware.&nbsp;
-  url: http://www.whiteops.com
-  shorturl: ""
-  twitter: https://twitter.com/whiteops
-  blog: http://www.whiteops.com/insights
-  blogrss: ""
-  github: https://github.com/whiteops-dot-com
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/whiteops-logo.png
-  tags: Security,Bots
-- slug: wickr
-  name: Wickr
-  description: Wickr is a secure communications company founded on the belief that
-    access to private communications is a fundamental human right that enables innovation
-    and economic growth, while also empowering democracy. We are committed to constantly
-    improving our best-in-class encryption technology to thwart sophisticated criminal
-    attacks and cyber threats. Our partners and users face these threats daily. Protecting
-    their business data and communications is our purpose.&nbsp;
-  url: https://wickr.com/
-  shorturl: ""
-  twitter: https://twitter.com/mywickr
-  blog: https://wickr.com/about-us/blog
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wickr-logo.png
-  tags: Security
-- slug: yubico
-  name: Yubico
-  description: Yubico offers best-of-breed authentication solutions across mobile
-    and desktop devices. The company's flagship product, the YubiKey&reg; is an innovative,
-    driverless hardware device that can work seamlessly over NFC and USB to offer
-    anytime, anywhere authentication across a range of consumer and enterprise applications.
-    Yubico offers disruptive open source software and cloud based solutions allowing
-    enterprises to quickly adopt YubiKey based strong authentication for their employees,
-    partners and consumers.
-  url: http://www.yubico.com/web-api-clients
-  shorturl: ""
-  twitter: https://twitter.com/yubico
-  blog: ""
-  blogrss: ""
-  github: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yubico-logo.png
-  tags: Cloud,Security,TXT
-...
+- slug: apache-avro
+  name: Apache Avro
+  description: >-
+    Apache Avro is a data serialization system. Avro relies on schemas. When
+    Avro data is read, the schema used when writing it is always present. This
+    permits each datum to be written with no per-value overheads, making
+    serialization both fast and small. This also facilitates use with dynamic,
+    scripting languages, since data, together with its schema, is fully
+    self-describing.
+  url: 'https://avro.apache.org/docs/current/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-avro.png
+  tags: Definitions
+- slug: api-blueprint
+  name: API Blueprint
+  description: >-
+    API Blueprint is a documentation-oriented API description language. A couple
+    of semantic assumptions over the plain Markdown. API Blueprint is perfect
+    for designing your Web API and its comprehensive documentation but also for
+    quick prototyping and collaboration. It is easy to learn and even easier to
+    read &ndash; after all it is just a form of plain text.
+  url: 'https://apiblueprint.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/apiblueprint'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/apiaryio/api-blueprint'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiblueprint-logo-2.png
+  tags: Definitions
+- slug: api-transformer
+  name: API Transformer
+  description: >-
+    Transform API Descriptions from/to various formats e.g., Swagger, API
+    Blueprint, RAML, WADL, Google Discovery, I/O Docs. Please contact us for
+    production and high volume usage.
+  url: 'https://apitransformer.com/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-transformer-screenshot.png
+  tags: 'Definitions,Conversion,My API Stack'
+- slug: elastic-path
+  name: Elastic Path
+  description: >-
+    Elastic Path builds commerce software that powers the next generation of
+    digital experiences, helping businesses generate more revenue from their
+    goods, services, and content. Our products, including Commerce Engine,
+    Cortex, and Subscriptions, enable companies to unite discovery, buying, and
+    consumption into outstanding customer experiences that drive more engagement
+    and conversion.
+  url: 'http://www.elasticpath.com'
+  short_url: ''
+  twitter: 'https://twitter.com/elasticpath'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/elasticpath'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg
+  tags: 'Enterprise,Retail,Commerce,Hypermedia,API LIfeycle,Definitions'
+- slug: frictionless-data
+  name: Frictionless Data
+  description: >-
+    Data Packages are a lightweight containerization format for data. They
+    provide the foundation for frictionless data transport.&nbsp;Tools and
+    integrations to make it easy to integrate Data Packages into your data
+    processing and publishing workflows.&nbsp;Learn how to get started using and
+    developing with Data Packages through our guides, tutorials and
+    documentation.
+  url: 'http://specs.frictionlessdata.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/frictionlessdata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/frictionlessdata-logo.png
+  tags: 'Data,Schema,Definitions'
+- slug: postman
+  name: Postman
+  description: >-
+    Postman on Chrome is the most efficient way to test, develop and document
+    APIs. Create complex requests, go back in time and view results in a
+    beautiful way. Postman has more than 80 features to help you at every
+    step.&nbsp;Our user base is growing rapidly and with more tools in the
+    pipeline, Postman aims to provide the most comprehensive API development and
+    testing solution to developers.
+  url: 'http://www.getpostman.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/postmanclient'
+  blog: 'http://blog.getpostman.com/'
+  blog_rss: 'http://blog.getpostman.com/index.php/feed/'
+  github: 'https://github.com/postmanlabs'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
+  tags: 'Clients, Testing, Definitions'
+- slug: google-api-discovery-service
+  name: Google API Discovery Service
+  description: >-
+    You can use the Google API Discovery Service to build client libraries, IDE
+    plugins, and other tools that interact with Google APIs. It provides a
+    lightweight, JSON-based API that exposes machine-readable metadata about
+    Google APIs.
+  url: 'https://developers.google.com/discovery/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 9.06.47 PM.png
+  tags: 'Discovery,Google APIs,Definitions'
+- slug: odata.org
+  name: OData
+  description: >-
+    OData (Open Data Protocol) is an OASIS standard that defines the best
+    practice for building and consuming RESTful APIs. OData helps you focus on
+    your business logic while building RESTful APIs without having to worry
+    about the approaches to define request and response headers, status codes,
+    HTTP methods, URL conventions, media types, payload formats and query
+    options etc.
+  url: 'http://www.odata.org/'
+  short_url: 'http://apis.how/byirz5zgt7'
+  twitter: 'https://twitter.com/odataorg'
+  blog: 'http://www.odata.org/blog/'
+  blog_rss: ''
+  github: 'https://github.com/odata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/odata-logo.png
+  tags: Definitions
+- slug: openapi-spec
+  name: OpenAPIs
+  description: >-
+    The Open API Initiative (OAI) was created by a consortium of forward-looking
+    industry experts who recognize the immense value of standardizing on how
+    REST APIs are described. As an open governance structure under the Linux
+    Foundation, the OAI is focused on creating, evolving and promoting a vendor
+    neutral description format. SmartBear Software is donating the Swagger
+    Specification directly to the OAI as the basis of this Open Specification.
+    &nbsp;
+  url: 'https://openapis.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/openapispec'
+  blog: 'https://openapis.org/news-faq/blog'
+  blog_rss: 'https://www.openapis.org/feed'
+  github: 'https://github.com/OAI'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oai-logo.png
+  tags: Definitions
+- slug: raml
+  name: RAML
+  description: >-
+    RESTful API Modeling Language (RAML) is a simple and succinct way of
+    describing practically-RESTful APIs. It encourages reuse, enables discovery
+    and pattern-sharing, and aims for merit-based emergence of best practices.
+    The goal is to help our current API ecosystem by solving immediate problems
+    and then encourage ever-better API patterns. RAML is built on broadly-used
+    standards such as YAML and JSON and is a non-proprietary, vendor-neutral
+    open spec.
+  url: 'http://raml.org/'
+  short_url: ''
+  twitter: ''
+  blog: 'http://open-raml.blogspot.com/'
+  blog_rss: 'http://open-raml.blogspot.com/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/raml-logo.jpg
+  tags: Definitions
+- slug: ''
+  name: RESTdesc
+  description: >-
+    Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture
+    the functionality of hypermedia APIs, so automated agents can use them.
+    Despite their powerful capabilities, RESTdesc descriptions are easy to
+    master. Description is not a goal in itself: you want your API to be used.
+    See how RESTdesc opens up your API for discovery, based on its functional
+    characteristics.
+  url: 'http://restdesc.org/'
+  short_url: 'http://apis.how/vymksgxgfl'
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restdesc-logo.png
+  tags: Definitions
+- slug: schema.org
+  name: Schema.org
+  description: >-
+    Schema.org is a collaborative, community activity with a mission to create,
+    maintain, and promote schemas for structured data on the Internet, on web
+    pages, in email messages, and beyond. Schema.org vocabulary can be used with
+    many different encodings, including RDFa, Microdata and JSON-LD.&nbsp;
+  url: 'http://schema.org'
+  short_url: ''
+  twitter: ''
+  blog: 'http://blog.schema.org/'
+  blog_rss: 'http://blog.schema.org/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schema-org-logo.jpeg
+  tags: 'Definitions, Schema'
+- slug: u.s.-data-federation
+  name: U.S. Data Federation
+  description: >-
+    The U.S. Data Federation supports data interoperability and harmonization
+    across Federal, state, and local government agencies by highlighting common
+    data formats, API specifications, and metadata vocabularies.
+  url: 'http://federation.data.gov/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usdf-logo.png
+  tags: 'Federal Government,Definitions'

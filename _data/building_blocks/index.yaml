@@ -1,822 +1,165 @@
-- building_block_id: security-practices-page
-  type: Security
-  category: Overview
-  name: Security Practices Page
-  description: >-
-    Publishing a single page that covers what the security approaches are for a
-    platform, providing as much detail as possible about what practices are
-    employed, what the schedule looks like, and what results of security history
-    is.
-  image: ''
-  tags: Security
-- building_block_id: security-contact
-  type: Security
-  category: Overview
-  name: Security Contact
-  description: >-
-    Who to contact in the event of a security incident that concerns the
-    platform. Providing a phone number, email, or form that can be submitted.
-  image: ''
-  tags: Security
-- building_block_id: session-management
-  type: Security
-  category: Auth Considerations
-  name: Session Management
-  description: >-
-    API should pass session-based authentication, either by session token via a
-    POST or by API key as a POST body argument or as a cookie, avoiding
-    usernames, passwords, session tokens, and API keys in the URL
-  image: ''
-  tags: Security
-- building_block_id: session-state
-  type: Security
-  category: Auth Considerations
-  name: Session State
-  description: >-
-    Many web services are written to be as stateless as possible, usually ending
-    up with a state blob being sent as part of the transaction.
-  image: ''
-  tags: Security
-- building_block_id: antifarming
-  type: Security
-  category: Auth Considerations
-  name: Anti-Farming
-  description: >-
-    APIs are regularly farmed for the data they contain, and while there's no
-    technical method of preventing this use, having a clear business model, and
-    API management strategy works to minimize.
-  image: ''
-  tags: Security
-- building_block_id: protect-http-methods
-  type: Security
-  category: Auth Considerations
-  name: Protect HTTP Methods
-  description: >-
-    Making sure the incoming HTTP method is valid for the session token/API key
-    and associated resource collection, action, and record.
-  image: ''
-  tags: Security
-- building_block_id: methods-whitelist
-  type: Security
-  category: Auth Considerations
-  name: Methods Whitelist
-  description: >-
-    Properly restrict the allowable verbs such that only the allowed verbs would
-    work, while all others would return a proper response code (for example, a
-    403 Forbidden).
-  image: ''
-  tags: Security
-- building_block_id: crosssite-request-forgery
-  type: Security
-  category: Auth Considerations
-  name: Cross-Site Request Forgery
-  description: >-
-    Make sure any PUT, POST, and DELETE request is protected from Cross Site
-    Request Forgery, typically done using a token-based approach.
-  image: ''
-  tags: Security
-- building_block_id: insecure-direct-object-references
-  type: Security
-  category: Auth Considerations
-  name: Insecure Direct Object References
-  description: >-
-    It may seem obvious, but if you had a bank account REST web service, you'd
-    have to make sure there is adequate checking of primary and foreign keys.
-  image: ''
-  tags: Security
-- building_block_id: validate-contenttypes
-  type: Security
-  category: Input Validation
-  name: Validate Content-Types
-  description: >-
-    The server should never assume the Content-Type; it should always check that
-    the Content-Type header and the content are the same type.
-  image: ''
-  tags: Security
-- building_block_id: assist-the-user
-  type: Security
-  category: Input Validation
-  name: Assist the User
-  description: >-
-    Assisting in the input of high quality data into APIs, by validating what is
-    submitted, and rejecting anything that does not pass validation.
-  image: ''
-  tags: Security
-- building_block_id: secure-parsing
-  type: Security
-  category: Input Validation
-  name: Secure Parsing
-  description: >-
-    Use a secure parser for parsing the incoming messages. If you are using XML,
-    make sure to use a parser that is not vulnerable to XXE and similar attacks.
-  image: ''
-  tags: Security
-- building_block_id: strong-typing
-  type: Security
-  category: Input Validation
-  name: Strong Typing
-  description: >-
-    It's difficult to perform most attacks if the only allowed values are true
-    or false, or a number, or one of a small number of acceptable values.
-    Strongly type incoming data as quickly as possible.
-  image: ''
-  tags: Security
-- building_block_id: validate-response-types
-  type: Security
-  category: Input Validation
-  name: Validate Response Types
-  description: >-
-    Do NOT simply copy the Accept header to the Content-type header of the
-    response, and reject the request if the Accept header does not specifically
-    contain one of the allowable types.
-  image: ''
-  tags: Security
-- building_block_id: json-validation
-  type: Security
-  category: Input Validation
-  name: JSON Validation
-  description: >-
-    Making sure all JSON is valid helps make sure that APIs are operating as
-    expectation and making sure vulnerabilities are not being passed in with API
-    requests and responses.
-  image: ''
-  tags: Security
-- building_block_id: xml-validation
-  type: Security
-  category: Input Validation
-  name: XML Validation
-  description: >-
-    XML-based services must ensure that they are protected against common XML
-    based attacks by using secure XML-parsing.
-  image: ''
-  tags: Security
-- building_block_id: frameworkprovided-validation
-  type: Security
-  category: Input Validation
-  name: Framework-Provided Validation
-  description: >-
-    Many frameworks allow for validation constraints to be enforced
-    automatically by the framework at request or response time, providing
-    automatic validation before the data is delivered to the application.
-  image: ''
-  tags: Security
-- building_block_id: threat-analysis
-  type: DNS
-  category: Security
-  name: Threat Analysis
-  description: Providing systems that will automate the analysis of threats to DNS.
-  image: ''
-  tags: 'DNS,Security,DNS Security'
-- building_block_id: threat-intelligence
-  type: DNS
-  category: Security
-  name: Threat Intelligence
-  description: Give access to the actual intelligence behind threats to DNS.
-  image: ''
-  tags: 'DNS,DNS Security'
-- building_block_id: whitelist-/-blacklist
-  type: DNS
-  category: Security
-  name: Whitelist / Blacklist
-  description: >-
-    Being able to establish white lists and black lists of domains, IP
-    addresses, and other criteria for DNS level defense.
-  image: ''
-  tags: 'DNS,DNS Security'
-- building_block_id: denial-of-service-ddos
-  type: DNS
-  category: Security
-  name: Denial of Service (DDOS)
-  description: >-
-    DNS tools for identifying and defending against a denial of service (DOS)
-    attack.
-  image: ''
-  tags: 'DNS,DNS Security'
-- building_block_id: send-security-headers
-  type: Security
-  category: Output Validation
-  name: Send Security Headers
-  description: >-
-    The server should always send the Content-Type header with the correct
-    Content-Type, and preferably the Content-Type header should include a
-    charset.
-  image: ''
-  tags: Security
-- building_block_id: json-encoding
-  type: Security
-  category: Output Validation
-  name: JSON Encoding
-  description: >-
-    Use a proper JSON serializer to encode user-supplied data properly to
-    prevent the execution of user-supplied input on the browser.
-  image: ''
-  tags: Security
-- building_block_id: xml-encoding
-  type: Security
-  category: Output Validation
-  name: XML Encoding
-  description: >-
-    Do not assemble XML string concatenation, rather us a XML serializer, ensure
-    that the XML content sent to the browser is parseable and does not contain
-    XML injection.
-  image: ''
-  tags: Security
-- building_block_id: link-integrity
-  type: Security
-  category: Output Validation
-  name: Link Integrity
-  description: >-
-    Checks the reputation of web links in real time, providing an invisibly
-    secure experience by blocking malicious and unwanted links from being
-    present or loading in content.
-  image: ''
-  tags: Security
-- building_block_id: data-in-transit
-  type: Security
-  category: Transport Level Security
-  name: Data in Transit
-  description: >-
-    Unless the public information is completely read-only, the use of TLS should
-    be mandated, particularly where credentials, updates, deletions, and any
-    value transactions are performed.
-  image: ''
-  tags: Security
-- building_block_id: e
-  type: Security
-  category: Abuse of Functionality
-  name: e
-  description: >-
-    Avoid overwriting of memory fragments of the process, values of the IP
-    (Instruction Pointer), BP (Base Pointer) and other registers which can cause
-    exceptions, segmentation faults, and other errors to occur.
-  image: ''
-  tags: Security
-- building_block_id: buffer-overflow-via-environment-variables
-  type: Security
-  category: Abuse of Functionality
-  name: Buffer Overflow via Environment Variables
-  description: >-
-    Avoid this pattern that involves causes a buffer overflow through
-    manipulation of environment variables, which once the attacker finds that
-    they can modify an environment variable, they may try to overflow associated
-    buffers.
-  image: ''
-  tags: Security
-- building_block_id: overflow-binary-resource-file
-  type: Security
-  category: Abuse of Functionality
-  name: Overflow Binary Resource File
-  description: >-
-    Coming from input data, and an Overflow Binary Resource File, where attacker
-    modifies/prepares the binary file in such a way that the application, after
-    reading this file, becomes prone to a classic Buffer overflow attack.
-  image: ''
-  tags: Security
-- building_block_id: crosssite-request-forgery-csrf
-  type: Security
-  category: Data Structure Attacks
-  name: Cross-Site Request Forgery (CSRF)
-  description: >-
-    An attack that forces an end user to execute unwanted actions on a web
-    application in which they're currently authenticated, targeting
-    state-changing requests, not theft of data, since the attacker has no way to
-    see the response to the forged request.
-  image: ''
-  tags: Security
-- building_block_id: logic/time-bomb
-  type: Security
-  category: Data Structure Attacks
-  name: Logic/time Bomb
-  description: >-
-    A logic bomb is a piece of malicious code that executes when specific
-    trigger conditions are met, such as a date or time, or possible a specific
-    database event.
-  image: ''
-  tags: Security
-- building_block_id: trojan-horse
-  type: Security
-  category: Data Structure Attacks
-  name: Trojan Horse
-  description: >-
-    A Trojan Horse is a program that uses malicious code masqueraded as a
-    trusted application, which is vehicle in which malicious code can be
-    injected on benign applications, masqueraded in e-mail links, or JavaScript.
-  image: ''
-  tags: Security
-- building_block_id: account-lockout-attack
-  type: Security
-  category: Data Structure Attacks
-  name: Account Lockout Attack
-  description: >-
-    Where attackers attempts to lock out user accounts by purposely failing the
-    authentication process as many times as needed to trigger the native account
-    lockout functionality.
-  image: ''
-  tags: Security
-- building_block_id: crosssite-request-forgery-csrf
-  type: Security
-  category: Data Structure Attacks
-  name: Cross-Site Request Forgery (CSRF)
-  description: >-
-    An attack that forces an end user to execute unwanted actions on a web
-    application in which they're currently authenticated, targeting
-    state-changing requests, not theft of data, since the attacker has no way to
-    see the response to the forged request.
-  image: ''
-  tags: Security
-- building_block_id: execution-after-redirect-ear
-  type: Security
-  category: Data Structure Attacks
-  name: Execution After Redirect (EAR)
-  description: >-
-    Execution After Redirect (EAR) is an attack where an attacker ignores
-    redirects and retrieves sensitive content intended for authenticated users.
-    A successful EAR exploit can lead to complete compromise of the application.
-    - https://www.owasp.org/index.php/Execution_After_Redirect_(EAR)
-  image: ''
-  tags: Security
-- building_block_id: session-fixation
-  type: Security
-  category: Data Structure Attacks
-  name: Session Fixation
-  description: >-
-    An attack that permits an attacker to hijack a valid user session, and
-    explore a limitation in the way the web application manages the session ID,
-    more specifically the vulnerable web application.
-  image: ''
-  tags: Security
-- building_block_id: session-hijacking-attack
-  type: Security
-  category: Data Structure Attacks
-  name: Session Hijacking Attack
-  description: >-
-    An attack that consists of the exploitation of the web session control
-    mechanism, which is normally managed for a session token, exploiting http
-    communication which uses many different TCP connections.
-  image: ''
-  tags: Security
-- building_block_id: session-prediction
-  type: Security
-  category: Data Structure Attacks
-  name: Session Prediction
-  description: >-
-    An attack that focuses on predicting session ID values that permit an
-    attacker to bypass the authentication schema of an application, by analyzing
-    and understanding the session ID generation process, an attacker can predict
-    a valid session ID value and get access to the application.
-  image: ''
-  tags: Security
-- building_block_id: code-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: Code Injection
-  description: >-
-    Attack types which consist of injecting code that is then
-    interpreted/executed by the application, exploiting poor handling of
-    untrusted data, and usually made possible due to a lack of proper
-    input/output data validation.
-  image: ''
-  tags: Security
-- building_block_id: command-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: Command Injection
-  description: >-
-    An attack in which executes arbitrary commands to the host operating system
-    via a vulnerable application, made possible when an application passes
-    unsafe user supplied data (forms, cookies, HTTP headers etc.).
-  image: ''
-  tags: Security
-- building_block_id: comment-injection-attack
-  type: Security
-  category: Embedded Malicious Code
-  name: Comment Injection Attack
-  description: >-
-    Comments injected into an application through input can be used to
-    compromise a system. As data is parsed, an injected/malformed comment may
-    cause the process to take unexpected actions that result in an attack.
-  image: ''
-  tags: Security
-- building_block_id: content-security-policy
-  type: Security
-  category: Embedded Malicious Code
-  name: Content Security Policy
-  description: >-
-    Open up the possibility to instruct the client browser from which location
-    and/or which type of resources are allowed to be loaded, providing a
-    directive that loads a behavior for a target resource type.
-  image: ''
-  tags: Security
-- building_block_id: content-spoofing
-  type: Security
-  category: Embedded Malicious Code
-  name: Content Spoofing
-  description: >-
-    An attack made possible by an injection vulnerability, where an API does not
-    properly handle user supplied data, and an attacker can supply content,
-    typically via a parameter value, that is reflected back to the user.
-  image: ''
-  tags: Security
-- building_block_id: cors-requestpreflighscrutiny
-  type: Security
-  category: Embedded Malicious Code
-  name: CORS RequestPreflighScrutiny
-  description: >-
-    Opening up the possibility to expose resources to all or restricted domain,
-    made by AJAX request for resource on other domain than is source domain.
-  image: ''
-  tags: Security
-- building_block_id: crosssite-scripting-xss
-  type: Security
-  category: Embedded Malicious Code
-  name: Cross-site Scripting (XSS)
-  description: >-
-    A type of injection, in which malicious scripts are injected into otherwise
-    benign and trusted web sites, occurring when an attacker send malicious
-    code, generally in the form of a browser side script, to a different end
-    user.
-  image: ''
-  tags: Security
-- building_block_id: custom-special-character-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: Custom Special Character Injection
-  description: >-
-    Not properly filtering or quoting special characters or reserved words that
-    are used in a custom or proprietary language or representation, allowing
-    attackers to modify the syntax, content, or commands before they are
-    processed.
-  image: ''
-  tags: Security
-- building_block_id: format-string-attack
-  type: Security
-  category: Embedded Malicious Code
-  name: Format String Attack
-  description: >-
-    Occurring when the submitted data of an input string is evaluated as a
-    command, allowing the execution of code, to read the stack, or cause a
-    segmentation fault, causing behaviors that could compromise the system.
-  image: ''
-  tags: Security
-- building_block_id: full-path-disclosure
-  type: Security
-  category: Embedded Malicious Code
-  name: Full Path Disclosure
-  description: >-
-    Vulnerabilities enabling the attacker to see the path to the webroot/file,
-    potentially opening up full access to the underlying system.
-  image: ''
-  tags: Security
-- building_block_id: parameter-delimiter
-  type: Security
-  category: Embedded Malicious Code
-  name: Parameter Delimiter
-  description: >-
-    An attack based on the manipulation of parameter delimiters used by web
-    application input vectors in order to cause unexpected behaviors like access
-    control and authorization bypass and information disclosure.
-  image: ''
-  tags: Security
-- building_block_id: resource-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: Resource Injection
-  description: >-
-    This attack consists of changing resource identifiers used by an application
-    in order to perform a malicious task, allowing data to be manipulated to
-    execute or access different resources.
-  image: ''
-  tags: Security
-- building_block_id: serverside-includes-ssi-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: Server-Side Includes (SSI) Injection
-  description: >-
-    An attack that allows the exploitation of a web application by injecting
-    scripts in HTML pages or executing arbitrary codes remotely, exploiting
-    through the manipulation of SSI in use and force its use through user input
-    fields.
-  image: ''
-  tags: Security
-- building_block_id: sql-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: SQL Injection
-  description: >-
-    The insertion of a SQL query via the input data allowing the reading
-    sensitive data from the database, modify database data, execute
-    administrative tasks, and in some cases issue commands to the operating
-    system.
-  image: ''
-  tags: Security
-- building_block_id: web-parameter-tampering
-  type: Security
-  category: Embedded Malicious Code
-  name: Web Parameter Tampering
-  description: >-
-    An attacked based on the manipulation of parameters exchanged between client
-    and server in order to modify application data, such as user credentials and
-    permissions, price and quantity of products, etc.
-  image: ''
-  tags: Security
-- building_block_id: xpath-injection
-  type: Security
-  category: Embedded Malicious Code
-  name: XPATH Injection
-  description: >-
-    An attack occurring when a web site uses user-supplied information to
-    construct an XPath query for XML data, sending malformed information to an
-    API opening up how the XML data is structured, or access data.
-  image: ''
-  tags: Security
-- building_block_id: brute-force-attack
-  type: Security
-  category: By Force
-  name: Brute Force Attack
-  description: >-
-    A brute force attack can manifest itself in many different ways, but
-    primarily consists in an attacker configuring predetermined values, making
-    requests to a server using those values, and then analyzing the response.
-  image: ''
-  tags: Security
-- building_block_id: cash-overflow
-  type: Security
-  category: By Force
-  name: Cash Overflow
-  description: >-
-    An attack specifically aimed at exceeding hosting costs, either essentially
-    bankrupting the service owner or exceeding the cost limits, leading the
-    cloud service provider to disable the application.
-  image: ''
-  tags: Security
-- building_block_id: cryptanalysis
-  type: Security
-  category: By Force
-  name: Cryptanalysis
-  description: >-
-    Cryptanalysis is a process of finding weaknesses in cryptographic algorithms
-    and using these weaknesses to decipher the ciphertext without knowing the
-    secret key (instance deduction).
-  image: ''
-  tags: Security
-- building_block_id: denial-of-service
-  type: Security
-  category: By Force
-  name: Denial of Service
-  description: >-
-    The Denial of Service (DoS) attack is focused on making a resource (site,
-    application, server) unavailable for the purpose it was designed.
-  image: ''
-  tags: Security
-- building_block_id: http-request-smuggling
-  type: Security
-  category: Path Traversal Attack
-  name: HTTP Request Smuggling
-  description: >-
-    The HTTP Request Smuggling attack explores an incomplete parsing of the
-    submitted data done by an intermediary HTTP system working as a proxy.
-  image: ''
-  tags: Security
-- building_block_id: http-response-splitting
-  type: Security
-  category: Path Traversal Attack
-  name: HTTP Response Splitting
-  description: >-
-    Occurs when data enters a through an untrusted source, most frequently an
-    HTTP request, included in an HTTP response header sent to a web user without
-    being validated for malicious characters.
-  image: ''
-  tags: Security
-- building_block_id: traffic-flood
-  type: Security
-  category: Path Traversal Attack
-  name: Traffic Flood
-  description: >-
-    A type of DoS attack that explores the way that the TCP connection is
-    managed, with the generation of a lot of well-crafted TCP requisitions, with
-    the objective to stop the Web Server or cause a performance decrease.
-  image: ''
-  tags: Security
-- building_block_id: asymmetric-resource-consumption
-  type: Security
-  category: Probabilistic Technique
-  name: Asymmetric Resource Consumption
-  description: >-
-    Asymmetric resource consumption consists in an attacker forcing a web
-    application to consume excessive resources when the application fails to
-    release, or incorrectly releases, a system resource.
-  image: ''
-  tags: Security
-- building_block_id: cash-overflow
-  type: Security
-  category: Probabilistic Technique
-  name: Cash Overflow
-  description: >-
-    An attack specifically aimed at exceeding hosting costs, either essentially
-    bankrupting the service owner or exceeding the cost limits, leading the
-    cloud service provider to disable the application.
-  image: ''
-  tags: Security
-- building_block_id: denial-of-service
-  type: Security
-  category: Probabilistic Technique
-  name: Denial of Service
-  description: >-
-    The Denial of Service (DoS) attack is focused on making a resource (site,
-    application, server) unavailable for the purpose it was designed.
-  image: ''
-  tags: Security
-- building_block_id: comment-injection-attack
-  type: Security
-  category: Protocol Manipulation
-  name: Comment Injection Attack
-  description: >-
-    Comments injected into an application through input can be used to
-    compromise a system, where data is parsed, an injected/malformed comment may
-    cause the process to take unexpected actions that result in an attack.
-  image: ''
-  tags: Security
-- building_block_id: custom-special-character-injection
-  type: Security
-  category: Protocol Manipulation
-  name: Custom Special Character Injection
-  description: >-
-    Not properly filtering or quoting special characters or reserved words that
-    are used in a custom or proprietary language or representation, allowing
-    attackers to modify the syntax, content, or commands before they are
-    processed.
-  image: ''
-  tags: Security
-- building_block_id: double-encoding
-  type: Security
-  category: Protocol Manipulation
-  name: Double Encoding
-  description: >-
-    Encoding user request parameters twice in hexadecimal format in order to
-    bypass security controls or cause unexpected behavior from the application.
-  image: ''
-  tags: Security
-- building_block_id: forced-browsing
-  type: Security
-  category: Protocol Manipulation
-  name: Forced Browsing
-  description: >-
-    An attack that enumerates and opens up access to resources that are not
-    referenced by the API, allowing the discovery unlinked contents in the
-    domain directory, such as temp directories and files, and configuration
-    files.
-  image: ''
-  tags: Security
-- building_block_id: path-traversal
-  type: Security
-  category: Protocol Manipulation
-  name: Path Traversal
-  description: >-
-    A Path Traversal attack aims to access files and directories that are stored
-    outside the web root folder, by browsing the application, the attacker looks
-    for absolute links to files stored on the web server.
-  image: ''
-  tags: Security
-- building_block_id: relative-path-traversal
-  type: Security
-  category: Protocol Manipulation
-  name: Relative Path Traversal
-  description: >-
-    This attack is a variant of Path Traversal and can be exploited when the
-    application accepts the use of relative traversal sequences such as ../.
-  image: ''
-  tags: Security
-- building_block_id: repudiation-attack
-  type: Security
-  category: Protocol Manipulation
-  name: Repudiation Attack
-  description: >-
-    A repudiation attack happens when an application or system does not adopt
-    controls to properly track and log users' actions, thus permitting malicious
-    manipulation or forging the identification of new actions.
-  image: ''
-  tags: Security
-- building_block_id: setting-manipulation
-  type: Security
-  category: Protocol Manipulation
-  name: Setting Manipulation
-  description: >-
-    The modification of settings in order to cause misleading data or advantages
-    on the attacker's behalf, manipulating values in the system and manage
-    specific user resources of the application or affect its functionalities.
-  image: ''
-  tags: Security
-- building_block_id: unicode-encoding
-  type: Security
-  category: Protocol Manipulation
-  name: Unicode Encoding
-  description: >-
-    Opening up of flaws in the decoding mechanism implemented by decoding
-    Unicode data format, allowing for encoding of certain characters in the URL
-    to bypass filters, thus accessing restricted resources.
-  image: ''
-  tags: Security
-- building_block_id: cash-overflow
-  type: Security
-  category: Resource Depletion
-  name: Cash Overflow
-  description: >-
-    An attack specifically aimed at exceeding hosting costs, either essentially
-    bankrupting the service owner or exceeding the cost limits, leading the
-    cloud service provider to disable the application.
-  image: ''
-  tags: Security
-- building_block_id: crosssite-request-forgery-csrf
-  type: Security
-  category: Resource Depletion
-  name: Cross-Site Request Forgery (CSRF)
-  description: >-
-    An attack that forces an end user to execute unwanted actions on a web
-    application in which they're currently authenticated, targeting
-    state-changing requests, not theft of data, since the attacker has no way to
-    see the response to the forged request.
-  image: ''
-  tags: Security
-- building_block_id: maninthemiddle-attack
-  type: Security
-  category: Resource Depletion
-  name: Man-in-the-Middle Attack
-  description: >-
-    The interception of communication between two systems, where once the TCP
-    connection is intercepted, the attacker acts as a proxy, being able to read,
-    insert and modify the data in the intercepted communication.
-  image: ''
-  tags: Security
-- building_block_id: certification
-  type: Security
-  category: Other Security Considerations
-  name: Certification
-  description: >-
-    Providing a system for validating and certifying an APIs security, scanning
-    the surface area and providing guarantees that the endpoint(s) are secure.
-  image: ''
-  tags: Security
-- building_block_id: security-visualization
-  type: Security
-  category: Other Security Considerations
-  name: Security Visualization
-  description: >-
-    Allowing API owners with reports and charting, allowing them to visualize
-    the surface area and security of an API. Providing a single way to see all
-    the potential attacks, vulnerabilities, and what is being done about
-    security overall.
-  image: ''
-  tags: Security
-- building_block_id: compliance--auditing-reporting
-  type: Security
-  category: Other Security Considerations
-  name: Compliance & Auditing Reporting
-  description: >-
-    Providing a specific interface for auditors and compliance officers to see
-    what security has been applied to any interface. The reporting should
-    provide details that are in alignment with whatever standard is being
-    applied to the industry, as well as standard security approaches.
-  image: ''
-  tags: Security
-- building_block_id: bug-bounty-program
-  type: Security
-  category: Other Security Considerations
-  name: Bug Bounty Program
-  description: >-
-    Provide a platform for running a bug bounty program, that allows API
-    providers to crowdsource the discovery, and review of an API, providing a
-    potentially friendly way to handle security before bad actors can step in
-    and find vulnerabilities.
-  image: ''
-  tags: Security
-- building_block_id: endpoint-tagging
-  type: Security
-  category: Other Security Considerations
-  name: Endpoint Tagging
-  description: >-
-    Allow for the tagging and organizing of APIs into specific groups for
-    scanning, monitoring, and reviewing of APIs. Giving providers an easy way to
-    organize so that they can be secured, and understood.
-  image: ''
-  tags: Security
-- building_block_id: intrusion-correlation
-  type: Security
-  category: Other Security Considerations
-  name: Intrusion Correlation
-  description: >-
-    Providing the ability to connect the dots between various security attacks
-    and intrusions, providing insight into patterns used by attackers, locations
-    of attacks, and other details that might help security.
-  image: ''
-  tags: Security
-- building_block_id: risk-scoring
-  type: Security
-  category: Other Security Considerations
-  name: Risk Scoring
-  description: >-
-    Offer a single scoring approach to be able to score attacks, based upon
-    existing understanding of the space, but also historical data, providing a
-    clear way to rank, and understand how vulnerabilities, and attacks could
-    affect operations.
-  image: ''
-  tags: Security
+- building_block_id: web-concepts
+  type: Definitions
+  category: Formats
+  name: Web Concepts
+  descripion: >-
+    APIs are built on the web, and there are numerous web concepts in play that
+    should be considered as part of the API design process.
+  logo: ''
+  tags: Definitions
+- building_block_id: specification
+  type: Definitions
+  category: Formats
+  name: Specification
+  descripion: >-
+    The root specification for the API definition format, providing a base set
+    of rules for all services and tools that employ the spec.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: schema
+  type: Definitions
+  category: Formats
+  name: Schema
+  descripion: >-
+    A representation of data model, used as part of an API request, or response,
+    usually in JSON, but increasingly YAML, and Markdown are also used.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  tags: Definitions
+- building_block_id: generator
+  type: Definitions
+  category: Tooling
+  name: Generator
+  descripion: >-
+    Generating an API definition format from an existing system or platform,
+    outputting the portable machine readable format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png
+  tags: Definitions
+- building_block_id: parser
+  type: Definitions
+  category: Tooling
+  name: Parser
+  descripion: >-
+    Parses a machine readable API definition and makes ready for use in specific
+    language, structure, or platform.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png
+  tags: Definitions
+- building_block_id: validator
+  type: Definitions
+  category: Tooling
+  name: Validator
+  descripion: >-
+    Validates an API definition against its formal specification and schema,
+    producing a valid or invalid response, with as much detail as possible.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png
+  tags: Definitions
+- building_block_id: converter
+  type: Definitions
+  category: Tooling
+  name: Converter
+  descripion: >-
+    The conversion of an API definition from one format into another, allowing
+    designers to share API definitions in any format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png
+  tags: Definitions
+- building_block_id: commandline
+  type: Definitions
+  category: Tooling
+  name: Command-Line
+  descripion: The usage of machine readable API definitions at the command line.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: powershell
+  type: Definitions
+  category: Tooling
+  name: Powershell
+  descripion: The usage of machine readable API definitions via the powershell interface.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
+  tags: Definitions
+- building_block_id: aggregator
+  type: Definitions
+  category: Tooling
+  name: Aggregator
+  descripion: Aggregation of APIs using a machine readable API definition format.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png
+  tags: Definitions
+- building_block_id: translator
+  type: Definitions
+  category: Tooling
+  name: Translator
+  descripion: >-
+    Being able to translate an API definition format from one format to another,
+    either manually or automatically.
+  logo: ''
+  tags: Definitions
+- building_block_id: merging
+  type: Definitions
+  category: Tooling
+  name: Merging
+  descripion: >-
+    Tooling or other APIs that provide for the merging of common API definition
+    formats, allowing the granularity of what elements get merged, or do not get
+    merged. Ideally, this is an API, as well as simple web-based or desktop
+    tooling for API providers and consumers.
+  logo: ''
+  tags: Definitions
+- building_block_id: diff
+  type: Definitions
+  category: Tooling
+  name: Diff
+  descripion: >-
+    Providing side by side comparison of two API definitions, programmatically
+    and visually helping identify between two API definitions. This allows for
+    API architects, designers, and consumers to understand the completeness of
+    two definitions, in relation to each other.
+  logo: ''
+  tags: Definitions
+- building_block_id: editors
+  type: Definitions
+  category: Environment
+  name: Editors
+  descripion: >-
+    API definition editor, allowing for the creation, import, and export of API
+    definition formats, providing a simple, IDE like API editing experience.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: ide-plugin
+  type: Definitions
+  category: Environment
+  name: IDE Plugin
+  descripion: >-
+    Providing integration with existing integrated development environments
+    (IDE), giving developers API discovery, documentation, and integration
+    tooling within the IDE.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
+  tags: Definitions
+- building_block_id: forms
+  type: Definitions
+  category: Environment
+  name: Forms
+  descripion: >-
+    Dynamically generating an HTML form from an API definition, allow for the
+    structure, and handling to be driven by an API definition.
+  logo: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png
+  tags: Definitions
+- building_block_id: github
+  type: Definitions
+  category: Environment
+  name: GIthub
+  descripion: >-
+    Allowing for the import, publishing, and syncing of API definitions and
+    schemas to Github for forking, and management using the social coding
+    platform.
+  logo: ''
+  tags: Definitions
