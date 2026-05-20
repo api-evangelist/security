@@ -1,0 +1,134 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "sec": "https://api-evangelist.github.io/security/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "OAuthClient": "sec:OAuthClient",
+    "Secret": "sec:Secret",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "owner": "schema:author",
+
+    "client_id": {
+      "@id": "sec:client_id",
+      "@type": "xsd:string"
+    },
+    "client_name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "client_type": {
+      "@id": "sec:client_type",
+      "@type": "xsd:string"
+    },
+    "issuer": {
+      "@id": "sec:issuer",
+      "@type": "@id"
+    },
+    "grant_types": {
+      "@id": "sec:grant_types",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "response_types": {
+      "@id": "sec:response_types",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "redirect_uris": {
+      "@id": "sec:redirect_uris",
+      "@container": "@set",
+      "@type": "@id"
+    },
+    "scopes": {
+      "@id": "sec:scopes",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "token_endpoint_auth_method": {
+      "@id": "sec:token_endpoint_auth_method",
+      "@type": "xsd:string"
+    },
+    "pkce_required": {
+      "@id": "sec:pkce_required",
+      "@type": "xsd:boolean"
+    },
+    "access_token_lifetime_seconds": {
+      "@id": "sec:access_token_lifetime_seconds",
+      "@type": "xsd:integer"
+    },
+    "refresh_token_lifetime_seconds": {
+      "@id": "sec:refresh_token_lifetime_seconds",
+      "@type": "xsd:integer"
+    },
+    "audience": {
+      "@id": "sec:audience",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "sec:status",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+
+    "id": "@id",
+    "type": {
+      "@id": "sec:secret_type",
+      "@type": "xsd:string"
+    },
+    "backend": {
+      "@id": "sec:backend",
+      "@type": "xsd:string"
+    },
+    "path": {
+      "@id": "sec:path",
+      "@type": "xsd:string"
+    },
+    "environment": {
+      "@id": "sec:environment",
+      "@type": "xsd:string"
+    },
+    "rotation": {
+      "@id": "sec:rotation"
+    },
+    "enabled": {
+      "@id": "sec:enabled",
+      "@type": "xsd:boolean"
+    },
+    "interval_days": {
+      "@id": "sec:interval_days",
+      "@type": "xsd:integer"
+    },
+    "last_rotated_at": {
+      "@id": "sec:last_rotated_at",
+      "@type": "xsd:dateTime"
+    },
+    "next_rotation_at": {
+      "@id": "sec:next_rotation_at",
+      "@type": "xsd:dateTime"
+    },
+    "expires_at": {
+      "@id": "sec:expires_at",
+      "@type": "xsd:dateTime"
+    },
+    "allowed_consumers": {
+      "@id": "sec:allowed_consumers",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

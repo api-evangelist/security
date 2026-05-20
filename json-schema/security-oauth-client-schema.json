@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/security/refs/heads/main/json-schema/security-oauth-client-schema.json",
+  "title": "OAuthClient",
+  "description": "Represents an OAuth 2.0 / OIDC client registered with an identity provider that allows an application or service to obtain access tokens for an API.",
+  "type": "object",
+  "properties": {
+    "client_id": {
+      "type": "string",
+      "description": "Public identifier for the OAuth client issued by the identity provider.",
+      "example": "0oa1b2c3d4e5f6g7h8i9"
+    },
+    "client_name": {
+      "type": "string",
+      "description": "Human-readable name of the OAuth client application.",
+      "example": "Naftiko Fleet Web App"
+    },
+    "client_type": {
+      "type": "string",
+      "enum": ["public", "confidential"],
+      "description": "Whether the client can keep a secret. Public clients (SPAs, native apps) cannot; confidential clients (server-side apps) can.",
+      "example": "confidential"
+    },
+    "issuer": {
+      "type": "string",
+      "format": "uri",
+      "description": "The OIDC issuer URL of the identity provider that issued this client registration.",
+      "example": "https://example.okta.com/oauth2/default"
+    },
+    "grant_types": {
+      "type": "array",
+      "description": "OAuth 2.0 grant types this client is permitted to use.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "authorization_code",
+          "client_credentials",
+          "refresh_token",
+          "password",
+          "urn:ietf:params:oauth:grant-type:device_code",
+          "urn:ietf:params:oauth:grant-type:jwt-bearer"
+        ]
+      },
+      "example": ["authorization_code", "refresh_token"]
+    },
+    "response_types": {
+      "type": "array",
+      "description": "OAuth 2.0 response types this client is permitted to request.",
+      "items": {
+        "type": "string",
+        "enum": ["code", "token", "id_token", "code id_token", "code token", "code id_token token"]
+      },
+      "example": ["code"]
+    },
+    "redirect_uris": {
+      "type": "array",
+      "description": "Allowed redirect URIs after authorization. Must be exact matches per OAuth 2.1.",
+      "items": { "type": "string", "format": "uri" },
+      "example": ["https://app.example.com/callback", "https://app.example.com/silent-renew"]
+    },
+    "scopes": {
+      "type": "array",
+      "description": "OAuth scopes the client is allowed to request.",
+      "items": { "type": "string" },
+      "example": ["openid", "profile", "email", "api:read", "api:write"]
+    },
+    "token_endpoint_auth_method": {
+      "type": "string",
+      "enum": ["client_secret_basic", "client_secret_post", "private_key_jwt", "none", "tls_client_auth"],
+      "description": "How the client authenticates to the token endpoint. PKCE-only public clients use 'none'.",
+      "example": "private_key_jwt"
+    },
+    "pkce_required": {
+      "type": "boolean",
+      "description": "Whether PKCE (Proof Key for Code Exchange) is required for this client.",
+      "example": true
+    },
+    "access_token_lifetime_seconds": {
+      "type": "integer",
+      "minimum": 60,
+      "description": "Lifetime in seconds of access tokens issued to this client.",
+      "example": 3600
+    },
+    "refresh_token_lifetime_seconds": {
+      "type": "integer",
+      "description": "Lifetime in seconds of refresh tokens issued to this client. Null for non-refreshable clients.",
+      "example": 2592000
+    },
+    "audience": {
+      "type": "array",
+      "description": "Identifiers of the APIs (resource servers) this client is allowed to obtain tokens for.",
+      "items": { "type": "string" },
+      "example": ["https://api.example.com"]
+    },
+    "owner": {
+      "type": "string",
+      "description": "Team or person responsible for this client.",
+      "example": "platform-security@example.com"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "suspended", "rotating", "revoked"],
+      "description": "Operational status of the OAuth client.",
+      "example": "active"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when this client was registered.",
+      "example": "2026-05-19T14:32:00Z"
+    }
+  },
+  "required": ["client_id", "client_name", "client_type", "issuer", "grant_types"]
+}

@@ -1,0 +1,355 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Security
+  description: Vocabulary for the API security topic, covering identity, authentication, authorization, secrets management, certificate management, threat protection, and software supply chain security.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Okta Identity Cloud
+      namespace: okta
+      status: active
+    - name: Auth0 Authentication API
+      namespace: auth0
+      status: active
+    - name: HashiCorp Vault
+      namespace: hashicorp-vault
+      status: active
+    - name: Cloudflare API
+      namespace: cloudflare
+      status: active
+    - name: Snyk API
+      namespace: snyk
+      status: active
+    - name: Keycloak Admin API
+      namespace: keycloak
+      status: active
+
+  resources:
+    - name: oauth-clients
+      description: OAuth 2.0 / OIDC client registrations used by applications and services to obtain access tokens for APIs
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - rotate
+        - revoke
+    - name: secrets
+      description: Managed secrets (API keys, tokens, database credentials, signing keys) stored in a secrets backend
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - rotate
+        - revoke
+        - read-value
+    - name: certificates
+      description: TLS certificates issued and managed for API endpoints
+      actions:
+        - issue
+        - renew
+        - revoke
+        - list
+        - get
+    - name: policies
+      description: Authorization and access policies (RBAC, ABAC, ReBAC) governing who can call which API resources
+      actions:
+        - create
+        - list
+        - get
+        - update
+        - delete
+        - evaluate
+    - name: identities
+      description: Human or workload identities (users, service accounts, SPIFFE IDs) that authenticate to APIs
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - disable
+    - name: vulnerabilities
+      description: Known vulnerabilities discovered in code, dependencies, containers, or live APIs
+      actions:
+        - list
+        - get
+        - triage
+        - suppress
+        - close
+    - name: waf-rules
+      description: Web application firewall rules applied to API traffic at the edge
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - test
+    - name: audit-events
+      description: Security-relevant events (logins, token issuance, policy decisions, secret access)
+      actions:
+        - list
+        - get
+        - stream
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: rotate
+      description: Rotate a credential, secret, or key while preserving its logical identity
+      httpMethod: POST
+      pattern: write
+    - name: revoke
+      description: Immediately invalidate a credential, token, or certificate
+      httpMethod: POST
+      pattern: destructive
+    - name: issue
+      description: Issue a new credential or certificate
+      httpMethod: POST
+      pattern: write
+    - name: renew
+      description: Extend the validity of a certificate or token
+      httpMethod: POST
+      pattern: write
+    - name: evaluate
+      description: Evaluate a policy against a subject, action, and resource
+      httpMethod: POST
+      pattern: query
+    - name: triage
+      description: Classify and prioritize a vulnerability finding
+      httpMethod: POST
+      pattern: write
+    - name: stream
+      description: Subscribe to a continuous stream of events
+      httpMethod: GET
+      pattern: read
+
+  schemas:
+    core:
+      - name: OAuthClient
+        description: An OAuth 2.0 / OIDC client registered with an identity provider
+        properties:
+          - client_id
+          - client_name
+          - client_type
+          - issuer
+          - grant_types
+          - redirect_uris
+          - scopes
+          - token_endpoint_auth_method
+          - pkce_required
+          - audience
+          - status
+      - name: Secret
+        description: A managed secret stored in a secrets management backend
+        properties:
+          - id
+          - name
+          - type
+          - backend
+          - path
+          - environment
+          - owner
+          - rotation
+          - expires_at
+          - allowed_consumers
+          - status
+
+  enums:
+    oauth_grant_types:
+      - authorization_code
+      - client_credentials
+      - refresh_token
+      - password
+      - urn:ietf:params:oauth:grant-type:device_code
+      - urn:ietf:params:oauth:grant-type:jwt-bearer
+    oauth_client_types:
+      - public
+      - confidential
+    token_endpoint_auth_methods:
+      - client_secret_basic
+      - client_secret_post
+      - private_key_jwt
+      - none
+      - tls_client_auth
+    secret_types:
+      - api_key
+      - bearer_token
+      - oauth_client_secret
+      - database_credential
+      - tls_certificate
+      - ssh_key
+      - signing_key
+      - encryption_key
+      - generic
+    secrets_backends:
+      - hashicorp-vault
+      - aws-secrets-manager
+      - aws-kms
+      - azure-key-vault
+      - google-secret-manager
+      - 1password
+      - cyberark
+      - doppler
+      - kubernetes-secret
+    environments:
+      - dev
+      - test
+      - staging
+      - prod
+    severities:
+      - low
+      - medium
+      - high
+      - critical
+
+capability:
+  workflows:
+    - name: OAuth 2.0 Client Onboarding
+      description: Register an OAuth client with an identity provider, define scopes and redirect URIs, and issue credentials for an application to call an API
+      apis:
+        - okta
+        - auth0
+        - keycloak
+      personas:
+        - Identity Administrator
+        - Application Developer
+      domains:
+        - Identity and Access
+    - name: Secret Rotation
+      description: Rotate an API key, database credential, or signing key in a secrets backend and propagate the new value to consuming workloads
+      apis:
+        - hashicorp-vault
+      personas:
+        - Platform Security Engineer
+      domains:
+        - Secrets Management
+    - name: API WAF and Bot Protection
+      description: Place a WAF in front of an API to block OWASP API Top 10 attacks, credential stuffing, scraping, and DDoS
+      apis:
+        - cloudflare
+      personas:
+        - Security Engineer
+      domains:
+        - Threat Protection
+    - name: Vulnerability Scanning in CI
+      description: Scan code, dependencies, containers, and IaC for vulnerabilities on every pull request and block merges on critical findings
+      apis:
+        - snyk
+      personas:
+        - Application Developer
+        - Security Engineer
+      domains:
+        - Application Security
+    - name: Workload Identity for Service-to-Service Auth
+      description: Issue SPIFFE workload identities so services authenticate to APIs using verifiable mTLS certificates instead of static keys
+      apis:
+        - spiffe
+      personas:
+        - Platform Security Engineer
+      domains:
+        - Zero Trust
+
+  personas:
+    - id: identity-administrator
+      name: Identity Administrator
+      description: Manages users, groups, OAuth clients, and policies in an identity provider
+      workflows:
+        - OAuth 2.0 Client Onboarding
+    - id: platform-security-engineer
+      name: Platform Security Engineer
+      description: Operates secrets management, certificate authorities, and workload identity for an engineering organization
+      workflows:
+        - Secret Rotation
+        - Workload Identity for Service-to-Service Auth
+    - id: security-engineer
+      name: Security Engineer
+      description: Defines WAF rules, runs vulnerability scans, and triages findings
+      workflows:
+        - API WAF and Bot Protection
+        - Vulnerability Scanning in CI
+    - id: application-developer
+      name: Application Developer
+      description: Builds API clients and services and integrates them with identity and secrets platforms
+      workflows:
+        - OAuth 2.0 Client Onboarding
+        - Vulnerability Scanning in CI
+
+  domains:
+    - name: Identity and Access
+      description: Authentication of users and services, including OAuth, OIDC, SAML, and MFA
+    - name: Authorization
+      description: Policies governing which subjects can perform which actions on which resources
+    - name: Secrets Management
+      description: Storage, rotation, and distribution of API keys, tokens, and credentials
+    - name: Threat Protection
+      description: Edge defenses including WAF, bot management, rate limiting, and DDoS mitigation
+    - name: Application Security
+      description: Scanning code, dependencies, containers, and live APIs for vulnerabilities
+    - name: Zero Trust
+      description: Cryptographic workload identity and continuous verification of every API request
+
+crossReference:
+  - resource: oauth-clients
+    operations:
+      - create
+      - list
+      - rotate
+      - revoke
+    workflows:
+      - OAuth 2.0 Client Onboarding
+    personas:
+      - Identity Administrator
+      - Application Developer
+  - resource: secrets
+    operations:
+      - create
+      - rotate
+      - read-value
+      - revoke
+    workflows:
+      - Secret Rotation
+    personas:
+      - Platform Security Engineer
+  - resource: waf-rules
+    operations:
+      - create
+      - update
+      - test
+    workflows:
+      - API WAF and Bot Protection
+    personas:
+      - Security Engineer
+  - resource: vulnerabilities
+    operations:
+      - list
+      - triage
+      - suppress
+      - close
+    workflows:
+      - Vulnerability Scanning in CI
+    personas:
+      - Security Engineer
+      - Application Developer
