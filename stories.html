@@ -1,0 +1,42 @@
+---
+layout: default
+permalink: /stories/
+title_suffix: API Stories
+---
+{% include hero.html %}
+
+<main class="container py-5">
+  <section class="mb-5">
+    <h2 class="section-title mb-3"><span class="material-symbols-outlined">article</span>All API Stories</h2>
+    {% assign stories = site.api_stories | sort: "published" | reverse %}
+    <p class="text-muted small">{{ stories.size }} stories relevant to {{ site.data.area.meta.name | escape }}, pulled from across the API Evangelist network blog feeds.</p>
+    <div id="stories-list">
+      {% for st in stories %}<div class="story-row">{% include story-item.html story=st %}</div>{% endfor %}
+    </div>
+    <nav class="d-flex justify-content-between align-items-center mt-4">
+      <button id="stories-prev" class="btn btn-outline-secondary btn-sm" disabled>← Prev</button>
+      <span id="stories-page" class="text-muted small"></span>
+      <button id="stories-next" class="btn btn-outline-secondary btn-sm">Next →</button>
+    </nav>
+  </section>
+</main>
+
+<script>
+  (function () {
+    var per = 25;
+    var rows = [].slice.call(document.querySelectorAll('#stories-list .story-row'));
+    var total = rows.length, pages = Math.max(1, Math.ceil(total / per)), page = 0;
+    var prev = document.getElementById('stories-prev');
+    var next = document.getElementById('stories-next');
+    var info = document.getElementById('stories-page');
+    function render() {
+      rows.forEach(function (r, i) { r.style.display = (i >= page * per && i < (page + 1) * per) ? '' : 'none'; });
+      info.textContent = 'Page ' + (page + 1) + ' of ' + pages + ' · ' + total + ' stories';
+      prev.disabled = page === 0;
+      next.disabled = page >= pages - 1;
+    }
+    prev.addEventListener('click', function () { if (page > 0) { page--; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); } });
+    next.addEventListener('click', function () { if (page < pages - 1) { page++; render(); window.scrollTo({ top: 0, behavior: 'smooth' }); } });
+    render();
+  })();
+</script>

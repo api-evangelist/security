@@ -1,0 +1,24 @@
+title: Security
+description: An index and topic collection covering API security, identity, access
+  management, secrets management, encryption, and threat protection. API security
+  spans the full lifecycle of an API, from designing strong authentication and authorization,
+  to managing keys, secrets, and certificates, to protecting runtime traffic with
+  WAFs, rate limiting, and bot mitigation, to scanning code and dependencies for vulnerabilities.
+  This collection brings together identity providers like Okta, Auth0, and Keycloak;
+  secrets and key management platforms like HashiCorp Vault and AWS KMS; cloud security
+  and WAF vendors like Cloudflare, Akamai, and Palo Alto Networks; and software supply
+  chain security tools like Snyk, Sigstore, and Sonatype.
+url: https://security.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

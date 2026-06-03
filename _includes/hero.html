@@ -1,0 +1,21 @@
+<header class="hero py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-md-2 text-center">
+        <img src="/icon.png" alt="{{ site.data.area.meta.name | escape }}" class="img-fluid" style="max-height: 140px; background-color: #fff; padding: 14px; border-radius: 12px; border: 1px solid #e9ecef; box-shadow: 0 1px 4px rgba(0,0,0,0.05);">
+      </div>
+      <div class="col-md-10">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item"><a class="text-body-secondary" href="https://apievangelist.com">API Evangelist</a></li>
+            {% if page.title_suffix %}<li class="breadcrumb-item"><a class="text-body-secondary" href="/">{{ site.data.area.meta.name | escape }}</a></li><li class="breadcrumb-item active">{{ page.title_suffix }}</li>{% else %}<li class="breadcrumb-item active">{{ site.data.area.meta.name | escape }}</li>{% endif %}
+          </ol>
+        </nav>
+        <h1 class="mb-2">{{ site.data.area.meta.name | escape }}</h1>
+        <p class="text-muted mb-3">{{ site.data.area.meta.description | escape }}</p>
+        <div>{% for t in site.data.area.meta.tags %}<a href="https://apievangelist.com/categories/" class="post-tag me-2">#{{ t | escape }}</a>{% endfor %}</div>
+        <div class="mt-3">{% if site.data.area.meta.portal %}<a href="{{ site.data.area.meta.portal }}" target="_blank" rel="noopener" class="badge bg-light text-emphasis border me-2 mb-2 text-decoration-none"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">public</span> Portal</a>{% endif %}{% if site.data.area.meta.github %}<a href="{{ site.data.area.meta.github }}" target="_blank" rel="noopener" class="badge bg-light text-emphasis border me-2 mb-2 text-decoration-none"><span class="material-symbols-outlined" style="font-size:14px;vertical-align:-2px;">open_in_new</span> GitHubOrganization</a>{% endif %}</div>
+      </div>
+    </div>
+  </div>
+</header>

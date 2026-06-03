@@ -1,0 +1,15 @@
+<div class="post-item d-flex">
+  <div class="flex-shrink-0 d-flex align-items-start" style="padding-top: 0.25rem;">
+    <span class="material-symbols-outlined fs-3 text-emphasis">article</span>
+  </div>
+  <div class="flex-grow-1 ms-3">
+    <h3 class="mb-1"><a href="{{ include.story.link | escape }}" target="_blank" rel="noopener">{{ include.story.title | escape }}</a></h3>
+    <div class="post-meta">
+      <span class="me-2">{{ include.story.published }}</span>
+      <span class="me-2">·</span>
+      <a class="post-tag" href="{{ include.story.repo }}" target="_blank" rel="noopener">{{ include.story.provider | escape }}</a>
+      <span class="mx-2 text-muted">·</span>
+      <span class="text-muted small">{{ include.story.domain | escape }}</span>
+    </div>
+  </div>
+</div>

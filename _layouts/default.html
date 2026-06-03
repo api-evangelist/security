@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }} - API Evangelist</title>
+  <meta name="description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:site_name" content="API Evangelist">
+  <meta property="og:description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta property="og:image" content="{{ site.url }}/icon.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta name="twitter:image" content="{{ site.url }}/icon.png">
+
+  <link rel="shortcut icon" href="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" type="image/png">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --ae-green: #3d8b37;
+      --ae-dark: #1a1a2e;
+      --ae-light: #f8f9fa;
+      --ae-accent: #6c9e3a;
+    }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; color: #333; }
+    .navbar-ae { background-color: #fff; border-bottom: 1px solid #e9ecef; }
+    .navbar-ae .navbar-brand img { height: 40px; }
+    .navbar-ae .nav-link { color: #495057; font-size: 0.9rem; font-weight: 500; }
+    .navbar-ae .nav-link:hover, .navbar-ae .nav-link.active { color: var(--ae-green); }
+    .text-emphasis { color: var(--ae-green) !important; }
+    .hero { background: linear-gradient(135deg, #f7faf6 0%, #eaf3e6 100%); border-bottom: 1px solid #e9ecef; }
+    .hero h1 { font-size: 2rem; font-weight: 700; }
+    .section-title { font-size: 1.25rem; font-weight: 600; display:flex; align-items:center; }
+    .section-title .material-symbols-outlined { color: var(--ae-green); margin-right: 0.5rem; }
+    .post-item { border-bottom: 1px solid #f0f0f0; padding: 0.9rem 0; }
+    .post-item:last-child { border-bottom: none; }
+    .post-item h3 a { color: #212529; text-decoration: none; font-size: 1rem; font-weight: 600; line-height: 1.35; }
+    .post-item h3 a:hover { color: var(--ae-green); }
+    .post-item .post-meta { font-size: 0.78rem; color: #6c757d; margin-top: 0.15rem; }
+    .post-tag { font-size: 0.78rem; color: var(--ae-green); text-decoration: none; }
+    .post-tag:hover { text-decoration: underline; }
+    .footer-ae { border-top: 1px solid #e9ecef; font-size: 0.85rem; color: #6c757d; }
+    .card { border: 1px solid #e9ecef; border-radius: 0.5rem; }
+    .list-group-item { border-color: #f0f0f0; }
+    .list-group-item:hover { background-color: #f9fbf8; }
+    a { color: var(--ae-green); }
+  </style>
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <nav class="navbar navbar-expand-lg navbar-ae sticky-top">
+    <div class="container-fluid px-3 px-lg-4">
+      <a class="navbar-brand d-flex align-items-center" href="https://apievangelist.com">
+        <img src="https://kinlane-productions2.s3.us-east-1.amazonaws.com/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" alt="API Evangelist" style="height: 55px;">
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {{ content }}
+
+  <footer class="footer-ae py-4 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <span>&copy; 2026 API Evangelist</span>
+        </div>
+        <div class="col-md-6 text-md-end mt-2 mt-md-0">
+          <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
+          <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
+          <a href="https://github.com/api-evangelist/{{ site.data.area.meta.repo }}" class="text-muted text-decoration-none me-3">GitHub</a>
+          <a href="https://buttondown.com/apievangelist" class="text-muted text-decoration-none">Newsletter</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
