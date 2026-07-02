@@ -13,7 +13,7 @@
     "client_name": {
       "type": "string",
       "description": "Human-readable name of the OAuth client application.",
-      "example": "Naftiko Fleet Web App"
+      "example": "Acme Fleet Web App"
     },
     "client_type": {
       "type": "string",
