@@ -1,0 +1,26 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# {{ site.data.area.meta.name }}
+
+> {{ site.data.area.meta.description | strip_html | truncate: 300 }}
+
+This is the **{{ site.data.area.meta.name }}** topic area of [API Evangelist](https://apievangelist.com) — a network of focused knowledge bases drawn from 16 years of independent API research by Kin Lane. Browse all areas at https://apievangelist.com/areas/.
+{% if site.data.area.services_tools.size > 0 %}
+## Services & Tools
+{% for s in site.data.area.services_tools %}- [{{ s.name }}]({{ s.apisio | default: s.repo | default: 'https://apievangelist.com' }}){% if s.repo %} (repo: {{ s.repo }}){% endif %}
+{% endfor %}{% endif %}{% if site.data.area.features.size > 0 %}
+## Common Features
+{% for f in site.data.area.features %}- **{{ f.name }}**: {{ f.description | strip_html | strip_newlines }}
+{% endfor %}{% endif %}{% if site.data.area.use_cases.size > 0 %}
+## Use Cases
+{% for u in site.data.area.use_cases %}- **{{ u.name }}**: {{ u.description | strip_html | strip_newlines }}
+{% endfor %}{% endif %}{% if site.data.network.related.size > 0 %}
+## Related Areas
+{% for r in site.data.network.related %}- [{{ r.name }}]({{ r.url }}): {{ r.description | strip_html | strip_newlines | truncate: 120 }}
+{% endfor %}{% endif %}
+## More
+- [Latest {{ site.data.area.meta.name }} stories](/stories/)
+- [All API Evangelist topic areas](https://apievangelist.com/areas/)
+- [API Evangelist network index (llms.txt)](https://apievangelist.com/llms.txt)

@@ -1,0 +1,31 @@
+related:
+- name: Authentication
+  url: https://authentication.apievangelist.com
+  icon: https://authentication.apievangelist.com/icon.png
+  description: A curated index of services, tooling, and open source solutions for API authentication,
+    authorization, identity management, and secrets management. This collection covers identity…
+- name: SaaS Management
+  url: https://saas-management.apievangelist.com
+  icon: https://saas-management.apievangelist.com/icon.png
+  description: SaaS Management covers the tools, platforms, and practices used by organizations to discover,
+    manage, optimize, and secure their portfolio of SaaS applications. The global SaaS…
+- name: Gateway
+  url: https://gateway.apievangelist.com
+  icon: https://gateway.apievangelist.com/icon.png
+  description: A collection of services, tooling, and open source solutions for API gateway management
+    and traffic control, covering routing, authentication, rate limiting, observability, and…
+- name: FinOps
+  url: https://finops.apievangelist.com
+  icon: https://finops.apievangelist.com/icon.png
+  description: FinOps is a cloud financial management discipline combining technology, finance, and business
+    practices to drive accountability and optimize cloud spending through budget-aware…
+- name: Management
+  url: https://management.apievangelist.com
+  icon: https://management.apievangelist.com/icon.png
+  description: An index and topic collection covering full-stack API management platforms — solutions
+    that combine an API gateway, developer portal, analytics, monetization, governance, and…
+- name: Containers
+  url: https://containers.apievangelist.com
+  icon: https://containers.apievangelist.com/icon.png
+  description: An index of container runtime, orchestration, registry, security, and build tool repositories
+    tracking the services and tools that package, deploy, and manage containerized…
