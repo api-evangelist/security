@@ -3,23 +3,39 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }} - API Evangelist</title>
-  <meta name="description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   <!-- Open Graph -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }}">
   <meta property="og:site_name" content="API Evangelist">
-  <meta property="og:description" content="{{ site.description | strip_html | truncate: 300 }}">
-  <meta property="og:image" content="{{ site.url }}/icon.png">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
+  <meta property="og:image" content="{{ site.url }}/icon-social.png">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="600">
+  <meta property="og:image:alt" content="{{ site.title }} — API Evangelist">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{{ site.description | strip_html | truncate: 300 }}">
-  <meta name="twitter:image" content="{{ site.url }}/icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
+  <meta name="twitter:image" content="{{ site.url }}/icon-social.png">
+  <meta name="twitter:image:alt" content="{{ site.title }} — API Evangelist">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "description": {{ site.description | strip_html | jsonify }},
+    "url": "{{ site.url }}",
+    "publisher": { "@type": "Organization", "name": "API Evangelist", "url": "https://apievangelist.com" }
+  }
+  </script>
 
   <link rel="shortcut icon" href="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" type="image/png">
 
