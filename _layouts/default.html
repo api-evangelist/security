@@ -3,39 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }} - API Evangelist</title>
-  <meta name="description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
+  <meta name="description" content="{{ site.description | strip_html | truncate: 300 }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   <!-- Open Graph -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }}">
+  <meta property="og:title" content="{{ site.title }}">
   <meta property="og:site_name" content="API Evangelist">
-  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
-  <meta property="og:image" content="{{ site.url }}/icon-social.png">
-  <meta property="og:image:width" content="600">
-  <meta property="og:image:height" content="600">
-  <meta property="og:image:alt" content="{{ site.title }} — API Evangelist">
+  <meta property="og:description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta property="og:image" content="{{ site.url }}/icon.png">
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title_suffix %}{{ page.title_suffix }} · {% endif %}{{ site.title }}">
-  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | truncate: 300 }}">
-  <meta name="twitter:image" content="{{ site.url }}/icon-social.png">
-  <meta name="twitter:image:alt" content="{{ site.title }} — API Evangelist">
-
-  <!-- JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": {{ site.title | jsonify }},
-    "description": {{ site.description | strip_html | jsonify }},
-    "url": "{{ site.url }}",
-    "publisher": { "@type": "Organization", "name": "API Evangelist", "url": "https://apievangelist.com" }
-  }
-  </script>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description | strip_html | truncate: 300 }}">
+  <meta name="twitter:image" content="{{ site.url }}/icon.png">
 
   <link rel="shortcut icon" href="https://kinlane-images.s3.amazonaws.com/shared/api-evangelist-logos/api-evangelist-logo-butterfly-transparent.png" type="image/png">
 
@@ -90,7 +74,6 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto align-items-center gap-1">
           <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/2026/">Stories</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/areas/">Areas</a></li>
           <li class="nav-item"><a class="nav-link" href="https://conversations.apievangelist.com">Conversations</a></li>
           <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/about/api-evangelist">About</a></li>
           <li class="nav-item"><a class="nav-link" href="https://apievangelist.com/contact">Contact</a></li>
@@ -108,7 +91,6 @@
           <span>&copy; 2026 API Evangelist</span>
         </div>
         <div class="col-md-6 text-md-end mt-2 mt-md-0">
-          <a href="https://apievangelist.com/areas/" class="text-muted text-decoration-none me-3">Areas</a>
           <a href="https://apievangelist.com/about/api-evangelist" class="text-muted text-decoration-none me-3">About</a>
           <a href="https://apievangelist.com/contact" class="text-muted text-decoration-none me-3">Contact</a>
           <a href="https://github.com/api-evangelist/{{ site.data.area.meta.repo }}" class="text-muted text-decoration-none me-3">GitHub</a>
