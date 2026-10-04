@@ -1,0 +1,253 @@
+---
+kin_checks:
+  slug: security
+  schema_version: 0.23.0
+  scored_at: '2026-10-03'
+  run_ts: 2026-10-03T024842
+  note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
+    apply in `na`. Everything else in rubric/scoring-0.23.0.yml was earned; counts
+    below let you verify that.
+  counts:
+    total: 153
+    earned: 12
+    partial: 0
+    missed: 95
+    na: 46
+  checks:
+  - id: newsroom_present
+    status: missed
+  - id: leadership_present
+    status: missed
+  - id: multiple_apis
+    status: missed
+  - id: human_url_per_api
+    status: missed
+  - id: base_url_per_api
+    status: missed
+  - id: well_known_published
+    status: missed
+  - id: llms_txt_published
+    status: missed
+  - id: apis_json_self_hosted
+    status: missed
+  - id: contract_present
+    status: missed
+  - id: servers_resolvable
+    status: missed
+  - id: examples_present
+    status: missed
+  - id: asyncapi_present
+    status: missed
+  - id: json_schema_present
+    status: missed
+  - id: json_schema_per_resource
+    status: missed
+  - id: lifecycle_documented
+    status: missed
+  - id: domain_standard_conformance
+    status: missed
+  - id: rules_present
+    status: missed
+  - id: rules_substantial
+    status: missed
+  - id: balanced_severities
+    status: missed
+  - id: vocabulary_published
+    status: missed
+  - id: conformance_declared
+    status: missed
+  - id: overlay_published
+    status: missed
+  - id: change_log_present
+    status: missed
+  - id: status_page_present
+    status: missed
+  - id: rate_limits_documented
+    status: missed
+  - id: rate_limits_rich
+    status: missed
+  - id: deprecation_policy
+    status: missed
+  - id: security_disclosure
+    status: missed
+  - id: webhooks_advertised
+    status: missed
+  - id: roadmap_present
+    status: missed
+  - id: examples_published
+    status: missed
+  - id: documentation_present
+    status: missed
+  - id: api_reference_present
+    status: missed
+  - id: getting_started_present
+    status: missed
+  - id: authentication_documented
+    status: missed
+  - id: sdk_count_1
+    status: missed
+  - id: sdk_count_3
+    status: missed
+  - id: cli_present
+    status: missed
+  - id: console_or_sandbox
+    status: missed
+  - id: postman_present
+    status: missed
+  - id: agent_skill_present
+    status: missed
+  - id: support_channel
+    status: missed
+  - id: blog_present
+    status: missed
+  - id: plans_present
+    status: missed
+  - id: plans_multiple
+    status: missed
+  - id: pricing_link
+    status: missed
+  - id: sign_up_present
+    status: missed
+  - id: terms_of_service
+    status: missed
+  - id: privacy_policy
+    status: missed
+  - id: finops_mapped
+    status: missed
+  - id: compliance_published
+    status: missed
+  - id: trust_center
+    status: missed
+  - id: reg_oauth_scopes
+    status: missed
+  - id: reg_authentication_documented
+    status: missed
+  - id: reg_security_disclosure
+    status: missed
+  - id: reg_vulnerability_disclosure
+    status: missed
+  - id: reg_terms_of_service
+    status: missed
+  - id: reg_privacy_policy
+    status: missed
+  - id: reg_compliance_published
+    status: missed
+  - id: reg_named_standard_conformance
+    status: missed
+  - id: reg_sbom
+    status: missed
+  - id: reg_support_lifetime
+    status: missed
+  - id: reg_accessibility_conformance
+    status: missed
+  - id: reg_global_privacy_control
+    status: missed
+  - id: reg_data_subject_request
+    status: missed
+  - id: reg_subprocessors
+    status: missed
+  - id: reg_data_residency
+    status: missed
+  - id: reg_incident_notification
+    status: missed
+  - id: reg_age_assurance
+    status: missed
+  - id: reg_notice_and_action
+    status: missed
+  - id: reg_transparency_report
+    status: missed
+  - id: reg_exit_assistance
+    status: missed
+  - id: upsert_outcome_discriminator
+    status: missed
+  - id: upsert_alternate_key
+    status: missed
+  - id: upsert_named
+    status: missed
+  - id: upsert_declared_conflict
+    status: missed
+  - id: spec_presence
+    status: missed
+  - id: agentic_access
+    status: missed
+  - id: reversibility_documented
+    status: missed
+  - id: mcp_server
+    status: missed
+  - id: auth_clarity
+    status: missed
+  - id: idempotency
+    status: missed
+  - id: error_semantics
+    status: missed
+  - id: openapi_examples
+    status: missed
+  - id: rate_limit_signal
+    status: missed
+  - id: event_surface_described
+    status: missed
+  - id: agent_skills
+    status: missed
+  - id: well_known_catalog
+    status: missed
+  - id: consent_identity
+    status: missed
+  - id: agent_card
+    status: missed
+  - id: dry_run_mode
+    status: missed
+  - id: delegated_identity
+    status: missed
+  - id: protected_resource_metadata
+    status: missed
+  - id: dynamic_client_registration
+    status: missed
+  - id: agentic_commerce
+    status: missed
+  na:
+  - asyncapi_3_x
+  - channels_defined
+  - components_reuse
+  - contract_self_operated
+  - credentials_not_in_query
+  - error_responses_documented
+  - fhir_capability_statement
+  - fhir_resource_coverage
+  - graphql_descriptions
+  - graphql_sdl_present
+  - graphql_type_depth
+  - inbound_contract_published
+  - info_complete
+  - mcp_endpoint_discoverable
+  - messages_with_schema
+  - oauth_flows_current
+  - oauth_scopes_enumerated
+  - openapi_3_0
+  - openapi_3_1
+  - openapi_3_2
+  - operations_description_coverage
+  - operations_operation_ids
+  - operations_summary_coverage
+  - operations_tagged
+  - os_code_of_conduct
+  - os_contribution_guide
+  - os_releases
+  - os_security_policy
+  - reg_ai_transparency
+  - reg_camara_conformance
+  - reg_certification_signal
+  - reg_consent_model
+  - reg_entitlement_terms
+  - reg_fapi_profile
+  - reg_mandate_verified
+  - reg_pci_sca
+  - reg_smart_configuration
+  - reg_training_data_summary
+  - reg_write_surface
+  - response_coverage
+  - security_applied
+  - security_schemes
+  - security_schemes_defined
+  - server_bindings
+  - servers_defined
+  - webhooks_or_callbacks
