@@ -1,7 +1,7 @@
 ---
-title: Using MCP to Access Smart Contracts and Oracles
-link: https://glama.ai/blog/2025-09-24-using-mcp-to-access-smart-contracts-and-oracles
-published: '2025-09-24'
+title: 'MCP Security: Navigating the Exploit Playbook for Agent'
+link: https://glama.ai/blog/2025-11-01-mcp-security-navigating-the-exploit-playbook-for-agent
+published: '2025-11-01'
 provider: glama-ai
 repo: https://github.com/api-evangelist/glama-ai
 domain: glama.ai
