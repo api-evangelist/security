@@ -1,7 +1,7 @@
 ---
-title: Programmatic Content Management with Contentful MCP Server
-link: https://vinkius.com/contentful-mcp/
-published: '2026-07-09'
+title: Automated Academy Management with LearnWorlds MCP Server
+link: https://vinkius.com/automated-academy-management-with-learnworlds-mcp-server/
+published: '2026-07-11'
 provider: vinkius-com
 repo: https://github.com/api-evangelist/vinkius-com
 domain: vinkius.com

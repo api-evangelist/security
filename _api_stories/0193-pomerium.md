@@ -1,8 +1,7 @@
 ---
-title: 'July 2025 Agentic Access and MCP Content Round‑Up: Vulnerabilities, Governance
-  & Growth'
-link: https://www.pomerium.com/blog/july-2025-agentic-access-content-roundup
-published: '2025-08-05'
+title: 'September 2025 MCP Round‑Up: Growing Adoption Meets Rising Security Fears'
+link: https://www.pomerium.com/blog/september-2025-agentic-access
+published: '2025-10-07'
 provider: pomerium
 repo: https://github.com/api-evangelist/pomerium
 domain: www.pomerium.com
