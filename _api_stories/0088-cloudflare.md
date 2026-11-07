@@ -1,7 +1,7 @@
 ---
-title: Access - Static OAuth client credentials for MCP server portals
-link: https://developers.cloudflare.com/changelog/post/2026-07-31-mcp-portal-manual-oauth/
-published: '2026-07-31'
+title: Cloudflare One, Access - MCP server portals support MCP 2026-07-28 specification
+link: https://developers.cloudflare.com/changelog/post/2026-08-25-mcp-portals-mcp-2026-07-28/
+published: '2026-08-25'
 provider: cloudflare
 repo: https://github.com/api-evangelist/cloudflare
 domain: developers.cloudflare.com
