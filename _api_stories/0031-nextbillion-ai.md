@@ -1,7 +1,7 @@
 ---
-title: How AI Agents Use MCP to Access Real-World Data and Services
-link: https://nextbillion.ai/blog/how-ai-agents-use-mcp-to-access-real-world-data-and-services
-published: '2026-10-22'
+title: 'MCP Security: Understanding Authentication, Permissions, and Tool Access'
+link: https://nextbillion.ai/blog/mcp-security-authentication-permissions-tool-access
+published: '2026-11-02'
 provider: nextbillion-ai
 repo: https://github.com/api-evangelist/nextbillion-ai
 domain: nextbillion.ai
